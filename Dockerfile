@@ -1,27 +1,37 @@
-# Full RNDA stack (FastAPI + ingest + embeddings). For cloud hosts: Render, Railway, Fly, etc.
-# Listens on $PORT (defaults to 8000).
+# Full RNDA stack (FastAPI + ingest + embeddings). Optimized for **layer caching**:
+# - Big `pip install` reruns only when requirements-docker.txt changes.
+# - App code changes only rerun the fast `pip install . --no-deps` step.
+#
+# Requires Docker BuildKit (default on Railway, Render, GitHub Actions).
+# syntax=docker/dockerfile:1.4
 
 FROM python:3.11-slim-bookworm
 
 WORKDIR /app
 
-# PyMuPDF and scientific wheels often need a compiler for some platforms; slim has build-essential minimal set.
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
-COPY pyproject.toml /app/
-COPY rnda /app/rnda
+# Most wheels are prebuilt; uncomment only if a package tries to compile from source.
+# RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
+#     && rm -rf /var/lib/apt/lists/*
 
-# Install package (pulls PyTorch, sentence-transformers, etc. — large image, expected).
-RUN pip install --no-cache-dir -U pip setuptools wheel \
-    && pip install --no-cache-dir .
+# --- Layer A: heavy deps (cached until requirements-docker.txt changes) ---
+COPY requirements-docker.txt .
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install -U pip setuptools wheel \
+    && pip install -r requirements-docker.txt
 
-# Optional: cache Hugging Face / sentence-transformers in a writable dir on serverless disks
-ENV HF_HOME=/tmp/huggingface
-ENV TRANSFORMERS_CACHE=/tmp/huggingface
+# --- Layer B: your package only (fast when you only edit code) ---
+COPY pyproject.toml .
+COPY rnda ./rnda
+RUN pip install . --no-deps
+
+# Hugging Face / sentence-transformers cache on ephemeral disk
+ENV HF_HOME=/tmp/huggingface \
+    TRANSFORMERS_CACHE=/tmp/huggingface
 
 EXPOSE 8000
 
-# Cloud platforms set PORT; bind 0.0.0.0 so traffic reaches the container.
 CMD ["sh", "-c", "exec uvicorn rnda.web.app:app --host 0.0.0.0 --port ${PORT:-8000}"]

@@ -9,6 +9,7 @@ __pycache__
 .mypy_cache
 .ruff_cache
 .cursor
-data/runs
+# Large local data slows `docker build` context upload; not needed in the image.
+data
 *.md
 !DEPLOY.md

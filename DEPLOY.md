@@ -12,6 +12,15 @@ This repo includes a **`Dockerfile`** that installs everything and runs:
 
 `uvicorn rnda.web.app:app --host 0.0.0.0 --port $PORT`
 
+### Faster Docker builds (Railway / Render)
+
+- **Dependency layer:** `requirements-docker.txt` is installed in its **own** layer. PyTorch and the rest are **not** re-downloaded on every push unless you change that file or `pyproject.toml` deps.
+- **App layer:** Only `pyproject.toml` + `rnda/` are copied for the quick `pip install . --no-deps` step when you change code.
+- **Pip cache:** the Dockerfile uses BuildKit’s `RUN --mount=type=cache,...` so repeat builds on the same builder reuse pip’s download cache.
+- **Smaller context:** `.dockerignore` excludes the whole `data/` tree so uploads stay fast.
+
+If you add a dependency, update **`requirements-docker.txt`** to match **`pyproject.toml`**, or the image may miss the new package.
+
 ### Option A — Render (browser only)
 
 1. Sign up at [render.com](https://render.com) and connect your GitHub account.
