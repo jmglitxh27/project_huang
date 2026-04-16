@@ -42,6 +42,13 @@ if _static_dir.is_dir():
 _jobs: dict[str, dict[str, Any]] = {}
 _jobs_lock = threading.Lock()
 
+def _render_html(template_name: str, request: Request, **context: Any) -> HTMLResponse:
+    # Avoid Starlette's TemplateResponse wrapper to keep behavior consistent across
+    # Starlette versions (and to sidestep template caching/call-signature issues).
+    template = _jinja_env.get_template(template_name)
+    html = template.render(request=request, **context)
+    return HTMLResponse(html)
+
 
 def resolve_run_dir(run_id: str) -> Path:
     """``run_id`` is a folder name under ``data/runs/``, or an absolute path to a run directory."""
@@ -204,13 +211,13 @@ async def refine_search_api(body: RefineSearchBody) -> JSONResponse:
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request) -> Any:
-    return templates.TemplateResponse("index.html", {"request": request})
+    return _render_html("index.html", request)
 
 
 @app.get("/viz/{run_id}", response_class=HTMLResponse)
 async def graph_viz(request: Request, run_id: str) -> Any:
     resolve_run_dir(run_id)
-    return templates.TemplateResponse("viz.html", {"request": request, "run_id": run_id})
+    return _render_html("viz.html", request, run_id=run_id)
 
 
 @app.get("/api/runs")

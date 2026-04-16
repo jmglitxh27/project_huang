@@ -61,6 +61,11 @@ _PIPELINE_UNAVAILABLE = (
     "Render, a VM, or Modal."
 )
 
+def _render_html(template_name: str, request: Request, **context: Any) -> HTMLResponse:
+    template = _jinja_env.get_template(template_name)
+    html = template.render(request=request, **context)
+    return HTMLResponse(html)
+
 def resolve_run_dir(run_id: str) -> Path:
     """``run_id`` is a folder name under ``data/runs/``, or an absolute path to a run directory."""
     d = RUNS_ROOT / run_id
@@ -161,7 +166,7 @@ async def health() -> JSONResponse:
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request) -> Any:
     try:
-        return templates.TemplateResponse("index.html", {"request": request})
+        return _render_html("index.html", request)
     except Exception:
         # Fall back to a minimal HTML page if templates weren't packaged/deployed.
         body = (
@@ -179,7 +184,7 @@ async def index(request: Request) -> Any:
 @app.get("/viz/{run_id}", response_class=HTMLResponse)
 async def graph_viz(request: Request, run_id: str) -> Any:
     resolve_run_dir(run_id)
-    return templates.TemplateResponse("viz.html", {"request": request, "run_id": run_id})
+    return _render_html("viz.html", request, run_id=run_id)
 
 
 @app.get("/api/runs")
