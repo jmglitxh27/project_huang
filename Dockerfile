@@ -19,7 +19,8 @@ ENV PIP_DISABLE_PIP_VERSION_CHECK=1 \
 
 # --- Layer A: heavy deps (cached until requirements-docker.txt changes) ---
 COPY requirements-docker.txt .
-RUN --mount=type=cache,target=/root/.cache/pip \
+# Railway requires `id=` on cache mounts: --mount=type=cache,id=<id>,target=...
+RUN --mount=type=cache,id=pip-cache,target=/root/.cache/pip \
     pip install -U pip setuptools wheel \
     && pip install -r requirements-docker.txt
 
