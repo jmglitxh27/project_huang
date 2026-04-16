@@ -32,7 +32,7 @@ _jinja_env = Environment(
     autoescape=select_autoescape(["html", "xml"]),
     cache_size=0,
 )
-templates = Jinja2Templates(directory=str(_templates_dir), env=_jinja_env)
+templates = Jinja2Templates(env=_jinja_env)
 
 app = FastAPI(title="RNDA", description="Research Novelty Discovery Agent — dashboard")
 _static_dir = PROJECT_ROOT / "rnda" / "web" / "static"
