@@ -1,0 +1,6 @@
+[console_scripts]
+app = rnda.web.app:app
+rnda-gap = rnda.gap.cli:main
+rnda-ingest = rnda.ingest.cli:main
+rnda-kg = rnda.kg.cli:main
+rnda-web = rnda.web.__main__:main
