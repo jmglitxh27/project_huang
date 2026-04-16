@@ -2,8 +2,7 @@
 # - Big `pip install` reruns only when requirements-docker.txt changes.
 # - App code changes only rerun the fast `pip install . --no-deps` step.
 #
-# Requires Docker BuildKit (default on Railway, Render, GitHub Actions).
-# syntax=docker/dockerfile:1.4
+# (No BuildKit cache mounts — Railway requires ids like `s/<SERVICE_ID>-name`, so we avoid them.)
 
 FROM python:3.11-slim-bookworm
 
@@ -19,9 +18,7 @@ ENV PIP_DISABLE_PIP_VERSION_CHECK=1 \
 
 # --- Layer A: heavy deps (cached until requirements-docker.txt changes) ---
 COPY requirements-docker.txt .
-# Railway requires `id=` on cache mounts: --mount=type=cache,id=<id>,target=...
-RUN --mount=type=cache,id=pip-cache,target=/root/.cache/pip \
-    pip install -U pip setuptools wheel \
+RUN pip install -U pip setuptools wheel \
     && pip install -r requirements-docker.txt
 
 # --- Layer B: your package only (fast when you only edit code) ---
