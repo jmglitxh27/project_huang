@@ -8,6 +8,7 @@ Full pipeline: run ``rnda-web`` locally or deploy to a host without the 500MB li
 from __future__ import annotations
 
 import io
+import os
 import re
 import threading
 import zipfile
@@ -25,17 +26,24 @@ from rnda.ingest.query_refinement import refine_search_with_llm
 from rnda.report.literature_report import generate_literature_report
 from rnda.web.graph_simplify import vis_network_payload_from_run
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = PROJECT_ROOT / "data"
+# ``rnda/web`` — works for both repo layout and editable install.
+_WEB_DIR = Path(__file__).resolve().parent
+# Project root (parent of ``rnda`` package); used for local ``data/`` runs.
+_PROJECT_ROOT = _WEB_DIR.parent.parent
+DATA_DIR = Path(os.environ.get("RNDA_DATA_DIR", str(_PROJECT_ROOT / "data")))
 RUNS_ROOT = DATA_DIR / "runs"
 
-templates = Jinja2Templates(directory=str(PROJECT_ROOT / "rnda" / "web" / "templates"))
+_templates_dir = _WEB_DIR / "templates"
+_static_dir = _WEB_DIR / "static"
+
+templates = Jinja2Templates(directory=str(_templates_dir))
 
 app = FastAPI(
     title="RNDA (serverless UI)",
     description="Dashboard shell — full pipeline runs locally or on a compute host (see POST /api/runs).",
 )
-app.mount("/static", StaticFiles(directory=str(PROJECT_ROOT / "rnda" / "web" / "static")), name="static")
+if _static_dir.is_dir():
+    app.mount("/static", StaticFiles(directory=str(_static_dir)), name="static")
 
 _jobs: dict[str, dict[str, Any]] = {}
 _jobs_lock = threading.Lock()
@@ -127,6 +135,12 @@ async def refine_search_api(body: RefineSearchBody) -> JSONResponse:
             "rationale": r.rationale,
         }
     )
+
+
+@app.get("/api/health")
+async def health() -> JSONResponse:
+    """Cheap probe for serverless cold starts (no optional deps)."""
+    return JSONResponse({"status": "ok", "app": "server_vercel"})
 
 
 @app.get("/", response_class=HTMLResponse)
