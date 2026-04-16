@@ -37,7 +37,15 @@ Usually needs the Fly CLI once for auth; if you want fully GUI-only, prefer Rend
 ## 3. What you get
 
 - **Full UI** at `/` (same as local `rnda-web`).
+- **Health check:** `GET /api/health` — use this in Railway/Render so the proxy waits until the app is up (heavy deps load only when you **start a run**, not on every page view).
 - **Persistent disk:** default containers are **ephemeral**; runs under `data/runs` may disappear when the instance restarts unless your host mounts a **volume** (configure in Render/Railway).
+
+### Railway shows “Internal Server Error”
+
+1. Open **Deployments → latest deploy → View logs** and look for **OOM**, **ModuleNotFoundError**, or **exit code 137** (out of memory).
+2. **RAM:** the free/small tier may be too small when a **run** loads PyTorch / sentence-transformers. Try **at least ~2 GB** for full pipeline runs, or expect failures during ingest/gap stages.
+3. Confirm the service runs **Docker** using this repo’s **`Dockerfile`** (this repo includes **`railway.toml`** to prefer that builder).
+4. In the browser try **`https://YOUR_URL/api/health`** — you should see `{"status":"ok",...}`. If that works but `/` fails, check logs for template/static paths.
 
 ## 4. Environment variables (optional)
 

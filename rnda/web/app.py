@@ -16,8 +16,6 @@ from pydantic import BaseModel, Field
 from starlette.templating import Jinja2Templates
 
 from rnda.ingest.query_refinement import refine_search_with_llm
-from rnda.pipeline.orchestrator import PipelineConfig, run_from_existing_run, run_pipeline
-from rnda.report.literature_report import generate_literature_report
 from rnda.web.graph_simplify import vis_network_payload_from_run
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -27,7 +25,9 @@ RUNS_ROOT = DATA_DIR / "runs"
 templates = Jinja2Templates(directory=str(PROJECT_ROOT / "rnda" / "web" / "templates"))
 
 app = FastAPI(title="RNDA", description="Research Novelty Discovery Agent — dashboard")
-app.mount("/static", StaticFiles(directory=str(PROJECT_ROOT / "rnda" / "web" / "static")), name="static")
+_static_dir = PROJECT_ROOT / "rnda" / "web" / "static"
+if _static_dir.is_dir():
+    app.mount("/static", StaticFiles(directory=str(_static_dir)), name="static")
 
 _jobs: dict[str, dict[str, Any]] = {}
 _jobs_lock = threading.Lock()
@@ -78,7 +78,9 @@ def _job_set(jid: str, **kw: Any) -> None:
         _jobs[jid] = cur
 
 
-def _run_full_job(jid: str, cfg: PipelineConfig) -> None:
+def _run_full_job(jid: str, cfg: Any) -> None:
+    from rnda.pipeline.orchestrator import run_pipeline
+
     run_dir = RUNS_ROOT / jid
     try:
         _job_set(jid, status="running", step="ingest", message="Starting arXiv ingest…", error=None)
@@ -99,7 +101,9 @@ def _run_full_job(jid: str, cfg: PipelineConfig) -> None:
         _job_set(jid, status="error", step="failed", error=str(e), message=str(e))
 
 
-def _run_resume_job(jid: str, existing_id: str, cfg: PipelineConfig) -> None:
+def _run_resume_job(jid: str, existing_id: str, cfg: Any) -> None:
+    from rnda.pipeline.orchestrator import run_from_existing_run
+
     run_dir = RUNS_ROOT / existing_id
     if not (run_dir / "manifest.json").is_file():
         alt = Path(existing_id)
@@ -163,6 +167,12 @@ class RefineSearchBody(BaseModel):
     topic: str = ""
     natural_language: str = ""
     model: str = "gpt-4o-mini"
+
+
+@app.get("/api/health")
+async def health() -> JSONResponse:
+    """Cheap liveness check for Railway / Render / load balancers (no heavy imports)."""
+    return JSONResponse({"status": "ok", "app": "rnda.web.app"})
 
 
 @app.post("/api/refine-search")
@@ -237,6 +247,8 @@ async def start_run(body: RunRequest, background_tasks: BackgroundTasks) -> JSON
     if body.relevance_pool_size is not None and not (10 <= body.relevance_pool_size <= 300):
         raise HTTPException(status_code=400, detail="relevance_pool_size must be between 10 and 300 or omitted")
     cats = _parse_categories(body.categories)
+    from rnda.pipeline.orchestrator import PipelineConfig
+
     cfg = PipelineConfig(
         topic=body.topic.strip(),
         max_papers=body.max_papers,
@@ -306,6 +318,8 @@ class LiteratureReportBody(BaseModel):
 
 @app.post("/api/runs/{run_id}/literature-report")
 async def post_literature_report(run_id: str, body: LiteratureReportBody) -> JSONResponse:
+    from rnda.report.literature_report import generate_literature_report
+
     d = resolve_run_dir(run_id)
     try:
         result = generate_literature_report(
