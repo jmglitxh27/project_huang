@@ -1,0 +1,61 @@
+{
+  "intent_text": "i'd like to do research on optimizing LLM memory LLM large language model memory memory optimization optimization techniques neural networks model efficiency computational resources scalability performance data storage context management training efficiency parameter tuning memory usage deep learning (LLM OR 'large language model') AND (memory OR 'memory optimization')",
+  "pool_requested": 40,
+  "pool_returned": 40,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "min_score": 0.0,
+  "selected": [
+    {
+      "rank": 1,
+      "arxiv_id": "2604.14116v1",
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "relevance_score": 0.39426
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2604.14004v1",
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "relevance_score": 0.38517
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2604.14096v1",
+      "title": "Working Memory in a Recurrent Spiking Neural Networks With Heterogeneous Synaptic Delays",
+      "relevance_score": 0.32121
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2604.13969v1",
+      "title": "GEM3D CIM General Purpose Matrix Computation Using 3D Integrated SRAM eDRAM Hybrid Compute In Memory on Memory Architecture",
+      "relevance_score": 0.31756
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2604.13902v1",
+      "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+      "relevance_score": 0.28055
+    }
+  ],
+  "refinement": {
+    "arxiv_topic": "(LLM OR 'large language model') AND (memory OR 'memory optimization')",
+    "keywords_for_relevance": [
+      "LLM",
+      "large language model",
+      "memory",
+      "memory optimization",
+      "optimization techniques",
+      "neural networks",
+      "model efficiency",
+      "computational resources",
+      "scalability",
+      "performance",
+      "data storage",
+      "context management",
+      "training efficiency",
+      "parameter tuning",
+      "memory usage",
+      "deep learning"
+    ],
+    "rationale": "This query targets research focused on optimizing memory usage in large language models, which is crucial for improving their efficiency and performance."
+  }
+}

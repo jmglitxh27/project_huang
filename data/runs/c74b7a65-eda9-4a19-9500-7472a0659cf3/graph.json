@@ -1,0 +1,5558 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "paper",
+      "title": "TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC",
+      "arxiv_id": "2604.12216v1",
+      "published": "2026-04-14T02:51:14+00:00",
+      "id": "paper:2604.12216v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CR",
+      "id": "category:cs.CR"
+    },
+    {
+      "kind": "paper",
+      "title": "Token-Level Policy Optimization: Linking Group-Level Rewards to Token-Level Aggregation via Sequence-Level Likelihood",
+      "arxiv_id": "2604.12736v1",
+      "published": "2026-04-14T13:50:31+00:00",
+      "id": "paper:2604.12736v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CL",
+      "id": "category:cs.CL"
+    },
+    {
+      "kind": "paper",
+      "title": "Transactional Attention: Semantic Sponsorship for KV-Cache Retention",
+      "arxiv_id": "2604.11288v1",
+      "published": "2026-04-13T10:51:46+00:00",
+      "id": "paper:2604.11288v1"
+    },
+    {
+      "kind": "paper",
+      "title": "Sample Complexity of Autoregressive Reasoning: Chain-of-Thought vs. End-to-End",
+      "arxiv_id": "2604.12013v1",
+      "published": "2026-04-13T20:00:13+00:00",
+      "id": "paper:2604.12013v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.LG",
+      "id": "category:cs.LG"
+    },
+    {
+      "kind": "paper",
+      "title": "Structured State-Space Regularization for Compact and Generation-Friendly Image Tokenization",
+      "arxiv_id": "2604.11089v1",
+      "published": "2026-04-13T07:10:17+00:00",
+      "id": "paper:2604.11089v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CV",
+      "id": "category:cs.CV"
+    },
+    {
+      "kind": "concept",
+      "label": "aigc",
+      "id": "concept:aigc"
+    },
+    {
+      "kind": "concept",
+      "label": "watermarking",
+      "id": "concept:watermarking"
+    },
+    {
+      "kind": "concept",
+      "label": "watermark",
+      "id": "concept:watermark"
+    },
+    {
+      "kind": "concept",
+      "label": "trustworthy",
+      "id": "concept:trustworthy"
+    },
+    {
+      "kind": "concept",
+      "label": "copyright",
+      "id": "concept:copyright"
+    },
+    {
+      "kind": "concept",
+      "label": "disputes",
+      "id": "concept:disputes"
+    },
+    {
+      "kind": "concept",
+      "label": "intellectual",
+      "id": "concept:intellectual"
+    },
+    {
+      "kind": "concept",
+      "label": "intellectual property",
+      "id": "concept:intellectual_property"
+    },
+    {
+      "kind": "concept",
+      "label": "law",
+      "id": "concept:law"
+    },
+    {
+      "kind": "concept",
+      "label": "trustworthy time",
+      "id": "concept:trustworthy_time"
+    },
+    {
+      "kind": "concept",
+      "label": "judicial",
+      "id": "concept:judicial"
+    },
+    {
+      "kind": "concept",
+      "label": "timestamp",
+      "id": "concept:timestamp"
+    },
+    {
+      "kind": "concept",
+      "label": "payload",
+      "id": "concept:payload"
+    },
+    {
+      "kind": "concept",
+      "label": "provider",
+      "id": "concept:provider"
+    },
+    {
+      "kind": "concept",
+      "label": "property disputes",
+      "id": "concept:property_disputes"
+    },
+    {
+      "kind": "concept",
+      "label": "evidentiary",
+      "id": "concept:evidentiary"
+    },
+    {
+      "kind": "concept",
+      "label": "time watermarking",
+      "id": "concept:time_watermarking"
+    },
+    {
+      "kind": "concept",
+      "label": "timemark",
+      "id": "concept:timemark"
+    },
+    {
+      "kind": "concept",
+      "label": "token level",
+      "id": "concept:token_level"
+    },
+    {
+      "kind": "concept",
+      "label": "grpo",
+      "id": "concept:grpo"
+    },
+    {
+      "kind": "concept",
+      "label": "tepo",
+      "id": "concept:tepo"
+    },
+    {
+      "kind": "concept",
+      "label": "gradient",
+      "id": "concept:gradient"
+    },
+    {
+      "kind": "concept",
+      "label": "rewards",
+      "id": "concept:rewards"
+    },
+    {
+      "kind": "concept",
+      "label": "entropy",
+      "id": "concept:entropy"
+    },
+    {
+      "kind": "concept",
+      "label": "divergence",
+      "id": "concept:divergence"
+    },
+    {
+      "kind": "concept",
+      "label": "kl divergence",
+      "id": "concept:kl_divergence"
+    },
+    {
+      "kind": "concept",
+      "label": "dapo",
+      "id": "concept:dapo"
+    },
+    {
+      "kind": "concept",
+      "label": "πθ ai",
+      "id": "concept:ai"
+    },
+    {
+      "kind": "concept",
+      "label": "policy",
+      "id": "concept:policy"
+    },
+    {
+      "kind": "concept",
+      "label": "group",
+      "id": "concept:group"
+    },
+    {
+      "kind": "concept",
+      "label": "sequence level",
+      "id": "concept:sequence_level"
+    },
+    {
+      "kind": "concept",
+      "label": "sponsorship",
+      "id": "concept:sponsorship"
+    },
+    {
+      "kind": "concept",
+      "label": "dormant",
+      "id": "concept:dormant"
+    },
+    {
+      "kind": "concept",
+      "label": "credential",
+      "id": "concept:credential"
+    },
+    {
+      "kind": "concept",
+      "label": "anchor",
+      "id": "concept:anchor"
+    },
+    {
+      "kind": "concept",
+      "label": "dormant tokens",
+      "id": "concept:dormant_tokens"
+    },
+    {
+      "kind": "concept",
+      "label": "utility",
+      "id": "concept:utility"
+    },
+    {
+      "kind": "concept",
+      "label": "retention",
+      "id": "concept:retention"
+    },
+    {
+      "kind": "concept",
+      "label": "fast",
+      "id": "concept:fast"
+    },
+    {
+      "kind": "concept",
+      "label": "score",
+      "id": "concept:score"
+    },
+    {
+      "kind": "concept",
+      "label": "ta fast",
+      "id": "concept:ta_fast"
+    },
+    {
+      "kind": "concept",
+      "label": "100 100",
+      "id": "concept:100_100"
+    },
+    {
+      "kind": "concept",
+      "label": "100",
+      "id": "concept:100"
+    },
+    {
+      "kind": "concept",
+      "label": "attention",
+      "id": "concept:attention"
+    },
+    {
+      "kind": "concept",
+      "label": "eviction",
+      "id": "concept:eviction"
+    },
+    {
+      "kind": "concept",
+      "label": "transactional",
+      "id": "concept:transactional"
+    },
+    {
+      "kind": "concept",
+      "label": "cache",
+      "id": "concept:cache"
+    },
+    {
+      "kind": "concept",
+      "label": "complexity",
+      "id": "concept:complexity"
+    },
+    {
+      "kind": "concept",
+      "label": "sample complexity",
+      "id": "concept:sample_complexity"
+    },
+    {
+      "kind": "concept",
+      "label": "thought supervision",
+      "id": "concept:thought_supervision"
+    },
+    {
+      "kind": "concept",
+      "label": "fe2e",
+      "id": "concept:fe2e"
+    },
+    {
+      "kind": "concept",
+      "label": "class",
+      "id": "concept:class"
+    },
+    {
+      "kind": "concept",
+      "label": "sublinear",
+      "id": "concept:sublinear"
+    },
+    {
+      "kind": "concept",
+      "label": "binary",
+      "id": "concept:binary"
+    },
+    {
+      "kind": "concept",
+      "label": "thought",
+      "id": "concept:thought"
+    },
+    {
+      "kind": "concept",
+      "label": "chain thought",
+      "id": "concept:chain_thought"
+    },
+    {
+      "kind": "concept",
+      "label": "dimension",
+      "id": "concept:dimension"
+    },
+    {
+      "kind": "concept",
+      "label": "supervision",
+      "id": "concept:supervision"
+    },
+    {
+      "kind": "concept",
+      "label": "dependence",
+      "id": "concept:dependence"
+    },
+    {
+      "kind": "concept",
+      "label": "finite",
+      "id": "concept:finite"
+    },
+    {
+      "kind": "concept",
+      "label": "jvb",
+      "id": "concept:jvb"
+    },
+    {
+      "kind": "concept",
+      "label": "classes",
+      "id": "concept:classes"
+    },
+    {
+      "kind": "concept",
+      "label": "jvb 25",
+      "id": "concept:jvb_25"
+    },
+    {
+      "kind": "concept",
+      "label": "end end",
+      "id": "concept:end_end"
+    },
+    {
+      "kind": "concept",
+      "label": "ssms",
+      "id": "concept:ssms"
+    },
+    {
+      "kind": "concept",
+      "label": "image",
+      "id": "concept:image"
+    },
+    {
+      "kind": "concept",
+      "label": "latent",
+      "id": "concept:latent"
+    },
+    {
+      "kind": "concept",
+      "label": "basis",
+      "id": "concept:basis"
+    },
+    {
+      "kind": "concept",
+      "label": "tokenizers",
+      "id": "concept:tokenizers"
+    },
+    {
+      "kind": "concept",
+      "label": "hidden",
+      "id": "concept:hidden"
+    },
+    {
+      "kind": "concept",
+      "label": "frequency",
+      "id": "concept:frequency"
+    },
+    {
+      "kind": "concept",
+      "label": "projection",
+      "id": "concept:projection"
+    },
+    {
+      "kind": "concept",
+      "label": "compact",
+      "id": "concept:compact"
+    },
+    {
+      "kind": "concept",
+      "label": "rangle",
+      "id": "concept:rangle"
+    },
+    {
+      "kind": "concept",
+      "label": "tau",
+      "id": "concept:tau"
+    },
+    {
+      "kind": "concept",
+      "label": "state space",
+      "id": "concept:state_space"
+    },
+    {
+      "kind": "concept",
+      "label": "hidden state",
+      "id": "concept:hidden_state"
+    },
+    {
+      "kind": "concept",
+      "label": "ssm",
+      "id": "concept:ssm"
+    },
+    {
+      "kind": "concept",
+      "label": "space",
+      "id": "concept:space"
+    },
+    {
+      "kind": "concept",
+      "label": "representation",
+      "id": "concept:representation"
+    },
+    {
+      "kind": "concept",
+      "label": "transformation",
+      "id": "concept:transformation"
+    },
+    {
+      "kind": "concept",
+      "label": "gaussian",
+      "id": "concept:gaussian"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.12216v1",
+      "target": "category:cs.CR",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07594997955058605,
+      "source": "paper:2604.12216v1",
+      "target": "concept:aigc",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07396315937361948,
+      "source": "paper:2604.12216v1",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07396315937361948,
+      "source": "paper:2604.12216v1",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07172205050416179,
+      "source": "paper:2604.12216v1",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07172205050416179,
+      "source": "paper:2604.12216v1",
+      "target": "concept:copyright",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0682039951628326,
+      "source": "paper:2604.12216v1",
+      "target": "concept:disputes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06720192327262249,
+      "source": "paper:2604.12216v1",
+      "target": "concept:intellectual",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06720192327262249,
+      "source": "paper:2604.12216v1",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0661390836083348,
+      "source": "paper:2604.12216v1",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06500762747575593,
+      "source": "paper:2604.12216v1",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06379807996564582,
+      "source": "paper:2604.12216v1",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06379807996564582,
+      "source": "paper:2604.12216v1",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06379807996564582,
+      "source": "paper:2604.12216v1",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06249885714354896,
+      "source": "paper:2604.12216v1",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06249885714354896,
+      "source": "paper:2604.12216v1",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05957015091922157,
+      "source": "paper:2604.12216v1",
+      "target": "concept:evidentiary",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05957015091922157,
+      "source": "paper:2604.12216v1",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05789922190603692,
+      "source": "paper:2604.12216v1",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.12736v1",
+      "target": "category:cs.CL",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08822947903534083,
+      "source": "paper:2604.12736v1",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08339185506585034,
+      "source": "paper:2604.12736v1",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07785417981654126,
+      "source": "paper:2604.12736v1",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07488688888642375,
+      "source": "paper:2604.12736v1",
+      "target": "concept:gradient",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07378663008018792,
+      "source": "paper:2604.12736v1",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0728192585412969,
+      "source": "paper:2604.12736v1",
+      "target": "concept:entropy",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07004926491693327,
+      "source": "paper:2604.12736v1",
+      "target": "concept:divergence",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07004926491693327,
+      "source": "paper:2604.12736v1",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06862273917038736,
+      "source": "paper:2604.12736v1",
+      "target": "concept:dapo",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06862273917038736,
+      "source": "paper:2604.12736v1",
+      "target": "concept:ai",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06728002358931087,
+      "source": "paper:2604.12736v1",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06540706687613881,
+      "source": "paper:2604.12736v1",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06540706687613881,
+      "source": "paper:2604.12736v1",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.11288v1",
+      "target": "category:cs.CL",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07746954276378963,
+      "source": "paper:2604.11288v1",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07663683510139158,
+      "source": "paper:2604.11288v1",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07067129297920709,
+      "source": "paper:2604.11288v1",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0694623033247371,
+      "source": "paper:2604.11288v1",
+      "target": "concept:anchor",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0694623033247371,
+      "source": "paper:2604.11288v1",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06816987104724347,
+      "source": "paper:2604.11288v1",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0667816184181413,
+      "source": "paper:2604.11288v1",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0667816184181413,
+      "source": "paper:2604.11288v1",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0667816184181413,
+      "source": "paper:2604.11288v1",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0667816184181413,
+      "source": "paper:2604.11288v1",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0667816184181413,
+      "source": "paper:2604.11288v1",
+      "target": "concept:100_100",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06600528127456627,
+      "source": "paper:2604.11288v1",
+      "target": "concept:100",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06472128289505606,
+      "source": "paper:2604.11288v1",
+      "target": "concept:attention",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06365222133040502,
+      "source": "paper:2604.11288v1",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06186679118236244,
+      "source": "paper:2604.11288v1",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06186679118236244,
+      "source": "paper:2604.11288v1",
+      "target": "concept:cache",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.12013v1",
+      "target": "category:cs.LG",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07917294562054304,
+      "source": "paper:2604.12013v1",
+      "target": "concept:complexity",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07787749486801725,
+      "source": "paper:2604.12013v1",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07497070759981991,
+      "source": "paper:2604.12013v1",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07332151690395895,
+      "source": "paper:2604.12013v1",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07150714422797917,
+      "source": "paper:2604.12013v1",
+      "target": "concept:class",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06839174019395182,
+      "source": "paper:2604.12013v1",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0659710034043102,
+      "source": "paper:2604.12013v1",
+      "target": "concept:binary",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06576608968563384,
+      "source": "paper:2604.12013v1",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06576608968563384,
+      "source": "paper:2604.12013v1",
+      "target": "concept:chain_thought",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0653160222419591,
+      "source": "paper:2604.12013v1",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06485166457943627,
+      "source": "paper:2604.12013v1",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06462752985047185,
+      "source": "paper:2604.12013v1",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06462752985047185,
+      "source": "paper:2604.12013v1",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06317646786871974,
+      "source": "paper:2604.12013v1",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06317646786871974,
+      "source": "paper:2604.12013v1",
+      "target": "concept:classes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06317646786871974,
+      "source": "paper:2604.12013v1",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06283107250293435,
+      "source": "paper:2604.12013v1",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.11089v1",
+      "target": "category:cs.CV",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08171752855384601,
+      "source": "paper:2604.11089v1",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07786258254454242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07786258254454242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07448867077136288,
+      "source": "paper:2604.11089v1",
+      "target": "concept:basis",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06834066251320166,
+      "source": "paper:2604.11089v1",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06725981298887979,
+      "source": "paper:2604.11089v1",
+      "target": "concept:hidden",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06725981298887979,
+      "source": "paper:2604.11089v1",
+      "target": "concept:frequency",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06487914094712648,
+      "source": "paper:2604.11089v1",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06355790274306242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:compact",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06355790274306242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06355790274306242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06355790274306242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06355790274306242,
+      "source": "paper:2604.11089v1",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06213085676863418,
+      "source": "paper:2604.11089v1",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.061791177917883064,
+      "source": "paper:2604.11089v1",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06057956947624338,
+      "source": "paper:2604.11089v1",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06057956947624338,
+      "source": "paper:2604.11089v1",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06057956947624338,
+      "source": "paper:2604.11089v1",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005617500441923137,
+      "source": "concept:aigc",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005617500441923137,
+      "source": "concept:aigc",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054472882691171875,
+      "source": "concept:aigc",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054472882691171875,
+      "source": "concept:aigc",
+      "target": "concept:copyright",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005180092037885406,
+      "source": "concept:aigc",
+      "target": "concept:disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051039846983157305,
+      "source": "concept:aigc",
+      "target": "concept:intellectual",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051039846983157305,
+      "source": "concept:aigc",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005023262047547529,
+      "source": "concept:aigc",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049373279774157786,
+      "source": "concept:aigc",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004845462868757454,
+      "source": "concept:aigc",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004845462868757454,
+      "source": "concept:aigc",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004845462868757454,
+      "source": "concept:aigc",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004746786921987543,
+      "source": "concept:aigc",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004746786921987543,
+      "source": "concept:aigc",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004524351744140203,
+      "source": "concept:aigc",
+      "target": "concept:evidentiary",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004524351744140203,
+      "source": "concept:aigc",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004397444719758348,
+      "source": "concept:aigc",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005470548944527436,
+      "source": "concept:watermark",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005304789452042104,
+      "source": "concept:trustworthy",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005304789452042104,
+      "source": "concept:trustworthy",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004662480340971903,
+      "source": "concept:trustworthy",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005304789452042104,
+      "source": "concept:copyright",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005304789452042104,
+      "source": "concept:copyright",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005144052528521534,
+      "source": "concept:copyright",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004891730385654286,
+      "source": "concept:copyright",
+      "target": "concept:disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004819859734935836,
+      "source": "concept:copyright",
+      "target": "concept:intellectual",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004819859734935836,
+      "source": "concept:copyright",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047436306948559675,
+      "source": "concept:copyright",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004662480340971903,
+      "source": "concept:copyright",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:copyright",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:copyright",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:copyright",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004482546188502011,
+      "source": "concept:copyright",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004482546188502011,
+      "source": "concept:copyright",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004272493372768949,
+      "source": "concept:copyright",
+      "target": "concept:evidentiary",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004272493372768949,
+      "source": "concept:copyright",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004152650917696451,
+      "source": "concept:copyright",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005044582964146159,
+      "source": "concept:disputes",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005044582964146159,
+      "source": "concept:disputes",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004891730385654286,
+      "source": "concept:disputes",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004583439649818992,
+      "source": "concept:disputes",
+      "target": "concept:intellectual",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004583439649818992,
+      "source": "concept:disputes",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004510949738497048,
+      "source": "concept:disputes",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004433779909903681,
+      "source": "concept:disputes",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004351283937374915,
+      "source": "concept:disputes",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004351283937374915,
+      "source": "concept:disputes",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004351283937374915,
+      "source": "concept:disputes",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004262671750301179,
+      "source": "concept:disputes",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004262671750301179,
+      "source": "concept:disputes",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004062922285143796,
+      "source": "concept:disputes",
+      "target": "concept:evidentiary",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004062922285143796,
+      "source": "concept:disputes",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948958250811113,
+      "source": "concept:disputes",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049704665612267255,
+      "source": "concept:intellectual",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049704665612267255,
+      "source": "concept:intellectual",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004819859734935836,
+      "source": "concept:intellectual",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004516098491539441,
+      "source": "concept:intellectual",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004444673621968879,
+      "source": "concept:intellectual",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004368637593760976,
+      "source": "concept:intellectual",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004200043402387371,
+      "source": "concept:intellectual",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004200043402387371,
+      "source": "concept:intellectual",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400322871141207,
+      "source": "concept:intellectual",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038909390680740364,
+      "source": "concept:intellectual",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049704665612267255,
+      "source": "concept:intellectual_property",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049704665612267255,
+      "source": "concept:intellectual_property",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004819859734935836,
+      "source": "concept:intellectual_property",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004444673621968879,
+      "source": "concept:intellectual_property",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004368637593760976,
+      "source": "concept:intellectual_property",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual_property",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual_property",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004287353674791964,
+      "source": "concept:intellectual_property",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004200043402387371,
+      "source": "concept:intellectual_property",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004200043402387371,
+      "source": "concept:intellectual_property",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400322871141207,
+      "source": "concept:intellectual_property",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038909390680740364,
+      "source": "concept:intellectual_property",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004891855581748411,
+      "source": "concept:law",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004891855581748411,
+      "source": "concept:law",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047436306948559675,
+      "source": "concept:law",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004299544908798504,
+      "source": "concept:law",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004219546544899078,
+      "source": "concept:law",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004219546544899078,
+      "source": "concept:law",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041336171380425574,
+      "source": "concept:law",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041336171380425574,
+      "source": "concept:law",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003939915192207518,
+      "source": "concept:law",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038294014785009056,
+      "source": "concept:law",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004808169511490221,
+      "source": "concept:trustworthy_time",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004808169511490221,
+      "source": "concept:trustworthy_time",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:judicial",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:judicial",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:judicial",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004219546544899078,
+      "source": "concept:judicial",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147361816075191,
+      "source": "concept:judicial",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004070195007302939,
+      "source": "concept:judicial",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004070195007302939,
+      "source": "concept:judicial",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:judicial",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:judicial",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:judicial",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036938591891100157,
+      "source": "concept:judicial",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:timestamp",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:timestamp",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:timestamp",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147361816075191,
+      "source": "concept:timestamp",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:payload",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718707556229982,
+      "source": "concept:payload",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575729113364602,
+      "source": "concept:payload",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147361816075191,
+      "source": "concept:payload",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004070195007302939,
+      "source": "concept:payload",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:payload",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:payload",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:payload",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036938591891100157,
+      "source": "concept:payload",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004622612931577388,
+      "source": "concept:provider",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004622612931577388,
+      "source": "concept:provider",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004482546188502011,
+      "source": "concept:provider",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004062902422848318,
+      "source": "concept:provider",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:provider",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003723066352320081,
+      "source": "concept:provider",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036186351986280422,
+      "source": "concept:provider",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004622612931577388,
+      "source": "concept:property_disputes",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004622612931577388,
+      "source": "concept:property_disputes",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004482546188502011,
+      "source": "concept:property_disputes",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004062902422848318,
+      "source": "concept:property_disputes",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003987307085805612,
+      "source": "concept:property_disputes",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0039061071442497413,
+      "source": "concept:property_disputes",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003723066352320081,
+      "source": "concept:property_disputes",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036186351986280422,
+      "source": "concept:property_disputes",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00440599656634895,
+      "source": "concept:evidentiary",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00440599656634895,
+      "source": "concept:evidentiary",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004272493372768949,
+      "source": "concept:evidentiary",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400322871141207,
+      "source": "concept:evidentiary",
+      "target": "concept:intellectual",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400322871141207,
+      "source": "concept:evidentiary",
+      "target": "concept:intellectual_property",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003939915192207518,
+      "source": "concept:evidentiary",
+      "target": "concept:law",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038725141796313155,
+      "source": "concept:evidentiary",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:evidentiary",
+      "target": "concept:judicial",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:evidentiary",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:evidentiary",
+      "target": "concept:payload",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003723066352320081,
+      "source": "concept:evidentiary",
+      "target": "concept:provider",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003723066352320081,
+      "source": "concept:evidentiary",
+      "target": "concept:property_disputes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003548602880538834,
+      "source": "concept:evidentiary",
+      "target": "concept:time_watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034490653870481187,
+      "source": "concept:evidentiary",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00440599656634895,
+      "source": "concept:time_watermarking",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00440599656634895,
+      "source": "concept:time_watermarking",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004272493372768949,
+      "source": "concept:time_watermarking",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038725141796313155,
+      "source": "concept:time_watermarking",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038004612519100876,
+      "source": "concept:time_watermarking",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034490653870481187,
+      "source": "concept:time_watermarking",
+      "target": "concept:timemark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004282409377444769,
+      "source": "concept:timemark",
+      "target": "concept:watermarking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004282409377444769,
+      "source": "concept:timemark",
+      "target": "concept:watermark",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004152650917696451,
+      "source": "concept:timemark",
+      "target": "concept:trustworthy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037638910488037754,
+      "source": "concept:timemark",
+      "target": "concept:trustworthy_time",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036938591891100157,
+      "source": "concept:timemark",
+      "target": "concept:timestamp",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007357619928250623,
+      "source": "concept:grpo",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006492404479531659,
+      "source": "concept:grpo",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006153203961444544,
+      "source": "concept:grpo",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058415381474222535,
+      "source": "concept:grpo",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005610605975986804,
+      "source": "concept:grpo",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054544166412173484,
+      "source": "concept:grpo",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006869033725937182,
+      "source": "concept:tepo",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006607231193026622,
+      "source": "concept:gradient",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0062449565843490885,
+      "source": "concept:gradient",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00583025731326498,
+      "source": "concept:gradient",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005525651168118685,
+      "source": "concept:gradient",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005245771518410043,
+      "source": "concept:gradient",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005038391650808692,
+      "source": "concept:gradient",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004898131749540295,
+      "source": "concept:gradient",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004898131749540295,
+      "source": "concept:gradient",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006510155931748389,
+      "source": "concept:rewards",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005744597566319562,
+      "source": "concept:rewards",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004826167048219767,
+      "source": "concept:rewards",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006424805244838417,
+      "source": "concept:entropy",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006072533054278515,
+      "source": "concept:entropy",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005669283648581337,
+      "source": "concept:entropy",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005453207723173864,
+      "source": "concept:entropy",
+      "target": "concept:gradient",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005373087692700239,
+      "source": "concept:entropy",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005100935532613962,
+      "source": "concept:entropy",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048992814324145826,
+      "source": "concept:entropy",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004762894113281449,
+      "source": "concept:entropy",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004762894113281449,
+      "source": "concept:entropy",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006180410150429599,
+      "source": "concept:divergence",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058415381474222535,
+      "source": "concept:divergence",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054536280668594575,
+      "source": "concept:divergence",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005245771518410043,
+      "source": "concept:divergence",
+      "target": "concept:gradient",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005168699197814841,
+      "source": "concept:divergence",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005100935532613962,
+      "source": "concept:divergence",
+      "target": "concept:entropy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004906899515402697,
+      "source": "concept:divergence",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004712916196025156,
+      "source": "concept:divergence",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004581716955046219,
+      "source": "concept:divergence",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004581716955046219,
+      "source": "concept:divergence",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006180410150429599,
+      "source": "concept:kl_divergence",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054536280668594575,
+      "source": "concept:kl_divergence",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005168699197814841,
+      "source": "concept:kl_divergence",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004712916196025156,
+      "source": "concept:kl_divergence",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004581716955046219,
+      "source": "concept:kl_divergence",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006054548526981353,
+      "source": "concept:dapo",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005722577519118594,
+      "source": "concept:dapo",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005342567074874947,
+      "source": "concept:dapo",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005138943443334837,
+      "source": "concept:dapo",
+      "target": "concept:gradient",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005063440670254594,
+      "source": "concept:dapo",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004997056985460419,
+      "source": "concept:dapo",
+      "target": "concept:entropy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004806972435472077,
+      "source": "concept:dapo",
+      "target": "concept:divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004806972435472077,
+      "source": "concept:dapo",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004616939510146789,
+      "source": "concept:dapo",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004488412090141357,
+      "source": "concept:dapo",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004488412090141357,
+      "source": "concept:dapo",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006054548526981353,
+      "source": "concept:ai",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005722577519118594,
+      "source": "concept:ai",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005342567074874947,
+      "source": "concept:ai",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005138943443334837,
+      "source": "concept:ai",
+      "target": "concept:gradient",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005063440670254594,
+      "source": "concept:ai",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004997056985460419,
+      "source": "concept:ai",
+      "target": "concept:entropy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004806972435472077,
+      "source": "concept:ai",
+      "target": "concept:divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004806972435472077,
+      "source": "concept:ai",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004709080331247016,
+      "source": "concept:ai",
+      "target": "concept:dapo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004616939510146789,
+      "source": "concept:ai",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004488412090141357,
+      "source": "concept:ai",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004488412090141357,
+      "source": "concept:ai",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00593608143077034,
+      "source": "concept:policy",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005238031054583346,
+      "source": "concept:policy",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049643662123707985,
+      "source": "concept:policy",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004400589002334253,
+      "source": "concept:policy",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005770831435711425,
+      "source": "concept:group",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054544166412173484,
+      "source": "concept:group",
+      "target": "concept:grpo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050922135458474505,
+      "source": "concept:group",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004826167048219767,
+      "source": "concept:group",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004581716955046219,
+      "source": "concept:group",
+      "target": "concept:kl_divergence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004400589002334253,
+      "source": "concept:group",
+      "target": "concept:policy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004278084397339696,
+      "source": "concept:group",
+      "target": "concept:sequence_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005770831435711425,
+      "source": "concept:sequence_level",
+      "target": "concept:token_level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050922135458474505,
+      "source": "concept:sequence_level",
+      "target": "concept:tepo",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005281088740296452,
+      "source": "concept:sponsorship",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005173541443879279,
+      "source": "concept:sponsorship",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004792792025160471,
+      "source": "concept:sponsorship",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005937020574168749,
+      "source": "concept:dormant",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005323371085660721,
+      "source": "concept:dormant",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005224323166330726,
+      "source": "concept:dormant",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051179318785151496,
+      "source": "concept:dormant",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051179318785151496,
+      "source": "concept:dormant",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051179318785151496,
+      "source": "concept:dormant",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051179318785151496,
+      "source": "concept:dormant",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004878104789935529,
+      "source": "concept:dormant",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047412750740949364,
+      "source": "concept:dormant",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005474872753624989,
+      "source": "concept:credential",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005416024226449626,
+      "source": "concept:credential",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049089907892730465,
+      "source": "concept:credential",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004817652929134509,
+      "source": "concept:credential",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719543320854076,
+      "source": "concept:credential",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719543320854076,
+      "source": "concept:credential",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719543320854076,
+      "source": "concept:credential",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719543320854076,
+      "source": "concept:credential",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004498384782418388,
+      "source": "concept:credential",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004372206125332162,
+      "source": "concept:credential",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005381212877887048,
+      "source": "concept:anchor",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005323371085660721,
+      "source": "concept:anchor",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049089907892730465,
+      "source": "concept:anchor",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004825011583177783,
+      "source": "concept:anchor",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00473523626029184,
+      "source": "concept:anchor",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:anchor",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:anchor",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:anchor",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:anchor",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004495689384022503,
+      "source": "concept:anchor",
+      "target": "concept:attention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004421429905345894,
+      "source": "concept:anchor",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042974098148374305,
+      "source": "concept:anchor",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042974098148374305,
+      "source": "concept:anchor",
+      "target": "concept:cache",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005381212877887048,
+      "source": "concept:dormant_tokens",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00473523626029184,
+      "source": "concept:dormant_tokens",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:dormant_tokens",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:dormant_tokens",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:dormant_tokens",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:dormant_tokens",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004421429905345894,
+      "source": "concept:dormant_tokens",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042974098148374305,
+      "source": "concept:dormant_tokens",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005173541443879279,
+      "source": "concept:retention",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004552494315890911,
+      "source": "concept:retention",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:retention",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:retention",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:retention",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005173541443879279,
+      "source": "concept:fast",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004552494315890911,
+      "source": "concept:fast",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:fast",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:fast",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:fast",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:fast",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005173541443879279,
+      "source": "concept:score",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004552494315890911,
+      "source": "concept:score",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:score",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:score",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004552494315890911,
+      "source": "concept:ta_fast",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:ta_fast",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005173541443879279,
+      "source": "concept:100_100",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051179318785151496,
+      "source": "concept:100_100",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719543320854076,
+      "source": "concept:100_100",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:100_100",
+      "target": "concept:anchor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638805035077781,
+      "source": "concept:100_100",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004552494315890911,
+      "source": "concept:100_100",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:100_100",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:100_100",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:100_100",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445978455854623,
+      "source": "concept:100_100",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004322192017830209,
+      "source": "concept:100_100",
+      "target": "concept:attention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004250798356354182,
+      "source": "concept:100_100",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:100_100",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:100_100",
+      "target": "concept:cache",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005113398960335975,
+      "source": "concept:100",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005058435856859904,
+      "source": "concept:100",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004664678571129844,
+      "source": "concept:100",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004584878868928512,
+      "source": "concept:100",
+      "target": "concept:anchor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004584878868928512,
+      "source": "concept:100",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004499571512924217,
+      "source": "concept:100",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407939507660172,
+      "source": "concept:100",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407939507660172,
+      "source": "concept:100",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407939507660172,
+      "source": "concept:100",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407939507660172,
+      "source": "concept:100",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407939507660172,
+      "source": "concept:100",
+      "target": "concept:100_100",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00427194648193895,
+      "source": "concept:100",
+      "target": "concept:attention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00420138277266433,
+      "source": "concept:100",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004083534953546689,
+      "source": "concept:100",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004083534953546689,
+      "source": "concept:100",
+      "target": "concept:cache",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005013928192965872,
+      "source": "concept:attention",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049600342847789265,
+      "source": "concept:attention",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004573936745466651,
+      "source": "concept:attention",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004495689384022503,
+      "source": "concept:attention",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004412041508968136,
+      "source": "concept:attention",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004322192017830209,
+      "source": "concept:attention",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004322192017830209,
+      "source": "concept:attention",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004322192017830209,
+      "source": "concept:attention",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004322192017830209,
+      "source": "concept:attention",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004119653423623865,
+      "source": "concept:attention",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400409809392304,
+      "source": "concept:attention",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00400409809392304,
+      "source": "concept:attention",
+      "target": "concept:cache",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004931108482366014,
+      "source": "concept:eviction",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00433916371996431,
+      "source": "concept:eviction",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004250798356354182,
+      "source": "concept:eviction",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004250798356354182,
+      "source": "concept:eviction",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004250798356354182,
+      "source": "concept:eviction",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004250798356354182,
+      "source": "concept:eviction",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003937958685341684,
+      "source": "concept:eviction",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004217451177008387,
+      "source": "concept:transactional",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004792792025160471,
+      "source": "concept:cache",
+      "target": "concept:sponsorship",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047412750740949364,
+      "source": "concept:cache",
+      "target": "concept:dormant",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004372206125332162,
+      "source": "concept:cache",
+      "target": "concept:credential",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042974098148374305,
+      "source": "concept:cache",
+      "target": "concept:dormant_tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004217451177008387,
+      "source": "concept:cache",
+      "target": "concept:utility",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:cache",
+      "target": "concept:retention",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:cache",
+      "target": "concept:fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:cache",
+      "target": "concept:score",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041315644414953575,
+      "source": "concept:cache",
+      "target": "concept:ta_fast",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003937958685341684,
+      "source": "concept:cache",
+      "target": "concept:eviction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038274998512020392,
+      "source": "concept:cache",
+      "target": "concept:transactional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006165790666249649,
+      "source": "concept:complexity",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005935651755934175,
+      "source": "concept:complexity",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00580508047065287,
+      "source": "concept:complexity",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005414775527270055,
+      "source": "concept:complexity",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005206895042356445,
+      "source": "concept:complexity",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051712618771128085,
+      "source": "concept:complexity",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005134497313149405,
+      "source": "concept:complexity",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00511675190644143,
+      "source": "concept:complexity",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00511675190644143,
+      "source": "concept:complexity",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050018670550681325,
+      "source": "concept:complexity",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050018670550681325,
+      "source": "concept:complexity",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004974521086555219,
+      "source": "concept:complexity",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005838530896356597,
+      "source": "concept:sample_complexity",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005326177395969252,
+      "source": "concept:sample_complexity",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005121698311982511,
+      "source": "concept:sample_complexity",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005050485175467424,
+      "source": "concept:sample_complexity",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057100960564033035,
+      "source": "concept:fe2e",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00549696600458196,
+      "source": "concept:fe2e",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050145861347220076,
+      "source": "concept:fe2e",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004822069456592483,
+      "source": "concept:fe2e",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004755022420711012,
+      "source": "concept:fe2e",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004738588522392484,
+      "source": "concept:fe2e",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004632194456768754,
+      "source": "concept:fe2e",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004632194456768754,
+      "source": "concept:fe2e",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005661431241442123,
+      "source": "concept:class",
+      "target": "concept:complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005568797257641017,
+      "source": "concept:class",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005360941201213977,
+      "source": "concept:class",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005243012284265606,
+      "source": "concept:class",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004890498030051393,
+      "source": "concept:class",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004702745260460832,
+      "source": "concept:class",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004670562222853666,
+      "source": "concept:class",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004637357332506278,
+      "source": "concept:class",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004621330098115719,
+      "source": "concept:class",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004621330098115719,
+      "source": "concept:class",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004517568799702834,
+      "source": "concept:class",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004517568799702834,
+      "source": "concept:class",
+      "target": "concept:classes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004517568799702834,
+      "source": "concept:class",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004492870563465943,
+      "source": "concept:class",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005127377156323613,
+      "source": "concept:sublinear",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004497857319352004,
+      "source": "concept:sublinear",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004435318195062113,
+      "source": "concept:sublinear",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005223118665062111,
+      "source": "concept:binary",
+      "target": "concept:complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005137656479057116,
+      "source": "concept:binary",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004945892806291264,
+      "source": "concept:binary",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004837094041280264,
+      "source": "concept:binary",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004717398055296514,
+      "source": "concept:binary",
+      "target": "concept:class",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004511871725161894,
+      "source": "concept:binary",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00433865492653912,
+      "source": "concept:binary",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00433865492653912,
+      "source": "concept:binary",
+      "target": "concept:chain_thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004308963525680285,
+      "source": "concept:binary",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004278329384745173,
+      "source": "concept:binary",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004263542991777637,
+      "source": "concept:binary",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004263542991777637,
+      "source": "concept:binary",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004167814976839604,
+      "source": "concept:binary",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004167814976839604,
+      "source": "concept:binary",
+      "target": "concept:classes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004167814976839604,
+      "source": "concept:binary",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004145028897987543,
+      "source": "concept:binary",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004930530279805187,
+      "source": "concept:thought",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005206895042356445,
+      "source": "concept:chain_thought",
+      "target": "concept:complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005121698311982511,
+      "source": "concept:chain_thought",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004930530279805187,
+      "source": "concept:chain_thought",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004822069456592483,
+      "source": "concept:chain_thought",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004702745260460832,
+      "source": "concept:chain_thought",
+      "target": "concept:class",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004497857319352004,
+      "source": "concept:chain_thought",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004325178552538834,
+      "source": "concept:chain_thought",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004295579376673538,
+      "source": "concept:chain_thought",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004265040388993849,
+      "source": "concept:chain_thought",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00425029992430711,
+      "source": "concept:chain_thought",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00425029992430711,
+      "source": "concept:chain_thought",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:chain_thought",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:chain_thought",
+      "target": "concept:classes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:chain_thought",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004132153949272543,
+      "source": "concept:chain_thought",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050866481869474706,
+      "source": "concept:dimension",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00489678840508525,
+      "source": "concept:dimension",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004789069828913164,
+      "source": "concept:dimension",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004467076423674446,
+      "source": "concept:dimension",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004295579376673538,
+      "source": "concept:dimension",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004235852766098531,
+      "source": "concept:dimension",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004221213177156295,
+      "source": "concept:dimension",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004126435580481713,
+      "source": "concept:dimension",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004126435580481713,
+      "source": "concept:dimension",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004103875729087805,
+      "source": "concept:dimension",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048619751825465145,
+      "source": "concept:supervision",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004265040388993849,
+      "source": "concept:supervision",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033030124262753,
+      "source": "concept:dependence",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004845171643318358,
+      "source": "concept:dependence",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004738588522392484,
+      "source": "concept:dependence",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004419989230910337,
+      "source": "concept:dependence",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00425029992430711,
+      "source": "concept:dependence",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004221213177156295,
+      "source": "concept:dependence",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004191202888460305,
+      "source": "concept:dependence",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00417671761457363,
+      "source": "concept:dependence",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:dependence",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:dependence",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004060617013720551,
+      "source": "concept:dependence",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033030124262753,
+      "source": "concept:finite",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004845171643318358,
+      "source": "concept:finite",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004419989230910337,
+      "source": "concept:finite",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00425029992430711,
+      "source": "concept:finite",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004191202888460305,
+      "source": "concept:finite",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:finite",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:finite",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049200250522256775,
+      "source": "concept:jvb",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004736384499775205,
+      "source": "concept:jvb",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004320748576849025,
+      "source": "concept:jvb",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:jvb",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004097099103535745,
+      "source": "concept:jvb",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003991266092367377,
+      "source": "concept:jvb",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050018670550681325,
+      "source": "concept:classes",
+      "target": "concept:complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049200250522256775,
+      "source": "concept:classes",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004736384499775205,
+      "source": "concept:classes",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004632194456768754,
+      "source": "concept:classes",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004320748576849025,
+      "source": "concept:classes",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:classes",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004126435580481713,
+      "source": "concept:classes",
+      "target": "concept:dimension",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004097099103535745,
+      "source": "concept:classes",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:classes",
+      "target": "concept:dependence",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00408293906303306,
+      "source": "concept:classes",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003991266092367377,
+      "source": "concept:classes",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003991266092367377,
+      "source": "concept:classes",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003969445233138832,
+      "source": "concept:classes",
+      "target": "concept:end_end",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049200250522256775,
+      "source": "concept:jvb_25",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004736384499775205,
+      "source": "concept:jvb_25",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004320748576849025,
+      "source": "concept:jvb_25",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004154869251875787,
+      "source": "concept:jvb_25",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004097099103535745,
+      "source": "concept:jvb_25",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004893126526399289,
+      "source": "concept:end_end",
+      "target": "concept:sample_complexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004710489964800576,
+      "source": "concept:end_end",
+      "target": "concept:thought_supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046068695446177714,
+      "source": "concept:end_end",
+      "target": "concept:fe2e",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004297126386728036,
+      "source": "concept:end_end",
+      "target": "concept:sublinear",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004132153949272543,
+      "source": "concept:end_end",
+      "target": "concept:thought",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004074699639126539,
+      "source": "concept:end_end",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004060617013720551,
+      "source": "concept:end_end",
+      "target": "concept:finite",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003969445233138832,
+      "source": "concept:end_end",
+      "target": "concept:jvb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003969445233138832,
+      "source": "concept:end_end",
+      "target": "concept:jvb_25",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00558463004031131,
+      "source": "concept:ssms",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051937947322287705,
+      "source": "concept:ssms",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051937947322287705,
+      "source": "concept:ssms",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004950412698454617,
+      "source": "concept:ssms",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006362737812359838,
+      "source": "concept:image",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006062581760505683,
+      "source": "concept:image",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005321180476082881,
+      "source": "concept:image",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005051657467414638,
+      "source": "concept:image",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:image",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:image",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:image",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004837668963710922,
+      "source": "concept:image",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048112206911556776,
+      "source": "concept:image",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:image",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:image",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006362737812359838,
+      "source": "concept:latent",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005321180476082881,
+      "source": "concept:latent",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005051657467414638,
+      "source": "concept:latent",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:latent",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:latent",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:latent",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004837668963710922,
+      "source": "concept:latent",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048112206911556776,
+      "source": "concept:latent",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:latent",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:latent",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006087030080696881,
+      "source": "concept:basis",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005799880276568487,
+      "source": "concept:basis",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005799880276568487,
+      "source": "concept:basis",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005090605110242699,
+      "source": "concept:basis",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050100940658721034,
+      "source": "concept:basis",
+      "target": "concept:hidden",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050100940658721034,
+      "source": "concept:basis",
+      "target": "concept:frequency",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004832760969939353,
+      "source": "concept:basis",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004734343692346279,
+      "source": "concept:basis",
+      "target": "concept:compact",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004734343692346279,
+      "source": "concept:basis",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004734343692346279,
+      "source": "concept:basis",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004734343692346279,
+      "source": "concept:basis",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004734343692346279,
+      "source": "concept:basis",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004628044934581495,
+      "source": "concept:basis",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046027427084999,
+      "source": "concept:basis",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004512491606186797,
+      "source": "concept:basis",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004512491606186797,
+      "source": "concept:basis",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004512491606186797,
+      "source": "concept:basis",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004140047912771001,
+      "source": "concept:tokenizers",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005496305688445126,
+      "source": "concept:hidden",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005237022740777139,
+      "source": "concept:hidden",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005237022740777139,
+      "source": "concept:hidden",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00459658018017409,
+      "source": "concept:hidden",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043637588869829,
+      "source": "concept:hidden",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:hidden",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:hidden",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:hidden",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:hidden",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004178909807097211,
+      "source": "concept:hidden",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004156063071119413,
+      "source": "concept:hidden",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:hidden",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:hidden",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005496305688445126,
+      "source": "concept:frequency",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005237022740777139,
+      "source": "concept:frequency",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005237022740777139,
+      "source": "concept:frequency",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00459658018017409,
+      "source": "concept:frequency",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004523882443299082,
+      "source": "concept:frequency",
+      "target": "concept:hidden",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043637588869829,
+      "source": "concept:frequency",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:frequency",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:frequency",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:frequency",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:frequency",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004178909807097211,
+      "source": "concept:frequency",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004156063071119413,
+      "source": "concept:frequency",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:frequency",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:frequency",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:frequency",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005301763052895808,
+      "source": "concept:projection",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004433883475614013,
+      "source": "concept:projection",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123582130370903,
+      "source": "concept:projection",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123582130370903,
+      "source": "concept:projection",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123582130370903,
+      "source": "concept:projection",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004030996613457944,
+      "source": "concept:projection",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004008958541423305,
+      "source": "concept:projection",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930350426565435,
+      "source": "concept:projection",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930350426565435,
+      "source": "concept:projection",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051937947322287705,
+      "source": "concept:compact",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:compact",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:compact",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343589181410522,
+      "source": "concept:compact",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:compact",
+      "target": "concept:hidden",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004274892652463788,
+      "source": "concept:compact",
+      "target": "concept:frequency",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123582130370903,
+      "source": "concept:compact",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:compact",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:compact",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:compact",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:compact",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948906951843993,
+      "source": "concept:compact",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003927317676484078,
+      "source": "concept:compact",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:compact",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:compact",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:compact",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051937947322287705,
+      "source": "concept:rangle",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343589181410522,
+      "source": "concept:rangle",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:rangle",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:rangle",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948906951843993,
+      "source": "concept:rangle",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003927317676484078,
+      "source": "concept:rangle",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:rangle",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:rangle",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343589181410522,
+      "source": "concept:tau",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:tau",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343589181410522,
+      "source": "concept:state_space",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:state_space",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:state_space",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051937947322287705,
+      "source": "concept:hidden_state",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:hidden_state",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004948782448689697,
+      "source": "concept:hidden_state",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343589181410522,
+      "source": "concept:hidden_state",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123582130370903,
+      "source": "concept:hidden_state",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:hidden_state",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:hidden_state",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004039607001096581,
+      "source": "concept:hidden_state",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948906951843993,
+      "source": "concept:hidden_state",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003927317676484078,
+      "source": "concept:hidden_state",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:hidden_state",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:hidden_state",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00507718006206578,
+      "source": "concept:ssm",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042460639140813,
+      "source": "concept:ssm",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948906951843993,
+      "source": "concept:ssm",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003948906951843993,
+      "source": "concept:ssm",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037638605542340007,
+      "source": "concept:ssm",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005049422345880388,
+      "source": "concept:space",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004222850036379245,
+      "source": "concept:space",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003927317676484078,
+      "source": "concept:space",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003927317676484078,
+      "source": "concept:space",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003839138824781184,
+      "source": "concept:space",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037432829556953125,
+      "source": "concept:space",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004950412698454617,
+      "source": "concept:representation",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004140047912771001,
+      "source": "concept:representation",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:representation",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:representation",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037638605542340007,
+      "source": "concept:representation",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037432829556953125,
+      "source": "concept:representation",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036698842379269984,
+      "source": "concept:representation",
+      "target": "concept:transformation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004950412698454617,
+      "source": "concept:gaussian",
+      "target": "concept:ssms",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:gaussian",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716881728856843,
+      "source": "concept:gaussian",
+      "target": "concept:latent",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004140047912771001,
+      "source": "concept:gaussian",
+      "target": "concept:tokenizers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00407457051391898,
+      "source": "concept:gaussian",
+      "target": "concept:hidden",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930350426565435,
+      "source": "concept:gaussian",
+      "target": "concept:projection",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:gaussian",
+      "target": "concept:rangle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:gaussian",
+      "target": "concept:tau",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:gaussian",
+      "target": "concept:state_space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038503103849876694,
+      "source": "concept:gaussian",
+      "target": "concept:hidden_state",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037638605542340007,
+      "source": "concept:gaussian",
+      "target": "concept:ssm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037432829556953125,
+      "source": "concept:gaussian",
+      "target": "concept:space",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036698842379269984,
+      "source": "concept:gaussian",
+      "target": "concept:representation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036698842379269984,
+      "source": "concept:gaussian",
+      "target": "concept:transformation",
+      "key": 0
+    }
+  ]
+}

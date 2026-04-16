@@ -1,0 +1,5878 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "paper",
+      "title": "Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model",
+      "arxiv_id": "2604.14030v1",
+      "published": "2026-04-15T16:09:48+00:00",
+      "id": "paper:2604.14030v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CL",
+      "id": "category:cs.CL"
+    },
+    {
+      "kind": "paper",
+      "title": "How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data",
+      "arxiv_id": "2604.13977v1",
+      "published": "2026-04-15T15:24:59+00:00",
+      "id": "paper:2604.13977v1"
+    },
+    {
+      "kind": "paper",
+      "title": "ASTRA: Enhancing Multi-Subject Generation with Retrieval-Augmented Pose Guidance and Disentangled Position Embedding",
+      "arxiv_id": "2604.13938v1",
+      "published": "2026-04-15T14:50:05+00:00",
+      "id": "paper:2604.13938v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CV",
+      "id": "category:cs.CV"
+    },
+    {
+      "kind": "paper",
+      "title": "Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image",
+      "arxiv_id": "2604.13856v1",
+      "published": "2026-04-15T13:24:47+00:00",
+      "id": "paper:2604.13856v1"
+    },
+    {
+      "kind": "paper",
+      "title": "A Universal Textual Merge Strategy Based on Tokens for Version Control Systems",
+      "arxiv_id": "2604.13813v1",
+      "published": "2026-04-15T12:48:01+00:00",
+      "id": "paper:2604.13813v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.SE",
+      "id": "category:cs.SE"
+    },
+    {
+      "kind": "concept",
+      "label": "item",
+      "id": "concept:item"
+    },
+    {
+      "kind": "concept",
+      "label": "graph",
+      "id": "concept:graph"
+    },
+    {
+      "kind": "concept",
+      "label": "bundling",
+      "id": "concept:bundling"
+    },
+    {
+      "kind": "concept",
+      "label": "product bundling",
+      "id": "concept:product_bundling"
+    },
+    {
+      "kind": "concept",
+      "label": "bundle",
+      "id": "concept:bundle"
+    },
+    {
+      "kind": "concept",
+      "label": "product",
+      "id": "concept:product"
+    },
+    {
+      "kind": "concept",
+      "label": "dcbm",
+      "id": "concept:dcbm"
+    },
+    {
+      "kind": "concept",
+      "label": "interactive",
+      "id": "concept:interactive"
+    },
+    {
+      "kind": "concept",
+      "label": "dual enhancement",
+      "id": "concept:dual_enhancement"
+    },
+    {
+      "kind": "concept",
+      "label": "interactive graph",
+      "id": "concept:interactive_graph"
+    },
+    {
+      "kind": "concept",
+      "label": "user item",
+      "id": "concept:user_item"
+    },
+    {
+      "kind": "concept",
+      "label": "enhancement",
+      "id": "concept:enhancement"
+    },
+    {
+      "kind": "concept",
+      "label": "description",
+      "id": "concept:description"
+    },
+    {
+      "kind": "concept",
+      "label": "beijing",
+      "id": "concept:beijing"
+    },
+    {
+      "kind": "concept",
+      "label": "candidate",
+      "id": "concept:candidate"
+    },
+    {
+      "kind": "concept",
+      "label": "graph text",
+      "id": "concept:graph_text"
+    },
+    {
+      "kind": "concept",
+      "label": "synthetic",
+      "id": "concept:synthetic"
+    },
+    {
+      "kind": "concept",
+      "label": "rephrasing",
+      "id": "concept:rephrasing"
+    },
+    {
+      "kind": "concept",
+      "label": "web",
+      "id": "concept:web"
+    },
+    {
+      "kind": "concept",
+      "label": "generator",
+      "id": "concept:generator"
+    },
+    {
+      "kind": "concept",
+      "label": "synthetic data",
+      "id": "concept:synthetic_data"
+    },
+    {
+      "kind": "concept",
+      "label": "dclm",
+      "id": "concept:dclm"
+    },
+    {
+      "kind": "concept",
+      "label": "et al",
+      "id": "concept:et_al"
+    },
+    {
+      "kind": "concept",
+      "label": "math",
+      "id": "concept:math"
+    },
+    {
+      "kind": "concept",
+      "label": "mix",
+      "id": "concept:mix"
+    },
+    {
+      "kind": "concept",
+      "label": "fineweb",
+      "id": "concept:fineweb"
+    },
+    {
+      "kind": "concept",
+      "label": "generator model",
+      "id": "concept:generator_model"
+    },
+    {
+      "kind": "concept",
+      "label": "web text",
+      "id": "concept:web_text"
+    },
+    {
+      "kind": "concept",
+      "label": "table",
+      "id": "concept:table"
+    },
+    {
+      "kind": "concept",
+      "label": "pedagogical",
+      "id": "concept:pedagogical"
+    },
+    {
+      "kind": "concept",
+      "label": "evaluate",
+      "id": "concept:evaluate"
+    },
+    {
+      "kind": "concept",
+      "label": "pretraining data",
+      "id": "concept:pretraining_data"
+    },
+    {
+      "kind": "concept",
+      "label": "retrieval",
+      "id": "concept:retrieval"
+    },
+    {
+      "kind": "concept",
+      "label": "astra",
+      "id": "concept:astra"
+    },
+    {
+      "kind": "concept",
+      "label": "subject",
+      "id": "concept:subject"
+    },
+    {
+      "kind": "concept",
+      "label": "database",
+      "id": "concept:database"
+    },
+    {
+      "kind": "concept",
+      "label": "pose",
+      "id": "concept:pose"
+    },
+    {
+      "kind": "concept",
+      "label": "poses",
+      "id": "concept:poses"
+    },
+    {
+      "kind": "concept",
+      "label": "multi subject",
+      "id": "concept:multi_subject"
+    },
+    {
+      "kind": "concept",
+      "label": "retrieval augmented",
+      "id": "concept:retrieval_augmented"
+    },
+    {
+      "kind": "concept",
+      "label": "structural",
+      "id": "concept:structural"
+    },
+    {
+      "kind": "concept",
+      "label": "subjects",
+      "id": "concept:subjects"
+    },
+    {
+      "kind": "concept",
+      "label": "rag",
+      "id": "concept:rag"
+    },
+    {
+      "kind": "concept",
+      "label": "position embedding",
+      "id": "concept:position_embedding"
+    },
+    {
+      "kind": "concept",
+      "label": "guidance",
+      "id": "concept:guidance"
+    },
+    {
+      "kind": "concept",
+      "label": "disentangled",
+      "id": "concept:disentangled"
+    },
+    {
+      "kind": "concept",
+      "label": "driven",
+      "id": "concept:driven"
+    },
+    {
+      "kind": "concept",
+      "label": "cpose",
+      "id": "concept:cpose"
+    },
+    {
+      "kind": "concept",
+      "label": "pose map",
+      "id": "concept:pose_map"
+    },
+    {
+      "kind": "concept",
+      "label": "image",
+      "id": "concept:image"
+    },
+    {
+      "kind": "concept",
+      "label": "head",
+      "id": "concept:head"
+    },
+    {
+      "kind": "concept",
+      "label": "reconstruction",
+      "id": "concept:reconstruction"
+    },
+    {
+      "kind": "concept",
+      "label": "gaussian",
+      "id": "concept:gaussian"
+    },
+    {
+      "kind": "concept",
+      "label": "multi view",
+      "id": "concept:multi_view"
+    },
+    {
+      "kind": "concept",
+      "label": "view",
+      "id": "concept:view"
+    },
+    {
+      "kind": "concept",
+      "label": "3d head",
+      "id": "concept:3d_head"
+    },
+    {
+      "kind": "concept",
+      "label": "denoising",
+      "id": "concept:denoising"
+    },
+    {
+      "kind": "concept",
+      "label": "shanghai",
+      "id": "concept:shanghai"
+    },
+    {
+      "kind": "concept",
+      "label": "head reconstruction",
+      "id": "concept:head_reconstruction"
+    },
+    {
+      "kind": "concept",
+      "label": "single image",
+      "id": "concept:single_image"
+    },
+    {
+      "kind": "concept",
+      "label": "multi",
+      "id": "concept:multi"
+    },
+    {
+      "kind": "concept",
+      "label": "any3davatar",
+      "id": "concept:any3davatar"
+    },
+    {
+      "kind": "concept",
+      "label": "anyhead",
+      "id": "concept:anyhead"
+    },
+    {
+      "kind": "concept",
+      "label": "supervision",
+      "id": "concept:supervision"
+    },
+    {
+      "kind": "concept",
+      "label": "zhang",
+      "id": "concept:zhang"
+    },
+    {
+      "kind": "concept",
+      "label": "heads",
+      "id": "concept:heads"
+    },
+    {
+      "kind": "concept",
+      "label": "merge",
+      "id": "concept:merge"
+    },
+    {
+      "kind": "concept",
+      "label": "git",
+      "id": "concept:git"
+    },
+    {
+      "kind": "concept",
+      "label": "summer",
+      "id": "concept:summer"
+    },
+    {
+      "kind": "concept",
+      "label": "merging",
+      "id": "concept:merging"
+    },
+    {
+      "kind": "concept",
+      "label": "accuracy",
+      "id": "concept:accuracy"
+    },
+    {
+      "kind": "concept",
+      "label": "file",
+      "id": "concept:file"
+    },
+    {
+      "kind": "concept",
+      "label": "string",
+      "id": "concept:string"
+    },
+    {
+      "kind": "concept",
+      "label": "version control",
+      "id": "concept:version_control"
+    },
+    {
+      "kind": "concept",
+      "label": "java",
+      "id": "concept:java"
+    },
+    {
+      "kind": "concept",
+      "label": "tree",
+      "id": "concept:tree"
+    },
+    {
+      "kind": "concept",
+      "label": "tool",
+      "id": "concept:tool"
+    },
+    {
+      "kind": "concept",
+      "label": "rules",
+      "id": "concept:rules"
+    },
+    {
+      "kind": "concept",
+      "label": "diff",
+      "id": "concept:diff"
+    },
+    {
+      "kind": "concept",
+      "label": "control systems",
+      "id": "concept:control_systems"
+    },
+    {
+      "kind": "concept",
+      "label": "branch",
+      "id": "concept:branch"
+    },
+    {
+      "kind": "concept",
+      "label": "files",
+      "id": "concept:files"
+    },
+    {
+      "kind": "concept",
+      "label": "revision",
+      "id": "concept:revision"
+    },
+    {
+      "kind": "concept",
+      "label": "edits",
+      "id": "concept:edits"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.14030v1",
+      "target": "category:cs.CL",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.10403423246713722,
+      "source": "paper:2604.14030v1",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.09180805041781157,
+      "source": "paper:2604.14030v1",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08978428739987175,
+      "source": "paper:2604.14030v1",
+      "target": "concept:bundling",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08831521078834075,
+      "source": "paper:2604.14030v1",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08589378885223277,
+      "source": "paper:2604.14030v1",
+      "target": "concept:bundle",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07555649359441191,
+      "source": "paper:2604.14030v1",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06985503561102692,
+      "source": "paper:2604.14030v1",
+      "target": "concept:dcbm",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06789561795103491,
+      "source": "paper:2604.14030v1",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06789561795103491,
+      "source": "paper:2604.14030v1",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06572958221938852,
+      "source": "paper:2604.14030v1",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06572958221938852,
+      "source": "paper:2604.14030v1",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06542375564722376,
+      "source": "paper:2604.14030v1",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06330816028328055,
+      "source": "paper:2604.14030v1",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.060562978505122336,
+      "source": "paper:2604.14030v1",
+      "target": "concept:beijing",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.060562978505122336,
+      "source": "paper:2604.14030v1",
+      "target": "concept:candidate",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.060562978505122336,
+      "source": "paper:2604.14030v1",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13977v1",
+      "target": "category:cs.CL",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08134650307843481,
+      "source": "paper:2604.13977v1",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07643556146075005,
+      "source": "paper:2604.13977v1",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07475414720137229,
+      "source": "paper:2604.13977v1",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06853519416232942,
+      "source": "paper:2604.13977v1",
+      "target": "concept:generator",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06726001190029604,
+      "source": "paper:2604.13977v1",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06589028819509321,
+      "source": "paper:2604.13977v1",
+      "target": "concept:dclm",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06366251625000598,
+      "source": "paper:2604.13977v1",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06280265898106663,
+      "source": "paper:2604.13977v1",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06280265898106663,
+      "source": "paper:2604.13977v1",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06104105886125319,
+      "source": "paper:2604.13977v1",
+      "target": "concept:fineweb",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06104105886125319,
+      "source": "paper:2604.13977v1",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06104105886125319,
+      "source": "paper:2604.13977v1",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0603111752716813,
+      "source": "paper:2604.13977v1",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05909370027492502,
+      "source": "paper:2604.13977v1",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05909370027492502,
+      "source": "paper:2604.13977v1",
+      "target": "concept:evaluate",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05909370027492502,
+      "source": "paper:2604.13977v1",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13938v1",
+      "target": "category:cs.CV",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07645573422448322,
+      "source": "paper:2604.13938v1",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07218602772635188,
+      "source": "paper:2604.13938v1",
+      "target": "concept:astra",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07075794513093156,
+      "source": "paper:2604.13938v1",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06668141866680682,
+      "source": "paper:2604.13938v1",
+      "target": "concept:database",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06590668070583545,
+      "source": "paper:2604.13938v1",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06117680960726176,
+      "source": "paper:2604.13938v1",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06117680960726176,
+      "source": "paper:2604.13938v1",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06117680960726176,
+      "source": "paper:2604.13938v1",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05917512354934096,
+      "source": "paper:2604.13938v1",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05892310794414016,
+      "source": "paper:2604.13938v1",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05892310794414016,
+      "source": "paper:2604.13938v1",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05892310794414016,
+      "source": "paper:2604.13938v1",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05636807172895224,
+      "source": "paper:2604.13938v1",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05636807172895224,
+      "source": "paper:2604.13938v1",
+      "target": "concept:disentangled",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05636807172895224,
+      "source": "paper:2604.13938v1",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05636807172895224,
+      "source": "paper:2604.13938v1",
+      "target": "concept:cpose",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05636807172895224,
+      "source": "paper:2604.13938v1",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05617784551883257,
+      "source": "paper:2604.13938v1",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13856v1",
+      "target": "category:cs.CV",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0940745944331031,
+      "source": "paper:2604.13856v1",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08874819440458859,
+      "source": "paper:2604.13856v1",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07907960466828103,
+      "source": "paper:2604.13856v1",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07743270743493216,
+      "source": "paper:2604.13856v1",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07373571771421712,
+      "source": "paper:2604.13856v1",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07140521325114,
+      "source": "paper:2604.13856v1",
+      "target": "concept:3d_head",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07018366825802305,
+      "source": "paper:2604.13856v1",
+      "target": "concept:denoising",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06887781409154783,
+      "source": "paper:2604.13856v1",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06887781409154783,
+      "source": "paper:2604.13856v1",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06596014588642776,
+      "source": "paper:2604.13856v1",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06559953172922224,
+      "source": "paper:2604.13856v1",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06502321844726915,
+      "source": "paper:2604.13856v1",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06250927684088203,
+      "source": "paper:2604.13856v1",
+      "target": "concept:any3davatar",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06250927684088203,
+      "source": "paper:2604.13856v1",
+      "target": "concept:anyhead",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06250927684088203,
+      "source": "paper:2604.13856v1",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06250927684088203,
+      "source": "paper:2604.13856v1",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06176183739252858,
+      "source": "paper:2604.13856v1",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13813v1",
+      "target": "category:cs.SE",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1018061696704134,
+      "source": "paper:2604.13813v1",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08139752987157506,
+      "source": "paper:2604.13813v1",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07978879396985686,
+      "source": "paper:2604.13813v1",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07803361596951781,
+      "source": "paper:2604.13813v1",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06878089895516017,
+      "source": "paper:2604.13813v1",
+      "target": "concept:accuracy",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06878089895516017,
+      "source": "paper:2604.13813v1",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06723658265875389,
+      "source": "paper:2604.13813v1",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06555781526865145,
+      "source": "paper:2604.13813v1",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06371893364953433,
+      "source": "paper:2604.13813v1",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06371893364953433,
+      "source": "paper:2604.13813v1",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06371893364953433,
+      "source": "paper:2604.13813v1",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.061686144329215715,
+      "source": "paper:2604.13813v1",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.061686144329215715,
+      "source": "paper:2604.13813v1",
+      "target": "concept:diff",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.061686144329215715,
+      "source": "paper:2604.13813v1",
+      "target": "concept:control_systems",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06055752078028137,
+      "source": "paper:2604.13813v1",
+      "target": "concept:branch",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05941367920789284,
+      "source": "paper:2604.13813v1",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05941367920789284,
+      "source": "paper:2604.13813v1",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05683737073825753,
+      "source": "paper:2604.13813v1",
+      "target": "concept:edits",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.009187805169538467,
+      "source": "concept:item",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007860461819002813,
+      "source": "concept:item",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006838126636579674,
+      "source": "concept:item",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.009551180059521262,
+      "source": "concept:graph",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008108047324715643,
+      "source": "concept:graph",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006936694373308825,
+      "source": "concept:graph",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006233364315997085,
+      "source": "concept:graph",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006034504798339312,
+      "source": "concept:graph",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006034504798339312,
+      "source": "concept:graph",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00556016898405111,
+      "source": "concept:graph",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.009340639427254518,
+      "source": "concept:bundling",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008242920384334709,
+      "source": "concept:bundling",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00792931826720064,
+      "source": "concept:bundling",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006783785935807248,
+      "source": "concept:bundling",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006271884593628717,
+      "source": "concept:bundling",
+      "target": "concept:dcbm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00609595967530761,
+      "source": "concept:bundling",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00609595967530761,
+      "source": "concept:bundling",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005901483700659078,
+      "source": "concept:bundling",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005901483700659078,
+      "source": "concept:bundling",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00587402527980932,
+      "source": "concept:bundling",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0056840780576312075,
+      "source": "concept:bundling",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054376038678961595,
+      "source": "concept:bundling",
+      "target": "concept:candidate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054376038678961595,
+      "source": "concept:bundling",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058049219087348706,
+      "source": "concept:product_bundling",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008935894396936383,
+      "source": "concept:bundle",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007885741297522647,
+      "source": "concept:bundle",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007711912624172767,
+      "source": "concept:bundle",
+      "target": "concept:bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007585728067894169,
+      "source": "concept:bundle",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006489833507213495,
+      "source": "concept:bundle",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006000113679038747,
+      "source": "concept:bundle",
+      "target": "concept:dcbm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005831811872278057,
+      "source": "concept:bundle",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005831811872278057,
+      "source": "concept:bundle",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005645762856497631,
+      "source": "concept:bundle",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005645762856497631,
+      "source": "concept:bundle",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005619494253482709,
+      "source": "concept:bundle",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005437777751995408,
+      "source": "concept:bundle",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005201983687981289,
+      "source": "concept:bundle",
+      "target": "concept:candidate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005201983687981289,
+      "source": "concept:bundle",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0066727876582184055,
+      "source": "concept:product",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004966296757922599,
+      "source": "concept:product",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007267315013757723,
+      "source": "concept:dcbm",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006413254631315182,
+      "source": "concept:dcbm",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006169262194614892,
+      "source": "concept:dcbm",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005278001550681971,
+      "source": "concept:dcbm",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047428508098022225,
+      "source": "concept:dcbm",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047428508098022225,
+      "source": "concept:dcbm",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004591542306633307,
+      "source": "concept:dcbm",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004591542306633307,
+      "source": "concept:dcbm",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00457017878054394,
+      "source": "concept:dcbm",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044223937910571635,
+      "source": "concept:dcbm",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004230629020185179,
+      "source": "concept:dcbm",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007063468501417901,
+      "source": "concept:interactive",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059962158109503,
+      "source": "concept:interactive",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005129954822806007,
+      "source": "concept:interactive",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00446275060244874,
+      "source": "concept:interactive",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00446275060244874,
+      "source": "concept:interactive",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007063468501417901,
+      "source": "concept:dual_enhancement",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006233364315997085,
+      "source": "concept:dual_enhancement",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059962158109503,
+      "source": "concept:dual_enhancement",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005129954822806007,
+      "source": "concept:dual_enhancement",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004609814936952894,
+      "source": "concept:dual_enhancement",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00446275060244874,
+      "source": "concept:dual_enhancement",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00446275060244874,
+      "source": "concept:dual_enhancement",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044419863183457675,
+      "source": "concept:dual_enhancement",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:dual_enhancement",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006838126636579674,
+      "source": "concept:interactive_graph",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058049219087348706,
+      "source": "concept:interactive_graph",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004966296757922599,
+      "source": "concept:interactive_graph",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004320377978735355,
+      "source": "concept:interactive_graph",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0068063102038764586,
+      "source": "concept:enhancement",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006006427456982903,
+      "source": "concept:enhancement",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005777912770549465,
+      "source": "concept:enhancement",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049431895744818325,
+      "source": "concept:enhancement",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044419863183457675,
+      "source": "concept:enhancement",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043002761259153775,
+      "source": "concept:enhancement",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043002761259153775,
+      "source": "concept:enhancement",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003962257506987189,
+      "source": "concept:enhancement",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006586215863977593,
+      "source": "concept:description",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005812198771146317,
+      "source": "concept:description",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055910735200399835,
+      "source": "concept:description",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00478334260691769,
+      "source": "concept:description",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004298346663776499,
+      "source": "concept:description",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004298346663776499,
+      "source": "concept:description",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004161218926498116,
+      "source": "concept:description",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004161218926498116,
+      "source": "concept:description",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004141857608848623,
+      "source": "concept:description",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038341307504351596,
+      "source": "concept:description",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006300622984704132,
+      "source": "concept:beijing",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00556016898405111,
+      "source": "concept:beijing",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054376038678961595,
+      "source": "concept:beijing",
+      "target": "concept:bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005348632212649629,
+      "source": "concept:beijing",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005201983687981289,
+      "source": "concept:beijing",
+      "target": "concept:bundle",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575926297480782,
+      "source": "concept:beijing",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004230629020185179,
+      "source": "concept:beijing",
+      "target": "concept:dcbm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:beijing",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:beijing",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:beijing",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:beijing",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003962257506987189,
+      "source": "concept:beijing",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038341307504351596,
+      "source": "concept:beijing",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00366787436541191,
+      "source": "concept:beijing",
+      "target": "concept:candidate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00366787436541191,
+      "source": "concept:beijing",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006300622984704132,
+      "source": "concept:candidate",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00556016898405111,
+      "source": "concept:candidate",
+      "target": "concept:graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005348632212649629,
+      "source": "concept:candidate",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575926297480782,
+      "source": "concept:candidate",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004230629020185179,
+      "source": "concept:candidate",
+      "target": "concept:dcbm",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:candidate",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:candidate",
+      "target": "concept:dual_enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:candidate",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:candidate",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003962257506987189,
+      "source": "concept:candidate",
+      "target": "concept:enhancement",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038341307504351596,
+      "source": "concept:candidate",
+      "target": "concept:description",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00366787436541191,
+      "source": "concept:candidate",
+      "target": "concept:graph_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006300622984704132,
+      "source": "concept:graph_text",
+      "target": "concept:item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005348632212649629,
+      "source": "concept:graph_text",
+      "target": "concept:product_bundling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004575926297480782,
+      "source": "concept:graph_text",
+      "target": "concept:product",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004111960850560525,
+      "source": "concept:graph_text",
+      "target": "concept:interactive",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:graph_text",
+      "target": "concept:interactive_graph",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003980779275103498,
+      "source": "concept:graph_text",
+      "target": "concept:user_item",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0060809884654422,
+      "source": "concept:synthetic",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005471366765102994,
+      "source": "concept:synthetic",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004965476682567853,
+      "source": "concept:synthetic",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004906103204901844,
+      "source": "concept:synthetic",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006217765635668797,
+      "source": "concept:rephrasing",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005713875212856448,
+      "source": "concept:rephrasing",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005141056773455857,
+      "source": "concept:rephrasing",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046657076062185795,
+      "source": "concept:rephrasing",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046099185442486645,
+      "source": "concept:rephrasing",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004563072299441751,
+      "source": "concept:web",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005575098382907058,
+      "source": "concept:generator",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0052385260456191685,
+      "source": "concept:generator",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005123289992885405,
+      "source": "concept:generator",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004609677974947377,
+      "source": "concept:generator",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004304192427177963,
+      "source": "concept:generator",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004304192427177963,
+      "source": "concept:generator",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004183460820930166,
+      "source": "concept:generator",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004183460820930166,
+      "source": "concept:generator",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004133438107402959,
+      "source": "concept:generator",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040499982221124855,
+      "source": "concept:generator",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040499982221124855,
+      "source": "concept:generator",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005027964830360782,
+      "source": "concept:synthetic_data",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00410562234541456,
+      "source": "concept:synthetic_data",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004056530366494124,
+      "source": "concept:synthetic_data",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005359944531501107,
+      "source": "concept:dclm",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005036361173002581,
+      "source": "concept:dclm",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00492557230287684,
+      "source": "concept:dclm",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004515803694862555,
+      "source": "concept:dclm",
+      "target": "concept:generator",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004431781568115905,
+      "source": "concept:dclm",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004194741542937698,
+      "source": "concept:dclm",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004138085299680639,
+      "source": "concept:dclm",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004138085299680639,
+      "source": "concept:dclm",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004022012960101621,
+      "source": "concept:dclm",
+      "target": "concept:fineweb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004022012960101621,
+      "source": "concept:dclm",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004022012960101621,
+      "source": "concept:dclm",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00397392072003586,
+      "source": "concept:dclm",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038937009416292684,
+      "source": "concept:dclm",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038937009416292684,
+      "source": "concept:dclm",
+      "target": "concept:evaluate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038937009416292684,
+      "source": "concept:dclm",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005178723074112017,
+      "source": "concept:et_al",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00486608017357333,
+      "source": "concept:et_al",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004759037110962702,
+      "source": "concept:et_al",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004363122912056611,
+      "source": "concept:et_al",
+      "target": "concept:generator",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004281941600578192,
+      "source": "concept:et_al",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003998175297925738,
+      "source": "concept:et_al",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003998175297925738,
+      "source": "concept:et_al",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038860274016721025,
+      "source": "concept:et_al",
+      "target": "concept:fineweb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038860274016721025,
+      "source": "concept:et_al",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038860274016721025,
+      "source": "concept:et_al",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038395611757903693,
+      "source": "concept:et_al",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003762053654025397,
+      "source": "concept:et_al",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003762053654025397,
+      "source": "concept:et_al",
+      "target": "concept:evaluate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003762053654025397,
+      "source": "concept:et_al",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005108776692137228,
+      "source": "concept:math",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004800356500445844,
+      "source": "concept:math",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046947592141082396,
+      "source": "concept:math",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004224107590436775,
+      "source": "concept:math",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003944173975092149,
+      "source": "concept:math",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:math",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003787702173334739,
+      "source": "concept:math",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:math",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:math",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005108776692137228,
+      "source": "concept:mix",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004800356500445844,
+      "source": "concept:mix",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046947592141082396,
+      "source": "concept:mix",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004224107590436775,
+      "source": "concept:mix",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:mix",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003787702173334739,
+      "source": "concept:mix",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:mix",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:mix",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004965476682567853,
+      "source": "concept:fineweb",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046657076062185795,
+      "source": "concept:fineweb",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004563072299441751,
+      "source": "concept:fineweb",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004183460820930166,
+      "source": "concept:fineweb",
+      "target": "concept:generator",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00410562234541456,
+      "source": "concept:fineweb",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:fineweb",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:fineweb",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037260108669029766,
+      "source": "concept:fineweb",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037260108669029766,
+      "source": "concept:fineweb",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036814579997500557,
+      "source": "concept:fineweb",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:fineweb",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:fineweb",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004965476682567853,
+      "source": "concept:generator_model",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046657076062185795,
+      "source": "concept:generator_model",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004563072299441751,
+      "source": "concept:generator_model",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00410562234541456,
+      "source": "concept:generator_model",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:generator_model",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038335408035064995,
+      "source": "concept:generator_model",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037260108669029766,
+      "source": "concept:generator_model",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036814579997500557,
+      "source": "concept:generator_model",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:generator_model",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:generator_model",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045085104741470275,
+      "source": "concept:table",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036814579997500557,
+      "source": "concept:table",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004807065871330293,
+      "source": "concept:pedagogical",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045168601593071735,
+      "source": "concept:pedagogical",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044174991690255185,
+      "source": "concept:pedagogical",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003974642983723984,
+      "source": "concept:pedagogical",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:pedagogical",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035640105147332042,
+      "source": "concept:pedagogical",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034920654121826733,
+      "source": "concept:pedagogical",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004807065871330293,
+      "source": "concept:evaluate",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045168601593071735,
+      "source": "concept:evaluate",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044174991690255185,
+      "source": "concept:evaluate",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040499982221124855,
+      "source": "concept:evaluate",
+      "target": "concept:generator",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003974642983723984,
+      "source": "concept:evaluate",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:evaluate",
+      "target": "concept:math",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003711241506295479,
+      "source": "concept:evaluate",
+      "target": "concept:mix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:evaluate",
+      "target": "concept:fineweb",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:evaluate",
+      "target": "concept:generator_model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:evaluate",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035640105147332042,
+      "source": "concept:evaluate",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034920654121826733,
+      "source": "concept:evaluate",
+      "target": "concept:pedagogical",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034920654121826733,
+      "source": "concept:evaluate",
+      "target": "concept:pretraining_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004807065871330293,
+      "source": "concept:pretraining_data",
+      "target": "concept:synthetic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045168601593071735,
+      "source": "concept:pretraining_data",
+      "target": "concept:rephrasing",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044174991690255185,
+      "source": "concept:pretraining_data",
+      "target": "concept:web",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003974642983723984,
+      "source": "concept:pretraining_data",
+      "target": "concept:synthetic_data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036071420368109517,
+      "source": "concept:pretraining_data",
+      "target": "concept:web_text",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035640105147332042,
+      "source": "concept:pretraining_data",
+      "target": "concept:table",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054098506472010695,
+      "source": "concept:retrieval",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004677317896034617,
+      "source": "concept:retrieval",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00452427751878937,
+      "source": "concept:retrieval",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004505009480657716,
+      "source": "concept:retrieval",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055190357505671365,
+      "source": "concept:astra",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051077349890811105,
+      "source": "concept:astra",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004813466736714595,
+      "source": "concept:astra",
+      "target": "concept:database",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004757541480783258,
+      "source": "concept:astra",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004416110874519548,
+      "source": "concept:astra",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004416110874519548,
+      "source": "concept:astra",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004416110874519548,
+      "source": "concept:astra",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042716171092430245,
+      "source": "concept:astra",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042534251037785265,
+      "source": "concept:astra",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042534251037785265,
+      "source": "concept:astra",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042534251037785265,
+      "source": "concept:astra",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004068987188707138,
+      "source": "concept:astra",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004068987188707138,
+      "source": "concept:astra",
+      "target": "concept:disentangled",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004068987188707138,
+      "source": "concept:astra",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004068987188707138,
+      "source": "concept:astra",
+      "target": "concept:cpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004068987188707138,
+      "source": "concept:astra",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004055255514229161,
+      "source": "concept:astra",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004169278038855427,
+      "source": "concept:subject",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050981768233008765,
+      "source": "concept:database",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004718240163278593,
+      "source": "concept:database",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004394750969085374,
+      "source": "concept:database",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004079356454121352,
+      "source": "concept:database",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004079356454121352,
+      "source": "concept:database",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004079356454121352,
+      "source": "concept:database",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003945881188053624,
+      "source": "concept:database",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003929076429972661,
+      "source": "concept:database",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003929076429972661,
+      "source": "concept:database",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003929076429972661,
+      "source": "concept:database",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003758702990398862,
+      "source": "concept:database",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003758702990398862,
+      "source": "concept:database",
+      "target": "concept:disentangled",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003758702990398862,
+      "source": "concept:database",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003758702990398862,
+      "source": "concept:database",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037460184368404725,
+      "source": "concept:database",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005038943663663232,
+      "source": "concept:pose",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004663421297145331,
+      "source": "concept:pose",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040319604573874875,
+      "source": "concept:pose",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040319604573874875,
+      "source": "concept:pose",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0039000359734947788,
+      "source": "concept:pose",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003883426461469922,
+      "source": "concept:pose",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003883426461469922,
+      "source": "concept:pose",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003883426461469922,
+      "source": "concept:pose",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037150325054436852,
+      "source": "concept:pose",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004677317896034617,
+      "source": "concept:poses",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004328745337476074,
+      "source": "concept:poses",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037426020337231547,
+      "source": "concept:poses",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036201452668642234,
+      "source": "concept:poses",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:poses",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:poses",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:poses",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004677317896034617,
+      "source": "concept:multi_subject",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004328745337476074,
+      "source": "concept:multi_subject",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040319604573874875,
+      "source": "concept:multi_subject",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037426020337231547,
+      "source": "concept:multi_subject",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037426020337231547,
+      "source": "concept:multi_subject",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036201452668642234,
+      "source": "concept:multi_subject",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:multi_subject",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:multi_subject",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:multi_subject",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:multi_subject",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004328745337476074,
+      "source": "concept:retrieval_augmented",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036201452668642234,
+      "source": "concept:retrieval_augmented",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:retrieval_augmented",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0041871101452203635,
+      "source": "concept:structural",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034867821925056476,
+      "source": "concept:structural",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004505009480657716,
+      "source": "concept:rag",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004169278038855427,
+      "source": "concept:rag",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:rag",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034867821925056476,
+      "source": "concept:rag",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003471932649796793,
+      "source": "concept:rag",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004505009480657716,
+      "source": "concept:position_embedding",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004169278038855427,
+      "source": "concept:position_embedding",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036047277561667953,
+      "source": "concept:position_embedding",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034867821925056476,
+      "source": "concept:position_embedding",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003471932649796793,
+      "source": "concept:position_embedding",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003471932649796793,
+      "source": "concept:position_embedding",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043096623108553785,
+      "source": "concept:guidance",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003988488926533617,
+      "source": "concept:guidance",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037150325054436852,
+      "source": "concept:guidance",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:guidance",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:guidance",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:guidance",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033355876087988617,
+      "source": "concept:guidance",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:guidance",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:guidance",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:guidance",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:guidance",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031666368257835522,
+      "source": "concept:guidance",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043096623108553785,
+      "source": "concept:disentangled",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003988488926533617,
+      "source": "concept:disentangled",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037150325054436852,
+      "source": "concept:disentangled",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:disentangled",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:disentangled",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:disentangled",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033355876087988617,
+      "source": "concept:disentangled",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:disentangled",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:disentangled",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:disentangled",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:disentangled",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:disentangled",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:disentangled",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031666368257835522,
+      "source": "concept:disentangled",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043096623108553785,
+      "source": "concept:driven",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003988488926533617,
+      "source": "concept:driven",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037150325054436852,
+      "source": "concept:driven",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:driven",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:driven",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:driven",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033355876087988617,
+      "source": "concept:driven",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:driven",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:driven",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:driven",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:driven",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:driven",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031666368257835522,
+      "source": "concept:driven",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043096623108553785,
+      "source": "concept:cpose",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003988488926533617,
+      "source": "concept:cpose",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003758702990398862,
+      "source": "concept:cpose",
+      "target": "concept:database",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037150325054436852,
+      "source": "concept:cpose",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:cpose",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:cpose",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:cpose",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033355876087988617,
+      "source": "concept:cpose",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:cpose",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:cpose",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:cpose",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:cpose",
+      "target": "concept:guidance",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:cpose",
+      "target": "concept:disentangled",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:cpose",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031773595104403044,
+      "source": "concept:cpose",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031666368257835522,
+      "source": "concept:cpose",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0043096623108553785,
+      "source": "concept:pose_map",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003988488926533617,
+      "source": "concept:pose_map",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:pose_map",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034484187920905854,
+      "source": "concept:pose_map",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033355876087988617,
+      "source": "concept:pose_map",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:pose_map",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:pose_map",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003321381975088088,
+      "source": "concept:pose_map",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004295118426291939,
+      "source": "concept:image",
+      "target": "concept:retrieval",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003975028910795504,
+      "source": "concept:image",
+      "target": "concept:subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037024953273514473,
+      "source": "concept:image",
+      "target": "concept:pose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034367813594517833,
+      "source": "concept:image",
+      "target": "concept:poses",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034367813594517833,
+      "source": "concept:image",
+      "target": "concept:multi_subject",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034367813594517833,
+      "source": "concept:image",
+      "target": "concept:retrieval_augmented",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0033243309493127078,
+      "source": "concept:image",
+      "target": "concept:structural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003310173255575402,
+      "source": "concept:image",
+      "target": "concept:subjects",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003310173255575402,
+      "source": "concept:image",
+      "target": "concept:rag",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003310173255575402,
+      "source": "concept:image",
+      "target": "concept:position_embedding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031666368257835522,
+      "source": "concept:image",
+      "target": "concept:pose_map",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058218399947549924,
+      "source": "concept:image",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005079549348257415,
+      "source": "concept:image",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00483702855377076,
+      "source": "concept:image",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045183523509379625,
+      "source": "concept:image",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004326954682940846,
+      "source": "concept:image",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004265492681667781,
+      "source": "concept:image",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004100579289494178,
+      "source": "concept:image",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004100579289494178,
+      "source": "concept:image",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008348950395281862,
+      "source": "concept:head",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0072844505477983705,
+      "source": "concept:head",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006936657739198752,
+      "source": "concept:head",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006479652426101036,
+      "source": "concept:head",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006479652426101036,
+      "source": "concept:head",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006205173973014006,
+      "source": "concept:head",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006171249342428061,
+      "source": "concept:head",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006117032904161913,
+      "source": "concept:head",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005880534867112542,
+      "source": "concept:head",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005880534867112542,
+      "source": "concept:head",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058102198041453884,
+      "source": "concept:head",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006543911810263208,
+      "source": "concept:reconstruction",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006112781635159798,
+      "source": "concept:reconstruction",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005853843850083715,
+      "source": "concept:reconstruction",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005547585453164846,
+      "source": "concept:reconstruction",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005547585453164846,
+      "source": "concept:reconstruction",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007439381737098664,
+      "source": "concept:gaussian",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007018172128538616,
+      "source": "concept:gaussian",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0061233478923491,
+      "source": "concept:gaussian",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005830991406772256,
+      "source": "concept:gaussian",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054468303087749585,
+      "source": "concept:gaussian",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054468303087749585,
+      "source": "concept:gaussian",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00521610226056085,
+      "source": "concept:gaussian",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005187585035571252,
+      "source": "concept:gaussian",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005142010409069322,
+      "source": "concept:gaussian",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004943208900677086,
+      "source": "concept:gaussian",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004943208900677086,
+      "source": "concept:gaussian",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004884101684587816,
+      "source": "concept:gaussian",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006872012972708992,
+      "source": "concept:multi_view",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00570955625726972,
+      "source": "concept:multi_view",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005333395627308471,
+      "source": "concept:multi_view",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051074726787892055,
+      "source": "concept:multi_view",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840262545589199,
+      "source": "concept:multi_view",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840262545589199,
+      "source": "concept:multi_view",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046091663916591275,
+      "source": "concept:view",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0067174164770102355,
+      "source": "concept:3d_head",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006337083747113279,
+      "source": "concept:3d_head",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005646696035154454,
+      "source": "concept:3d_head",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005529098987004466,
+      "source": "concept:3d_head",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005265114647609535,
+      "source": "concept:3d_head",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005011479798711402,
+      "source": "concept:3d_head",
+      "target": "concept:denoising",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00491823500347935,
+      "source": "concept:3d_head",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00491823500347935,
+      "source": "concept:3d_head",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047098982830966795,
+      "source": "concept:3d_head",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004684148552300039,
+      "source": "concept:3d_head",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004642996779502714,
+      "source": "concept:3d_head",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044634882429977285,
+      "source": "concept:3d_head",
+      "target": "concept:any3davatar",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044634882429977285,
+      "source": "concept:3d_head",
+      "target": "concept:anyhead",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044634882429977285,
+      "source": "concept:3d_head",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044634882429977285,
+      "source": "concept:3d_head",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004410117169795736,
+      "source": "concept:3d_head",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006602500127200971,
+      "source": "concept:denoising",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006228673834590183,
+      "source": "concept:denoising",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005550096740014247,
+      "source": "concept:denoising",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005434511450933834,
+      "source": "concept:denoising",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005175043150821848,
+      "source": "concept:denoising",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048340976545389784,
+      "source": "concept:denoising",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048340976545389784,
+      "source": "concept:denoising",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00462932499714385,
+      "source": "concept:denoising",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004604015772765391,
+      "source": "concept:denoising",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004563567992572103,
+      "source": "concept:denoising",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004387130348849388,
+      "source": "concept:denoising",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004387130348849388,
+      "source": "concept:denoising",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004334672306563189,
+      "source": "concept:denoising",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005078755056626697,
+      "source": "concept:shanghai",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004543190665816745,
+      "source": "concept:shanghai",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:shanghai",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:shanghai",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006112781635159798,
+      "source": "concept:head_reconstruction",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005333395627308471,
+      "source": "concept:head_reconstruction",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005078755056626697,
+      "source": "concept:head_reconstruction",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004744153274029826,
+      "source": "concept:head_reconstruction",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004543190665816745,
+      "source": "concept:head_reconstruction",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045183523509379625,
+      "source": "concept:head_reconstruction",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004478657151845108,
+      "source": "concept:head_reconstruction",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:head_reconstruction",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:head_reconstruction",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004254020353874991,
+      "source": "concept:head_reconstruction",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004863618697470217,
+      "source": "concept:single_image",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123121019679679,
+      "source": "concept:single_image",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123121019679679,
+      "source": "concept:single_image",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005770693231570273,
+      "source": "concept:multi",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005034923850505075,
+      "source": "concept:multi",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004794533680297713,
+      "source": "concept:multi",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004478657151845108,
+      "source": "concept:multi",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004288940974786934,
+      "source": "concept:multi",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004064554363005494,
+      "source": "concept:multi",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004064554363005494,
+      "source": "concept:multi",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005880534867112542,
+      "source": "concept:any3davatar",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005547585453164846,
+      "source": "concept:any3davatar",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004943208900677086,
+      "source": "concept:any3davatar",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840262545589199,
+      "source": "concept:any3davatar",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046091663916591275,
+      "source": "concept:any3davatar",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004387130348849388,
+      "source": "concept:any3davatar",
+      "target": "concept:denoising",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:any3davatar",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:any3davatar",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123121019679679,
+      "source": "concept:any3davatar",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004100579289494178,
+      "source": "concept:any3davatar",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004064554363005494,
+      "source": "concept:any3davatar",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:any3davatar",
+      "target": "concept:anyhead",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:any3davatar",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:any3davatar",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038606877917711085,
+      "source": "concept:any3davatar",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005880534867112542,
+      "source": "concept:anyhead",
+      "target": "concept:head",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005547585453164846,
+      "source": "concept:anyhead",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004943208900677086,
+      "source": "concept:anyhead",
+      "target": "concept:gaussian",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840262545589199,
+      "source": "concept:anyhead",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046091663916591275,
+      "source": "concept:anyhead",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004387130348849388,
+      "source": "concept:anyhead",
+      "target": "concept:denoising",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:anyhead",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00430550234924337,
+      "source": "concept:anyhead",
+      "target": "concept:head_reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004123121019679679,
+      "source": "concept:anyhead",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004100579289494178,
+      "source": "concept:anyhead",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004064554363005494,
+      "source": "concept:anyhead",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:anyhead",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:anyhead",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038606877917711085,
+      "source": "concept:anyhead",
+      "target": "concept:heads",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046091663916591275,
+      "source": "concept:supervision",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003907409691170031,
+      "source": "concept:supervision",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005481251551696715,
+      "source": "concept:heads",
+      "target": "concept:reconstruction",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004782386285459519,
+      "source": "concept:heads",
+      "target": "concept:multi_view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004554053407486867,
+      "source": "concept:heads",
+      "target": "concept:view",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004254020353874991,
+      "source": "concept:heads",
+      "target": "concept:shanghai",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004073819804625014,
+      "source": "concept:heads",
+      "target": "concept:single_image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004051547611686243,
+      "source": "concept:heads",
+      "target": "concept:image",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004015953444479102,
+      "source": "concept:heads",
+      "target": "concept:multi",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038606877917711085,
+      "source": "concept:heads",
+      "target": "concept:supervision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038606877917711085,
+      "source": "concept:heads",
+      "target": "concept:zhang",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008122991496692905,
+      "source": "concept:merge",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00794430354738861,
+      "source": "concept:merge",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006845098942215873,
+      "source": "concept:merge",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006674190064461948,
+      "source": "concept:merge",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006486980570342305,
+      "source": "concept:merge",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006486980570342305,
+      "source": "concept:merge",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006280030075893744,
+      "source": "concept:merge",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006048679106182251,
+      "source": "concept:merge",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.008286770736858113,
+      "source": "concept:git",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006494610740578372,
+      "source": "concept:git",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006351743586865842,
+      "source": "concept:git",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005472891745428545,
+      "source": "concept:git",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005336244226645256,
+      "source": "concept:git",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00518656380512288,
+      "source": "concept:git",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00518656380512288,
+      "source": "concept:git",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00518656380512288,
+      "source": "concept:git",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005021099775699626,
+      "source": "concept:git",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004836126728104635,
+      "source": "concept:git",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005230779015584367,
+      "source": "concept:summer",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005084056868941675,
+      "source": "concept:summer",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005084056868941675,
+      "source": "concept:summer",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006226208107314789,
+      "source": "concept:merging",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005246713670295942,
+      "source": "concept:merging",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005115713380474539,
+      "source": "concept:merging",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004972218798394949,
+      "source": "concept:merging",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004972218798394949,
+      "source": "concept:merging",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004813592897226268,
+      "source": "concept:merging",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004636264226644835,
+      "source": "concept:merging",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007002319869112595,
+      "source": "concept:accuracy",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005598595277296435,
+      "source": "concept:accuracy",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005487944975794817,
+      "source": "concept:accuracy",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005367222255105177,
+      "source": "concept:accuracy",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004730812061079953,
+      "source": "concept:accuracy",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004624592597942025,
+      "source": "concept:accuracy",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004509125467714172,
+      "source": "concept:accuracy",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:accuracy",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:accuracy",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:accuracy",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:accuracy",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:accuracy",
+      "target": "concept:diff",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:accuracy",
+      "target": "concept:control_systems",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004165200717763545,
+      "source": "concept:accuracy",
+      "target": "concept:branch",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004086526266152378,
+      "source": "concept:accuracy",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004086526266152378,
+      "source": "concept:accuracy",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003909325453625068,
+      "source": "concept:accuracy",
+      "target": "concept:edits",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007002319869112595,
+      "source": "concept:file",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005598595277296435,
+      "source": "concept:file",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005487944975794817,
+      "source": "concept:file",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005367222255105177,
+      "source": "concept:file",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004624592597942025,
+      "source": "concept:file",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004509125467714172,
+      "source": "concept:file",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:file",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:file",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004382645536879176,
+      "source": "concept:file",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:file",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004086526266152378,
+      "source": "concept:file",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004086526266152378,
+      "source": "concept:file",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005364725840996565,
+      "source": "concept:string",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004407883465238001,
+      "source": "concept:string",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00428424334925457,
+      "source": "concept:string",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00428424334925457,
+      "source": "concept:string",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006486980570342305,
+      "source": "concept:java",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005084056868941675,
+      "source": "concept:java",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004972218798394949,
+      "source": "concept:java",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00428424334925457,
+      "source": "concept:java",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004177274081311631,
+      "source": "concept:java",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040601025054337585,
+      "source": "concept:java",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040601025054337585,
+      "source": "concept:java",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:java",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:java",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004177274081311631,
+      "source": "concept:tree",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004177274081311631,
+      "source": "concept:tool",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040601025054337585,
+      "source": "concept:tool",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004921863060678646,
+      "source": "concept:rules",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147565542091135,
+      "source": "concept:rules",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004044008854570095,
+      "source": "concept:rules",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:rules",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:rules",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006280030075893744,
+      "source": "concept:diff",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005021099775699626,
+      "source": "concept:diff",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004921863060678646,
+      "source": "concept:diff",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004813592897226268,
+      "source": "concept:diff",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:diff",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147565542091135,
+      "source": "concept:diff",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004044008854570095,
+      "source": "concept:diff",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:diff",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:diff",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:diff",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003805180402204832,
+      "source": "concept:diff",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:diff",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:diff",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003506078254653296,
+      "source": "concept:diff",
+      "target": "concept:edits",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006280030075893744,
+      "source": "concept:control_systems",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005021099775699626,
+      "source": "concept:control_systems",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004921863060678646,
+      "source": "concept:control_systems",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004813592897226268,
+      "source": "concept:control_systems",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004242828460041212,
+      "source": "concept:control_systems",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004147565542091135,
+      "source": "concept:control_systems",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004044008854570095,
+      "source": "concept:control_systems",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:control_systems",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:control_systems",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003930575337608895,
+      "source": "concept:control_systems",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003805180402204832,
+      "source": "concept:control_systems",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003805180402204832,
+      "source": "concept:control_systems",
+      "target": "concept:diff",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:control_systems",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:control_systems",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003506078254653296,
+      "source": "concept:control_systems",
+      "target": "concept:edits",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00616512923537691,
+      "source": "concept:branch",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00492923260666148,
+      "source": "concept:branch",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048318115488631954,
+      "source": "concept:branch",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004725522320634571,
+      "source": "concept:branch",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004165200717763545,
+      "source": "concept:branch",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004071680751552595,
+      "source": "concept:branch",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003970018760441208,
+      "source": "concept:branch",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038586606485790454,
+      "source": "concept:branch",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038586606485790454,
+      "source": "concept:branch",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038586606485790454,
+      "source": "concept:branch",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037355599670719167,
+      "source": "concept:branch",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037355599670719167,
+      "source": "concept:branch",
+      "target": "concept:diff",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037355599670719167,
+      "source": "concept:branch",
+      "target": "concept:control_systems",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035979451132649417,
+      "source": "concept:branch",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035979451132649417,
+      "source": "concept:branch",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034419302595785867,
+      "source": "concept:branch",
+      "target": "concept:edits",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006048679106182251,
+      "source": "concept:files",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004836126728104635,
+      "source": "concept:files",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00474054580930973,
+      "source": "concept:files",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004636264226644835,
+      "source": "concept:files",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003994772753122174,
+      "source": "concept:files",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038950310059419567,
+      "source": "concept:files",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:files",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:files",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:files",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:files",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003529985277018398,
+      "source": "concept:files",
+      "target": "concept:revision",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00474054580930973,
+      "source": "concept:revision",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003994772753122174,
+      "source": "concept:revision",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038950310059419567,
+      "source": "concept:revision",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:revision",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037857762833224413,
+      "source": "concept:revision",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036650007907478004,
+      "source": "concept:revision",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005786395008999235,
+      "source": "concept:edits",
+      "target": "concept:merge",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004626421582489103,
+      "source": "concept:edits",
+      "target": "concept:git",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045349852636232015,
+      "source": "concept:edits",
+      "target": "concept:summer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004435225560906297,
+      "source": "concept:edits",
+      "target": "concept:merging",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003909325453625068,
+      "source": "concept:edits",
+      "target": "concept:file",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003821550575749092,
+      "source": "concept:edits",
+      "target": "concept:string",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003726133851214543,
+      "source": "concept:edits",
+      "target": "concept:version_control",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003621616654885016,
+      "source": "concept:edits",
+      "target": "concept:java",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003621616654885016,
+      "source": "concept:edits",
+      "target": "concept:tree",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003621616654885016,
+      "source": "concept:edits",
+      "target": "concept:tool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003506078254653296,
+      "source": "concept:edits",
+      "target": "concept:rules",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003376917312062908,
+      "source": "concept:edits",
+      "target": "concept:files",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003376917312062908,
+      "source": "concept:edits",
+      "target": "concept:revision",
+      "key": 0
+    }
+  ]
+}

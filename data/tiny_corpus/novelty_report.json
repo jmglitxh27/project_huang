@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "run_dir": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\tiny_corpus",
+  "query": "tiny fixture",
+  "hypothesis_backend": "heuristic",
+  "hypotheses": [
+    {
+      "hypothesis": "Investigate whether combining or jointly modeling 'neural' and 'transformer' can address under-explored interactions in this literature (empirical co-mention weight ≈ 0.0180).",
+      "rationale": "Pair ranks low in within-corpus co-occurrence — potentially novel combination in this slice.",
+      "concepts": [
+        "concept:neural",
+        "concept:transformer"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9939,
+        "feasibility": 1.0,
+        "impact": 0.0259,
+        "combined": 0.8021,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:neural",
+        "concept:transformer",
+        "concept:model",
+        "concept:investigate"
+      ],
+      "rank": 1
+    },
+    {
+      "hypothesis": "Investigate whether combining or jointly modeling 'neural' and 'quality' can address under-explored interactions in this literature (empirical co-mention weight ≈ 0.0180).",
+      "rationale": "Pair ranks low in within-corpus co-occurrence — potentially novel combination in this slice.",
+      "concepts": [
+        "concept:neural",
+        "concept:quality"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9939,
+        "feasibility": 1.0,
+        "impact": 0.0259,
+        "combined": 0.8021,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:neural",
+        "concept:quality",
+        "concept:model",
+        "concept:investigate"
+      ],
+      "rank": 2
+    },
+    {
+      "hypothesis": "Investigate whether combining or jointly modeling 'neural' and 'restricted' can address under-explored interactions in this literature (empirical co-mention weight ≈ 0.0180).",
+      "rationale": "Pair ranks low in within-corpus co-occurrence — potentially novel combination in this slice.",
+      "concepts": [
+        "concept:neural",
+        "concept:restricted"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9939,
+        "feasibility": 1.0,
+        "impact": 0.0259,
+        "combined": 0.8021,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:neural",
+        "concept:restricted",
+        "concept:model",
+        "concept:investigate"
+      ],
+      "rank": 3
+    },
+    {
+      "hypothesis": "Conduct targeted empirical and theoretical work on the following recurring limitation theme identified across papers: Language model pre-training with masked tokens. Future work: investigate larger masking spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+      "rationale": "Emerges from automatic clustering of limitation/future-work text (Stage 3).",
+      "concepts": [],
+      "gap_cluster_ids": [
+        1
+      ],
+      "related_arxiv_ids": [
+        "2222.2222v1"
+      ],
+      "scores": {
+        "novelty": 0.979,
+        "feasibility": 1.0,
+        "impact": 0.0281,
+        "combined": 0.7951,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:masking",
+        "concept:language",
+        "concept:model",
+        "concept:pre",
+        "concept:training",
+        "concept:masked",
+        "concept:tokens",
+        "concept:investigate",
+        "concept:spans",
+        "concept:document",
+        "concept:level",
+        "concept:objectives",
+        "concept:unfortunately"
+      ],
+      "rank": 4
+    },
+    {
+      "hypothesis": "Conduct targeted empirical and theoretical work on the following recurring limitation theme identified across papers: Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+      "rationale": "Emerges from automatic clustering of limitation/future-work text (Stage 3).",
+      "concepts": [],
+      "gap_cluster_ids": [
+        0
+      ],
+      "related_arxiv_ids": [
+        "1111.1111v1",
+        "2222.2222v1"
+      ],
+      "scores": {
+        "novelty": 0.9752,
+        "feasibility": 1.0,
+        "impact": 0.0288,
+        "combined": 0.7934,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:attention",
+        "concept:study",
+        "concept:limitations",
+        "concept:restricted",
+        "concept:data",
+        "concept:regimes",
+        "concept:includes",
+        "concept:scaling",
+        "concept:corpora",
+        "concept:exploring"
+      ],
+      "rank": 5
+    }
+  ]
+}

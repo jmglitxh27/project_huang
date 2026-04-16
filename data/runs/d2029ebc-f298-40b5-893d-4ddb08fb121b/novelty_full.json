@@ -1,0 +1,259 @@
+{
+  "run_dir": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\runs\\d2029ebc-f298-40b5-893d-4ddb08fb121b",
+  "query": "(tokenization)",
+  "hypothesis_backend": "openai:gpt-4o-mini",
+  "hypotheses_ranked": [
+    {
+      "hypothesis": "Utilizing a merge strategy based on driven techniques will enhance the performance of retrieval systems in handling complex datasets.",
+      "rationale": "The low co-occurrence between 'driven' and 'merge' indicates that this approach has not been sufficiently explored, potentially addressing current limitations in retrieval performance.",
+      "concepts": [
+        "driven",
+        "merge"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9986,
+        "feasibility": 1.0,
+        "impact": 0.0136,
+        "combined": 0.802,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:retrieval",
+        "concept:driven",
+        "concept:merge"
+      ],
+      "rank": 1
+    },
+    {
+      "hypothesis": "Disentangled representations in image processing will yield higher accuracy in pose estimation tasks compared to traditional methods that do not utilize disentanglement.",
+      "rationale": "The low co-occurrence between 'disentangled' and 'image' indicates a novel application area that may enhance performance in pose estimation.",
+      "concepts": [
+        "disentangled",
+        "image"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9982,
+        "feasibility": 1.0,
+        "impact": 0.0137,
+        "combined": 0.8019,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:pose",
+        "concept:disentangled",
+        "concept:image",
+        "concept:accuracy"
+      ],
+      "rank": 2
+    },
+    {
+      "hypothesis": "Using position embeddings in conjunction with disentangled representations will improve the semantic accuracy of generated images in complex scenarios.",
+      "rationale": "The low co-occurrence of 'position_embedding' with 'disentangled' suggests that combining these concepts could lead to new methodologies for enhancing semantic accuracy.",
+      "concepts": [
+        "position_embedding",
+        "disentangled"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9984,
+        "feasibility": 1.0,
+        "impact": 0.0134,
+        "combined": 0.8019,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:position_embedding",
+        "concept:disentangled",
+        "concept:image",
+        "concept:accuracy"
+      ],
+      "rank": 3
+    },
+    {
+      "hypothesis": "The application of cpose techniques will improve the accuracy of image generation in scenarios requiring detailed pose representation.",
+      "rationale": "The low co-occurrence of 'cpose' with 'image' suggests this method could enhance the fidelity of generated images in pose-sensitive tasks.",
+      "concepts": [
+        "cpose",
+        "image"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9982,
+        "feasibility": 1.0,
+        "impact": 0.0137,
+        "combined": 0.8019,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:pose",
+        "concept:cpose",
+        "concept:image",
+        "concept:accuracy"
+      ],
+      "rank": 4
+    },
+    {
+      "hypothesis": "Incorporating guidance mechanisms into image generation models will significantly improve the quality of generated images compared to models without such mechanisms.",
+      "rationale": "The low co-occurrence between 'guidance' and 'image' suggests that this combination is underexplored, potentially leading to improvements in image generation tasks.",
+      "concepts": [
+        "guidance",
+        "image"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9968,
+        "feasibility": 1.0,
+        "impact": 0.0153,
+        "combined": 0.8015,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:guidance",
+        "concept:image"
+      ],
+      "rank": 5
+    },
+    {
+      "hypothesis": "The integration of pose maps into retrieval-augmented generation models will enhance the accuracy of generated outputs in multi-subject scenarios.",
+      "rationale": "The sparse connection between 'pose_map' and 'retrieval augmented' suggests that this integration could address existing limitations in multi-subject generation tasks.",
+      "concepts": [
+        "pose_map",
+        "retrieval_augmented"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9982,
+        "feasibility": 1.0,
+        "impact": 0.012,
+        "combined": 0.8015,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:retrieval",
+        "concept:subject",
+        "concept:pose",
+        "concept:pose_map",
+        "concept:multi",
+        "concept:accuracy"
+      ],
+      "rank": 6
+    },
+    {
+      "hypothesis": "Implementing driven methodologies in the generation of avatars from images will result in avatars that maintain higher fidelity to the original input image.",
+      "rationale": "The low co-occurrence between 'driven' and 'image' indicates this approach is not well-explored and could lead to significant improvements in avatar generation.",
+      "concepts": [
+        "driven",
+        "image"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9968,
+        "feasibility": 1.0,
+        "impact": 0.0153,
+        "combined": 0.8015,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:driven",
+        "concept:image"
+      ],
+      "rank": 7
+    },
+    {
+      "hypothesis": "The use of rag techniques in the context of image generation will enhance the diversity of outputs without compromising quality.",
+      "rationale": "The sparse connection between 'rag' and 'image' suggests that this area has not been thoroughly investigated, potentially leading to innovative approaches in image generation.",
+      "concepts": [
+        "rag",
+        "image"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9967,
+        "feasibility": 1.0,
+        "impact": 0.0155,
+        "combined": 0.8015,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:rag",
+        "concept:image"
+      ],
+      "rank": 8
+    },
+    {
+      "hypothesis": "Combining guidance with the subjects concept in image generation will lead to more contextually relevant outputs in multi-subject scenarios.",
+      "rationale": "The low co-occurrence of 'guidance' and 'subjects' indicates that this combination could yield novel insights into generating context-aware images.",
+      "concepts": [
+        "guidance",
+        "subjects"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9974,
+        "feasibility": 1.0,
+        "impact": 0.0131,
+        "combined": 0.8013,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:subject",
+        "concept:subjects",
+        "concept:guidance",
+        "concept:image",
+        "concept:multi"
+      ],
+      "rank": 9
+    }
+  ],
+  "gap_summary": {
+    "snippet_count": 71,
+    "cluster_count": 70
+  }
+}

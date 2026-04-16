@@ -1,0 +1,18 @@
+{
+  "query": "tiny fixture",
+  "count": 2,
+  "papers": [
+    {
+      "arxiv_id": "1111.1111v1",
+      "title": "Neural attention models",
+      "pdf": "",
+      "parsed_json": "parsed/1111.1111v1.json"
+    },
+    {
+      "arxiv_id": "2222.2222v1",
+      "title": "BERT and masking",
+      "pdf": "",
+      "parsed_json": "parsed/2222.2222v1.json"
+    }
+  ]
+}

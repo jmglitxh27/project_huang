@@ -1,0 +1,60 @@
+{
+  "intent_text": "I want to do some research based on tokenization strategies for time series. tokenization time series time-series data preprocessing sequence analysis feature extraction machine learning signal processing temporal data natural language processing deep learning pattern recognition data mining forecasting anomaly detection tokenization AND (time series OR 'time-series')",
+  "pool_requested": 40,
+  "pool_returned": 40,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "min_score": 0.0,
+  "selected": [
+    {
+      "rank": 1,
+      "arxiv_id": "2604.12216v1",
+      "title": "TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC",
+      "relevance_score": 0.32661
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2604.12736v1",
+      "title": "Token-Level Policy Optimization: Linking Group-Level Rewards to Token-Level Aggregation via Sequence-Level Likelihood",
+      "relevance_score": 0.30124
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2604.11288v1",
+      "title": "Transactional Attention: Semantic Sponsorship for KV-Cache Retention",
+      "relevance_score": 0.2878
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2604.12013v1",
+      "title": "Sample Complexity of Autoregressive Reasoning: Chain-of-Thought vs. End-to-End",
+      "relevance_score": 0.26159
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2604.11089v1",
+      "title": "Structured State-Space Regularization for Compact and Generation-Friendly Image Tokenization",
+      "relevance_score": 0.25779
+    }
+  ],
+  "refinement": {
+    "arxiv_topic": "tokenization AND (time series OR 'time-series')",
+    "keywords_for_relevance": [
+      "tokenization",
+      "time series",
+      "time-series",
+      "data preprocessing",
+      "sequence analysis",
+      "feature extraction",
+      "machine learning",
+      "signal processing",
+      "temporal data",
+      "natural language processing",
+      "deep learning",
+      "pattern recognition",
+      "data mining",
+      "forecasting",
+      "anomaly detection"
+    ],
+    "rationale": "This query focuses on the intersection of tokenization methods and time series analysis, which is essential for exploring effective strategies in this research area."
+  }
+}

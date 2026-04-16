@@ -1,0 +1,1287 @@
+{
+  "manifest": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\runs\\c74b7a65-eda9-4a19-9500-7472a0659cf3\\manifest.json",
+  "embedding_backend": "semantic",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "distance_threshold": 0.28,
+  "snippet_count": 75,
+  "cluster_count": 75,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 1,
+      "representative_snippet": "0.69 0.48 random N/A (does not converge) - - - - - Table 5: Ablation for the regularization strength α α PSNR \\delimiter\"3222378 LPIPS \\delimiter\"3223379 SSIM \\delimiter\"3222378 rFID \\delimiter\"3223379 gFID \\delimiter\"3223379 sFID \\delimiter\"3223379 IS \\delimiter\"3222378 pre. \\deli",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "0.69 0.48 random N/A (does not converge) - - - - - Table 5: Ablation for the regularization strength α α PSNR \\delimiter\"3222378 LPIPS \\delimiter\"3223379 SSIM \\delimiter\"3222378 rFID \\delimiter\"3223379 gFID \\delimiter\"3223379 sFID \\delimiter\"3223379 IS \\delimiter\"3222378 pre. \\deli"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 1,
+      "representative_snippet": "he Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed problem: although we obtain the deriva",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "he Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed problem: although we obtain the deriva"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 1,
+      "representative_snippet": "if and only if VC(F) < ∞(Theorem 7.1). However, this result does not imply that there is no other way to learn Fe2e,T with CoT supervision, since this is an easier task than learning FCoT,T , which includes learning the entire chain-of- thought. Indeed, when learning Fe2e,T with CoT supervision, the learner receives the entire chain-of-thought during training, as in learning FCoT,T , but teste",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "if and only if VC(F) < ∞(Theorem 7.1). However, this result does not imply that there is no other way to learn Fe2e,T with CoT supervision, since this is an easier task than learning FCoT,T , which includes learning the entire chain-of- thought. Indeed, when learning Fe2e,T with CoT supervision, the learner receives the entire chain-of-thought during training, as in learning FCoT,T , but teste"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 1,
+      "representative_snippet": "trained with reconstruction loss alone does not exhibit this systematic ordering. 6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "trained with reconstruction loss alone does not exhibit this systematic ordering. 6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 1,
+      "representative_snippet": "ojection, such as PNG [9] or JPEG [62]. However, PNG compression is based on entropy-coding, which does not allow direct image-domain linear algebra that corresponds to operations on PNG bitstream. Thus, PNG necessitates decompression to update the compressed representation, making the update rule intractable. On the other hand, JPEG is essentially an operation of splitting an image into 8 × 8",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "ojection, such as PNG [9] or JPEG [62]. However, PNG compression is based on entropy-coding, which does not allow direct image-domain linear algebra that corresponds to operations on PNG bitstream. Thus, PNG necessitates decompression to update the compressed representation, making the update rule intractable. On the other hand, JPEG is essentially an operation of splitting an image into 8 × 8"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 1,
+      "representative_snippet": "some sample complexity dependence on T. Unfortunately, the second part of Theorem 7.1 shows that this is not the case: infinite VC-dimension implies that fully CoT-learning is impossible. The known bound VC⋆(F) ≤2VC(F)+1 due to [Ass83] leads to an upper bound in terms of VC(F) only. Corollary 7.2. For every class F with VC(F) < ∞and for all T, FCoT,T is learnable with sample complexity",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "some sample complexity dependence on T. Unfortunately, the second part of Theorem 7.1 shows that this is not the case: infinite VC-dimension implies that fully CoT-learning is impossible. The known bound VC⋆(F) ≤2VC(F)+1 due to [Ass83] leads to an upper bound in terms of VC(F) only. Corollary 7.2. For every class F with VC(F) < ∞and for all T, FCoT,T is learnable with sample complexity"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 1,
+      "representative_snippet": "which is a contradiction. Therefore, T2 does not contain a perfect leveled subtree of depth d. By induction hypothesis: T −1 |B(T2)| ≤ . (8) ≤d −1 Using (6), (7), (8) and Pascal’s inequality, we obtain T −1 T −1",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "which is a contradiction. Therefore, T2 does not contain a perfect leveled subtree of depth d. By induction hypothesis: T −1 |B(T2)| ≤ . (8) ≤d −1 Using (6), (7), (8) and Pascal’s inequality, we obtain T −1 T −1"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 1,
+      "representative_snippet": "(21) In general, the above equation does not hold for arbitrary encoder networks, and thus, we can regularize the network with the following regularization loss: \\ label {e q:whippo_reg}\\mathcal=d(\\mathcal{E}(\\rmI_t),{\\rmA}\\mathcal{E}(\\rmI_{t-1})), (22) for some distance measure d(·, ·). 4.3 Application to image tokenizers In this sectio",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "(21) In general, the above equation does not hold for arbitrary encoder networks, and thus, we can regularize the network with the following regularization loss: \\ label {e q:whippo_reg}\\mathcal=d(\\mathcal{E}(\\rmI_t),{\\rmA}\\mathcal{E}(\\rmI_{t-1})), (22) for some distance measure d(·, ·). 4.3 Application to image tokenizers In this sectio"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 1,
+      "representative_snippet": "that learning a part of a shattered set does not expose any information on the other parts of it. The same idea applies here: If the target base function is fb, then learning a part of b does not expose any information on the other parts of it, since all b ∈{0, 1}N are possible. Lemma 8.3. For all odd T, F is not CoT-learnable. Proof. Fix an arbitrary learner Lrn for CoT-learning F with genera",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "that learning a part of a shattered set does not expose any information on the other parts of it. The same idea applies here: If the target base function is fb, then learning a part of b does not expose any information on the other parts of it, since all b ∈{0, 1}N are possible. Lemma 8.3. For all odd T, F is not CoT-learnable. Proof. Fix an arbitrary learner Lrn for CoT-learning F with genera"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 1,
+      "representative_snippet": "the blurring process in the image space does not consistently translate into a well-defined operation in the latent space. In contrast, the one trained with ours shows a much more coherent transformation across the blurring sequence; the latent dynamics resembles an exponential function, which matches the trajectory of Fourier coefficients under same image transformation.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "the blurring process in the image space does not consistently translate into a well-defined operation in the latent space. In contrast, the one trained with ours shows a much more coherent transformation across the blurring sequence; the latent dynamics resembles an exponential function, which matches the trajectory of Fourier coefficients under same image transformation."
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 1,
+      "representative_snippet": "ng further compatible inflated examples does not hurt the weak-learning guarantee is what makes this modification possible. This ERM-based step is a key ingredient in the proof, and is also the point at which the argument uses in an essential way the assumption that the token space Σ is bounded. In particular, the same idea extends beyond the binary case to any bounded Σ, but does not seem to ex",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "ng further compatible inflated examples does not hurt the weak-learning guarantee is what makes this modification possible. This ERM-based step is a key ingredient in the proof, and is also the point at which the argument uses in an essential way the assumption that the token space Σ is bounded. In particular, the same idea extends beyond the binary case to any bounded Σ, but does not seem to ex"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 1,
+      "representative_snippet": "of sublinear rates We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the exp",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "of sublinear rates We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the "
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 1,
+      "representative_snippet": "bits to the end of the input string and does not affect existing bits of the input, it is clear that VC(Ge2e,Ti ) = VC(Ge2e,T ) for all i, T. Now, we claim that Fe2e,T = Ge2e,T1 ⊎. . . ⊎Ge2e,Tc . (3) Having (3) in hand, we are done, since Lemma 6.5 implies that VC(Fe2e,T ) = X VC(Ge2e,Ti ) = c · ˜r(",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "bits to the end of the input string and does not affect existing bits of the input, it is clear that VC(Ge2e,Ti ) = VC(Ge2e,T ) for all i, T. Now, we claim that Fe2e,T = Ge2e,T1 ⊎. . . ⊎Ge2e,Tc . (3) Having (3) in hand, we are done, since Lemma 6.5 implies that VC(Fe2e,T ) = X VC(Ge2e,Ti ) = c · ˜r("
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 1,
+      "representative_snippet": "= 12 > 11 slots, predicting borderline failure. Empirically, TA-Fast-Semantic handles 1–2 decoys at K=16 through selective detection. At K=64 (Kp=59), theory predicts mmax = ⌊59/6⌋−1 = 8; empirically, TA handles 5 decoys. Full proofs in Appendix A. 7 Limitations 1. TA does not improve general long-context understanding. On LongBench single-document QA, TA achieves 42%, comparable to",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "= 12 > 11 slots, predicting borderline failure. Empirically, TA-Fast-Semantic handles 1–2 decoys at K=16 through selective detection. At K=64 (Kp=59), theory predicts mmax = ⌊59/6⌋−1 = 8; empirically, TA handles 5 decoys. Full proofs in Appendix A. 7 Limitations 1. TA does not improve general long-context understanding. On LongBench single-document QA, TA achieves 42%, comparable to"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 1,
+      "representative_snippet": "sublinearly in T and those for which it does not? Equivalently, can one hope for a dimension theory that captures exactly when the end-to-end sample complexity grows sublinearly with the generation length? We address this question from two complementary directions. First, we show that in full generality there can be no dimension that characterizes sublinear rates. Second, we introduce below a",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "sublinearly in T and those for which it does not? Equivalently, can one hope for a dimension theory that captures exactly when the end-to-end sample complexity grows sublinearly with the generation length? We address this question from two complementary directions. First, we show that in full generality there can be no dimension that characterizes sublinear rates. Second, we introduce below a"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 1,
+      "representative_snippet": "Since the original dynamics based on the Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed problem: although we obtain the derivative of coefficients c(Iτ) with respect to τ, predicting c(Iτ0+∆) from c(Iτ0) for a timestep τ0 and a step size ∆is not a well-defined problem unless the input image has a special constraint, such as being exactly identical to a 2D polynomial of degree N [31]. On the other hand, the blurring process is a deterministic process, where having the coefficients of the current timestep τ0 already suffices to provide a fixed trajectory of c(Iτ)|τ>τ0. This difference ensures the update of the blurring process Eq. (20) can accurately predict the next coefficients given a sufficiently small step size ∆, whereas Eq. (36) cannot. One may introduce an additional information gap ut = It −It−1 to modify the deblurring process into a deterministic process, making the fo",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "Since the original dynamics based on the Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed pr"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 1,
+      "representative_snippet": "ca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023, 41 Edmonton, Canada, Proceedings of Machine Learning Research, pages 3353–337",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "ca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023, 41 Edmonton, Canada, Proceedings of Machine Learning Research, pages 3353–337"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 1,
+      "representative_snippet": "[LB24] Tosca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023,",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "[LB24] Tosca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023,"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 1,
+      "representative_snippet": "t as worth keeping. This failure is an instance of the dormant token problem (Figure 1). Dormant tokens are tokens that receive near-zero attention during most of the context window but become essentialarXiv:2604.11288v1 at specific, unpredictable moments during generation. API keys, passwords, database connection strings, session tokens, g",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "t as worth keeping. This failure is an instance of the dormant token problem (Figure 1). Dormant tokens are tokens that receive near-zero attention during most of the context window but become essentialarXiv:2604.11288v1 at specific, unpredictable moments during generation. API keys, passwords, database connection strings, session tokens, g"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 1,
+      "representative_snippet": "less than 1% latency overhead, and does not degrade general long-context performance (LongBench [Bai et al., 2023]: 42% vs. TOVA’s 45%). 2 Related Work Attention-based eviction. H2O [Zhang et al., 2023] retains heavy-hitter tokens by cumulative attention score. TOVA [Oren et al., 2024] maintains attention sinks and a sliding window of recent tokens. SnapKV [Li et al., 2024] cluster",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "less than 1% latency overhead, and does not degrade general long-context performance (LongBench [Bai et al., 2023]: 42% vs. TOVA’s 45%). 2 Related Work Attention-based eviction. H2O [Zhang et al., 2023] retains heavy-hitter tokens by cumulative attention score. TOVA [Oren et al., 2024] maintains attention sinks and a sliding window of recent tokens. SnapKV [Li et al., 2024] cluster"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 1,
+      "representative_snippet": "3 Methodology Substituting the entropy gradient from Eq. 1 and the policy gradient from Eq. 3 yields: 3.1 Framework of TEPO ∂H ∂J In Fig.1, TEPO leverages sequence-level likeli- · ⟨∇ϕθH, ∇ϕθJ⟩= X ∂ϕθ(s, a) ∂ϕθ(s, a). hood and a token-level selective KL-Divergence a mask to bridge group-level rewards with indi- = X πθ(ai|s)2 (log πθ(ai|s) + H(πθ(·|s))) A(s, ai). vidual tokens. Our method’s loss function is ai formalized as Equation 4, where the blue com- Case 1: Suboptimal Actions ponent denotes token-level aggregation, the • For actions with small probability (πθ(a | green component represents sequence-level like- s) →0+), we have log πθ(a | s) →−∞and lihood, and the red component (Mi,t) corre- H(πθ(· | s)) →0+, making log πθ(a | s) + sponds to the KL-Divergence mask (applied to H(πθ(· | s)) < 0. the t-th token in the i-th response). • With πθ(a | s)2 > 0, A(s, a) < 0, therefore: 3.2 Limitations of Critic-Free GRPO ⟨∇ϕθH, ∇ϕθJ⟩> 0. 3.2.1 The Fragility of the Case 2: Optimal Actions KL-Divergence • For actions with large probability (πθ(a | Lemma 3.1. For a softmax policy πθ(a | s) at s) →1−), we have log πθ(a | s) →0−, mak- iteration k + 1, the update rule is: ing log πθ(a | s) + H",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "3 Methodology Substituting the entropy gradient from Eq. 1 and the policy gradient from Eq. 3 yields: 3.1 Framework of TEPO ∂H ∂J In Fig.1, TEPO leverages sequence-level likeli- · ⟨∇ϕθH, ∇ϕθJ⟩= X ∂ϕθ(s, a) ∂ϕθ(s, a). hood and a token-level selective KL-Divergence a mask to bridge group-level rewards with indi- = X πθ(ai|s)2 (log πθ(ai|s) + H(πθ(·|s))) A(s, ai). vidual tokens. Our method’s loss fun"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 1,
+      "representative_snippet": "While strong, Theorem 8.1 provides only a partial justification for focusing on VC-classes, as there might be some other dimension that captures learnability of Fe2e,T (with or without CoT supervision) for all T. Determining whether such a dimension exists remains open. Let us define the class F used in the proof of Theorem 8.1. For every infinite string b = b0, b1, .... ∈{0, 1}N, define the function fb as follows. For any k ≥1, y ∈{0, 1} and t ≥0, denote: Qk := 0k1, Ak,y,t := 0k1(y0)ty, Bk,y,t := 0k1(y0)t+1.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "While strong, Theorem 8.1 provides only a partial justification for focusing on VC-classes, as there might be some other dimension that captures learnability of Fe2e,T (with or without CoT supervision) for all T. Determining whether such a dimension exists remains open. Let us define the class F used in the proof of Theorem 8.1. For every infinite string b = b0, b1, .... ∈{0, 1}N, define the funct"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 1,
+      "representative_snippet": "inary answer. For larger output spaces, however, there may naturally be several correct outputs – for example, several valid proofs of the same theorem. In such settings, a more realistic formulation would use a more general loss function that assigns zero loss to multiple outputs, akin to multilabel prediction; we discuss this further in Section 2.4.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "inary answer. For larger output spaces, however, there may naturally be several correct outputs – for example, several valid proofs of the same theorem. In such settings, a more realistic formulation would use a more general loss function that assigns zero loss to multiple outputs, akin to multilabel prediction; we discuss this further in Section 2.4."
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 1,
+      "representative_snippet": "le removing the remaining sample points does not change the separator. of size k for H if, for every realizable3 dataset S, there exists a subdataset K ⊆S of size at most k such that: 1. for every dataset S′ satisfying K ⊆S′ ⊆S, one has A(S′) = A(S); 2. the hypothesis A(S) is consistent with S. In words, the output of the learning rule is determined by a small subdataset K, and this d",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "le removing the remaining sample points does not change the separator. of size k for H if, for every realizable3 dataset S, there exists a subdataset K ⊆S of size at most k such that: 1. for every dataset S′ satisfying K ⊆S′ ⊆S, one has A(S′) = A(S); 2. the hypothesis A(S) is consistent with S. In words, the output of the learning rule is determined by a small subdataset K, and this d"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 1,
+      "representative_snippet": "free framework struggles to mitigate. The ab- and related entropy-regularized methods often sence of a critic in GRPO (Shao et al., 2024), struggle. Specifically, these approaches rely combined with the token-level sparse-reward",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "free framework struggles to mitigate. The ab- and related entropy-regularized methods often sence of a critic in GRPO (Shao et al., 2024), struggle. Specifically, these approaches rely combined with the token-level sparse-reward"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 1,
+      "representative_snippet": "also its final symbol. At test time, however, the task is identical in both regimes: given a fresh unlabeled exam- ple x ∼D, the learner must predict the final symbol fe2e,T⋆ (x). Accordingly, performance is always measured by the end-to-end error1 Pr h(x) ̸= fe2e,T⋆ (x) . x∼D Our goal is to understand how the complexity o",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "also its final symbol. At test time, however, the task is identical in both regimes: given a fresh unlabeled exam- ple x ∼D, the learner must predict the final symbol fe2e,T⋆ (x). Accordingly, performance is always measured by the end-to-end error1 Pr h(x) ̸= fe2e,T⋆ (x) . x∼D Our goal is to understand how the complexity o"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 1,
+      "representative_snippet": "ces training enhance exploration; however, such undifferen- stability, reducing convergence time by tiated entropy adjustments yield only marginal 50% compared with GRPO/DAPO. improvements. For KL-Divergence, this regu-arXiv:2604.12736v1",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "ces training enhance exploration; however, such undifferen- stability, reducing convergence time by tiated entropy adjustments yield only marginal 50% compared with GRPO/DAPO. improvements. For KL-Divergence, this regu-arXiv:2604.12736v1"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 1,
+      "representative_snippet": "y. The current framework still has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long- text generation. Second, it assumes that users preserve the original AIGC output without manual modification. Therefore, future work can focus on reducing the required text length while maintaining trustworthiness, and improving robustness against text editing. R",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "y. The current framework still has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long- text generation. Second, it assumes that users preserve the original AIGC output without manual modification. Therefore, future work can focus on reducing the required text length while maintaining trustworthiness, and improving robustness against text editing. R"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 1,
+      "representative_snippet": "under strictly matched computational Limitations budgets, and its superiority over baseline meth- Despite proposing a novel token-level frame- ods is further verified by its robust performance work that (1) uses sequence-level likelihood across different random initializations. to connect group-level rewards and individ- 5 Related Works ual tokens via toke",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "under strictly matched computational Limitations budgets, and its superiority over baseline meth- Despite proposing a novel token-level frame- ods is further verified by its robust performance work that (1) uses sequence-level likelihood across different random initializations. to connect group-level rewards and individ- 5 Related Works ual tokens via toke"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 1,
+      "representative_snippet": "h is still a number very close to 1. However, the above calculation is still an estimate based on data from prior experiments, the recovery accuracy of R in Step 1 still needs to be further validated through real-data experiments. Matching Rate in Decoding Step 2 We next analyze the error probabilities in Decoding Step 2 when the verification threshold is set to",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "h is still a number very close to 1. However, the above calculation is still an estimate based on data from prior experiments, the recovery accuracy of R in Step 1 still needs to be further validated through real-data experiments. Matching Rate in Decoding Step 2 We next analyze the error probabilities in Decoding Step 2 when the verification threshold is set to"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 1,
+      "representative_snippet": "The main goal of this section is to prove sample complexity upper bounds for CoT-learning a base class F. In contrast with e2e-learning, where we have shown in Section 6 that a dependence on the generation length T is in many cases inevitable, the bounds we prove for CoT-learning are given only in terms of parameters of the base class. This improves over the bounds of [JVB+25], that demonstrated a logarithmic dependence on T. Recall that as discussed in Section 5, fully CoT-learning is at least as difficult as CoT-learning. Therefore, to upper bound the sample complexity of CoT-learning, it suffices to prove sample complexity bounds for fully CoT-learning, which amounts to learning the class FCoT,T . This is the exact approach we take in this section: we use tools from learning theory for classes with |Y| > 2 and use them to learn the class FCoT,T . We also establish a lower bound for fully CoT-learning, to characterize the limitations of this approach.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "The main goal of this section is to prove sample complexity upper bounds for CoT-learning a base class F. In contrast with e2e-learning, where we have shown in Section 6 that a dependence on the generation length T is in many cases inevitable, the bounds we prove for CoT-learning are given only in terms of parameters of the base class. This improves over the bounds of [JVB+25], that demonstrated a"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 1,
+      "representative_snippet": "should hold that VC(Fe2e,Td) ≤M(d, Td). However, by Lemma 6.2 it should also hold that VC(Fe2e,Td) ≈r(Td) ≫M(d, Td), which is a contradiction. It remains to construct r, and show the argument sketched above formally, with the constructed rate r. We first construct r. We start by constructing a sequence {Td}d≥0 of values for T for which the bound for M(d, Td) will be contradicted. Since the ma",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "should hold that VC(Fe2e,Td) ≤M(d, Td). However, by Lemma 6.2 it should also hold that VC(Fe2e,Td) ≈r(Td) ≫M(d, Td), which is a contradiction. It remains to construct r, and show the argument sketched above formally, with the constructed rate r. We first construct r. We start by constructing a sequence {Td}d≥0 of values for T for which the bound for M(d, Td) will be contradicted. Since the ma"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 1,
+      "representative_snippet": "6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization objective that transfers their frequency-aware structure to visual tokenizers. This formulation bridges state-space modeling and visual representation learning, allowing tokenizers to learn compact latent representations that effectively capture frequency information. Experiments show that our method produces latent spaces that better support diffusion modeling while largely preserving reconstruction quality. By offering a new perspective on leveraging SSMs for visual representation, this paper paves the way for integrating state-space modeling principles into future generative and representation learning frameworks.",
+      "representative_source": "section:conclusion",
+      "arxiv_ids": [
+        "2604.11089v1"
+      ],
+      "snippet_previews": [
+        "6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization objective that transfers their frequency-aware structure to visual tokenizers. This form"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 1,
+      "representative_snippet": "9692). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. 40 References [AML25] Awni Altabaa, Omar Montasser, and John Lafferty. Cot inf",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "9692). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. 40 References [AML25] Awni Altabaa, Omar Montasser, and John Lafferty. Cot inf"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 1,
+      "representative_snippet": "fully CoT-learning, to characterize the limitations of this approach. 7.1 The CoT-learning taxonomy for VC-classes Theorem 7.1. For every class F, if VC(F) < ∞then for all T, FCoT,T is learnable with sample complexity VC(F)VC⋆(F) + log(1/δ) m(ϵ, δ) = ˜O .",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "fully CoT-learning, to characterize the limitations of this approach. 7.1 The CoT-learning taxonomy for VC-classes Theorem 7.1. For every class F, if VC(F) < ∞then for all T, FCoT,T is learnable with sample complexity VC(F)VC⋆(F) + log(1/δ) m(ϵ, δ) = ˜O ."
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 1,
+      "representative_snippet": "A second direction for future research is to move beyond the restrictive finite-alphabet, single-answer setting considered in this paper. On the one hand, it is natural to consider larger, possibly infinite alphabets Σ, as well as more general loss functions that allow several outputs to be counted as correct. This is particularly relevant in settings such as theorem proving, where a prompt may encode a theorem statement and there may be many valid proofs. On the other hand, it is natural to ask whether one can relax the assumption that the base class itself is learnable. Indeed, it may happen that predicting the very next symbol is difficult, while producing a correct final answer after a longer autoregressive computation is much easier. Both directions raise substantial new challenges. Our current analysis relies on ingredients such as uniform convergence and VC theory, which no longer apply to unbounded alphabets. Likewise, once one allows multiple correct outputs, the single-correct label classification viewpoint breaks down and should be replaced by a richer loss-based framework. At the same time, although it is natural to relax assumptions such as learnability of the base cla",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "A second direction for future research is to move beyond the restrictive finite-alphabet, single-answer setting considered in this paper. On the one hand, it is natural to consider larger, possibly infinite alphabets Σ, as well as more general loss functions that allow several outputs to be counted as correct. This is particularly relevant in settings such as theorem proving, where a prompt may en"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 1,
+      "representative_snippet": "Theorem 7.1 states that VC(F) < ∞is a sufficient condition for having finite and independent of T sample complexity for learning FCoT,T . As in the case VC(F) < ∞the sample complexity bound of fully CoT-learning is this strong, one may wonder if fully CoT-learning is useful even when VC(F) = ∞, at least for some classes, perhaps with some sample complexity dependence on T. Unfortunately, the second part of Theorem 7.1 shows that this is not the case: infinite VC-dimension implies that fully CoT-learning is impossible. The known bound VC⋆(F) ≤2VC(F)+1 due to [Ass83] leads to an upper bound in terms of VC(F) only.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "Theorem 7.1 states that VC(F) < ∞is a sufficient condition for having finite and independent of T sample complexity for learning FCoT,T . As in the case VC(F) < ∞the sample complexity bound of fully CoT-learning is this strong, one may wonder if fully CoT-learning is useful even when VC(F) = ∞, at least for some classes, perhaps with some sample complexity dependence on T. Unfortunately, the secon"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 1,
+      "representative_snippet": "0) (Avg. 32.03%), and (3) KL restricted to frameworks: GPG uses REINFORCE for Ai,t > 0 ∧∆Hi,t < 0 (Avg. 32.59%). Results straightforward training (Chu et al., 2025); confirm variant (3)’s superiority. CISPO improves efficiency via clipped, de- Table 4 presents the results of ablation studies tached importance weights (Chen et al., 2025); on random seeds, aiming to verify reducing GSPO shifts to sequence-level learning with convergence time by nearly 50%. Three train- whole-sequence likelihood ratios (Zheng et al., ing strategies are compared in the experiment: 2025b). Additionally, (Cui et al., 2025) de- GRPO/DAPO (72 steps), GRPO/DAPO (132 rived a performance-entropy relationship R = steps), and TEPO (72 steps). Each method is −a exp(H) + b, indicating lower entropy gener- independently run with two different random ally correlates with better performance. seeds (seed1 and seed2), and the average perfor- 6 Conclusion mance over the two seeds is shown in the lower GRPO advances LLMs’ mathematical reason- part of the table. It is clearly observed from ing but suffers from intractable token-level the results that with the same batch size and sparse-reward issues in CoT reasoning. To ",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "0) (Avg. 32.03%), and (3) KL restricted to frameworks: GPG uses REINFORCE for Ai,t > 0 ∧∆Hi,t < 0 (Avg. 32.59%). Results straightforward training (Chu et al., 2025); confirm variant (3)’s superiority. CISPO improves efficiency via clipped, de- Table 4 presents the results of ablation studies tached importance weights (Chen et al., 2025); on random seeds, aiming to verify reducing GSPO shifts to se"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 1,
+      "representative_snippet": "fundamental limitations. First, existing watermarking methods do not guarantee perfectly accurate",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "fundamental limitations. First, existing watermarking methods do not guarantee perfectly accurate"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 1,
+      "representative_snippet": "ply the above timestamping techniques. However, such a timestamp would only certify the time at which the file was created or registered, rather than the actual time at which the text was generated by the model. This temporal mismatch fundamentally undermines the evidentiary value of the timestamp in judicial contexts. It violates a key requirement for trustworthy electronic evidence that t",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "ply the above timestamping techniques. However, such a timestamp would only certify the time at which the file was created or registered, rather than the actual time at which the text was generated by the model. This temporal mismatch fundamentally undermines the evidentiary value of the timestamp in judicial contexts. It violates a key requirement for trustworthy electronic evidence that t"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 1,
+      "representative_snippet": "pp et al. 2017, Meng and Chen 2022). However, these methods are not suitable for timestamping AIGC. The fundamental limitation of these approaches lies in the nature of how LLM-generated text is produced and delivered. Unlike traditional digital documents, which are created, stored, and transmitted as structured files with well- defined storage media, AIGC is typically generated on demand",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "pp et al. 2017, Meng and Chen 2022). However, these methods are not suitable for timestamping AIGC. The fundamental limitation of these approaches lies in the nature of how LLM-generated text is produced and delivered. Unlike traditional digital documents, which are created, stored, and transmitted as structured files with well- defined storage media, AIGC is typically generated on demand"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 1,
+      "representative_snippet": "underlying idea remains unknown. This limitation can make certain judicial determinations extremely difficult, because the generation time of a document often constitutes a key evidentiary element in intellectual property disputes, partic- ularly when courts must determine priority of creation or assess allegations of plagiarism (World Intellectual Property Organization 2021, Siddharth 2025).",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "underlying idea remains unknown. This limitation can make certain judicial determinations extremely difficult, because the generation time of a document often constitutes a key evidentiary element in intellectual property disputes, partic- ularly when courts must determine priority of creation or assess allegations of plagiarism (World Intellectual Property Organization 2021, Siddharth 2025)."
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 1,
+      "representative_snippet": "limitation can make certain judicial determinations extremely difficult, because the generation time",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "limitation can make certain judicial determinations extremely difficult, because the generation time"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 1,
+      "representative_snippet": "t law in major common-law jurisdictions does not treat public release as the sole decisive event. Rather, the legally significant temporal point is often the time of creation and fixation. Under U.S. law, copyright subsists upon fixation rather than publication (United States 1976a,b); under UK law, copyright does not subsist unless and until the work is “recorded, in writing or otherwise” (U",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "t law in major common-law jurisdictions does not treat public release as the sole decisive event. Rather, the legally significant temporal point is often the time of creation and fixation. Under U.S. law, copyright subsists upon fixation rather than publication (United States 1976a,b); under UK law, copyright does not subsist unless and until the work is “recorded, in writing or otherwise” (U"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 1,
+      "representative_snippet": "), and the watermarking algorithm, but does not know the secret key. This is the standard security setting in which the mechanism is public and only the key is hidden (Jovanovi´c et al. 2024). The adversary’s goal is to generate a forged text that causes the decoder to recover a target timestamp t⋆, without following the genuine encoding process. The attack proceeds in four steps. 1. Dat",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "), and the watermarking algorithm, but does not know the secret key. This is the standard security setting in which the mechanism is public and only the key is hidden (Jovanovi´c et al. 2024). The adversary’s goal is to generate a forged text that causes the decoder to recover a target timestamp t⋆, without following the genuine encoding process. The attack proceeds in four steps. 1. Dat"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 1,
+      "representative_snippet": "8 Conclusion KV-cache compression methods fail on dormant tokens—credentials, identifiers, and configuration values that receive near-zero attention but are essential in agentic workflows. Transactional Attention introduces semantic sponsorship, where structural patterns protect adjacent value-bearing spans from eviction, achieving 100% retrieval at K=16 where six baselines achieve 0%. Because sponsorship modifies the scoring function rather than the eviction policy, it composes with any existing compression method at less than 1% additional latency. 9 Reproducibility Statement All experiments use publicly available models (Llama-3.2-1B, Llama-3.1-8B, Mistral-7B-v0.3) with float16 precision. Code, exact prompts, and evaluation scripts are available at https://github. com/[anonymized]. 10 Broader Impact Transactional Attention is designed for structured state retention in agentic LLM deployments. The mechanism introduces a dual-use risk: adversaries can inject anchor patterns to exhaust sponsor budgets (Section 7). Allowlist filtering provides an effective countermeasure.",
+      "representative_source": "section:conclusion",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "8 Conclusion KV-cache compression methods fail on dormant tokens—credentials, identifiers, and configuration values that receive near-zero attention but are essential in agentic workflows. Transactional Attention introduces semantic sponsorship, where structural patterns protect adjacent value-bearing spans from eviction, achieving 100% retrieval at K=16 where six baselines achieve 0%. Because spo"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 1,
+      "representative_snippet": "fi- cation, so that watermark validity does not depend on trusting the detector alone (Fairoze et al. 2025). However, they lack a mechanism to securely bind generation time, leaving them vulnerable to provider-side forgery and time-shift attacks. Moreover, their direct encoding of semantic payloads (e.g., timestamps) introduces structural patterns and increases vulnerability under attacks. C",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "fi- cation, so that watermark validity does not depend on trusting the detector alone (Fairoze et al. 2025). However, they lack a mechanism to securely bind generation time, leaving them vulnerable to provider-side forgery and time-shift attacks. Moreover, their direct encoding of semantic payloads (e.g., timestamps) introduces structural patterns and increases vulnerability under attacks. C"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 1,
+      "representative_snippet": "modification. Therefore, future work can focus on reducing the required text length while maintaining",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "modification. Therefore, future work can focus on reducing the required text length while maintaining"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 1,
+      "representative_snippet": "lore the (Haarnoja et al., 2017, 2018). However, the distinct roles of tokens in CoT reasoning and role of entropy in RL for large language models design a more universal framework for bridg- (LLMs) remains unclear. ing token-level operations with gr",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "lore the (Haarnoja et al., 2017, 2018). However, the distinct roles of tokens in CoT reasoning and role of entropy in RL for large language models design a more universal framework for bridg- (LLMs) remains unclear. ing token-level operations with gr"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 1,
+      "representative_snippet": "has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long-",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long-"
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "size": 1,
+      "representative_snippet": "t (Yoo et al. 2024, Jiang et al. 2025). However, prior work on multi-bit watermarking shows that recovery accuracy decreases as message length increases, which is usually far below 100% (Yoo et al. 2024, Jiang et al. 2025). Beyond this problem, existing LLM watermarking methods suffer from more fundamental security and trustworthiness limitations. A key issue is that watermarks inevitably i",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "t (Yoo et al. 2024, Jiang et al. 2025). However, prior work on multi-bit watermarking shows that recovery accuracy decreases as message length increases, which is usually far below 100% (Yoo et al. 2024, Jiang et al. 2025). Beyond this problem, existing LLM watermarking methods suffer from more fundamental security and trustworthiness limitations. A key issue is that watermarks inevitably i"
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "size": 1,
+      "representative_snippet": "Thus, without additional restrictions on the base class, the dependence on the generation length T can be highly irregular. In particular, even the basic question of learnability may oscillate with the parity of T. This shows that assumptions such as finite VC dimension are not merely technical conveniences, but are needed to obtain a meaningful structural theory. It is also worth noting that our proof of Theorem 2.1 yields a stronger guarantee than the theorem statement itself suggests. Namely, the same argument in fact learns the full chain-of- thought class FCoT,T , rather than only the final output under CoT-supervision. In this sense, our positive result applies even to the more demanding task of recovering the entire trajectory. At the same time, we show in Section 7.1 that for every base-class F, if VC(F) = ∞, then the class FCoT,T is not PAC learnable. Thus, any approach that attempts to exploit chain-of-thought supervision by explicitly learning the entire trajectory can succeed only in the finite-VC setting. Our theorem resolves this case positively, while the preceding proposition shows that beyond it one cannot expect a similarly clean general theory without additional ",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "Thus, without additional restrictions on the base class, the dependence on the generation length T can be highly irregular. In particular, even the basic question of learnability may oscillate with the parity of T. This shows that assumptions such as finite VC dimension are not merely technical conveniences, but are needed to obtain a meaningful structural theory. It is also worth noting that our "
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "size": 1,
+      "representative_snippet": "e rooted matical reasoning. However, in CoT reason- in the inherent sparse-reward of CoT reasoning, ing, learning is fundamentally challenged by which creates instability that GRPO’s critic- sparse token-level rewards, under which GRPO",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "e rooted matical reasoning. However, in CoT reason- in the inherent sparse-reward of CoT reasoning, ing, learning is fundamentally challenged by which creates instability that GRPO’s critic- sparse token-level rewards, under which GRPO"
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "size": 1,
+      "representative_snippet": "-space watermarking have been proposed. However, this approach requires additional training and incur higher deployment complexity and more complex detection procedures (Zhang et al. 2024). Most studies focuse on zero-bit watermarking, whose goal is simply to determine whether a text was generated by an LLM. Recent work has begun to explore multi-bit watermarking, where the generated text c",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "-space watermarking have been proposed. However, this approach requires additional training and incur higher deployment complexity and more complex detection procedures (Zhang et al. 2024). Most studies focuse on zero-bit watermarking, whose goal is simply to determine whether a text was generated by an LLM. Recent work has begun to explore multi-bit watermarking, where the generated text c"
+      ]
+    },
+    {
+      "cluster_id": 54,
+      "size": 1,
+      "representative_snippet": "ical reasoning performance. However, GRPO and related entropy regularizationApr methods still struggle with token-level sparse-rewards, which is an inherent14 challenge in chain-of-thought (CoT) Figure 1: Overview of the TEPO Framework TEPO (1) reasoning. These approaches often rely on",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "ical reasoning performance. However, GRPO and related entropy regularizationApr methods still struggle with token-level sparse-rewards, which is an inherent14 challenge in chain-of-thought (CoT) Figure 1: Overview of the TEPO Framework TEPO (1) reasoning. These approaches often rely on"
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "size": 1,
+      "representative_snippet": "attacks, and also allow model providers to fabricate arbitrary watermarks. To address these limitations,",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "attacks, and also allow model providers to fabricate arbitrary watermarks. To address these limitations,"
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "size": 1,
+      "representative_snippet": "otential to serve as judicial evidence. However, existing LLM watermarking methods rely on statis-[cs.CR] tical signals embedded in token distributions, leading to inherently probabilistic detection. Their reliability further degrades when encoding multi-bit information (e.g., timestamps), often falling far below 100% accu- racy. Moreover",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "otential to serve as judicial evidence. However, existing LLM watermarking methods rely on statis-[cs.CR] tical signals embedded in token distributions, leading to inherently probabilistic detection. Their reliability further degrades when encoding multi-bit information (e.g., timestamps), often falling far below 100% accu- racy. Moreover"
+      ]
+    },
+    {
+      "cluster_id": 57,
+      "size": 1,
+      "representative_snippet": "er of incorrectly decoded payload bits does not exceed 13. Let Y ∼Binomial(63,qbit) (38) Che et al.: TimeMark: A Trustworthy Time Watermarking Framework 22 Preprint denote t",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "er of incorrectly decoded payload bits does not exceed 13. Let Y ∼Binomial(63,qbit) (38) Che et al.: TimeMark: A Trustworthy Time Watermarking Framework 22 Preprint denote t"
+      ]
+    },
+    {
+      "cluster_id": 58,
+      "size": 1,
+      "representative_snippet": "However, these methods are not suitable for timestamping AIGC. The fundamental limitation of",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "However, these methods are not suitable for timestamping AIGC. The fundamental limitation of"
+      ]
+    },
+    {
+      "cluster_id": 59,
+      "size": 1,
+      "representative_snippet": "e observation. To overcome the above limitations, this paper proposes a trustworthy time watermarking frame- work named TimeMark by integrating several ideas from cryptography and secure systems. First, unlike existing approaches, we fundamentally depart from directly encoding information into the watermark. Instead, we encode the generation time into time-dependent keys, which are derived t",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "e observation. To overcome the above limitations, this paper proposes a trustworthy time watermarking frame- work named TimeMark by integrating several ideas from cryptography and secure systems. First, unlike existing approaches, we fundamentally depart from directly encoding information into the watermark. Instead, we encode the generation time into time-dependent keys, which are derived t"
+      ]
+    },
+    {
+      "cluster_id": 60,
+      "size": 1,
+      "representative_snippet": "be guaranteed. Taken together, these limitations imply that current watermarking methods cannot simultane- ously achieve reliable detection and strong anti-forgery guarantees. Consequently, they fail to meet the evidentiary standards required for judicial scenarios, where both correctness and resistance to both user-side and provider-side forgery are essential. These limitations directly viol",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "be guaranteed. Taken together, these limitations imply that current watermarking methods cannot simultane- ously achieve reliable detection and strong anti-forgery guarantees. Consequently, they fail to meet the evidentiary standards required for judicial scenarios, where both correctness and resistance to both user-side and provider-side forgery are essential. These limitations directly viol"
+      ]
+    },
+    {
+      "cluster_id": 61,
+      "size": 1,
+      "representative_snippet": "two key limitations. We neither clarify the learning (RL) (Sutton and Barto, 1998). Prox- mechanism behind the effectiveness of the to- imal Policy Optimization (PPO) uses an en- ken constraint (targeting positive-advantage, tropy bonus to sustain exploration (Schulman",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "two key limitations. We neither clarify the learning (RL) (Sutton and Barto, 1998). Prox- mechanism behind the effectiveness of the to- imal Policy Optimization (PPO) uses an en- ken constraint (targeting positive-advantage, tropy bonus to sustain exploration (Schulman"
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "size": 1,
+      "representative_snippet": "across multiple token positions. 3.2. Limitations of Existing Watermarking for Trustworthy Timestamping A straightforward approach to generation-time verification is to directly apply multi-bit watermark- ing and encode the timestamp as the watermark payload. However, this naive design faces several fundamental limitations. First, existing watermarking methods do not guarantee perfectly accura",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "across multiple token positions. 3.2. Limitations of Existing Watermarking for Trustworthy Timestamping A straightforward approach to generation-time verification is to directly apply multi-bit watermark- ing and encode the timestamp as the watermark payload. However, this naive design faces several fundamental limitations. First, existing watermarking methods do not guarantee perfectly accura"
+      ]
+    },
+    {
+      "cluster_id": 63,
+      "size": 1,
+      "representative_snippet": "both user-side and provider-side forgery are essential. These limitations directly violate the core",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "both user-side and provider-side forgery are essential. These limitations directly violate the core"
+      ]
+    },
+    {
+      "cluster_id": 64,
+      "size": 1,
+      "representative_snippet": "arbitrary watermarks. To address these limitations, we introduce the concept of trustworthy watermark, which enables reliable watermark recovery with 100% identification accuracy while resisting both user-side statistical attacks and provider-side forgery. In this work, we focus on trustworthy time watermark which can serve as judicial evide",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "arbitrary watermarks. To address these limitations, we introduce the concept of trustworthy watermark, which enables reliable watermark recovery with 100% identification accuracy while resisting both user-side statistical attacks and provider-side forgery. In this work, we focus on trustworthy time watermark which can serve as judicial evide"
+      ]
+    },
+    {
+      "cluster_id": 65,
+      "size": 1,
+      "representative_snippet": "s)2 > 0, A(s, a) < 0, therefore: 3.2 Limitations of Critic-Free GRPO ⟨∇ϕθH, ∇ϕθJ⟩> 0. 3.2.1 The Fragility of the Case 2: Optimal Actions KL-Divergence • For actions with large probability (πθ(a | Lemma 3.1. For a softmax policy πθ(a | s) at s) →1−), we have log πθ(a | s) →0−, m",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12736v1"
+      ],
+      "snippet_previews": [
+        "s)2 > 0, A(s, a) < 0, therefore: 3.2 Limitations of Critic-Free GRPO ⟨∇ϕθH, ∇ϕθJ⟩> 0. 3.2.1 The Fragility of the Case 2: Optimal Actions KL-Divergence • For actions with large probability (πθ(a | Lemma 3.1. For a softmax policy πθ(a | s) at s) →1−), we have log πθ(a | s) →0−, m"
+      ]
+    },
+    {
+      "cluster_id": 66,
+      "size": 1,
+      "representative_snippet": "In this section, we analyze e2e-learning, that is, the setting described in Definition 5.2. Given a base class F : Σ⋆→Σ and a generation length T, this setting amounts to PAC-learning the class Fe2e,T . Therefore, in light of Theorem 5.7, it suffices to analyze VC(Fe2e,T ), and then Theorem 5.7 gives matching lower and upper bounds on the sample complexity. In more detail, we discover the full taxonomy of the VC-dimension of the class Fe2e,T for a VC-class F. We also resolve an open question of [JVB+25], and show that e2e-learnability with o(T) sample complexity can be ensured using a notion which is more relaxed than the Littlestone dimension. On the negative side, we prove that no dimension that characterizes e2e-learnability with o(T) sample complexity exists.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "In this section, we analyze e2e-learning, that is, the setting described in Definition 5.2. Given a base class F : Σ⋆→Σ and a generation length T, this setting amounts to PAC-learning the class Fe2e,T . Therefore, in light of Theorem 5.7, it suffices to analyze VC(Fe2e,T ), and then Theorem 5.7 gives matching lower and upper bounds on the sample complexity. In more detail, we discover the full tax"
+      ]
+    },
+    {
+      "cluster_id": 67,
+      "size": 1,
+      "representative_snippet": "Taken together, these limitations imply that current watermarking methods cannot simultane-",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "Taken together, these limitations imply that current watermarking methods cannot simultane-"
+      ]
+    },
+    {
+      "cluster_id": 68,
+      "size": 1,
+      "representative_snippet": "To overcome the above limitations, this paper proposes a trustworthy time watermarking frame-",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "To overcome the above limitations, this paper proposes a trustworthy time watermarking frame-"
+      ]
+    },
+    {
+      "cluster_id": 69,
+      "size": 1,
+      "representative_snippet": "chieves 0% on credential retrieval. The failure mode is dormant tokens: credentials, API keys,Apr and configuration values that receive near-zero attention throughout the context but become es- sential at generation time. Because these tokens lack the statistical signals that eviction policies13 rely on, no method based on attention s",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "chieves 0% on credential retrieval. The failure mode is dormant tokens: credentials, API keys,Apr and configuration values that receive near-zero attention throughout the context but become es- sential at generation time. Because these tokens lack the statistical signals that eviction policies13 rely on, no method based on attention s"
+      ]
+    },
+    {
+      "cluster_id": 70,
+      "size": 1,
+      "representative_snippet": "≤d We now claim that T2 does not contain a perfect leveled subtree of depth d. Let us assume that it does. Now, take a leaf of this perfect leveled subtree. Starting from the node in T2 corresponding to this leaf, we can move along a branch of T2 to depth T −1, reaching a leaf of T2. By the definition of T2, this leaf has two children in T, which can be added to the leveled subtr",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "≤d We now claim that T2 does not contain a perfect leveled subtree of depth d. Let us assume that it does. Now, take a leaf of this perfect leveled subtree. Starting from the node in T2 corresponding to this leaf, we can move along a branch of T2 to depth T −1, reaching a leaf of T2. By the definition of T2, this leaf has two children in T, which can be added to the leveled subtr"
+      ]
+    },
+    {
+      "cluster_id": 71,
+      "size": 1,
+      "representative_snippet": "watermarking methods suffer from more fundamental security and trustworthiness limitations. A key",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12216v1"
+      ],
+      "snippet_previews": [
+        "watermarking methods suffer from more fundamental security and trustworthiness limitations. A key"
+      ]
+    },
+    {
+      "cluster_id": 72,
+      "size": 1,
+      "representative_snippet": "= 5: (5 + 1) · 6 = 36 ≫11 — guaranteed failure At K = 64 (Kp ≈59): • m = 4: (4 + 1) · 6 = 30 < 59 — succeeds • m = 10: (10 + 1) · 6 = 66 > 59 — guaranteed failure This matches our empirical observations: TA-Fast-Semantic handles 1–2 decoys at K = 16 but fails at 5+ decoys. At K = 64, it handles up to 5 decoys, consistent with theory (mmax = ⌊59/6⌋−1 = 8). A.6 Why TA-Fast Beats Full-",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "= 5: (5 + 1) · 6 = 36 ≫11 — guaranteed failure At K = 64 (Kp ≈59): • m = 4: (4 + 1) · 6 = 30 < 59 — succeeds • m = 10: (10 + 1) · 6 = 66 > 59 — guaranteed failure This matches our empirical observations: TA-Fast-Semantic handles 1–2 decoys at K = 16 but fails at 5+ decoys. At K = 64, it handles up to 5 decoys, consistent with theory (mmax = ⌊59/6⌋−1 = 8). A.6 Why TA-Fast Beats Full-"
+      ]
+    },
+    {
+      "cluster_id": 73,
+      "size": 1,
+      "representative_snippet": "semantic role. Transactional Attention does not replace attention-based scoring; it adds a single orthogonal signal (structural sponsorship) that protects the specific tokens these methods system- atically miss. Learned and reconstruction-based methods. KVzip [Jang et al., 2025] quantifies KV pair importance via context reconstruction loss, achieving 3–4× compression as a NeurIPS 2025 Oral.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.11288v1"
+      ],
+      "snippet_previews": [
+        "semantic role. Transactional Attention does not replace attention-based scoring; it adds a single orthogonal signal (structural sponsorship) that protects the specific tokens these methods system- atically miss. Learned and reconstruction-based methods. KVzip [Jang et al., 2025] quantifies KV pair importance via context reconstruction loss, achieving 3–4× compression as a NeurIPS 2025 Oral."
+      ]
+    },
+    {
+      "cluster_id": 74,
+      "size": 1,
+      "representative_snippet": "We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the explicit upper bound VC(Fe2e,T ) ≤M(d, T).",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.12013v1"
+      ],
+      "snippet_previews": [
+        "We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the explicit upper boun"
+      ]
+    }
+  ],
+  "snippets": [
+    {
+      "text": "attacks, and also allow model providers to fabricate arbitrary watermarks. To address these limitations,",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "limitation can make certain judicial determinations extremely difficult, because the generation time",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "watermarking methods suffer from more fundamental security and trustworthiness limitations. A key",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Taken together, these limitations imply that current watermarking methods cannot simultane-",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "both user-side and provider-side forgery are essential. These limitations directly violate the core",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "To overcome the above limitations, this paper proposes a trustworthy time watermarking frame-",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "However, these methods are not suitable for timestamping AIGC. The fundamental limitation of",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "fundamental limitations. First, existing watermarking methods do not guarantee perfectly accurate",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long-",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "modification. Therefore, future work can focus on reducing the required text length while maintaining",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "otential to serve as judicial evidence. However, existing LLM watermarking methods rely on statis-[cs.CR] tical signals embedded in token distributions, leading to inherently probabilistic detection. Their reliability further degrades when encoding multi-bit information (e.g., timestamps), often falling far below 100% accu- racy. Moreover",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "arbitrary watermarks. To address these limitations, we introduce the concept of trustworthy watermark, which enables reliable watermark recovery with 100% identification accuracy while resisting both user-side statistical attacks and provider-side forgery. In this work, we focus on trustworthy time watermark which can serve as judicial evide",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "underlying idea remains unknown. This limitation can make certain judicial determinations extremely difficult, because the generation time of a document often constitutes a key evidentiary element in intellectual property disputes, partic- ularly when courts must determine priority of creation or assess allegations of plagiarism (World Intellectual Property Organization 2021, Siddharth 2025).",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "t (Yoo et al. 2024, Jiang et al. 2025). However, prior work on multi-bit watermarking shows that recovery accuracy decreases as message length increases, which is usually far below 100% (Yoo et al. 2024, Jiang et al. 2025). Beyond this problem, existing LLM watermarking methods suffer from more fundamental security and trustworthiness limitations. A key issue is that watermarks inevitably i",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "be guaranteed. Taken together, these limitations imply that current watermarking methods cannot simultane- ously achieve reliable detection and strong anti-forgery guarantees. Consequently, they fail to meet the evidentiary standards required for judicial scenarios, where both correctness and resistance to both user-side and provider-side forgery are essential. These limitations directly viol",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e observation. To overcome the above limitations, this paper proposes a trustworthy time watermarking frame- work named TimeMark by integrating several ideas from cryptography and secure systems. First, unlike existing approaches, we fundamentally depart from directly encoding information into the watermark. Instead, we encode the generation time into time-dependent keys, which are derived t",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "t law in major common-law jurisdictions does not treat public release as the sole decisive event. Rather, the legally significant temporal point is often the time of creation and fixation. Under U.S. law, copyright subsists upon fixation rather than publication (United States 1976a,b); under UK law, copyright does not subsist unless and until the work is “recorded, in writing or otherwise” (U",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "pp et al. 2017, Meng and Chen 2022). However, these methods are not suitable for timestamping AIGC. The fundamental limitation of these approaches lies in the nature of how LLM-generated text is produced and delivered. Unlike traditional digital documents, which are created, stored, and transmitted as structured files with well- defined storage media, AIGC is typically generated on demand",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ply the above timestamping techniques. However, such a timestamp would only certify the time at which the file was created or registered, rather than the actual time at which the text was generated by the model. This temporal mismatch fundamentally undermines the evidentiary value of the timestamp in judicial contexts. It violates a key requirement for trustworthy electronic evidence that t",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "-space watermarking have been proposed. However, this approach requires additional training and incur higher deployment complexity and more complex detection procedures (Zhang et al. 2024). Most studies focuse on zero-bit watermarking, whose goal is simply to determine whether a text was generated by an LLM. Recent work has begun to explore multi-bit watermarking, where the generated text c",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "fi- cation, so that watermark validity does not depend on trusting the detector alone (Fairoze et al. 2025). However, they lack a mechanism to securely bind generation time, leaving them vulnerable to provider-side forgery and time-shift attacks. Moreover, their direct encoding of semantic payloads (e.g., timestamps) introduces structural patterns and increases vulnerability under attacks. C",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "across multiple token positions. 3.2. Limitations of Existing Watermarking for Trustworthy Timestamping A straightforward approach to generation-time verification is to directly apply multi-bit watermark- ing and encode the timestamp as the watermark payload. However, this naive design faces several fundamental limitations. First, existing watermarking methods do not guarantee perfectly accura",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "), and the watermarking algorithm, but does not know the secret key. This is the standard security setting in which the mechanism is public and only the key is hidden (Jovanovi´c et al. 2024). The adversary’s goal is to generate a forged text that causes the decoder to recover a target timestamp t⋆, without following the genuine encoding process. The attack proceeds in four steps. 1. Dat",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "er of incorrectly decoded payload bits does not exceed 13. Let Y ∼Binomial(63,qbit) (38) Che et al.: TimeMark: A Trustworthy Time Watermarking Framework 22 Preprint denote t",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "h is still a number very close to 1. However, the above calculation is still an estimate based on data from prior experiments, the recovery accuracy of R in Step 1 still needs to be further validated through real-data experiments. Matching Rate in Decoding Step 2 We next analyze the error probabilities in Decoding Step 2 when the verification threshold is set to",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "y. The current framework still has two limitations. First, to guarantee perfect detection accuracy, it currently only supports long- text generation. Second, it assumes that users preserve the original AIGC output without manual modification. Therefore, future work can focus on reducing the required text length while maintaining trustworthiness, and improving robustness against text editing. R",
+      "arxiv_id": "2604.12216v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "3 Methodology Substituting the entropy gradient from Eq. 1 and the policy gradient from Eq. 3 yields: 3.1 Framework of TEPO ∂H ∂J In Fig.1, TEPO leverages sequence-level likeli- · ⟨∇ϕθH, ∇ϕθJ⟩= X ∂ϕθ(s, a) ∂ϕθ(s, a). hood and a token-level selective KL-Divergence a mask to bridge group-level rewards with indi- = X πθ(ai|s)2 (log πθ(ai|s) + H(πθ(·|s))) A(s, ai). vidual tokens. Our method’s loss function is ai formalized as Equation 4, where the blue com- Case 1: Suboptimal Actions ponent denotes token-level aggregation, the • For actions with small probability (πθ(a | green component represents sequence-level like- s) →0+), we have log πθ(a | s) →−∞and lihood, and the red component (Mi,t) corre- H(πθ(· | s)) →0+, making log πθ(a | s) + sponds to the KL-Divergence mask (applied to H(πθ(· | s)) < 0. the t-th token in the i-th response). • With πθ(a | s)2 > 0, A(s, a) < 0, therefore: 3.2 Limitations of Critic-Free GRPO ⟨∇ϕθH, ∇ϕθJ⟩> 0. 3.2.1 The Fragility of the Case 2: Optimal Actions KL-Divergence • For actions with large probability (πθ(a | Lemma 3.1. For a softmax policy πθ(a | s) at s) →1−), we have log πθ(a | s) →0−, mak- iteration k + 1, the update rule is: ing log πθ(a | s) + H(πθ(· | s)) = (1 −πθ(a | s)) log πθ(a | s) < 0 πk+1(a | s) ∝πk(a | s) exp β−1A(s, a) , • With πθ(a | s)2 > 0, A(s, a) > 0, therefore: where β balances stability and performance. ⟨∇ϕθH, ∇ϕθJ⟩< 0.",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "0) (Avg. 32.03%), and (3) KL restricted to frameworks: GPG uses REINFORCE for Ai,t > 0 ∧∆Hi,t < 0 (Avg. 32.59%). Results straightforward training (Chu et al., 2025); confirm variant (3)’s superiority. CISPO improves efficiency via clipped, de- Table 4 presents the results of ablation studies tached importance weights (Chen et al., 2025); on random seeds, aiming to verify reducing GSPO shifts to sequence-level learning with convergence time by nearly 50%. Three train- whole-sequence likelihood ratios (Zheng et al., ing strategies are compared in the experiment: 2025b). Additionally, (Cui et al., 2025) de- GRPO/DAPO (72 steps), GRPO/DAPO (132 rived a performance-entropy relationship R = steps), and TEPO (72 steps). Each method is −a exp(H) + b, indicating lower entropy gener- independently run with two different random ally correlates with better performance. seeds (seed1 and seed2), and the average perfor- 6 Conclusion mance over the two seeds is shown in the lower GRPO advances LLMs’ mathematical reason- part of the table. It is clearly observed from ing but suffers from intractable token-level the results that with the same batch size and sparse-reward issues in CoT reasoning. To throughput, TEPO at 72 steps outperforms address these drawbacks, we introduce TEPO,GRPO/DAPO at both 72 steps and 132 steps, which (1) leverages sequence-level likelihood cutting training steps by nearly half. Specif- to bridge group-level rewards and individual ically, TEPO (72 steps) achieves an average tokens via token-level aggregation, and (2) performance of 32.61% over two seeds, which…",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "ical reasoning performance. However, GRPO and related entropy regularizationApr methods still struggle with token-level sparse-rewards, which is an inherent14 challenge in chain-of-thought (CoT) Figure 1: Overview of the TEPO Framework TEPO (1) reasoning. These approaches often rely on",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ces training enhance exploration; however, such undifferen- stability, reducing convergence time by tiated entropy adjustments yield only marginal 50% compared with GRPO/DAPO. improvements. For KL-Divergence, this regu-arXiv:2604.12736v1",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e rooted matical reasoning. However, in CoT reason- in the inherent sparse-reward of CoT reasoning, ing, learning is fundamentally challenged by which creates instability that GRPO’s critic- sparse token-level rewards, under which GRPO",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "free framework struggles to mitigate. The ab- and related entropy-regularized methods often sence of a critic in GRPO (Shao et al., 2024), struggle. Specifically, these approaches rely combined with the token-level sparse-reward",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "s)2 > 0, A(s, a) < 0, therefore: 3.2 Limitations of Critic-Free GRPO ⟨∇ϕθH, ∇ϕθJ⟩> 0. 3.2.1 The Fragility of the Case 2: Optimal Actions KL-Divergence • For actions with large probability (πθ(a | Lemma 3.1. For a softmax policy πθ(a | s) at s) →1−), we have log πθ(a | s) →0−, m",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "under strictly matched computational Limitations budgets, and its superiority over baseline meth- Despite proposing a novel token-level frame- ods is further verified by its robust performance work that (1) uses sequence-level likelihood across different random initializations. to connect group-level rewards and individ- 5 Related Works ual tokens via toke",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "two key limitations. We neither clarify the learning (RL) (Sutton and Barto, 1998). Prox- mechanism behind the effectiveness of the to- imal Policy Optimization (PPO) uses an en- ken constraint (targeting positive-advantage, tropy bonus to sustain exploration (Schulman",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "lore the (Haarnoja et al., 2017, 2018). However, the distinct roles of tokens in CoT reasoning and role of entropy in RL for large language models design a more universal framework for bridg- (LLMs) remains unclear. ing token-level operations with gr",
+      "arxiv_id": "2604.12736v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "8 Conclusion KV-cache compression methods fail on dormant tokens—credentials, identifiers, and configuration values that receive near-zero attention but are essential in agentic workflows. Transactional Attention introduces semantic sponsorship, where structural patterns protect adjacent value-bearing spans from eviction, achieving 100% retrieval at K=16 where six baselines achieve 0%. Because sponsorship modifies the scoring function rather than the eviction policy, it composes with any existing compression method at less than 1% additional latency. 9 Reproducibility Statement All experiments use publicly available models (Llama-3.2-1B, Llama-3.1-8B, Mistral-7B-v0.3) with float16 precision. Code, exact prompts, and evaluation scripts are available at https://github. com/[anonymized]. 10 Broader Impact Transactional Attention is designed for structured state retention in agentic LLM deployments. The mechanism introduces a dual-use risk: adversaries can inject anchor patterns to exhaust sponsor budgets (Section 7). Allowlist filtering provides an effective countermeasure.",
+      "arxiv_id": "2604.11288v1",
+      "source": "section:conclusion"
+    },
+    {
+      "text": "chieves 0% on credential retrieval. The failure mode is dormant tokens: credentials, API keys,Apr and configuration values that receive near-zero attention throughout the context but become es- sential at generation time. Because these tokens lack the statistical signals that eviction policies13 rely on, no method based on attention s",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "t as worth keeping. This failure is an instance of the dormant token problem (Figure 1). Dormant tokens are tokens that receive near-zero attention during most of the context window but become essentialarXiv:2604.11288v1 at specific, unpredictable moments during generation. API keys, passwords, database connection strings, session tokens, g",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "less than 1% latency overhead, and does not degrade general long-context performance (LongBench [Bai et al., 2023]: 42% vs. TOVA’s 45%). 2 Related Work Attention-based eviction. H2O [Zhang et al., 2023] retains heavy-hitter tokens by cumulative attention score. TOVA [Oren et al., 2024] maintains attention sinks and a sliding window of recent tokens. SnapKV [Li et al., 2024] cluster",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "semantic role. Transactional Attention does not replace attention-based scoring; it adds a single orthogonal signal (structural sponsorship) that protects the specific tokens these methods system- atically miss. Learned and reconstruction-based methods. KVzip [Jang et al., 2025] quantifies KV pair importance via context reconstruction loss, achieving 3–4× compression as a NeurIPS 2025 Oral.",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "= 12 > 11 slots, predicting borderline failure. Empirically, TA-Fast-Semantic handles 1–2 decoys at K=16 through selective detection. At K=64 (Kp=59), theory predicts mmax = ⌊59/6⌋−1 = 8; empirically, TA handles 5 decoys. Full proofs in Appendix A. 7 Limitations 1. TA does not improve general long-context understanding. On LongBench single-document QA, TA achieves 42%, comparable to",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "= 5: (5 + 1) · 6 = 36 ≫11 — guaranteed failure At K = 64 (Kp ≈59): • m = 4: (4 + 1) · 6 = 30 < 59 — succeeds • m = 10: (10 + 1) · 6 = 66 > 59 — guaranteed failure This matches our empirical observations: TA-Fast-Semantic handles 1–2 decoys at K = 16 but fails at 5+ decoys. At K = 64, it handles up to 5 decoys, consistent with theory (mmax = ⌊59/6⌋−1 = 8). A.6 Why TA-Fast Beats Full-",
+      "arxiv_id": "2604.11288v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "A second direction for future research is to move beyond the restrictive finite-alphabet, single-answer setting considered in this paper. On the one hand, it is natural to consider larger, possibly infinite alphabets Σ, as well as more general loss functions that allow several outputs to be counted as correct. This is particularly relevant in settings such as theorem proving, where a prompt may encode a theorem statement and there may be many valid proofs. On the other hand, it is natural to ask whether one can relax the assumption that the base class itself is learnable. Indeed, it may happen that predicting the very next symbol is difficult, while producing a correct final answer after a longer autoregressive computation is much easier. Both directions raise substantial new challenges. Our current analysis relies on ingredients such as uniform convergence and VC theory, which no longer apply to unbounded alphabets. Likewise, once one allows multiple correct outputs, the single-correct label classification viewpoint breaks down and should be replaced by a richer loss-based framework. At the same time, although it is natural to relax assumptions such as learnability of the base class, some replacement restrictions will likely be necessary, since otherwise pathological behavior can occur and obstruct a meaningful general theory. The next result illustrates this point.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Thus, without additional restrictions on the base class, the dependence on the generation length T can be highly irregular. In particular, even the basic question of learnability may oscillate with the parity of T. This shows that assumptions such as finite VC dimension are not merely technical conveniences, but are needed to obtain a meaningful structural theory. It is also worth noting that our proof of Theorem 2.1 yields a stronger guarantee than the theorem statement itself suggests. Namely, the same argument in fact learns the full chain-of- thought class FCoT,T , rather than only the final output under CoT-supervision. In this sense, our positive result applies even to the more demanding task of recovering the entire trajectory. At the same time, we show in Section 7.1 that for every base-class F, if VC(F) = ∞, then the class FCoT,T is not PAC learnable. Thus, any approach that attempts to exploit chain-of-thought supervision by explicitly learning the entire trajectory can succeed only in the finite-VC setting. Our theorem resolves this case positively, while the preceding proposition shows that beyond it one cannot expect a similarly clean general theory without additional assumptions. Another natural extension is to allow the final output itself to be a string rather than a single symbol. This would better reflect realistic autoregressive tasks, in which a prompt is followed by an intermediate chain of thought and then by a nontrivial output sequence. Extending the theory to this more general prompt–reasoning–output format is a natural direction for future work.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the explicit upper bound VC(Fe2e,T ) ≤M(d, T).",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "In this section, we analyze e2e-learning, that is, the setting described in Definition 5.2. Given a base class F : Σ⋆→Σ and a generation length T, this setting amounts to PAC-learning the class Fe2e,T . Therefore, in light of Theorem 5.7, it suffices to analyze VC(Fe2e,T ), and then Theorem 5.7 gives matching lower and upper bounds on the sample complexity. In more detail, we discover the full taxonomy of the VC-dimension of the class Fe2e,T for a VC-class F. We also resolve an open question of [JVB+25], and show that e2e-learnability with o(T) sample complexity can be ensured using a notion which is more relaxed than the Littlestone dimension. On the negative side, we prove that no dimension that characterizes e2e-learnability with o(T) sample complexity exists.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "The main goal of this section is to prove sample complexity upper bounds for CoT-learning a base class F. In contrast with e2e-learning, where we have shown in Section 6 that a dependence on the generation length T is in many cases inevitable, the bounds we prove for CoT-learning are given only in terms of parameters of the base class. This improves over the bounds of [JVB+25], that demonstrated a logarithmic dependence on T. Recall that as discussed in Section 5, fully CoT-learning is at least as difficult as CoT-learning. Therefore, to upper bound the sample complexity of CoT-learning, it suffices to prove sample complexity bounds for fully CoT-learning, which amounts to learning the class FCoT,T . This is the exact approach we take in this section: we use tools from learning theory for classes with |Y| > 2 and use them to learn the class FCoT,T . We also establish a lower bound for fully CoT-learning, to characterize the limitations of this approach.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Theorem 7.1 states that VC(F) < ∞is a sufficient condition for having finite and independent of T sample complexity for learning FCoT,T . As in the case VC(F) < ∞the sample complexity bound of fully CoT-learning is this strong, one may wonder if fully CoT-learning is useful even when VC(F) = ∞, at least for some classes, perhaps with some sample complexity dependence on T. Unfortunately, the second part of Theorem 7.1 shows that this is not the case: infinite VC-dimension implies that fully CoT-learning is impossible. The known bound VC⋆(F) ≤2VC(F)+1 due to [Ass83] leads to an upper bound in terms of VC(F) only.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "While strong, Theorem 8.1 provides only a partial justification for focusing on VC-classes, as there might be some other dimension that captures learnability of Fe2e,T (with or without CoT supervision) for all T. Determining whether such a dimension exists remains open. Let us define the class F used in the proof of Theorem 8.1. For every infinite string b = b0, b1, .... ∈{0, 1}N, define the function fb as follows. For any k ≥1, y ∈{0, 1} and t ≥0, denote: Qk := 0k1, Ak,y,t := 0k1(y0)ty, Bk,y,t := 0k1(y0)t+1.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "[LB24] Tosca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023,",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "also its final symbol. At test time, however, the task is identical in both regimes: given a fresh unlabeled exam- ple x ∼D, the learner must predict the final symbol fe2e,T⋆ (x). Accordingly, performance is always measured by the end-to-end error1 Pr h(x) ̸= fe2e,T⋆ (x) . x∼D Our goal is to understand how the complexity o",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "inary answer. For larger output spaces, however, there may naturally be several correct outputs – for example, several valid proofs of the same theorem. In such settings, a more realistic formulation would use a more general loss function that assigns zero loss to multiple outputs, akin to multilabel prediction; we discuss this further in Section 2.4.",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "sublinearly in T and those for which it does not? Equivalently, can one hope for a dimension theory that captures exactly when the end-to-end sample complexity grows sublinearly with the generation length? We address this question from two complementary directions. First, we show that in full generality there can be no dimension that characterizes sublinear rates. Second, we introduce below a",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "le removing the remaining sample points does not change the separator. of size k for H if, for every realizable3 dataset S, there exists a subdataset K ⊆S of size at most k such that: 1. for every dataset S′ satisfying K ⊆S′ ⊆S, one has A(S′) = A(S); 2. the hypothesis A(S) is consistent with S. In words, the output of the learning rule is determined by a small subdataset K, and this d",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ng further compatible inflated examples does not hurt the weak-learning guarantee is what makes this modification possible. This ERM-based step is a key ingredient in the proof, and is also the point at which the argument uses in an essential way the assumption that the token space Σ is bounded. In particular, the same idea extends beyond the binary case to any bounded Σ, but does not seem to ex",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "of sublinear rates We now turn to the negative result showing that there is no dimension that characterizes sublinear end-to-end growth in a quantitative way. More precisely, recall that such a characterization would require a dimension Dim together with a sublinear function M(d, T) such that Dim(F) < ∞if and only if VC(Fe2e,T ) grows sublinearly in T, and moreover whenever Dim(F) = d one has the exp",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "bits to the end of the input string and does not affect existing bits of the input, it is clear that VC(Ge2e,Ti ) = VC(Ge2e,T ) for all i, T. Now, we claim that Fe2e,T = Ge2e,T1 ⊎. . . ⊎Ge2e,Tc . (3) Having (3) in hand, we are done, since Lemma 6.5 implies that VC(Fe2e,T ) = X VC(Ge2e,Ti ) = c · ˜r(",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "should hold that VC(Fe2e,Td) ≤M(d, Td). However, by Lemma 6.2 it should also hold that VC(Fe2e,Td) ≈r(Td) ≫M(d, Td), which is a contradiction. It remains to construct r, and show the argument sketched above formally, with the constructed rate r. We first construct r. We start by constructing a sequence {Td}d≥0 of values for T for which the bound for M(d, Td) will be contradicted. Since the ma",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "≤d We now claim that T2 does not contain a perfect leveled subtree of depth d. Let us assume that it does. Now, take a leaf of this perfect leveled subtree. Starting from the node in T2 corresponding to this leaf, we can move along a branch of T2 to depth T −1, reaching a leaf of T2. By the definition of T2, this leaf has two children in T, which can be added to the leveled subtr",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "which is a contradiction. Therefore, T2 does not contain a perfect leveled subtree of depth d. By induction hypothesis: T −1 |B(T2)| ≤ . (8) ≤d −1 Using (6), (7), (8) and Pascal’s inequality, we obtain T −1 T −1",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "fully CoT-learning, to characterize the limitations of this approach. 7.1 The CoT-learning taxonomy for VC-classes Theorem 7.1. For every class F, if VC(F) < ∞then for all T, FCoT,T is learnable with sample complexity VC(F)VC⋆(F) + log(1/δ) m(ϵ, δ) = ˜O .",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "some sample complexity dependence on T. Unfortunately, the second part of Theorem 7.1 shows that this is not the case: infinite VC-dimension implies that fully CoT-learning is impossible. The known bound VC⋆(F) ≤2VC(F)+1 due to [Ass83] leads to an upper bound in terms of VC(F) only. Corollary 7.2. For every class F with VC(F) < ∞and for all T, FCoT,T is learnable with sample complexity",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "if and only if VC(F) < ∞(Theorem 7.1). However, this result does not imply that there is no other way to learn Fe2e,T with CoT supervision, since this is an easier task than learning FCoT,T , which includes learning the entire chain-of- thought. Indeed, when learning Fe2e,T with CoT supervision, the learner receives the entire chain-of-thought during training, as in learning FCoT,T , but teste",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "that learning a part of a shattered set does not expose any information on the other parts of it. The same idea applies here: If the target base function is fb, then learning a part of b does not expose any information on the other parts of it, since all b ∈{0, 1}N are possible. Lemma 8.3. For all odd T, F is not CoT-learnable. Proof. Fix an arbitrary learner Lrn for CoT-learning F with genera",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "9692). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. 40 References [AML25] Awni Altabaa, Omar Montasser, and John Lafferty. Cot inf",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ca Lechner and Shai Ben-David. Inherent limitations of dimensions for character- izing learnability of distribution classes. In Shipra Agrawal and Aaron Roth, editors, The Thirty Seventh Annual Conference on Learning Theory, June 30 - July 3, 2023, 41 Edmonton, Canada, Proceedings of Machine Learning Research, pages 3353–337",
+      "arxiv_id": "2604.12013v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization objective that transfers their frequency-aware structure to visual tokenizers. This formulation bridges state-space modeling and visual representation learning, allowing tokenizers to learn compact latent representations that effectively capture frequency information. Experiments show that our method produces latent spaces that better support diffusion modeling while largely preserving reconstruction quality. By offering a new perspective on leveraging SSMs for visual representation, this paper paves the way for integrating state-space modeling principles into future generative and representation learning frameworks.",
+      "arxiv_id": "2604.11089v1",
+      "source": "section:conclusion"
+    },
+    {
+      "text": "Since the original dynamics based on the Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed problem: although we obtain the derivative of coefficients c(Iτ) with respect to τ, predicting c(Iτ0+∆) from c(Iτ0) for a timestep τ0 and a step size ∆is not a well-defined problem unless the input image has a special constraint, such as being exactly identical to a 2D polynomial of degree N [31]. On the other hand, the blurring process is a deterministic process, where having the coefficients of the current timestep τ0 already suffices to provide a fixed trajectory of c(Iτ)|τ>τ0. This difference ensures the update of the blurring process Eq. (20) can accurately predict the next coefficients given a sufficiently small step size ∆, whereas Eq. (36) cannot. One may introduce an additional information gap ut = It −It−1 to modify the deblurring process into a deterministic process, making the formulation more coherent with the original SSM equation Eq. (4). Yet, under the same assumption of occupying a 2D orthogonal basis projection c(·), the update becomes very trivial due to the linearity of basis functions: \\ma t hbf {c } (\\m a thbf {I } _{t}) =\\mathbf{c}(\\mathbf{I}_{t-1}u_t)=\\mathbf{c}(\\mathbf{I}_{t-1})\\mathbf{c}(u_t), (37) which turns into a feature dynamics expressed as f(It) =…",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "(21) In general, the above equation does not hold for arbitrary encoder networks, and thus, we can regularize the network with the following regularization loss: \\ label {e q:whippo_reg}\\mathcal=d(\\mathcal{E}(\\rmI_t),{\\rmA}\\mathcal{E}(\\rmI_{t-1})), (22) for some distance measure d(·, ·). 4.3 Application to image tokenizers In this sectio",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "the blurring process in the image space does not consistently translate into a well-defined operation in the latent space. In contrast, the one trained with ours shows a much more coherent transformation across the blurring sequence; the latent dynamics resembles an exponential function, which matches the trajectory of Fourier coefficients under same image transformation.",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "trained with reconstruction loss alone does not exhibit this systematic ordering. 6 Conclusion We introduced structured state-space regularization, a framework that extends state-space models (SSMs) to regularize image tokenizers toward compact and generation-friendly representations. By reframing SSMs as a combination of basis projection and input transformation, we derive a regularization",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ojection, such as PNG [9] or JPEG [62]. However, PNG compression is based on entropy-coding, which does not allow direct image-domain linear algebra that corresponds to operations on PNG bitstream. Thus, PNG necessitates decompression to update the compressed representation, making the update rule intractable. On the other hand, JPEG is essentially an operation of splitting an image into 8 × 8",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "he Gaussian blurring process (Eq. (20)) does not differ much from the update introduced in Eq. (36), the deblurring process may seem straightforwardly applicable to the current framework. However, two critical issues arise when employing the Gaussian deblurring process instead of the blurring process. First, Gaussian deblurring is fundamentally an ill-posed problem: although we obtain the deriva",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "0.69 0.48 random N/A (does not converge) - - - - - Table 5: Ablation for the regularization strength α α PSNR \\delimiter\"3222378 LPIPS \\delimiter\"3223379 SSIM \\delimiter\"3222378 rFID \\delimiter\"3223379 gFID \\delimiter\"3223379 sFID \\delimiter\"3223379 IS \\delimiter\"3222378 pre. \\deli",
+      "arxiv_id": "2604.11089v1",
+      "source": "fulltext:negation_window"
+    }
+  ]
+}

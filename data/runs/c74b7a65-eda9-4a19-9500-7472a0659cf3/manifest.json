@@ -1,0 +1,36 @@
+{
+  "query": "(tokenization AND (time series OR 'time-series'))",
+  "count": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.12216v1",
+      "title": "TimeMark: A Trustworthy Time Watermarking Framework for Exact Generation-Time Recovery from AIGC",
+      "pdf": "pdfs\\2604.12216v1.pdf",
+      "parsed_json": "parsed\\2604.12216v1.json"
+    },
+    {
+      "arxiv_id": "2604.12736v1",
+      "title": "Token-Level Policy Optimization: Linking Group-Level Rewards to Token-Level Aggregation via Sequence-Level Likelihood",
+      "pdf": "pdfs\\2604.12736v1.pdf",
+      "parsed_json": "parsed\\2604.12736v1.json"
+    },
+    {
+      "arxiv_id": "2604.11288v1",
+      "title": "Transactional Attention: Semantic Sponsorship for KV-Cache Retention",
+      "pdf": "pdfs\\2604.11288v1.pdf",
+      "parsed_json": "parsed\\2604.11288v1.json"
+    },
+    {
+      "arxiv_id": "2604.12013v1",
+      "title": "Sample Complexity of Autoregressive Reasoning: Chain-of-Thought vs. End-to-End",
+      "pdf": "pdfs\\2604.12013v1.pdf",
+      "parsed_json": "parsed\\2604.12013v1.json"
+    },
+    {
+      "arxiv_id": "2604.11089v1",
+      "title": "Structured State-Space Regularization for Compact and Generation-Friendly Image Tokenization",
+      "pdf": "pdfs\\2604.11089v1.pdf",
+      "parsed_json": "parsed\\2604.11089v1.json"
+    }
+  ]
+}

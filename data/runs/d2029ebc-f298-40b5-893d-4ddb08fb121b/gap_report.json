@@ -1,0 +1,1208 @@
+{
+  "manifest": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\runs\\d2029ebc-f298-40b5-893d-4ddb08fb121b\\manifest.json",
+  "embedding_backend": "semantic",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "distance_threshold": 0.28,
+  "snippet_count": 71,
+  "cluster_count": 70,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 2,
+      "representative_snippet": "5 Conclusions 4.4 Downstream Applications We present Any3DAvatar, an efficient framework for single-image Our method provides a practical bridge from 2D generation/editing full-head avatar reconstruction. Our key contributions are: (1) oneto controllable 3D content by reconstructing high-quality full-head step conditional denoising for fast inference with strong quality; (2) avatars from a single image. We demonstrate three representative auxiliary view-conditioned appearance supervision that improves applications. (1) Text-to-3D via image generation: text prompts are non-input-view texture fidelity with zero extra inference cost; and first converted into portraits by a text-to-image model, and the (3) the AnyHead data pipeline with complementary identity divergenerated portraits are then fed into our framework for fast 3D sity, viewpoint coverage, and accessory-rich samples. A current head reconstruction and consistent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will exby a 2D image-editing model, and t",
+      "representative_source": "section:conclusion",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "5 Conclusions 4.4 Downstream Applications We present Any3DAvatar, an efficient framework for single-image Our method provides a practical bridge from 2D generation/editing full-head avatar reconstruction. Our key contributions are: (1) oneto controllable 3D content by reconstructing high-quality full-head step conditional denoising for fast inference with strong quality; (2) avatars from a single ",
+        "5 Conclusions 4.4 Downstream Applications We present Any3DAvatar, an efficient framework for single-image Our method provides a practical bridge from 2D generation/editing full-head avatar reconstruction. Our key contributions are: (1) one- to controllable 3D content by reconstructing high-quality full-head step conditional denoising for fast inference with strong quality; (2) avatars from a singl"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 1,
+      "representative_snippet": "ay slightly affect the dataset balance. However, we did not add a new Acknowledgements. The research was supported by the European repo because it would introduce a new bias. We fixed a directory in Union under the project ROBOPROX (reg. no. CZ.02.01.01/00/22_008/ mybatis-plus that was invisible to a merge tool, so it had no impact 0004590). This article is part of the RICAIP proj",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "ay slightly affect the dataset balance. However, we did not add a new Acknowledgements. The research was supported by the European repo because it would introduce a new bias. We fixed a directory in Union under the project ROBOPROX (reg. no. CZ.02.01.01/00/22_008/ mybatis-plus that was invisible to a merge tool, so it had no impact 0004590). This article is part of the RICAIP proj"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 1,
+      "representative_snippet": "and Mikoláš Janota Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Kon",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "and Mikoláš Janota Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Kon"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 1,
+      "representative_snippet": "tools achieve higher semantic accuracy. However, there are Additionally, multiple tools create compatibility challenges, as their threats to the validity in our study. dependencies may conflict. Secondly, advances in universal merge algorithms boost performance of high-level syntactic or sem",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "tools achieve higher semantic accuracy. However, there are Additionally, multiple tools create compatibility challenges, as their threats to the validity in our study. dependencies may conflict. Secondly, advances in universal merge algorithms boost performance of high-level syntactic or sem"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 1,
+      "representative_snippet": "sidered infrequent. Also, ConflictBench does not test multiple streams-jvm conflicting files. If one branch deletes file A and modifies file B, and savulchik | Stanislav Savulchik, s.savulchik@gmail.com the other branch modifies file A and deletes file B, as discussed in ktoso | Konrad Malawski, konrad@proj",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "sidered infrequent. Also, ConflictBench does not test multiple streams-jvm conflicting files. If one branch deletes file A and modifies file B, and savulchik | Stanislav Savulchik, s.savulchik@gmail.com the other branch modifies file A and deletes file B, as discussed in ktoso | Konrad Malawski, konrad@proj"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 1,
+      "representative_snippet": "4.2 Non-Java Scenarios tools failed. AutoMerge’s solutions deviate from developers’ not only in There are 38 most difficult cases in the non-Java scenarios where comments and line breaks, but also in optional elements in the Java no tool can merge correctly. One of them is repo redisson. The cor- language. Shen classified AutoMerge’s solution in Listing 6 as rect val",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "4.2 Non-Java Scenarios tools failed. AutoMerge’s solutions deviate from developers’ not only in There are 38 most difficult cases in the non-Java scenarios where comments and line breaks, but also in optional elements in the Java no tool can merge correctly. One of them is repo redisson. The cor- language. Shen classified AutoMerge’s solution in Listing 6 as rect val"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 1,
+      "representative_snippet": "telliMerge claims to be an AST tool, it does not This case is particularly challenging in that the correct resolution always produce syntactically correct output. A case in point is the requires a solid understanding of the meaning of the snapshot tag. repo server. Listing 4 shows the merge result by IntelliMerge for Another most difficult case is halo, where the left branch added",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "telliMerge claims to be an AST tool, it does not This case is particularly challenging in that the correct resolution always produce syntactically correct output. A case in point is the requires a solid understanding of the meaning of the snapshot tag. repo server. Listing 4 shows the merge result by IntelliMerge for Another most difficult case is halo, where the left branch added"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 1,
+      "representative_snippet": "liMerge calculates and new text, but it does not permit minor modifications within a the string cosine similarity for identifier nodes and the Jaccard sim- moved string, such as renaming a variable. wdiff and wiggle [6] ilarity for other nodes, w",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "liMerge calculates and new text, but it does not permit minor modifications within a the string cosine similarity for identifier nodes and the Jaccard sim- moved string, such as renaming a variable. wdiff and wiggle [6] ilarity for other nodes, w"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 1,
+      "representative_snippet": "e applies to other tools. ConflictBench does not send styling guides to AST tools and thus they made formatting mistakes seen in Listings 3, 6, and 7. To mitigate this threat, the merge accuracy The left and right branches of the repo jmonkeyengine made sim",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "e applies to other tools. ConflictBench does not send styling guides to AST tools and thus they made formatting mistakes seen in Listings 3, 6, and 7. To mitigate this threat, the merge accuracy The left and right branches of the repo jmonkeyengine made sim"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 1,
+      "representative_snippet": "𝑁 driver does not evaluate merge results, which is done manually In terms of complexity, findLS finishes in 𝑂( 𝑀𝑀) = 𝑂(𝑁). ex- by checking semantic equivalence. The 3 files by design were not pandEdit finishes in 𝑂( 𝑤2𝑁2𝑀 ) which we have shown in the previ- mergeable by git merge. This benchmark comes with the binaries of ous subsection. Then, let 𝑑be t",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "𝑁 driver does not evaluate merge results, which is done manually In terms of complexity, findLS finishes in 𝑂( 𝑀𝑀) = 𝑂(𝑁). ex- by checking semantic equivalence. The 3 files by design were not pandEdit finishes in 𝑂( 𝑤2𝑁2𝑀 ) which we have shown in the previ- mergeable by git merge. This benchmark comes with the binaries of ous subsection. Then, let 𝑑be t"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 1,
+      "representative_snippet": "Algorithm 1 find a list of precise rewriting rules from buckets of Listing 1: Left commit: two lines are extracted into a new rewriting instances function function getPreciseRewriting(buckets) ... 𝑃←∅ - publicnotNull(obj);void addListener(O obj) { for all 𝑏∈buckets do - validate(obj); for 𝑖= 0, . . . , |𝑏| do + runCheck(obj); Listeners.add(obj.getListener()); expandEdit(𝑖,𝑏, buckets, 𝑃) } end for end for + + public void runCheck(O obj) { return SortAndFilter(𝑃) + notNull(obj); end function + validate(obj); function expandEdit(i, b, buckets, P_ref) +} } for 𝑗= 0, . . . , w do for 𝑘= 0, . . . , w do 𝑟← join𝑙(b[i-j:i+k]) →join𝑟(b[i-j:i+k]) which is an identity rewriting instance. Therefore, join() takes one tp, fp ←getClassificationMetrics(r, buckets) token at a time, which is the dot (.), and a new rewriting rule bc. P_ref[r]=(tp, fp) →Program. is formed. This rule has tp = 1, fp = 0. end for Classification metrics cannot be computed for an insertion rule end for 𝜀→import \"fmt\"\\n. When 𝑗= 1,𝑘= 0, the created substitution end function rule is \\n →\\nimport \"fmt\"\\n with tp = 1, fp = 6. When 𝑗= 0,𝑘= 1, the created substitution rule is func →import \"fmt\"\\nfunc with tp = 1, fp = 0. 3.4 Fro",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "Algorithm 1 find a list of precise rewriting rules from buckets of Listing 1: Left commit: two lines are extracted into a new rewriting instances function function getPreciseRewriting(buckets) ... 𝑃←∅ - publicnotNull(obj);void addListener(O obj) { for all 𝑏∈buckets do - validate(obj); for 𝑖= 0, . . . , |𝑏| do + runCheck(obj); Listeners.add(obj.getListener()); expandEdit(𝑖,𝑏, buckets, 𝑃) } end for "
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 1,
+      "representative_snippet": "d the new line to the merge result, but failed to A Universal Textual Merge Strategy Based on Tokens EASE 2026, 9–12 June, 2026, Glasgow, Scotland, United Kingdom Table 4: Evaluation results divided by the Java category and the non-Java category. Each category shows the number of solutions literally (lit.) and semantically (sem.) matching developer",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "d the new line to the merge result, but failed to A Universal Textual Merge Strategy Based on Tokens EASE 2026, 9–12 June, 2026, Glasgow, Scotland, United Kingdom Table 4: Evaluation results divided by the Java category and the non-Java category. Each category shows the number of solutions literally (lit.) and semantically (sem.) matching developer"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 1,
+      "representative_snippet": "e it observes Listing 5: AutoMerge failed to rename a variable in the the original, local styling and syntax, it does not delete comments merge result for SimianArmy and copyright headers, and its merge output is ready to commit. - @Override In the subsequent subsections, we first analyze a few most dif- - public void doMonkeyBusiness() {",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "e it observes Listing 5: AutoMerge failed to rename a variable in the the original, local styling and syntax, it does not delete comments merge result for SimianArmy and copyright headers, and its merge output is ready to commit. - @Override In the subsequent subsections, we first analyze a few most dif- - public void doMonkeyBusiness() {"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 1,
+      "representative_snippet": "𝑎is matched rewritten by another rule. However, we take another approach in once, and 𝑐is matched and executed one or more times. One-to- this paper. In this section, we present move rules, which also solve many models inlining operations. On the other hand, many-to-one the problem of moving text. models extraction operations. Algorithm 2 illustrat",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "𝑎is matched rewritten by another rule. However, we take another approach in once, and 𝑐is matched and executed one or more times. One-to- this paper. In this section, we present move rules, which also solve many models inlining operations. On the other hand, many-to-one the problem of moving text. models extraction operations. Algorithm 2 illustrat"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 1,
+      "representative_snippet": "oise lenging accessory variations. However, we also observe limitations: injection with Plücker-based spatial position embedding. Qualita- under some extreme viewpoints, accessory generation becomes tive results are shown in Fig. 16. We observe that explicitly injecting less reliable and the generalization ability is still insufficient. We spatial position information in pixel sp",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "oise lenging accessory variations. However, we also observe limitations: injection with Plücker-based spatial position embedding. Qualita- under some extreme viewpoints, accessory generation becomes tive results are shown in Fig. 16. We observe that explicitly injecting less reliable and the generalization ability is still insufficient. We spatial position information in pixel sp"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 1,
+      "representative_snippet": "Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Konrad Malawski, konrad@project13.pl, Typesafe +ouertani | Slim Ouertani, ouertani@gmail.com numbers may not generalize well to documents in other languages +2m | Martynas Mickevicius, mmartynas@gmail.com, Typesafe or formats. +ldaley | Luke Daley, luke.daley@gradleware.com, Gradleware Summer currently ignores changes in file encoding and line colinrgodsey | Colin Godsey, crgodsey@gmail.com, MediaMath Inc. endings. These kinds of changes exist in the real world, but they are Listing 8: Summer added a row to a wrong place in reactive- considered infrequent. Also, ConflictBench does not test multiple streams-jvm conflicting files. If one branch deletes file A and modifies file B, and savulchik | Stanislav Savulchik, s.savulchik@gmail.com the other branch modifies file A and deletes file B, as discussed in ktoso | Konrad Malawski, konrad@project13.pl, Typesafe Section 3.2, a suitable merge direction cann",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Konrad Malawski, konrad@project13.pl, Typesafe +ouertani | Slim Ouertani, ouertani@gmail.com numbers may not gener"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 1,
+      "representative_snippet": "ing, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearance supervision on the same latent",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "ing, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearance supervision on the same latent"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 1,
+      "representative_snippet": "a rewriting rule bc →Program is formed. Unfortunately, this the left commit extracts two lines into a new function runCheck as rule incorrectly rewrites import bc \"github.com/txaty/bigcomplex\" Listing 1; the right commit changes the calling style notNull(obj) to import Program \"github.com/txaty/bigcomplex\", which boosts 1We",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "a rewriting rule bc →Program is formed. Unfortunately, this the left commit extracts two lines into a new function runCheck as rule incorrectly rewrites import bc \"github.com/txaty/bigcomplex\" Listing 1; the right commit changes the calling style notNull(obj) to import Program \"github.com/txaty/bigcomplex\", which boosts 1We"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 1,
+      "representative_snippet": "by checking additional repos. Summer does not know semantics of the space and the tab char- acter, it adds both to the merge result, shown in Listing 3. On the contrary, the developer picked merely the tab version. FSTMerge 4.1 Java Scenarios",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "by checking additional repos. Summer does not know semantics of the space and the tab char- acter, it adds both to the merge result, shown in Listing 3. On the contrary, the developer picked merely the tab version. FSTMerge 4.1 Java Scenarios"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 1,
+      "representative_snippet": "ference time, so this training strategy does not introduce extra inference cost and does not compromise our ˆg1 −g0 gfinal = g0 + (1 −0) = ˆg1, (5) efficiency objective. 1 −0 For supervision, we us",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "ference time, so this training strategy does not introduce extra inference cost and does not compromise our ˆg1 −g0 gfinal = g0 + (1 −0) = ˆg1, (5) efficiency objective. 1 −0 For supervision, we us"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 1,
+      "representative_snippet": "Listing 3: For thumbnailator, Summer (on the left) added antextual merge approaches. Since KDiff is a GUI tool, we coded an extra since tag comparing to developer. FSTMerge and Auto-AutoHotKey script to click the merge button and close dialogs which Merge (on the right) wrote in a style differing to developerinterrupt the automatic process. AutoMerge extended JDime, so we skipped the latter in our experiments. * * @since 0.3.4 Besides, we made additional improvements to Shen’s merge * @author coobird * driver while preserving its behavior. The original merge driver * @since 0.3.4 */ - * @since 0.3.4 -public interface Size { prepares the testing input by copying a repo folder and deleting * - everything but the single conflicting file, which easily leads to */ +public interface Size file locking issues and breaks the integrity of a test run. Our new public interface Size +{ /** version utilizes the sparse checkout feature of Git so that only the * Calculates the size required file is materialized, greatly boosting the robustness of our evaluation. Listing 4: IntelliMerge produced duplicated throws expres- The evaluation results are in Table 4. The first 3 tools, namely sions for ser",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "Listing 3: For thumbnailator, Summer (on the left) added antextual merge approaches. Since KDiff is a GUI tool, we coded an extra since tag comparing to developer. FSTMerge and Auto-AutoHotKey script to click the merge button and close dialogs which Merge (on the right) wrote in a style differing to developerinterrupt the automatic process. AutoMerge extended JDime, so we skipped the latter in our"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 1,
+      "representative_snippet": "Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads, the number of available viewpoints is still limited, which restricts both generation quality and generalization ability under challeng- Pixel-Space Noise ing view changes. In future work, we plan to develop better data + Plücker Ray Embedding Reference Front Left Back Right acquisition and processing pipelines to build large-scale multi-view- consistent accessory-rich head data. Second, the current model still contains a relatively large number of parameters, and its inference-Figure 16: Impact of different noise injection strategies on time GPU memory consumption can reach around 10 GB. We there-our experimental results. fore plan to release a more lightweight version in the future, with the goal of enabling efficient deployment on more devices. Third, the current dataset still covers only limited facial expressions and E.2 More Stylized Visual Results head poses. We will further extend the dataset with more diverse We further evaluate Any3DAvatar on a broader range of head in- and complex expressi",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads, the number of available viewpoints is still limited, which restricts both generation quality and generalization ability under challeng- Pixel-Space Noise ing view changes. In future work, we plan to develop better "
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 1,
+      "representative_snippet": "ulti-step ODE trajectory step, it does not inherently guarantee that the latent tokens capture is theoretically complete, empirical results show that iterative re- the full spectrum of high-frequency textures required for novel- finement brings only marginal visual gains for frontal-conditioned view synthesis. In viewpoints far from the input image, point-cloud head generation (F",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "ulti-step ODE trajectory step, it does not inherently guarantee that the latent tokens capture is theoretically complete, empirical results show that iterative re- the full spectrum of high-frequency textures required for novel- finement brings only marginal visual gains for frontal-conditioned view synthesis. In viewpoints far from the input image, point-cloud head generation (F"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 1,
+      "representative_snippet": "merge tools; however, many are no longer available, such as Seibt et al.’s dataset [27] and IntelliMerge’s dataset [29]. The data used to train DeepMerge [8] is limited, including only resolutions achi",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "merge tools; however, many are no longer available, such as Seibt et al.’s dataset [27] and IntelliMerge’s dataset [29]. The data used to train DeepMerge [8] is limited, including only resolutions achi"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 1,
+      "representative_snippet": "grouping, and other so-called “trivia”. However, trivia is important on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or for professional software engineers who want to review formatting republish, to post on servers or to redistr",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "grouping, and other so-called “trivia”. However, trivia is important on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or for professional software engineers who want to review formatting republish, to post on servers or to redistr"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 1,
+      "representative_snippet": "s, the model also alleviates mesh-prior limitations and better foundation for downstream tasks such as talking-head synthesis, reconstructs challenging regions such as teeth, accessories, and 3D head editing, virtual telepresence, and digital human creation. complex hair. (3) Auxiliary View-Conditioned Appearance Su- Consequently, improving both reconstruction fidelity and inference p",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "s, the model also alleviates mesh-prior limitations and better foundation for downstream tasks such as talking-head synthesis, reconstructs challenging regions such as teeth, accessories, and 3D head editing, virtual telepresence, and digital human creation. complex hair. (3) Auxiliary View-Conditioned Appearance Su- Consequently, improving both reconstruction fidelity and inference p"
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 1,
+      "representative_snippet": "ly, our modified ConflictBench Summer does not expect a rule to be applied certain number of automatically computes merge results’ literal similarity by times because the situation of the left commit and the right commit giving merely 3 files to a merge tool. can differ. For example, the left commit changes the indentation As of the dataset in ConflictBench, the repo mybatis-plu",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "ly, our modified ConflictBench Summer does not expect a rule to be applied certain number of automatically computes merge results’ literal similarity by times because the situation of the left commit and the right commit giving merely 3 files to a merge tool. can differ. For example, the left commit changes the indentation As of the dataset in ConflictBench, the repo mybatis-plu"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 1,
+      "representative_snippet": "literal nodes, and files that the tool does not understand, including README Determine merge direction files, configuration scripts, and various auxiliary artifacts, which are Left branch is simpler present in nearly all repositories [24]. Hence, we propose a universal textual merge algorithm, which can be used directly as a standalone",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "literal nodes, and files that the tool does not understand, including README Determine merge direction files, configuration scripts, and various auxiliary artifacts, which are Left branch is simpler present in nearly all repositories [24]. Hence, we propose a universal textual merge algorithm, which can be used directly as a standalone"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 1,
+      "representative_snippet": "F Limitations and Future Work Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads,",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "F Limitations and Future Work Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads,"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 1,
+      "representative_snippet": "sses, hats, and other wear-address this limitation, we use Unreal Engine (UE) to synthesize able items), which provides strong cross-view consistency whilehigh-fidelity digital human heads with dense, controllable cam- preserving facial identity and head geometry",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "sses, hats, and other wear-address this limitation, we use Unreal Engine (UE) to synthesize able items), which provides strong cross-view consistency whilehigh-fidelity digital human heads with dense, controllable cam- preserving facial identity and head geometry"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 1,
+      "representative_snippet": "enerating frontal • A discussion of limitations and future work. portraits using a text-to-image model [5] under a fixed-view setting, where prompts are composed of a shared background template and",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "enerating frontal • A discussion of limitations and future work. portraits using a text-to-image model [5] under a fixed-view setting, where prompts are composed of a shared background template and"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 1,
+      "representative_snippet": "videos. Since DiffPortrait360 does not provide explicit camera con- D.3 Comparison with More Image-to-3D-Head trol and is therefore not directly compatible with our evaluation Methods protocol, we conduct a qualitative comparison on the AnyHead We not",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "videos. Since DiffPortrait360 does not provide explicit camera con- D.3 Comparison with More Image-to-3D-Head trol and is therefore not directly compatible with our evaluation Methods protocol, we conduct a qualitative comparison on the AnyHead We not"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 1,
+      "representative_snippet": "checks driven by a multimodal large language model [36]. This process improves identity diversity and reduces sampling bias for Figure 11: Examples of accessory-rich heads generated by robust training. controlled multi-view accessory augmentation. Digital Human Heads: While AI-generated data improves iden- tity diversity, real-captured datasets still provide limited viewpoint coverage due to constrained camera quantity and placement. To Banana Pro to add accessories (e.g., glasses, hats, and other wear-address this limitation, we use Unreal Engine (UE) to synthesize able items), which provides strong cross-view consistency whilehigh-fidelity digital human heads with dense, controllable cam- preserving facial identity and head geometry. During editing, weera sampling (Fig. 10). We first sample real head keypoints from use a fixed prompt + random accessory description strategy: the fixedFaceScape [54], and then construct multi-expression digital heads prompt explicitly embeds multi-view consistency constraints (sameconditioned on these keypoints. Specifically, for each identity, we identity, same geometry, and consistent accessory shape/positionfit and retarget facial geometry in UE ",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "checks driven by a multimodal large language model [36]. This process improves identity diversity and reduces sampling bias for Figure 11: Examples of accessory-rich heads generated by robust training. controlled multi-view accessory augmentation. Digital Human Heads: While AI-generated data improves iden- tity diversity, real-captured datasets still provide limited viewpoint coverage due to const"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 1,
+      "representative_snippet": "scaffold and perform one-step conditional denoising, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearance supervision on the same latent tokens alongside 3D (1) AnyHead Dataset. To mitigate dataset bias (limited diversity, Gaussian reconstruction, improving novel-view texture details at sparse viewpoints, and weak accessory coverage), we construct zero extra inference cost. Experiments show that Any3DAvatar AnyHead with a large diverse identity pool, dense and control- outperforms prior single-image full-head reconstruction methods lable multi-view supervision, and an accessory-rich subset, so that in rendering fidelity while remaining substantially faster. We also training directly covers hard cases such as large pose changes, provide a webpage to present more visual results: Demo Page. side/back regions, and wearable items. (2) One-Step Denoising Network. To remove the latency of head fitt",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "scaffold and perform one-step conditional denoising, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearanc"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 1,
+      "representative_snippet": "l web data, which ensures that training does not occur exclusively on the outputs of a model. We do not filter for or against any specific topics, and the content distribution of the source data remains consistent with the distribution of FineWeb. Furthermore, the synthetic data is always obtained by rephrasing seed data, and not by simply sampling many times from a model with a fixed prompt. Th",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "l web data, which ensures that training does not occur exclusively on the outputs of a model. We do not filter for or against any specific topics, and the content distribution of the source data remains consistent with the distribution of FineWeb. Furthermore, the synthetic data is always obtained by rephrasing seed data, and not by simply sampling many times from a model with a fixed prompt. Th"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 1,
+      "representative_snippet": "ns. For ex-Apr combinations. However, existing methods face two critical challenges: (1) collabora- ample, a bundle pairing a hamburger with fries and a cold drink not only offers a satisfying meal com-15 tive filtering approaches struggle with cold- start items owing to",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "ns. For ex-Apr combinations. However, existing methods face two critical challenges: (1) collabora- ample, a bundle pairing a hamburger with fries and a cold drink not only offers a satisfying meal com-15 tive filtering approaches struggle with cold- start items owing to"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 1,
+      "representative_snippet": "Detail Enhance Detail Enhance Detail Enhance 7 Stack all views as z𝑔∈R4×𝑁ℎ×𝑁𝑤×1024 8 Flatten both branches: ˆc = Flatten(ctx) ∈R(𝑁ℎ𝑁𝑤)×1024, ˆg = Flatten(z𝑔) ∈R(4𝑁ℎ𝑁𝑤)×1024 9 Concatenate tokens along sequence dimension: s0 = [ˆc; ˆg] ∈R(5𝑁ℎ𝑁𝑤)×1024 10 Set diffusion timestep 𝑡←0 by default Evaluate Evaluate Evaluate 11 Process sequence with DiT: s = 𝐹DiT(s0,𝑡) 12 Split denoised Gaussian tokens ˜z𝑔from s 13 Reshape ˜z𝑔→ˆz𝑔and decode four-view RGB predictions: Figure 9: Examples of AI-generated heads used in our dataset y𝑖𝑚𝑔= 𝐷vae(ˆz𝑔) ∈R4×𝐻×𝑊×3 // training only construction pipeline. 14 Decode Gaussian parameters: ˆg1 = 𝐷gs(˜z𝑔) ∈R(4𝐻𝑊)×14 15 Assemble Gaussian point cloud from ˆg1 and render multi-view images y𝐺𝑆 C Dataset Details 16 Inference: skip 𝐷vae(·) and use only 𝐷gs(·) for decoding In this section, we provide a detailed description of AnyHead dataset construction pipeline, including data collection, filtering, and qual- ity control. We also present a comparative analysis against existing datasets, highlighting the main strengths of our dataset in identity diversity, view coverage, and fine-grained appearance fidelity. Appendix A Overview C.1 Construction Details In this suppl",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "Detail Enhance Detail Enhance Detail Enhance 7 Stack all views as z𝑔∈R4×𝑁ℎ×𝑁𝑤×1024 8 Flatten both branches: ˆc = Flatten(ctx) ∈R(𝑁ℎ𝑁𝑤)×1024, ˆg = Flatten(z𝑔) ∈R(4𝑁ℎ𝑁𝑤)×1024 9 Concatenate tokens along sequence dimension: s0 = [ˆc; ˆg] ∈R(5𝑁ℎ𝑁𝑤)×1024 10 Set diffusion timestep 𝑡←0 by default Evaluate Evaluate Evaluate 11 Process sequence with DiT: s = 𝐹DiT(s0,𝑡) 12 Split denoised Gaussian tokens ˜z𝑔f"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 1,
+      "representative_snippet": "hree folders, treating one as the base. However, none of complexity. Bates [5] built a text editor that parses the content into them performs file renaming detection. a CST and only sends the modified part of the CST for updating the Stock merge tools in version control systems merge everything user interface. Nevertheless, Bates’ algorithm is not for a",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13813v1"
+      ],
+      "snippet_previews": [
+        "hree folders, treating one as the base. However, none of complexity. Bates [5] built a text editor that parses the content into them performs file renaming detection. a CST and only sends the modified part of the CST for updating the Stock merge tools in version control systems merge everything user interface. Nevertheless, Bates’ algorithm is not for a"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 1,
+      "representative_snippet": "e outperforming established baselines. Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "e outperforming established baselines. Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 1,
+      "representative_snippet": "crease in the number of candidate items, the difficulty References of the task also increases and the accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using contextualized item embeddings. In tive application potential in complex scenarios. Proceedings of the 16th ACM Conference on Rec- ommender Systems, pages 237–245. 5 Conclusion and Future Work Chang, J., Gao, C., He, X., Jin, D., and Li, Y. (2020). Bundle recommendation with graph convolutional Traditional product bundling systems face significant networks. In Proceedings of the 43rd international limitations in simultaneously capturing comprehen- ACM SIGIR conference on Research and develop- sive world knowledge and understanding user behavior ment in Information Retrieval, pages 1673–1676. patterns. This paper introduces DPB-LLM, a dual- Chen, L., Liu, Y., He, X., Gao, L., and Zheng, Z. enhanced product bundling framework that leverages (2019a). Matching user with item set: Collabo- inter",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "crease in the number of candidate items, the difficulty References of the task also increases and the accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using c"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 1,
+      "representative_snippet": "Singh et al., 2026). However, the design space for synthetic data generation is expansive and currently lacks comprehensive assessment. Prior work has explored individual approaches in isolation. For 1 Preprint. Under review. instance, WRAP (Maini et al., 2024) focuses on stylistic rewriting",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "Singh et al., 2026). However, the design space for synthetic data generation is expansive and currently lacks comprehensive assessment. Prior work has explored individual approaches in isolation. For 1 Preprint. Under review. instance, WRAP (Maini et al., 2024) focuses on stylistic rewriting"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 1,
+      "representative_snippet": "857 0.4283 0.2970 it particularly struggles to learn the pose (OKS drops to IP-Adapter*[38] 0.0314 0.6942 0.4310 0.3050 0.0076), with other metrics degrading due to this inappro- PhotoMaker*[19] 0.0308 0.6920 0.4305 0.3042 priate encoding. ASTRA (Ours) 0.0452 0.7087 0.4457 0.3194",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "857 0.4283 0.2970 it particularly struggles to learn the pose (OKS drops to IP-Adapter*[38] 0.0314 0.6942 0.4310 0.3050 0.0076), with other metrics degrading due to this inappro- PhotoMaker*[19] 0.0308 0.6920 0.4305 0.3042 priate encoding. ASTRA (Ours) 0.0452 0.7087 0.4457 0.3194"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 1,
+      "representative_snippet": "on structural maps such as human poses.However, ex- the data problem and decouples the entangled appearance- tension of these methods to multiple subjects introduces sig- structure signals at the input level. We introduce AS- nificant challenges, such as identity bleeding and attribute TRA, a framework that uses dual visual inputs: (1) a confusion. To overcome these complexities",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "on structural maps such as human poses.However, ex- the data problem and decouples the entangled appearance- tension of these methods to multiple subjects introduces sig- structure signals at the input level. We introduce AS- nificant challenges, such as identity bleeding and attribute TRA, a framework that uses dual visual inputs: (1) a confusion. To overcome these complexities"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 1,
+      "representative_snippet": "accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using contextualized item embeddings. In tive application potential in complex scenarios.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using contextualized item embeddings. In tive application potential in complex scenarios."
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 1,
+      "representative_snippet": "the text creation, overcoming the limitations of text-only and single- conditioning stream. Extensive experiments demonstrate subject-only descriptions for such scenes [2]. that our integrated approach achieves superior disentangle- Our contributions are summarized as follows: ment. On our designed COCO-based complex pose bench- • We introduce a RAG-inspired paradigm that addr",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "the text creation, overcoming the limitations of text-only and single- conditioning stream. Extensive experiments demonstrate subject-only descriptions for such scenes [2]. that our integrated approach achieves superior disentangle- Our contributions are summarized as follows: ment. On our designed COCO-based complex pose bench- • We introduce a RAG-inspired paradigm that addr"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 1,
+      "representative_snippet": "ciency bottlenecks. Specifically, these limitations ance detail recovery while preserving faithful 3D geometry under are mainly reflected in two aspects. (1) Quality. The central qual- an auxiliary-supervision training, zero-cost inference setting. ity problem is that existing methods still cannot reliably preserve The contributions of Any3DAvatar are summarized as follows: full-head",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "ciency bottlenecks. Specifically, these limitations ance detail recovery while preserving faithful 3D geometry under are mainly reflected in two aspects. (1) Quality. The central qual- an auxiliary-supervision training, zero-cost inference setting. ity problem is that existing methods still cannot reliably preserve The contributions of Any3DAvatar are summarized as follows: full-head"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 1,
+      "representative_snippet": "data for pretraining. To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformu",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "data for pretraining. To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformu"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 1,
+      "representative_snippet": "with a negligible delta of 0.28 points. However, because Nemotron-HQ-Synth consists of five distinct strategies (§2.2), the aggregate score may mask the high performance of specific transformations while incorporating the deficiencies of others. This lack of granularity necessitates the systematic ablation of these components, which we present in the following analysis (Table 3). Established P",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "with a negligible delta of 0.28 points. However, because Nemotron-HQ-Synth consists of five distinct strategies (§2.2), the aggregate score may mask the high performance of specific transformations while incorporating the deficiencies of others. This lack of granularity necessitates the systematic ablation of these components, which we present in the following analysis (Table 3). Established P"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 1,
+      "representative_snippet": "coverage limitations of real-captured multi-view head datasets, we build an AI-generated subset with nearly 1,000 identities and • A pseudocode description of our methods. diverse attributes. As shown in Fig. 9, the pipeline contains five • Deta",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "coverage limitations of real-captured multi-view head datasets, we build an AI-generated subset with nearly 1,000 identities and • A pseudocode description of our methods. diverse attributes. As shown in Fig. 9, the pipeline contains five • Deta"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 1,
+      "representative_snippet": "structure within a unified Diffusion Transformer. ASTRA This decoupling of appearance and structure provides achieves this through a dual-pronged strategy. It first em- fine-grained, assignable control that current methods lack. ploys a Retrieval-Augmented Pose (RAG-Pose) pipeline to While tools like ControlNet [47] master structural guidance, provide a clean, explicit structural prior from a curated they cannot customize subject identity. Conversely, IP- database. Then, its core generative model learns to pro- Adapter [46] preserves a single subject’s identity but strug- cess these dual visual conditions using our Enhanced Uni- gles to assign distinct poses to multiple individuals. Our versal Rotary Position Embedding (EURoPE), an asymmet- framework ASTRA is the first to allow users to explicitly ric encoding mechanism that decouples identity tokens from assign a unique, complex pose to multiple customized sub- spatial locations while binding pose tokens to the canvas. jects simultaneously(as shown in Figure 1). This capability Concurrently, a Disentangled Semantic Modulation (DSM) is crucial for complex storytelling and personalized content adapter offloads the identity preservat",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "structure within a unified Diffusion Transformer. ASTRA This decoupling of appearance and structure provides achieves this through a dual-pronged strategy. It first em- fine-grained, assignable control that current methods lack. ploys a Retrieval-Augmented Pose (RAG-Pose) pipeline to While tools like ControlNet [47] master structural guidance, provide a clean, explicit structural prior from a cura"
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "size": 1,
+      "representative_snippet": "25, 35] require head fitting before However, as direct single-image/text-to-3D generation continues reconstruction, adding non-trivial preprocessing cost, while several to advance rapidly, this intermediate multi-view generation line is recent reconstruction approaches [1, 17, 51] remain optimization- gradually becoming less central in the field. heavy at inference time, such as",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "25, 35] require head fitting before However, as direct single-image/text-to-3D generation continues reconstruction, adding non-trivial preprocessing cost, while several to advance rapidly, this intermediate multi-view generation line is recent reconstruction approaches [1, 17, 51] remain optimization- gradually becoming less central in the field. heavy at inference time, such as"
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "size": 1,
+      "representative_snippet": "tion of these domains: Existing methods struggle to ensuring semantic fidelity and data quality; and (3) an ef- simultaneously preserve multiple, specific subject iden- ficient, lightweight retrieval system that seamlessly maps tities while enforcing complex, structured poses. This ambiguous textual descriptions to the most relevant pose issue is particularly acute in modern Diffusio",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "tion of these domains: Existing methods struggle to ensuring semantic fidelity and data quality; and (3) an ef- simultaneously preserve multiple, specific subject iden- ficient, lightweight retrieval system that seamlessly maps tities while enforcing complex, structured poses. This ambiguous textual descriptions to the most relevant pose issue is particularly acute in modern Diffusio"
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "size": 1,
+      "representative_snippet": "ations. Because the pose tity features. However, when scaled to multi-subject sce- maps are clean skeletons on neutral backgrounds, positional narios, these approaches encounter issues such as compu- binding enforces geometry without introducing unwanted tational complexity and feature entanglement, where each details—turning a common positional conflict into a precise additional sub",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "ations. Because the pose tity features. However, when scaled to multi-subject sce- maps are clean skeletons on neutral backgrounds, positional narios, these approaches encounter issues such as compu- binding enforces geometry without introducing unwanted tational complexity and feature entanglement, where each details—turning a common positional conflict into a precise additional sub"
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "size": 1,
+      "representative_snippet": "limitation is particularly evident, as the performance ing domain-specific entities with LLM tok- of CF method is heavily dependent on historical inter- enization, enabling effective comprehension",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "limitation is particularly evident, as the performance ing domain-specific entities with LLM tok- of CF method is heavily dependent on historical inter- enization, enabling effective comprehension"
+      ]
+    },
+    {
+      "cluster_id": 54,
+      "size": 1,
+      "representative_snippet": "• Dual-Enhancement Framework: We propose Recently, there are remarkable breakthroughs in the a novel dual-enhancement framework with two- development of LLMs, fueled by increasingly comput- stage fine-tuning. ing power and abundant data resources. The advance- ments in LLMs have inspired exploration of their po- • Dynamic Concept Binding Mechanism: An tential applications in product bundling domains. As innovative adaptation method that enabling si- is known to all, conventional product bundling frame- multaneous preservation of LLMs’ world knowl- works often rely on users’ historical behavioral data edge and precise product entity binding. and manually curated bundles, lacking in-depth un- • Graph-to-text Native Modeling: A graph- derstanding of individual product items and their in- awared conversion paradigm transforms user-item terrelationships. The emergence of LLMs offers novel interaction into textual descriptions, effectively and strong solutions to address these limitations (Sun alleviating information loss in cross-modal align- et al., 2024b; Liu et al., 2025; Avny Brosh et al., 2022). ment. By integrating LLMs with product bundling domains, we can leverage their capabili",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "• Dual-Enhancement Framework: We propose Recently, there are remarkable breakthroughs in the a novel dual-enhancement framework with two- development of LLMs, fueled by increasingly comput- stage fine-tuning. ing power and abundant data resources. The advance- ments in LLMs have inspired exploration of their po- • Dynamic Concept Binding Mechanism: An tential applications in product bundling domai"
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "size": 1,
+      "representative_snippet": "neWeb 11.82 8.83 for FWHQ. However, a distinct trend emerges when Cosmopedia 12.99 10.83 the quality of Dmix is fixed at a high level: the inher- DCLM 14.32 12.62 ent quality of Dsource becomes less dominant. In this FWHQFWLQ 14.3013.61 12.999.63 high-quality mix-in setting, the performance delta narrows to a maximum of 1.78 poi",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "neWeb 11.82 8.83 for FWHQ. However, a distinct trend emerges when Cosmopedia 12.99 10.83 the quality of Dmix is fixed at a high level: the inher- DCLM 14.32 12.62 ent quality of Dsource becomes less dominant. In this FWHQFWLQ 14.3013.61 12.999.63 high-quality mix-in setting, the performance delta narrows to a maximum of 1.78 poi"
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "size": 1,
+      "representative_snippet": "ults for full-head reconstruction: they struggle to Reference DiffPortrait360 Any3DAvatar Ground Truth preserve complete identity information, and they also show limited understanding of full-head geometry and texture consistency, espe- Figure 13: Visual comparison with non-full-head 3D head cially in non-frontal regions. However, Any3DAvatar consistently generat",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "ults for full-head reconstruction: they struggle to Reference DiffPortrait360 Any3DAvatar Ground Truth preserve complete identity information, and they also show limited understanding of full-head geometry and texture consistency, espe- Figure 13: Visual comparison with non-full-head 3D head cially in non-frontal regions. However, Any3DAvatar consistently generat"
+      ]
+    },
+    {
+      "cluster_id": 57,
+      "size": 1,
+      "representative_snippet": ", and history. - Disregard content that does not contain useful facts or knowledge. - Retain examples, explanations of reasoning processes, and supporting evidence ,→ to maintain the text's depth and context. - Do not add or alter details. Only restate what is already in the text. - Write in plain text. - Do not add titles, subtitles, note, or comment. Text: [TEXT] Task: Rewrite facts and kno",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        ", and history. - Disregard content that does not contain useful facts or knowledge. - Retain examples, explanations of reasoning processes, and supporting evidence ,→ to maintain the text's depth and context. - Do not add or alter details. Only restate what is already in the text. - Write in plain text. - Do not add titles, subtitles, note, or comment. Text: [TEXT] Task: Rewrite facts and kno"
+      ]
+    },
+    {
+      "cluster_id": 58,
+      "size": 1,
+      "representative_snippet": "tent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will ex- by a 2D image-editing model, and the edited results are then used pand accessory-rich supervision and extend the framework to 4D Any3DAvatar: Fa",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "tent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will ex- by a 2D image-editing model, and the edited results are then used pand accessory-rich supervision and extend the framework to 4D Any3DAvatar: Fa"
+      ]
+    },
+    {
+      "cluster_id": 59,
+      "size": 1,
+      "representative_snippet": "7 Conclusions We evaluated synthetic pretraining across rephrasing strategies, generator models, and source data. Accordingly, we found that: the design of rephrasing prompts primarily determines performance; structured pedagogical formats exceed the utility of simple paraphrasing; generator capacities beyond 1B parameters yield negligible gains for most rephrasing prompts; source quality has minimal impact when paired with robust mix-in data; and generative diversity outweighs formatting consistency. While synthetic tokens provide logical depth, original web data remains essential to preserve commonsense reasoning and 3We include some actual samples in Appendix E. 9 Preprint. Under review. linguistic variety. These principles culminate in FINEPHRASE, a 486-billion-token dataset that achieves up to a 30× cost reduction while outperforming established baselines. Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-s",
+      "representative_source": "section:conclusion",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "7 Conclusions We evaluated synthetic pretraining across rephrasing strategies, generator models, and source data. Accordingly, we found that: the design of rephrasing prompts primarily determines performance; structured pedagogical formats exceed the utility of simple paraphrasing; generator capacities beyond 1B parameters yield negligible gains for most rephrasing prompts; source quality has mini"
+      ]
+    },
+    {
+      "cluster_id": 60,
+      "size": 1,
+      "representative_snippet": "antity and placement. To ad- dress this limitation, we use Unreal Engine (UE) to synthesize high- 3.3 One-Step Generation Network fidelity digital human heads with dense, controllable camera sam- Previous methods rely on heavy preprocessing and per-subject pling. We first sample real head keypoints from FaceScape [54], and",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "antity and placement. To ad- dress this limitation, we use Unreal Engine (UE) to synthesize high- 3.3 One-Step Generation Network fidelity digital human heads with dense, controllable camera sam- Previous methods rely on heavy preprocessing and per-subject pling. We first sample real head keypoints from FaceScape [54], and"
+      ]
+    },
+    {
+      "cluster_id": 61,
+      "size": 1,
+      "representative_snippet": "a limited range of viewpoints and are not designed for complete Plücker ray embedding, each pixel is associated with a constrained full-head recovery, we conduct the comparison on the NeRSemble 3D location along its corresponding ray, which makes optimization V2 [22], which better matches their evaluation setting. As shown in easier and improves convergence behavior. Table 9 and Fig. 13, Any3DAvatar still achieves the best overall per- formance under this evaluation protocol, delivering the strongest quantitative results across all metrics as well as better visual qual- ity. These results show that Any3DAvatar remains superior even on datasets and settings that are more favorable to non-full-head methods and restricted viewing ranges. E More Visual Results E.1 Accessory Generation D.4 Noise Injection Location Study Leveraging the Accessory-Rich Heads data and our FLAME-free For a denoising model, the way that noise is injected is a key fac- network design, our model gains strong accessory-aware gener- tor for optimization stability and final reconstruction quality. In ation capability. As shown in Fig. 15, Any3DAvatar can synthe- 3D-space denoising, a critical requirement is to pro",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "a limited range of viewpoints and are not designed for complete Plücker ray embedding, each pixel is associated with a constrained full-head recovery, we conduct the comparison on the NeRSemble 3D location along its corresponding ray, which makes optimization V2 [22], which better matches their evaluation setting. As shown in easier and improves convergence behavior. Table 9 and Fig. 13, Any3DAvat"
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "size": 1,
+      "representative_snippet": "Abstract tary items based on user preferences and product in-2026 formation to boost purchase intention and efficiency Product bundling boosts e-commerce rev- (Sun et al., 2024a). Unlike conventional sequential enue by recommending complementary item recommendations that suggest similar items, product bundling task creates synergistic solutions. For ex-Apr combinations. However, existing methods face two critical challenges: (1) collabora- ample, a bundle pairing a hamburger with fries and a cold drink not only offers a satisfying meal com-15 tive filtering approaches struggle with cold- start items owing to dependency on histor- bination but also provides cost savings compared to ical interactions, and (2) LLMs lack inher- purchasing each item separately, as shown in Figure 1. ent capability to model interactive graph di- The complementary value makes bundled recommen- rectly. To bridge this gap, we propose a dual- dations significantly more appealing than standalone enhancement method that integrates interac- item suggestions.[cs.CL] tive graph learning and LLM-based seman- Although the Collaborative Filtering(CF) method has tic understanding for product bundling. Our been widely",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "Abstract tary items based on user preferences and product in-2026 formation to boost purchase intention and efficiency Product bundling boosts e-commerce rev- (Sun et al., 2024a). Unlike conventional sequential enue by recommending complementary item recommendations that suggest similar items, product bundling task creates synergistic solutions. For ex-Apr combinations. However, existing methods f"
+      ]
+    },
+    {
+      "cluster_id": 63,
+      "size": 1,
+      "representative_snippet": "s because of ,→ technical restraints. However, continuous monitoring by noninvasive ,→ monitors can save lives. Here's the FAQ: Question 1: What is cardiac output? 30 Preprint. Under review. * Cardiac output measures the rate at which blood is pumped through the body, or ,→ cardiac stroke volume and cardiac output combined. Question 2: Why",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "s because of ,→ technical restraints. However, continuous monitoring by noninvasive ,→ monitors can save lives. Here's the FAQ: Question 1: What is cardiac output? 30 Preprint. Under review. * Cardiac output measures the rate at which blood is pumped through the body, or ,→ cardiac stroke volume and cardiac output combined. Question 2: Why"
+      ]
+    },
+    {
+      "cluster_id": 64,
+      "size": 1,
+      "representative_snippet": "sampling identity-related attributes (e.g., age, ethnicity, hairstyle, multi-view subset through controlled accessory augmentation of expression, and lighting), (ii) generating frontal portraits with a text- Digital Human Heads. Specifically, we arrange sampled multi-view to-image model [5] and converting them into 3D Gaussian heads images into a single multi-view grid and edit the grid with Nano via an image-to-3D model [29] for multi-view rendering, where Banana Pro to add accessories (e.g., glasses, hats, and other wear- the selected model provides strong head-shape and appearance able items). We then manually remove samples with noticeable diversity among existing 3D head reconstruction pipelines, and (iii) cross-view inconsistency in identity, geometry, or accessory ap- enhancing image quality with a face-detail enhancement model [53] pearance, and finally split each edited grid back into individual and filtering low-quality samples using automatic identity/view- views to recover high-quality multi-view tuples. consistency checks. This subset improves identity coverage and Overall, AnyHead combines identity diversity, dense viewpoint reduces sampling bias for robust training. ",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13856v1"
+      ],
+      "snippet_previews": [
+        "sampling identity-related attributes (e.g., age, ethnicity, hairstyle, multi-view subset through controlled accessory augmentation of expression, and lighting), (ii) generating frontal portraits with a text- Digital Human Heads. Specifically, we arrange sampled multi-view to-image model [5] and converting them into 3D Gaussian heads images into a single multi-view grid and edit the grid with Nano "
+      ]
+    },
+    {
+      "cluster_id": 65,
+      "size": 1,
+      "representative_snippet": "and strong solutions to address these limitations (Sun alleviating information loss in cross-modal align- et al., 2024b; Liu et al., 2025; Avny Brosh et al., 2022). ment. By integrating LLMs with product bundling domains, we can leverage their capabilities to analyze prod-",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "and strong solutions to address these limitations (Sun alleviating information loss in cross-modal align- et al., 2024b; Liu et al., 2025; Avny Brosh et al., 2022). ment. By integrating LLMs with product bundling domains, we can leverage their capabilities to analyze prod-"
+      ]
+    },
+    {
+      "cluster_id": 66,
+      "size": 1,
+      "representative_snippet": "To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformulations. These formats leverage the benefits of structured signals and educational content for the learning process of the language model (Gunasekar et al., 2023; Galke et al., 2024; Cheng et al., 2024; Yamaguchi et al., 2026). Second, to determine the influence of generator models, we test six model families with sizes ranging from 135M to 27B parameters. Finally, we evaluate how the quality of the source text and the integration of original web data (i.e., mix-in data) affect outcomes. This clarifies whether the source quality or the mix-in dataset selection serves as the primary driver of performance.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformulations. These formats"
+      ]
+    },
+    {
+      "cluster_id": 67,
+      "size": 1,
+      "representative_snippet": "n Proceedings of the 43rd international limitations in simultaneously capturing comprehen- ACM SIGIR conference on Research and develop- sive world knowledge and understanding user behavior ment in Information Retrieval, pages 1673–1676. patterns. This paper introduces DPB-LLM, a dual- Chen, L., Liu, Y., He, X., Gao, L., and Zheng, Z. enhance",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14030v1"
+      ],
+      "snippet_previews": [
+        "n Proceedings of the 43rd international limitations in simultaneously capturing comprehen- ACM SIGIR conference on Research and develop- sive world knowledge and understanding user behavior ment in Information Retrieval, pages 1673–1676. patterns. This paper introduces DPB-LLM, a dual- Chen, L., Liu, Y., He, X., Gao, L., and Zheng, Z. enhance"
+      ]
+    },
+    {
+      "cluster_id": 68,
+      "size": 1,
+      "representative_snippet": "Textual Inversion[8] 0.780 0.569 0.255 Table 4. Ablation study of ASTRA’s key components on the DreamBooth[30] 0.803 0.668 0.305 COCO-based complex pose benchmark. The performance of the BLIP-Diffusion[18] 0.805 0.670 0.302 full model (e) is the main result, while rows (a-d) show the impact ELITE[41] 0.772 0.647 0.296 of removing or altering each component. Re-Imagen [4] 0.740 0.600 0.270 BootPIG [26] 0.797 0.674 0.311 SSR-Encoder[48] 0.821 0.612 0.308 RealCustom++ [22] 0.794 0.702 0.318 5. Conclusion OmniGen[45] 0.801 0.693 0.315 OminiControl[37] 0.799 0.684 0.312 In this work, we address the challenge of generating multi- FLUX.1 IP-Adapter[38] 0.820 0.582 0.288 subject images with both high identity fidelity and precise UNO[43] 0.835 0.760 0.304 pose control by identifying and resolving a core “positional ASTRA(Ours) 0.847 0.699 0.330 encoding conflict” in existing models. We introduce AS- TRA, a novel framework that architecturally disentangles Table 1. Quantitative results for single-subject driven generation appearance and structure by integrating three key compo- on DreamBench. We present the oracle results in the first row and nents: a Retrieval-Augmented Pose (RAG-Pose) pip",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13938v1"
+      ],
+      "snippet_previews": [
+        "Textual Inversion[8] 0.780 0.569 0.255 Table 4. Ablation study of ASTRA’s key components on the DreamBooth[30] 0.803 0.668 0.305 COCO-based complex pose benchmark. The performance of the BLIP-Diffusion[18] 0.805 0.670 0.302 full model (e) is the main result, while rows (a-d) show the impact ELITE[41] 0.772 0.647 0.296 of removing or altering each component. Re-Imagen [4] 0.740 0.600 0.270 BootPIG "
+      ]
+    },
+    {
+      "cluster_id": 69,
+      "size": 1,
+      "representative_snippet": "Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons with prior work rely on reported figures that can fluctuate across hardware environments.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13977v1"
+      ],
+      "snippet_previews": [
+        "Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons with prior work rely on reported figure"
+      ]
+    }
+  ],
+  "snippets": [
+    {
+      "text": "Abstract tary items based on user preferences and product in-2026 formation to boost purchase intention and efficiency Product bundling boosts e-commerce rev- (Sun et al., 2024a). Unlike conventional sequential enue by recommending complementary item recommendations that suggest similar items, product bundling task creates synergistic solutions. For ex-Apr combinations. However, existing methods face two critical challenges: (1) collabora- ample, a bundle pairing a hamburger with fries and a cold drink not only offers a satisfying meal com-15 tive filtering approaches struggle with cold- start items owing to dependency on histor- bination but also provides cost savings compared to ical interactions, and (2) LLMs lack inher- purchasing each item separately, as shown in Figure 1. ent capability to model interactive graph di- The complementary value makes bundled recommen- rectly. To bridge this gap, we propose a dual- dations significantly more appealing than standalone enhancement method that integrates interac- item suggestions.[cs.CL] tive graph learning and LLM-based seman- Although the Collaborative Filtering(CF) method has tic understanding for product bundling. Our been widely used in recommendation systems and method introduces a graph-to-text paradigm, has demonstrated effectiveness (Ma et al., 2024b), it which leverages a Dynamic Concept Bind- still faces significant challenges in handling cold-start ing Mechanism (DCBM) to translate graph items: newly introduced products lacking established structures into natural language prompts. interaction patterns, as…",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "• Dual-Enhancement Framework: We propose Recently, there are remarkable breakthroughs in the a novel dual-enhancement framework with two- development of LLMs, fueled by increasingly comput- stage fine-tuning. ing power and abundant data resources. The advance- ments in LLMs have inspired exploration of their po- • Dynamic Concept Binding Mechanism: An tential applications in product bundling domains. As innovative adaptation method that enabling si- is known to all, conventional product bundling frame- multaneous preservation of LLMs’ world knowl- works often rely on users’ historical behavioral data edge and precise product entity binding. and manually curated bundles, lacking in-depth un- • Graph-to-text Native Modeling: A graph- derstanding of individual product items and their in- awared conversion paradigm transforms user-item terrelationships. The emergence of LLMs offers novel interaction into textual descriptions, effectively and strong solutions to address these limitations (Sun alleviating information loss in cross-modal align- et al., 2024b; Liu et al., 2025; Avny Brosh et al., 2022). ment. By integrating LLMs with product bundling domains, we can leverage their capabilities to analyze prod- uct descriptions and user-item interactions, thereby2 Related Work more accurately capturing user interests and needs to achieve personalized and precise product bundling. In the domain of bundle recommendation, several methods leverage pre-trained CF models to capture user-bundle interactions. Ma et al. (2024c) propose a 3 Methodology framework that employs pre-trained CF…",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "crease in the number of candidate items, the difficulty References of the task also increases and the accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using contextualized item embeddings. In tive application potential in complex scenarios. Proceedings of the 16th ACM Conference on Rec- ommender Systems, pages 237–245. 5 Conclusion and Future Work Chang, J., Gao, C., He, X., Jin, D., and Li, Y. (2020). Bundle recommendation with graph convolutional Traditional product bundling systems face significant networks. In Proceedings of the 43rd international limitations in simultaneously capturing comprehen- ACM SIGIR conference on Research and develop- sive world knowledge and understanding user behavior ment in Information Retrieval, pages 1673–1676. patterns. This paper introduces DPB-LLM, a dual- Chen, L., Liu, Y., He, X., Gao, L., and Zheng, Z. enhanced product bundling framework that leverages (2019a). Matching user with item set: Collabo- interaction graph enhancement to inject collaborative rative bundle recommendation with deep attention filtering knowledge into large language models. Exten- network. In IJCAI, pages 2095–2101. sive experiments on three datasets demonstrate that our framework significantly outperforms state-of-the- Chen, W., Huang, P., Xu, J., Guo, X., Guo, C., art baseline models, achieving performance improve- Sun,…",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "ns. For ex-Apr combinations. However, existing methods face two critical challenges: (1) collabora- ample, a bundle pairing a hamburger with fries and a cold drink not only offers a satisfying meal com-15 tive filtering approaches struggle with cold- start items owing to",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "limitation is particularly evident, as the performance ing domain-specific entities with LLM tok- of CF method is heavily dependent on historical inter- enization, enabling effective comprehension",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "and strong solutions to address these limitations (Sun alleviating information loss in cross-modal align- et al., 2024b; Liu et al., 2025; Avny Brosh et al., 2022). ment. By integrating LLMs with product bundling domains, we can leverage their capabilities to analyze prod-",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "accuracy of the pre- diction decreases. However, DPB-LLM still ensures a Avny Brosh, T., Livne, A., Sar Shalom, O., Shapira, stable accuracy rate. This proves the stability of our B., and Last, M. (2022). Bruce: bundle recommen- proposed method and highlights its reliable and effec- dation using contextualized item embeddings. In tive application potential in complex scenarios.",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "n Proceedings of the 43rd international limitations in simultaneously capturing comprehen- ACM SIGIR conference on Research and develop- sive world knowledge and understanding user behavior ment in Information Retrieval, pages 1673–1676. patterns. This paper introduces DPB-LLM, a dual- Chen, L., Liu, Y., He, X., Gao, L., and Zheng, Z. enhance",
+      "arxiv_id": "2604.14030v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "7 Conclusions We evaluated synthetic pretraining across rephrasing strategies, generator models, and source data. Accordingly, we found that: the design of rephrasing prompts primarily determines performance; structured pedagogical formats exceed the utility of simple paraphrasing; generator capacities beyond 1B parameters yield negligible gains for most rephrasing prompts; source quality has minimal impact when paired with robust mix-in data; and generative diversity outweighs formatting consistency. While synthetic tokens provide logical depth, original web data remains essential to preserve commonsense reasoning and 3We include some actual samples in Appendix E. 9 Preprint. Under review. linguistic variety. These principles culminate in FINEPHRASE, a 486-billion-token dataset that achieves up to a 30× cost reduction while outperforming established baselines. Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons with prior work rely on reported figures that can fluctuate across hardware environments. Reproducibility Statement All training hyperparameters, prompt templates, and evaluation details are provided in §3 and Appendix B. The FINEPHRASE dataset (486B tokens), the complete ablation data, the underlying generation framework, the code for generating the FINEPHRASE…",
+      "arxiv_id": "2604.13977v1",
+      "source": "section:conclusion"
+    },
+    {
+      "text": "To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformulations. These formats leverage the benefits of structured signals and educational content for the learning process of the language model (Gunasekar et al., 2023; Galke et al., 2024; Cheng et al., 2024; Yamaguchi et al., 2026). Second, to determine the influence of generator models, we test six model families with sizes ranging from 135M to 27B parameters. Finally, we evaluate how the quality of the source text and the integration of original web data (i.e., mix-in data) affect outcomes. This clarifies whether the source quality or the mix-in dataset selection serves as the primary driver of performance.",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons with prior work rely on reported figures that can fluctuate across hardware environments.",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Singh et al., 2026). However, the design space for synthetic data generation is expansive and currently lacks comprehensive assessment. Prior work has explored individual approaches in isolation. For 1 Preprint. Under review. instance, WRAP (Maini et al., 2024) focuses on stylistic rewriting",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "data for pretraining. To address these limitations, we conduct a controlled analysis across three axes: the rephras- ing strategy, the choice of generator models, and the selection of source and mix-in data. First, we investigate rephrasing strategy by comparing established rephrasing prompts from prior work against four new pedagogical structured formats: tutorials, FAQs, tables, and math reformu",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "with a negligible delta of 0.28 points. However, because Nemotron-HQ-Synth consists of five distinct strategies (§2.2), the aggregate score may mask the high performance of specific transformations while incorporating the deficiencies of others. This lack of granularity necessitates the systematic ablation of these components, which we present in the following analysis (Table 3). Established P",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "neWeb 11.82 8.83 for FWHQ. However, a distinct trend emerges when Cosmopedia 12.99 10.83 the quality of Dmix is fixed at a high level: the inher- DCLM 14.32 12.62 ent quality of Dsource becomes less dominant. In this FWHQFWLQ 14.3013.61 12.999.63 high-quality mix-in setting, the performance delta narrows to a maximum of 1.78 poi",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e outperforming established baselines. Limitations. As the scale of the model was not a primary covariate, experiments use a 1.2B model trained on 21B tokens. While this setup follows FineWeb (Penedo et al., 2024a), results may vary at larger scales. Evaluation is restricted to standard English benchmarks and our results may therefore be benchmark- and language-specific. Finally, cost comparisons",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "l web data, which ensures that training does not occur exclusively on the outputs of a model. We do not filter for or against any specific topics, and the content distribution of the source data remains consistent with the distribution of FineWeb. Furthermore, the synthetic data is always obtained by rephrasing seed data, and not by simply sampling many times from a model with a fixed prompt. Th",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": ", and history. - Disregard content that does not contain useful facts or knowledge. - Retain examples, explanations of reasoning processes, and supporting evidence ,→ to maintain the text's depth and context. - Do not add or alter details. Only restate what is already in the text. - Write in plain text. - Do not add titles, subtitles, note, or comment. Text: [TEXT] Task: Rewrite facts and kno",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "s because of ,→ technical restraints. However, continuous monitoring by noninvasive ,→ monitors can save lives. Here's the FAQ: Question 1: What is cardiac output? 30 Preprint. Under review. * Cardiac output measures the rate at which blood is pumped through the body, or ,→ cardiac stroke volume and cardiac output combined. Question 2: Why",
+      "arxiv_id": "2604.13977v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "structure within a unified Diffusion Transformer. ASTRA This decoupling of appearance and structure provides achieves this through a dual-pronged strategy. It first em- fine-grained, assignable control that current methods lack. ploys a Retrieval-Augmented Pose (RAG-Pose) pipeline to While tools like ControlNet [47] master structural guidance, provide a clean, explicit structural prior from a curated they cannot customize subject identity. Conversely, IP- database. Then, its core generative model learns to pro- Adapter [46] preserves a single subject’s identity but strug- cess these dual visual conditions using our Enhanced Uni- gles to assign distinct poses to multiple individuals. Our versal Rotary Position Embedding (EURoPE), an asymmet- framework ASTRA is the first to allow users to explicitly ric encoding mechanism that decouples identity tokens from assign a unique, complex pose to multiple customized sub- spatial locations while binding pose tokens to the canvas. jects simultaneously(as shown in Figure 1). This capability Concurrently, a Disentangled Semantic Modulation (DSM) is crucial for complex storytelling and personalized content adapter offloads the identity preservation task into the text creation, overcoming the limitations of text-only and single- conditioning stream. Extensive experiments demonstrate subject-only descriptions for such scenes [2]. that our integrated approach achieves superior disentangle- Our contributions are summarized as follows: ment. On our designed COCO-based complex pose bench- • We introduce a RAG-inspired paradigm that addresses…",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Textual Inversion[8] 0.780 0.569 0.255 Table 4. Ablation study of ASTRA’s key components on the DreamBooth[30] 0.803 0.668 0.305 COCO-based complex pose benchmark. The performance of the BLIP-Diffusion[18] 0.805 0.670 0.302 full model (e) is the main result, while rows (a-d) show the impact ELITE[41] 0.772 0.647 0.296 of removing or altering each component. Re-Imagen [4] 0.740 0.600 0.270 BootPIG [26] 0.797 0.674 0.311 SSR-Encoder[48] 0.821 0.612 0.308 RealCustom++ [22] 0.794 0.702 0.318 5. Conclusion OmniGen[45] 0.801 0.693 0.315 OminiControl[37] 0.799 0.684 0.312 In this work, we address the challenge of generating multi- FLUX.1 IP-Adapter[38] 0.820 0.582 0.288 subject images with both high identity fidelity and precise UNO[43] 0.835 0.760 0.304 pose control by identifying and resolving a core “positional ASTRA(Ours) 0.847 0.699 0.330 encoding conflict” in existing models. We introduce AS- TRA, a novel framework that architecturally disentangles Table 1. Quantitative results for single-subject driven generation appearance and structure by integrating three key compo- on DreamBench. We present the oracle results in the first row and nents: a Retrieval-Augmented Pose (RAG-Pose) pipeline compare both tuning and tuning-free methods. The best results for clean structural priors, an asymmetric positional encod- are shown in bold and the second-best result is underlined. ing strategy to separate identity and pose signals, and a Disentangled Semantic Modulation (DSM) stream to en- Method CLIP-I↑ DINO↑ CLIP-T↑ hance identity robustness. Extensive experiments and ab- DreamBooth…",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "the text creation, overcoming the limitations of text-only and single- conditioning stream. Extensive experiments demonstrate subject-only descriptions for such scenes [2]. that our integrated approach achieves superior disentangle- Our contributions are summarized as follows: ment. On our designed COCO-based complex pose bench- • We introduce a RAG-inspired paradigm that addr",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "on structural maps such as human poses.However, ex- the data problem and decouples the entangled appearance- tension of these methods to multiple subjects introduces sig- structure signals at the input level. We introduce AS- nificant challenges, such as identity bleeding and attribute TRA, a framework that uses dual visual inputs: (1) a confusion. To overcome these complexities",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "tion of these domains: Existing methods struggle to ensuring semantic fidelity and data quality; and (3) an ef- simultaneously preserve multiple, specific subject iden- ficient, lightweight retrieval system that seamlessly maps tities while enforcing complex, structured poses. This ambiguous textual descriptions to the most relevant pose issue is particularly acute in modern Diffusio",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ations. Because the pose tity features. However, when scaled to multi-subject sce- maps are clean skeletons on neutral backgrounds, positional narios, these approaches encounter issues such as compu- binding enforces geometry without introducing unwanted tational complexity and feature entanglement, where each details—turning a common positional conflict into a precise additional sub",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "857 0.4283 0.2970 it particularly struggles to learn the pose (OKS drops to IP-Adapter*[38] 0.0314 0.6942 0.4310 0.3050 0.0076), with other metrics degrading due to this inappro- PhotoMaker*[19] 0.0308 0.6920 0.4305 0.3042 priate encoding. ASTRA (Ours) 0.0452 0.7087 0.4457 0.3194",
+      "arxiv_id": "2604.13938v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "5 Conclusions 4.4 Downstream Applications We present Any3DAvatar, an efficient framework for single-image Our method provides a practical bridge from 2D generation/editing full-head avatar reconstruction. Our key contributions are: (1) oneto controllable 3D content by reconstructing high-quality full-head step conditional denoising for fast inference with strong quality; (2) avatars from a single image. We demonstrate three representative auxiliary view-conditioned appearance supervision that improves applications. (1) Text-to-3D via image generation: text prompts are non-input-view texture fidelity with zero extra inference cost; and first converted into portraits by a text-to-image model, and the (3) the AnyHead data pipeline with complementary identity divergenerated portraits are then fed into our framework for fast 3D sity, viewpoint coverage, and accessory-rich samples. A current head reconstruction and consistent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will exby a 2D image-editing model, and the edited results are then used pand accessory-rich supervision and extend the framework to 4D Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image OpenReview.net. https://openreview.net/forum?id=hgehGq2bDv [10] Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos Zafeiriou. 2019. ArcFace: Additive Angular Margin Loss for Deep Face Recognition. In…",
+      "arxiv_id": "2604.13856v1",
+      "source": "section:conclusion"
+    },
+    {
+      "text": "scaffold and perform one-step conditional denoising, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearance supervision on the same latent tokens alongside 3D (1) AnyHead Dataset. To mitigate dataset bias (limited diversity, Gaussian reconstruction, improving novel-view texture details at sparse viewpoints, and weak accessory coverage), we construct zero extra inference cost. Experiments show that Any3DAvatar AnyHead with a large diverse identity pool, dense and control- outperforms prior single-image full-head reconstruction methods lable multi-view supervision, and an accessory-rich subset, so that in rendering fidelity while remaining substantially faster. We also training directly covers hard cases such as large pose changes, provide a webpage to present more visual results: Demo Page. side/back regions, and wearable items. (2) One-Step Denoising Network. To remove the latency of head fitting and optimization- heavy inference, we argue that human heads exhibit strong struc- tural regularity, making single-image-to-3D head reconstruction a strong-prior task with a highly constrained solution space. Based 1 Introduction on this observation, we design a DiT [32]-based single-stage one- Single-Image full 3D head reconstruction aims to reconstruct a step denoising network that starts…",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "sampling identity-related attributes (e.g., age, ethnicity, hairstyle, multi-view subset through controlled accessory augmentation of expression, and lighting), (ii) generating frontal portraits with a text- Digital Human Heads. Specifically, we arrange sampled multi-view to-image model [5] and converting them into 3D Gaussian heads images into a single multi-view grid and edit the grid with Nano via an image-to-3D model [29] for multi-view rendering, where Banana Pro to add accessories (e.g., glasses, hats, and other wear- the selected model provides strong head-shape and appearance able items). We then manually remove samples with noticeable diversity among existing 3D head reconstruction pipelines, and (iii) cross-view inconsistency in identity, geometry, or accessory ap- enhancing image quality with a face-detail enhancement model [53] pearance, and finally split each edited grid back into individual and filtering low-quality samples using automatic identity/view- views to recover high-quality multi-view tuples. consistency checks. This subset improves identity coverage and Overall, AnyHead combines identity diversity, dense viewpoint reduces sampling bias for robust training. coverage, and accessory realism to provide a stronger training basis Digital Human Heads: While AI-generated data improves iden- for single-image 3D head avatar reconstruction. See the supplemen- tity diversity, real-captured datasets still provide limited viewpoint tary material for more dataset details. coverage due to constrained camera quantity and placement. To ad- dress this limitation, we…",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "5 Conclusions 4.4 Downstream Applications We present Any3DAvatar, an efficient framework for single-image Our method provides a practical bridge from 2D generation/editing full-head avatar reconstruction. Our key contributions are: (1) one- to controllable 3D content by reconstructing high-quality full-head step conditional denoising for fast inference with strong quality; (2) avatars from a single image. We demonstrate three representative auxiliary view-conditioned appearance supervision that improves applications. (1) Text-to-3D via image generation: text prompts are non-input-view texture fidelity with zero extra inference cost; and first converted into portraits by a text-to-image model, and the (3) the AnyHead data pipeline with complementary identity diver- generated portraits are then fed into our framework for fast 3D sity, viewpoint coverage, and accessory-rich samples. A current head reconstruction and consistent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will ex- by a 2D image-editing model, and the edited results are then used pand accessory-rich supervision and extend the framework to 4D",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Detail Enhance Detail Enhance Detail Enhance 7 Stack all views as z𝑔∈R4×𝑁ℎ×𝑁𝑤×1024 8 Flatten both branches: ˆc = Flatten(ctx) ∈R(𝑁ℎ𝑁𝑤)×1024, ˆg = Flatten(z𝑔) ∈R(4𝑁ℎ𝑁𝑤)×1024 9 Concatenate tokens along sequence dimension: s0 = [ˆc; ˆg] ∈R(5𝑁ℎ𝑁𝑤)×1024 10 Set diffusion timestep 𝑡←0 by default Evaluate Evaluate Evaluate 11 Process sequence with DiT: s = 𝐹DiT(s0,𝑡) 12 Split denoised Gaussian tokens ˜z𝑔from s 13 Reshape ˜z𝑔→ˆz𝑔and decode four-view RGB predictions: Figure 9: Examples of AI-generated heads used in our dataset y𝑖𝑚𝑔= 𝐷vae(ˆz𝑔) ∈R4×𝐻×𝑊×3 // training only construction pipeline. 14 Decode Gaussian parameters: ˆg1 = 𝐷gs(˜z𝑔) ∈R(4𝐻𝑊)×14 15 Assemble Gaussian point cloud from ˆg1 and render multi-view images y𝐺𝑆 C Dataset Details 16 Inference: skip 𝐷vae(·) and use only 𝐷gs(·) for decoding In this section, we provide a detailed description of AnyHead dataset construction pipeline, including data collection, filtering, and qual- ity control. We also present a comparative analysis against existing datasets, highlighting the main strengths of our dataset in identity diversity, view coverage, and fine-grained appearance fidelity. Appendix A Overview C.1 Construction Details In this supplementary material, we present additional content not AI-Generated Heads: To reduce the selection bias and identity- covered in the main paper, including: coverage limitations of real-captured multi-view head datasets, we build an AI-generated subset with nearly 1,000 identities and • A pseudocode description of our methods. diverse attributes. As shown in Fig. 9, the pipeline contains five •…",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "checks driven by a multimodal large language model [36]. This process improves identity diversity and reduces sampling bias for Figure 11: Examples of accessory-rich heads generated by robust training. controlled multi-view accessory augmentation. Digital Human Heads: While AI-generated data improves iden- tity diversity, real-captured datasets still provide limited viewpoint coverage due to constrained camera quantity and placement. To Banana Pro to add accessories (e.g., glasses, hats, and other wear-address this limitation, we use Unreal Engine (UE) to synthesize able items), which provides strong cross-view consistency whilehigh-fidelity digital human heads with dense, controllable cam- preserving facial identity and head geometry. During editing, weera sampling (Fig. 10). We first sample real head keypoints from use a fixed prompt + random accessory description strategy: the fixedFaceScape [54], and then construct multi-expression digital heads prompt explicitly embeds multi-view consistency constraints (sameconditioned on these keypoints. Specifically, for each identity, we identity, same geometry, and consistent accessory shape/positionfit and retarget facial geometry in UE MetaHuman according to across views), while random accessory descriptions are injectedsampled keypoints, and then assign appearance attributes to the to increase accessory diversity. After editing, we perform manualMetaHuman mesh, including skin tone, hairstyle, eyebrow/beard quality control to remove samples with noticeable cross-view in-style, and material-level facial details, to obtain…",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "a limited range of viewpoints and are not designed for complete Plücker ray embedding, each pixel is associated with a constrained full-head recovery, we conduct the comparison on the NeRSemble 3D location along its corresponding ray, which makes optimization V2 [22], which better matches their evaluation setting. As shown in easier and improves convergence behavior. Table 9 and Fig. 13, Any3DAvatar still achieves the best overall per- formance under this evaluation protocol, delivering the strongest quantitative results across all metrics as well as better visual qual- ity. These results show that Any3DAvatar remains superior even on datasets and settings that are more favorable to non-full-head methods and restricted viewing ranges. E More Visual Results E.1 Accessory Generation D.4 Noise Injection Location Study Leveraging the Accessory-Rich Heads data and our FLAME-free For a denoising model, the way that noise is injected is a key fac- network design, our model gains strong accessory-aware gener- tor for optimization stability and final reconstruction quality. In ation capability. As shown in Fig. 15, Any3DAvatar can synthe- 3D-space denoising, a critical requirement is to provide explicit size diverse accessories while preserving identity consistency and spatial location cues for noisy point-cloud tokens. To study this, full-head structure. The visual results demonstrate high-quality we compare several noise injection strategies: (i) pixel-space noise generation with realistic geometry and texture details under chal- injection, (ii) latent-space noise injection, and…",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads, the number of available viewpoints is still limited, which restricts both generation quality and generalization ability under challeng- Pixel-Space Noise ing view changes. In future work, we plan to develop better data + Plücker Ray Embedding Reference Front Left Back Right acquisition and processing pipelines to build large-scale multi-view- consistent accessory-rich head data. Second, the current model still contains a relatively large number of parameters, and its inference-Figure 16: Impact of different noise injection strategies on time GPU memory consumption can reach around 10 GB. We there-our experimental results. fore plan to release a more lightweight version in the future, with the goal of enabling efficient deployment on more devices. Third, the current dataset still covers only limited facial expressions and E.2 More Stylized Visual Results head poses. We will further extend the dataset with more diverse We further evaluate Any3DAvatar on a broader range of head in- and complex expressions and poses, which is expected not only puts, covering diverse ethnic groups, lighting conditions, stylization to improve current 3D head generation performance but also to",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "ing, formulating To address these limitations, we propose Any3DAvatar, a uni- full-head reconstruction into a single forward pass while retain- fied framework for fast and high-quality full 3D head reconstruc- ing high fidelity. Third, we introduce auxiliary view-conditioned tion from a single portrait, with three coordinated contributions. appearance supervision on the same latent",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "s, the model also alleviates mesh-prior limitations and better foundation for downstream tasks such as talking-head synthesis, reconstructs challenging regions such as teeth, accessories, and 3D head editing, virtual telepresence, and digital human creation. complex hair. (3) Auxiliary View-Conditioned Appearance Su- Consequently, improving both reconstruction fidelity and inference p",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ciency bottlenecks. Specifically, these limitations ance detail recovery while preserving faithful 3D geometry under are mainly reflected in two aspects. (1) Quality. The central qual- an auxiliary-supervision training, zero-cost inference setting. ity problem is that existing methods still cannot reliably preserve The contributions of Any3DAvatar are summarized as follows: full-head",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "25, 35] require head fitting before However, as direct single-image/text-to-3D generation continues reconstruction, adding non-trivial preprocessing cost, while several to advance rapidly, this intermediate multi-view generation line is recent reconstruction approaches [1, 17, 51] remain optimization- gradually becoming less central in the field. heavy at inference time, such as",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "antity and placement. To ad- dress this limitation, we use Unreal Engine (UE) to synthesize high- 3.3 One-Step Generation Network fidelity digital human heads with dense, controllable camera sam- Previous methods rely on heavy preprocessing and per-subject pling. We first sample real head keypoints from FaceScape [54], and",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ulti-step ODE trajectory step, it does not inherently guarantee that the latent tokens capture is theoretically complete, empirical results show that iterative re- the full spectrum of high-frequency textures required for novel- finement brings only marginal visual gains for frontal-conditioned view synthesis. In viewpoints far from the input image, point-cloud head generation (F",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ference time, so this training strategy does not introduce extra inference cost and does not compromise our ˆg1 −g0 gfinal = g0 + (1 −0) = ˆg1, (5) efficiency objective. 1 −0 For supervision, we us",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "tent novel-view synthesis. (2) 2D limitation is the relatively limited multi-view accessory data, which style-edited image to 3D reconstruction: portraits are first restyled affects training for accessory-heavy cases. Future work will ex- by a 2D image-editing model, and the edited results are then used pand accessory-rich supervision and extend the framework to 4D Any3DAvatar: Fa",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "coverage limitations of real-captured multi-view head datasets, we build an AI-generated subset with nearly 1,000 identities and • A pseudocode description of our methods. diverse attributes. As shown in Fig. 9, the pipeline contains five • Deta",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "enerating frontal • A discussion of limitations and future work. portraits using a text-to-image model [5] under a fixed-view setting, where prompts are composed of a shared background template and",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "sses, hats, and other wear-address this limitation, we use Unreal Engine (UE) to synthesize able items), which provides strong cross-view consistency whilehigh-fidelity digital human heads with dense, controllable cam- preserving facial identity and head geometry",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ults for full-head reconstruction: they struggle to Reference DiffPortrait360 Any3DAvatar Ground Truth preserve complete identity information, and they also show limited understanding of full-head geometry and texture consistency, espe- Figure 13: Visual comparison with non-full-head 3D head cially in non-frontal regions. However, Any3DAvatar consistently generat",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "videos. Since DiffPortrait360 does not provide explicit camera con- D.3 Comparison with More Image-to-3D-Head trol and is therefore not directly compatible with our evaluation Methods protocol, we conduct a qualitative comparison on the AnyHead We not",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "oise lenging accessory variations. However, we also observe limitations: injection with Plücker-based spatial position embedding. Qualita- under some extreme viewpoints, accessory generation becomes tive results are shown in Fig. 16. We observe that explicitly injecting less reliable and the generalization ability is still insufficient. We spatial position information in pixel sp",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "F Limitations and Future Work Despite the strong performance of Any3DAvatar, our current frame- Latent-Space Noise Reference Front Left Back Right work still has several limitations. First, for accessory-rich heads,",
+      "arxiv_id": "2604.13856v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Algorithm 1 find a list of precise rewriting rules from buckets of Listing 1: Left commit: two lines are extracted into a new rewriting instances function function getPreciseRewriting(buckets) ... 𝑃←∅ - publicnotNull(obj);void addListener(O obj) { for all 𝑏∈buckets do - validate(obj); for 𝑖= 0, . . . , |𝑏| do + runCheck(obj); Listeners.add(obj.getListener()); expandEdit(𝑖,𝑏, buckets, 𝑃) } end for end for + + public void runCheck(O obj) { return SortAndFilter(𝑃) + notNull(obj); end function + validate(obj); function expandEdit(i, b, buckets, P_ref) +} } for 𝑗= 0, . . . , w do for 𝑘= 0, . . . , w do 𝑟← join𝑙(b[i-j:i+k]) →join𝑟(b[i-j:i+k]) which is an identity rewriting instance. Therefore, join() takes one tp, fp ←getClassificationMetrics(r, buckets) token at a time, which is the dot (.), and a new rewriting rule bc. P_ref[r]=(tp, fp) →Program. is formed. This rule has tp = 1, fp = 0. end for Classification metrics cannot be computed for an insertion rule end for 𝜀→import \"fmt\"\\n. When 𝑗= 1,𝑘= 0, the created substitution end function rule is \\n →\\nimport \"fmt\"\\n with tp = 1, fp = 6. When 𝑗= 0,𝑘= 1, the created substitution rule is func →import \"fmt\"\\nfunc with tp = 1, fp = 0. 3.4 From String-Rewriting Instances to The function SortAndFilter calculates the precision of each String-Rewriting Rules rule, namely tp/(tp + fp). Rules with precision no more than 0.5 The string edits that we have shown, such as bc.go ⇒Program.go are filtered out. The remaining non-overlapping rewriting rules are and )\\n} ⇒)\\n}, are mathematically called string-rewriting in- the ones that best…",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Listing 3: For thumbnailator, Summer (on the left) added antextual merge approaches. Since KDiff is a GUI tool, we coded an extra since tag comparing to developer. FSTMerge and Auto-AutoHotKey script to click the merge button and close dialogs which Merge (on the right) wrote in a style differing to developerinterrupt the automatic process. AutoMerge extended JDime, so we skipped the latter in our experiments. * * @since 0.3.4 Besides, we made additional improvements to Shen’s merge * @author coobird * driver while preserving its behavior. The original merge driver * @since 0.3.4 */ - * @since 0.3.4 -public interface Size { prepares the testing input by copying a repo folder and deleting * - everything but the single conflicting file, which easily leads to */ +public interface Size file locking issues and breaks the integrity of a test run. Our new public interface Size +{ /** version utilizes the sparse checkout feature of Git so that only the * Calculates the size required file is materialized, greatly boosting the robustness of our evaluation. Listing 4: IntelliMerge produced duplicated throws expres- The evaluation results are in Table 4. The first 3 tools, namely sions for serverSummer, KDiff, and wiggle, are universal merge tools. FSTMerge is not universal, but it can merge Java, XML files, and a number boolean received; of other formats. IntelliMerge and AutoMerge were designed Server server; to merge Java files, so we left their values empty in the non-Java - protected void startServer() throws IOException throws cases. The literal matches were automatically…",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Konrad Malawski, konrad@project13.pl, Typesafe +ouertani | Slim Ouertani, ouertani@gmail.com numbers may not generalize well to documents in other languages +2m | Martynas Mickevicius, mmartynas@gmail.com, Typesafe or formats. +ldaley | Luke Daley, luke.daley@gradleware.com, Gradleware Summer currently ignores changes in file encoding and line colinrgodsey | Colin Godsey, crgodsey@gmail.com, MediaMath Inc. endings. These kinds of changes exist in the real world, but they are Listing 8: Summer added a row to a wrong place in reactive- considered infrequent. Also, ConflictBench does not test multiple streams-jvm conflicting files. If one branch deletes file A and modifies file B, and savulchik | Stanislav Savulchik, s.savulchik@gmail.com the other branch modifies file A and deletes file B, as discussed in ktoso | Konrad Malawski, konrad@project13.pl, Typesafe Section 3.2, a suitable merge direction cannot be determined and -colinrgodsey | Colin Godsey, crgodsey@gmail.com, MediaMath Inc. this reduces Summer’s merge accuracy. ouertani | Slim Ouertani, ouertani@gmail.com 2m | Martynas Mickevicius, mmartynas@gmail.com, Typesafe Finally, ConflictBench only provides the conflicting file to each ldaley | Luke Daley, luke.daley@gradleware.com, Gradleware merge tool, but Summer actually can read all…",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "grouping, and other so-called “trivia”. However, trivia is important on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or for professional software engineers who want to review formatting republish, to post on servers or to redistr",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "literal nodes, and files that the tool does not understand, including README Determine merge direction files, configuration scripts, and various auxiliary artifacts, which are Left branch is simpler present in nearly all repositories [24]. Hence, we propose a universal textual merge algorithm, which can be used directly as a standalone",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "hree folders, treating one as the base. However, none of complexity. Bates [5] built a text editor that parses the content into them performs file renaming detection. a CST and only sends the modified part of the CST for updating the Stock merge tools in version control systems merge everything user interface. Nevertheless, Bates’ algorithm is not for a",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "liMerge calculates and new text, but it does not permit minor modifications within a the string cosine similarity for identifier nodes and the Jaccard sim- moved string, such as renaming a variable. wdiff and wiggle [6] ilarity for other nodes, w",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "a rewriting rule bc →Program is formed. Unfortunately, this the left commit extracts two lines into a new function runCheck as rule incorrectly rewrites import bc \"github.com/txaty/bigcomplex\" Listing 1; the right commit changes the calling style notNull(obj) to import Program \"github.com/txaty/bigcomplex\", which boosts 1We",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "𝑎is matched rewritten by another rule. However, we take another approach in once, and 𝑐is matched and executed one or more times. One-to- this paper. In this section, we present move rules, which also solve many models inlining operations. On the other hand, many-to-one the problem of moving text. models extraction operations. Algorithm 2 illustrat",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "merge tools; however, many are no longer available, such as Seibt et al.’s dataset [27] and IntelliMerge’s dataset [29]. The data used to train DeepMerge [8] is limited, including only resolutions achi",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "𝑁 driver does not evaluate merge results, which is done manually In terms of complexity, findLS finishes in 𝑂( 𝑀𝑀) = 𝑂(𝑁). ex- by checking semantic equivalence. The 3 files by design were not pandEdit finishes in 𝑂( 𝑤2𝑁2𝑀 ) which we have shown in the previ- mergeable by git merge. This benchmark comes with the binaries of ous subsection. Then, let 𝑑be t",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ly, our modified ConflictBench Summer does not expect a rule to be applied certain number of automatically computes merge results’ literal similarity by times because the situation of the left commit and the right commit giving merely 3 files to a merge tool. can differ. For example, the left commit changes the indentation As of the dataset in ConflictBench, the repo mybatis-plu",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e it observes Listing 5: AutoMerge failed to rename a variable in the the original, local styling and syntax, it does not delete comments merge result for SimianArmy and copyright headers, and its merge output is ready to commit. - @Override In the subsequent subsections, we first analyze a few most dif- - public void doMonkeyBusiness() {",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "by checking additional repos. Summer does not know semantics of the space and the tab char- acter, it adds both to the merge result, shown in Listing 3. On the contrary, the developer picked merely the tab version. FSTMerge 4.1 Java Scenarios",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "telliMerge claims to be an AST tool, it does not This case is particularly challenging in that the correct resolution always produce syntactically correct output. A case in point is the requires a solid understanding of the meaning of the snapshot tag. repo server. Listing 4 shows the merge result by IntelliMerge for Another most difficult case is halo, where the left branch added",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "d the new line to the merge result, but failed to A Universal Textual Merge Strategy Based on Tokens EASE 2026, 9–12 June, 2026, Glasgow, Scotland, United Kingdom Table 4: Evaluation results divided by the Java category and the non-Java category. Each category shows the number of solutions literally (lit.) and semantically (sem.) matching developer",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "4.2 Non-Java Scenarios tools failed. AutoMerge’s solutions deviate from developers’ not only in There are 38 most difficult cases in the non-Java scenarios where comments and line breaks, but also in optional elements in the Java no tool can merge correctly. One of them is repo redisson. The cor- language. Shen classified AutoMerge’s solution in Listing 6 as rect val",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "and Mikoláš Janota Listing 7: FSTMerge failed to add certain rows in reactive- 5.3 External Validity streams-jvm The evaluation was mainly done on the Java programming language savulchik | Stanislav Savulchik, s.savulchik@gmail.com with a variety of other data formats. Consequently, the accuracy ktoso | Kon",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "sidered infrequent. Also, ConflictBench does not test multiple streams-jvm conflicting files. If one branch deletes file A and modifies file B, and savulchik | Stanislav Savulchik, s.savulchik@gmail.com the other branch modifies file A and deletes file B, as discussed in ktoso | Konrad Malawski, konrad@proj",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e applies to other tools. ConflictBench does not send styling guides to AST tools and thus they made formatting mistakes seen in Listings 3, 6, and 7. To mitigate this threat, the merge accuracy The left and right branches of the repo jmonkeyengine made sim",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "tools achieve higher semantic accuracy. However, there are Additionally, multiple tools create compatibility challenges, as their threats to the validity in our study. dependencies may conflict. Secondly, advances in universal merge algorithms boost performance of high-level syntactic or sem",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ay slightly affect the dataset balance. However, we did not add a new Acknowledgements. The research was supported by the European repo because it would introduce a new bias. We fixed a directory in Union under the project ROBOPROX (reg. no. CZ.02.01.01/00/22_008/ mybatis-plus that was invisible to a merge tool, so it had no impact 0004590). This article is part of the RICAIP proj",
+      "arxiv_id": "2604.13813v1",
+      "source": "fulltext:negation_window"
+    }
+  ]
+}

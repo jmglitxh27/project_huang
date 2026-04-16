@@ -1,0 +1,1219 @@
+{
+  "manifest": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\runs\\0898f663-65b2-4c86-9c08-b673d311e7a8\\manifest.json",
+  "embedding_backend": "semantic",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "distance_threshold": 0.28,
+  "snippet_count": 71,
+  "cluster_count": 71,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 1,
+      "representative_snippet": "r empty. Similarly for columns. However, the interactions must respect the chip limits.\\n\\nAfter accounting for all constraints and ensuring the maximality, the total number of valid configurations is \\( \\boxed{252} \\).\\n\\nWait, that doesn't seem right. Let's think again.\\n\\nUpon re-evaluating, the correct number of w",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "r empty. Similarly for columns. However, the interactions must respect the chip limits.\\n\\nAfter accounting for all constraints and ensuring the maximality, the total number of valid configurations is \\( \\boxed{252} \\).\\n\\nWait, that doesn't seem right. Let's think again.\\n\\nUpon re-evaluating, the correct number of w"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 1,
+      "representative_snippet": "c opinion related to [The Company] that does not involve regulatory department. Figure 6: Prompt of risk prediction. E.5 Visualization of PPL Distribution To further analyze the exploration and exploitation trends during the RL training process, we con- ducted a visualization analysis of the PPL distribution during the training of DAPO and DiPO. As shown in Fi",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "c opinion related to [The Company] that does not involve regulatory department. Figure 6: Prompt of risk prediction. E.5 Visualization of PPL Distribution To further analyze the exploration and exploitation trends during the RL training process, we con- ducted a visualization analysis of the PPL distribution during the training of DAPO and DiPO. As shown in Fi"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 1,
+      "representative_snippet": "pty, and similarly for columns. However, theEmpty reduces the total number of chips.\\n\\nThe total number of ways is \\(2^5 \\times 2^5 = 1024\\), but considering the constraints, it's actually \\(2^9 = 512\\).\\n\\nThus, the final answer is:\\n\\n\\[\\boxed{512}\\]<|endoftext|> Figure 9: Error case of DAPO.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "pty, and similarly for columns. However, theEmpty reduces the total number of chips.\\n\\nThe total number of ways is \\(2^5 \\times 2^5 = 1024\\), but considering the constraints, it's actually \\(2^9 = 512\\).\\n\\nThus, the final answer is:\\n\\n\\[\\boxed{512}\\]<|endoftext|> Figure 9: Error case of DAPO."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 1,
+      "representative_snippet": "= ¯ri for all i ̸= ¯m. Noted that if τ∗does not exist, or mean({¯pi}) < τ∗, reallocated reward remains unchanged, i.e., {¯rir} = {¯ri} = {1}. Finally, we abstracted the peocess of BRR into a formalized reward function Rr, defined as follows: {ˆrir} if {ri} = {0}, Rr({ri}) = {¯rir} if {ri} = {1}, (10)",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "= ¯ri for all i ̸= ¯m. Noted that if τ∗does not exist, or mean({¯pi}) < τ∗, reallocated reward remains unchanged, i.e., {¯rir} = {¯ri} = {1}. Finally, we abstracted the peocess of BRR into a formalized reward function Rr, defined as follows: {ˆrir} if {ri} = {0}, Rr({ri}) = {¯rir} if {ri} = {1}, (10)"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 1,
+      "representative_snippet": "thods; in the later stages of training, however, the performance curve of DAPO exhibited a significant slowdown in growth, whereas DiPO maintained a sustained capacity for exploratory improvement. Combined with the PPL distribution characteristics in Figure 4, this phenomenon can be further explained: DiPO enables hard samples to conduct more sufficient exploration, while the training paradigm",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "thods; in the later stages of training, however, the performance curve of DAPO exhibited a significant slowdown in growth, whereas DiPO maintained a sustained capacity for exploratory improvement. Combined with the PPL distribution characteristics in Figure 4, this phenomenon can be further explained: DiPO enables hard samples to conduct more sufficient exploration, while the training paradigm"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 1,
+      "representative_snippet": "= ˆri for all i ̸= ˆm. Noted that if τ∗does not exist, or mean({ˆpi}) > τ∗, reallocated reward remains unchanged, i.e., {ˆrir} = {ˆri} = {0}. Theorem 2 (Entropy decrease with Maximum-PPL penalty). Let πt be the policy at step t. Given a query q and a group of outputs {oi} ∼πt(· | q), if the output with the maximum PPL among {oi} is assigned a penalty, then the average entropy of the updated pol",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "= ˆri for all i ̸= ˆm. Noted that if τ∗does not exist, or mean({ˆpi}) > τ∗, reallocated reward remains unchanged, i.e., {ˆrir} = {ˆri} = {0}. Theorem 2 (Entropy decrease with Maximum-PPL penalty). Let πt be the policy at step t. Given a query q and a group of outputs {oi} ∼πt(· | q), if the output with the maximum PPL among {oi} is assigned a penalty, then the average entropy of the updated pol"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 1,
+      "representative_snippet": "ber of chips (white and black) does not exceed 25 each, and that the placement is maximal (no additional chip can be placed).\\n\\nWait, perhaps it's better to parameterize.\\n\\nLet’s denote:\\n\\n- \\(w_r\\) = number of rows assigned White\\n- \\(b_r\\) = number of rows assigned Black\\n- \\(e_r\\) = number of rows assigned Empty\\n\\",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "ber of chips (white and black) does not exceed 25 each, and that the placement is maximal (no additional chip can be placed).\\n\\nWait, perhaps it's better to parameterize.\\n\\nLet’s denote:\\n\\n- \\(w_r\\) = number of rows assigned White\\n- \\(b_r\\) = number of rows assigned Black\\n- \\(e_r\\) = number of rows assigned Empty\\n\\"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 1,
+      "representative_snippet": "Recent works on reward shaping for LLM-RL have advanced across key directions. CrossDomain- RLVR Su et al. [2025] expanded verifiable reward RL to diverse unstructured domains via generative scoring. PKPO Walder and Karkhanis [2025] and Pass@k Training Chen et al. [2025b] optimized pass@k performance to enhance sample diversity and collective utility, addressing exploration limitations. rl-without-gt Xin et al. [2025] introduced format-length surrogate signals to bypass ground truth dependence. RuscaRL Zhou et al. [2025] leveraged rubric scaffolding to break exploration bottlenecks, while DACE Li et al. [2025], CDE Dai et al. [2025] proposed difficulty-aware certainty and curiosity-driven signals for adaptive exploration. DRER He et al. [2025] focused on reasoning quality with fine-grained CoT rewards, and OBE Song et al. [2025] mitigated diversity collapse via outcome-based exploration bonuses.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "Recent works on reward shaping for LLM-RL have advanced across key directions. CrossDomain- RLVR Su et al. [2025] expanded verifiable reward RL to diverse unstructured domains via generative scoring. PKPO Walder and Karkhanis [2025] and Pass@k Training Chen et al. [2025b] optimized pass@k performance to enhance sample diversity and collective utility, addressing exploration limitations. rl-without"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 1,
+      "representative_snippet": "[21]; however, these implementations are typically optimized only for backpropagation, where the dot-product readout en- GEM3D CIM 2",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "[21]; however, these implementations are typically optimized only for backpropagation, where the dot-product readout en- GEM3D CIM 2"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 1,
+      "representative_snippet": "olRL+DAPO) for comparison. Since ToolRL does not utilize a binary verification reward, certain modifications were made when implementing TooRL+DiPO. 6 Table 2: Comparison of function calling in acc on BFCLv3 benchmark. The best and second-best results are respectively marked in bold and underlined. Multi Tur",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "olRL+DAPO) for comparison. Since ToolRL does not utilize a binary verification reward, certain modifications were made when implementing TooRL+DiPO. 6 Table 2: Comparison of function calling in acc on BFCLv3 benchmark. The best and second-best results are respectively marked in bold and underlined. Multi Tur"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "size": 1,
+      "representative_snippet": "els (LLMs). However, effectively managing the exploration and exploitation trade-off remains15 a critical challenge. In this paper, we fully analyze the exploration and exploitation dilemma of extremely hard and easy samples during the training and propose a new fine-grained t",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "els (LLMs). However, effectively managing the exploration and exploitation trade-off remains15 a critical challenge. In this paper, we fully analyze the exploration and exploitation dilemma of extremely hard and easy samples during the training and propose a new fine-grained t"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "size": 1,
+      "representative_snippet": "limited to dot-product computations and struggle to and throughput [6]; however, they often face limitations suchApr efficiently support general-purpose matrix operations, such as transpose, element-wise addition, and multiplication. This work as low signal-to-noise ratio (SNR), reduced ON/OFF conduc- presents a",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "limited to dot-product computations and struggle to and throughput [6]; however, they often face limitations suchApr efficiently support general-purpose matrix operations, such as transpose, element-wise addition, and multiplication. This work as low signal-to-noise ratio (SNR), reduced ON/OFF conduc- presents a"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "size": 1,
+      "representative_snippet": "on rewards at appropriate times, yet it does not explicitly address exploitation and introduces more hyper-parameters. Moreover, both CDE and DACE directly use perplexity as a reward bias, which may introduce additional uncertainty. In this paper, we propose a novel method Disentangled Perplexity Policy Optimization (DiPO) to solve the two dilemmas and achieve a fine-grained EETO. To enable fin",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "on rewards at appropriate times, yet it does not explicitly address exploitation and introduces more hyper-parameters. Moreover, both CDE and DACE directly use perplexity as a reward bias, which may introduce additional uncertainty. In this paper, we propose a novel method Disentangled Perplexity Policy Optimization (DiPO) to solve the two dilemmas and achieve a fine-grained EETO. To enable fin"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "size": 1,
+      "representative_snippet": "5 Conclusion This paper explores the exploration-exploitation trade-off between in RL training. We analyze the two ETTO dilemmas faced by the extreme hard and easy groups, and proposed the Disentangled Perplexity Policy Optimization. First, we develop a novel Perplexity Space Disentangling method to identify which hard samples require encouragement for exploration and which easy samples need promotion for exploitation. Then, we design a Bidirectional Reward Reallocation mechanism that incorporates PPL-based exploration and exploitation signals while minimizing disruptions to the original verification reward distribution. Finally, extensive experiments on mathematical reasoning and function calling tasks demonstrate the comprehensive superiority of the proposed method. 9",
+      "representative_source": "section:conclusion",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "5 Conclusion This paper explores the exploration-exploitation trade-off between in RL training. We analyze the two ETTO dilemmas faced by the extreme hard and easy groups, and proposed the Disentangled Perplexity Policy Optimization. First, we develop a novel Perplexity Space Disentangling method to identify which hard samples require encouragement for exploration and which easy samples need promo"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "size": 1,
+      "representative_snippet": "lective utility, addressing exploration limitations. rl-without-gt Xin et al. [2025] introduced format-length surrogate signals to bypass ground truth dependence. RuscaRL Zhou et al. [2025] leveraged rubric scaffolding to break exploration bottlenecks, while DACE Li et al. [2025], CDE Dai et al. [2025] proposed difficulty-aware certainty and curiosity-driven signals for adaptive exploration. DRER H",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "lective utility, addressing exploration limitations. rl-without-gt Xin et al. [2025] introduced format-length surrogate signals to bypass ground truth dependence. RuscaRL Zhou et al. [2025] leveraged rubric scaffolding to break exploration bottlenecks, while DACE Li et al. [2025], CDE Dai et al. [2025] proposed difficulty-aware certainty and curiosity-driven signals for adaptive exploration. DRER "
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "size": 1,
+      "representative_snippet": "e of the clock is a different bit-cell. However, in T-eDRAM, both the read and used to read the data value QD from the 3T eDRAM, while write operations are performed through QB, requiring a buffer the negative phase is used to write the corresponding value for correct data write. During write operations, when WWL into the subsequent eDRAM bit-cell. is asserted, the data at node W is trans",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "e of the clock is a different bit-cell. However, in T-eDRAM, both the read and used to read the data value QD from the 3T eDRAM, while write operations are performed through QB, requiring a buffer the negative phase is used to write the corresponding value for correct data write. During write operations, when WWL into the subsequent eDRAM bit-cell. is asserted, the data at node W is trans"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "size": 1,
+      "representative_snippet": "The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address."
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "size": 1,
+      "representative_snippet": "14.5% reduces failure cases caused by infrastructure-level errors. Environmental 8.1% Adaptation On the other hand, Algorithmic Strategy Transfer accounts 8.5% for only 5.5% of the total gains in Figure 3, suggesting that Interaction 14",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "14.5% reduces failure cases caused by infrastructure-level errors. Environmental 8.1% Adaptation On the other hand, Algorithmic Strategy Transfer accounts 8.5% for only 5.5% of the total gains in Figure 3, suggesting that Interaction 14"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "size": 1,
+      "representative_snippet": "recurrent working-memory setting. 4.2 Limitations and directions for improvement The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address. Capacity and robustness. A systematic evaluation of memory capacity — how many patterns of what duration can be reliably stored and retrieved — remains to be carried out. T",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "recurrent working-memory setting. 4.2 Limitations and directions for improvement The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address. Capacity and robustness. A systematic evaluation of memory capacity — how many patterns of what duration can be reliably stored and retrieved — remains to be carried out. T"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "size": 1,
+      "representative_snippet": "both failure modes symmetrically: low precision corresponds to an over-active network and low recall to a silent one. In addition, the cosine learning-rate schedule [Hammouamri et al., 2023] helped guide the network away from these extremes towards a balanced, sparse-firing regime. Figure 3: Pattern retrieval from the recurrent HD-SNN. The raster plot sho",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "both failure modes symmetrically: low precision corresponds to an over-active network and low recall to a silent one. In addition, the cosine learning-rate schedule [Hammouamri et al., 2023] helped guide the network away from these extremes towards a balanced, sparse-firing regime. Figure 3: Pattern retrieval from the recurrent HD-SNN. The raster plot sho"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "size": 1,
+      "representative_snippet": "However, this approach has not been implemented becauseaddition, with their output characteristics shown in Fig. 11. it significantly increases circuit complexity and substantiallyThe signal margins of the analog multiplication and addition",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "However, this approach has not been implemented becauseaddition, with their output characteristics shown in Fig. 11. it significantly increases circuit complexity and substantiallyThe signal margins of the analog multiplication and addition"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "size": 1,
+      "representative_snippet": "elements). In the final step, the PDK. However, they can be scaled down by employing ultra lower-diagonal elements stored in Layer B are copied back GEM3D CIM 4 Fig. 3. (a) Illustration of a 3 × 3 matrix transpose operation, demonstrating the reordering",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "elements). In the final step, the PDK. However, they can be scaled down by employing ultra lower-diagonal elements stored in Layer B are copied back GEM3D CIM 4 Fig. 3. (a) Illustration of a 3 × 3 matrix transpose operation, demonstrating the reordering"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "size": 1,
+      "representative_snippet": "bstract the **anti-pattern** behind the failure, such as skipping inspection, editing the wrong files, or making unchecked changes. ## What You Need to Produce You must identify: * The **goal** of the workflow Describe what kind of mistake or failure pattern this workflow represents and when it tends to occur. * The **sequence of Bash commands** Include the key command steps that illustrate",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "bstract the **anti-pattern** behind the failure, such as skipping inspection, editing the wrong files, or making unchecked changes. ## What You Need to Produce You must identify: * The **goal** of the workflow Describe what kind of mistake or failure pattern this workflow represents and when it tends to occur. * The **sequence of Bash commands** Include the key command steps that illustrate"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "size": 1,
+      "representative_snippet": "lowing: * It must come from the **given failed trajectory** * It must be a **reusable negative example**, not just a random error * It should reflect **why the trajectory failed**, such as skipping checks, editing blindly, or validating the wrong thing * Long commands may be **shortened** as long as the core action remains ## Output Format Your output must follow this exact JSON format: ```js",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "lowing: * It must come from the **given failed trajectory** * It must be a **reusable negative example**, not just a random error * It should reflect **why the trajectory failed**, such as skipping checks, editing blindly, or validating the wrong thing * Long commands may be **shortened** as long as the core action remains ## Output Format Your output must follow this exact JSON format: ```js"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "size": 1,
+      "representative_snippet": "Abstract—With the rapid growth of deep neural networks CIM has been explored using various memory technolo- (DNNs), compute-in-memory (CIM) has emerged as a promis- gies, with designs primarily dominated by SRAM, DRAM,2026 ing energy-efficient paradigm for accelerating multiply-and- and non-volatile memories (NVMs). Prior NVM-based CIM accumulate (MAC) operations. Yet, current CIM architectures implementations have demonstrated very high compute density are largely limited to dot-product computations and struggle to and throughput [6]; however, they often face limitations suchApr efficiently support general-purpose matrix operations, such as transpose, element-wise addition, and multiplication. This work as low signal-to-noise ratio (SNR), reduced ON/OFF conduc- presents a 3D-integrated, memory-on-memory SRAM-eDRAM tance ratio, high write energy, and fabrication challenges for15 hybrid CIM architecture, implemented in GlobalFoundries 22 nm large-scale integration [7]. SRAM- [8] and DRAM- [9] based FDSOI technology, capable of performing general matrix opera- analog CIM architectures are generally classified into two tions directly within the memory crossbar with 4-bit precision. By",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "Abstract—With the rapid growth of deep neural networks CIM has been explored using various memory technolo- (DNNs), compute-in-memory (CIM) has emerged as a promis- gies, with designs primarily dominated by SRAM, DRAM,2026 ing energy-efficient paradigm for accelerating multiply-and- and non-volatile memories (NVMs). Prior NVM-based CIM accumulate (MAC) operations. Yet, current CIM architectures im"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "size": 1,
+      "representative_snippet": "exploit based on intra-group accuracy. However, this coarse-grained partitioning would hinder policy optimization during early training stages when †Equan Contribution ‡Corresponding Author Preprint.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "exploit based on intra-group accuracy. However, this coarse-grained partitioning would hinder policy optimization during early training stages when †Equan Contribution ‡Corresponding Author Preprint."
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "size": 1,
+      "representative_snippet": "ts Insight Generation Prompt for a Failed Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent attempted to resolve the task but failed. ## Guidelines You need to extract and summarize useful insights in the format of memory items based on the agent's failed trajectory. The goal of summari",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "ts Insight Generation Prompt for a Failed Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent attempted to resolve the task but failed. ## Guidelines You need to extract and summarize useful insights in the format of memory items based on the agent's failed trajectory. The goal of summari"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "size": 1,
+      "representative_snippet": "in ways that the F1 training objective does not fully penalise. Richer neuron models and dynamics. We used the simplest LIF model with a learned membrane decay β. Introducing adaptive threshold dynamics or more complex single-neuron models, as studied in Szatmáry and Izhikevich [2010], should increase the diversity of intrinsic timescales available to the network and improve both capacity and",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "in ways that the F1 training objective does not fully penalise. Richer neuron models and dynamics. We used the simplest LIF model with a learned membrane decay β. Introducing adaptive threshold dynamics or more complex single-neuron models, as studied in Szatmáry and Izhikevich [2010], should increase the diversity of intrinsic timescales available to the network and improve both capacity and"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "size": 1,
+      "representative_snippet": "m static associative memory. The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS),",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "m static associative memory. The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS),"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "size": 1,
+      "representative_snippet": "the impact to verification rewards, BRR does not directly employ PPL as the basis for reward shaping, but introduces the maximum-PPL reward reallocation strategy. BRR thus aims to drive updates toward the exploratory (high-entropy) direction for the hard groups in EiS, and toward the exploitative (low-entropy) direction for the easy groups in ErS.. Theorem 1 (Entropy Increase with Maximum-PPL Re",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13902v1"
+      ],
+      "snippet_previews": [
+        "the impact to verification rewards, BRR does not directly employ PPL as the basis for reward shaping, but introduces the maximum-PPL reward reallocation strategy. BRR thus aims to drive updates toward the exploratory (high-entropy) direction for the hard groups in EiS, and toward the exploitative (low-entropy) direction for the easy groups in ErS.. Theorem 1 (Entropy Increase with Maximum-PPL Re"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "size": 1,
+      "representative_snippet": "Working memory — the ability to store and recall precise temporal patterns ofApr neural activity — remains an open challenge for spiking neural networks (SNNs). 15 WewithproposeD = 41a delays,recurrentmodelledSNN ofasN aneuronsweight tensorin whichW each∈RN×N×Dsynapse isandequippedtrained end-to-end with surrogate-gradient backpropagation through time. The network stores M arbitrary target spike patterns by representing each as a sequential chain of overlapping Spiking Motifs: contiguous windows of length D that uniquely predict spikes at the next time step. On a synthetic benchmark of M = 16 patterns (N = 512 neurons, T = 1000 steps), training achieves a mean F1 score of 1.0, with recall emerging first near the clamped initialisation window and propagating forward in time. This result demonstrates that heterogeneous delays provide an efficient substrate for working memory in SNNs, enabling energy-efficient[q-bio.NC] neuromorphic edge deployment.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "Working memory — the ability to store and recall precise temporal patterns ofApr neural activity — remains an open challenge for spiking neural networks (SNNs). 15 WewithproposeD = 41a delays,recurrentmodelledSNN ofasN aneuronsweight tensorin whichW each∈RN×N×Dsynapse isandequippedtrained end-to-end with surrogate-gradient backpropagation through time. The network stores M arbitrary target spike p"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "size": 1,
+      "representative_snippet": "gents Workflow Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of Bash commands that did not reach the intended goal. Your goal is to extract a **single reusable base workflow** that captures a **bad or misleading strategy** that led to failure, so it can be avoided in similar future tasks. The w",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "gents Workflow Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of Bash commands that did not reach the intended goal. Your goal is to extract a **single reusable base workflow** that captures a **bad or misleading strategy** that led to failure, so it can be avoided in similar future tasks. The w"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "size": 1,
+      "representative_snippet": "d why went wrong, and how to avoid same failure in the future tasks.\" } ``` Figure 10. Summary Generation Prompt for a Failed Trajectory Insight Generation Prompt for a Success Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent successfully accomplished the",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "d why went wrong, and how to avoid same failure in the future tasks.\" } ``` Figure 10. Summary Generation Prompt for a Failed Trajectory Insight Generation Prompt for a Success Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent successfully accomplished the"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "size": 1,
+      "representative_snippet": "ure 8. Workflow Generation Prompt for a Failed Trajectory Summary Generation Prompt for a Success Trajectory ## Task Description You are given a **successful command trajectory** for a code-editing task - a sequence of actions and Bash commands that correctly achieved its goal. Your goal is to produce a **structured summary** that captures both what was done and why it worked, so this traject",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "ure 8. Workflow Generation Prompt for a Failed Trajectory Summary Generation Prompt for a Success Trajectory ## Task Description You are given a **successful command trajectory** for a code-editing task - a sequence of actions and Bash commands that correctly achieved its goal. Your goal is to produce a **structured summary** that captures both what was done and why it worked, so this traject"
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "size": 1,
+      "representative_snippet": "The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS), achieving sparse solutions in which only ∼20% of delay channels remain active. Applied to event-based vision, heterogeneous learned delays in a single spiking layer suffice for fast motion detection [Grimaldi and Perrinet, 2023], scalable to always-on object recognition [Grimaldi et al., 2024]. Multiple learned delays per synapse give rise to Spiking Motifs (SMs) [Perrinet, 2023]: precisely timed spike patterns that generalise PNGs",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS), achieving sparse solutions in which on"
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "size": 1,
+      "representative_snippet": "and compute kernel design [21, 32]. However, the training of LLMs themselves—one of the most foundational tasks in the current AI landscape— continues to pose significant challenges for current automated approaches. On the one hand, existing research agents typically focus on well-defined optimization targets that can be represented as finite-length text sequences, such as structured parame",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "and compute kernel design [21, 32]. However, the training of LLMs themselves—one of the most foundational tasks in the current AI landscape— continues to pose significant challenges for current automated approaches. On the one hand, existing research agents typically focus on well-defined optimization targets that can be represented as finite-length text sequences, such as structured parame"
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "size": 1,
+      "representative_snippet": "Experience does not transfer15 across tasks languages, that exist across diverse real-world coding problems. To address this limitation, we (C) Memory Transfer Learning",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "Experience does not transfer15 across tasks languages, that exist across diverse real-world coding problems. To address this limitation, we (C) Memory Transfer Learning"
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "size": 1,
+      "representative_snippet": "arn- inference attempt is successful or failed, and use different ing. We gather memories from all benchmarks except the memory generation prompts for each case, following previ- testing benchmark for each memory format. In formal no- ous work (Ouyang et al., 2025;",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "arn- inference attempt is successful or failed, and use different ing. We gather memories from all benchmarks except the memory generation prompts for each case, following previ- testing benchmark for each memory format. In formal no- ous work (Ouyang et al., 2025;"
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "size": 1,
+      "representative_snippet": "s, the overall approach, and the final (failed) outcome. It should also explain why this trajectory failed, highlighting incorrect assumptions, missing checks, or flawed strategies so that others can avoid repeating them. ## Summary Requirements The summaries must satisfy all of the following: * They must be based only on the **given failed trajectory** * They must be written so they are **",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "s, the overall approach, and the final (failed) outcome. It should also explain why this trajectory failed, highlighting incorrect assumptions, missing checks, or flawed strategies so that others can avoid repeating them. ## Summary Requirements The summaries must satisfy all of the following: * They must be based only on the **given failed trajectory** * They must be written so they are **"
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "size": 1,
+      "representative_snippet": "oducible and scalable data engineering. However, these approaches typically employ LLMs as discrete tools within predetermined protocols. In contrast, we propose a holistic and fully automatic paradigm that integrates data preparation into an autonomous loop. 3. TREX 3.1. Overview Figure 2 illustrates the multi-agent design and the entire workflow of the proposed TREX framework. For an LLM",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "oducible and scalable data engineering. However, these approaches typically employ LLMs as discrete tools within predetermined protocols. In contrast, we propose a holistic and fully automatic paradigm that integrates data preparation into an autonomous loop. 3. TREX 3.1. Overview Figure 2 illustrates the multi-agent design and the entire workflow of the proposed TREX framework. For an LLM"
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "size": 1,
+      "representative_snippet": "ke timing to adjust synaptic strengths. However, while STDP implements local pairwise updates based on individual spike timings, our approach performs global optimisation that effectively learns the collective interaction of multiple delayed spike trains across the entire network. The analytical initialisation (see Equation 2) reveals this connection most clearly: it implements a Hebbian-like r",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "ke timing to adjust synaptic strengths. However, while STDP implements local pairwise updates based on individual spike timings, our approach performs global optimisation that effectively learns the collective interaction of multiple delayed spike trains across the entire network. The analytical initialisation (see Equation 2) reveals this connection most clearly: it implements a Hebbian-like r"
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "size": 1,
+      "representative_snippet": "st reflect and think why the trajectory failed, and then summarize what lessons you have learned or strategies to prevent the failure in the future. - You can extract only one memory item from the trajectory. - Do not mention specific files or details, but rather focus on the generalizable insights. ## Output Format Your output must strictly follow the json format shown below: ```json { \"tit",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "st reflect and think why the trajectory failed, and then summarize what lessons you have learned or strategies to prevent the failure in the future. - You can extract only one memory item from the trajectory. - Do not mention specific files or details, but rather focus on the generalizable insights. ## Output Format Your output must strictly follow the json format shown below: ```json { \"tit"
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "size": 1,
+      "representative_snippet": "ctivation and sustain a working memory. However, storing spike patterns of arbitrary length is inherently difficult: the sequential structure of the task means each context window is not an independent query but is itself the output of the network at the previous step, so small errors at early time steps propagate and amplify towards the end of the sequence — a compounding difficulty absent fro",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "ctivation and sustain a working memory. However, storing spike patterns of arbitrary length is inherently difficult: the sequential structure of the task means each context window is not an independent query but is itself the output of the network at the previous step, so small errors at early time steps propagate and amplify towards the end of the sequence — a compounding difficulty absent fro"
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "size": 1,
+      "representative_snippet": "nts Summary Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of actions and Bash commands that did not achieve the intended goal or produced incorrect results. Your goal is to produce a **structured summary** that captures what was attempted, what went wrong, and why this trajectory is a useful",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "nts Summary Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of actions and Bash commands that did not achieve the intended goal or produced incorrect results. Your goal is to produce a **structured summary** that captures what was attempted, what went wrong, and why this trajectory is a useful"
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "size": 1,
+      "representative_snippet": "vi- ceeded but Memory Transfer Learning failed. We catego- ronment like C++, leading to structural failures. Second, rized these negative transfer cases as follows: semantic distortion occurs when a strategic insight intended for rigorous validation is misinterpreted as a justification for • Domain-mismatched a",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "vi- ceeded but Memory Transfer Learning failed. We catego- ronment like C++, leading to structural failures. Second, rized these negative transfer cases as follows: semantic distortion occurs when a strategic insight intended for rigorous validation is misinterpreted as a justification for • Domain-mismatched a"
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "size": 1,
+      "representative_snippet": "the test. However, with memory transfer learning, retrieved To investigate the operational mechanisms of memory trans- Insight memory generated from LiveCodeBench provides fer learning, we inspect the inference outcomes using LLM behavior knowledge",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "the test. However, with memory transfer learning, retrieved To investigate the operational mechanisms of memory trans- Insight memory generated from LiveCodeBench provides fer learning, we inspect the inference outcomes using LLM behavior knowledge"
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "size": 1,
+      "representative_snippet": "caused by wrong memory retrieval and failed adaptation of supplies abstract procedural principles that guide the agent’s the retrieved memory to the new task. These demonstrate reasoning without constraining its adaptation process. As that we can avoid performance degradation by designing ad- reflected in the reasoning trace, the agent internalizes these vanced memory retrieval me",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "caused by wrong memory retrieval and failed adaptation of supplies abstract procedural principles that guide the agent’s the retrieved memory to the new task. These demonstrate reasoning without constraining its adaptation process. As that we can avoid performance degradation by designing ad- reflected in the reasoning trace, the agent internalizes these vanced memory retrieval me"
+      ]
+    },
+    {
+      "cluster_id": 47,
+      "size": 1,
+      "representative_snippet": "before running expensive experiments, however, the agent dis- files without checking its original structure or namespaces. torted this into a justification for quick completion over quality. C. Formal Modeling of Abstraction To formally ground these empirical findings, we introduce a mathematical framework modeling the abstraction-transfer tradeoff. We decompose a m",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "before running expensive experiments, however, the agent dis- files without checking its original structure or namespaces. torted this into a justification for quick completion over quality. C. Formal Modeling of Abstraction To formally ground these empirical findings, we introduce a mathematical framework modeling the abstraction-transfer tradeoff. We decompose a m"
+      ]
+    },
+    {
+      "cluster_id": 48,
+      "size": 1,
+      "representative_snippet": "erhead, while also avoiding unnecessary failure actions † Equal advising. Correspondence to: kksan07@kaist.ac.kr in long-horizon code editing through adherence to accumu- 1 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents lated procedural and strategic guidance, such",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "erhead, while also avoiding unnecessary failure actions † Equal advising. Correspondence to: kksan07@kaist.ac.kr in long-horizon code editing through adherence to accumu- 1 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents lated procedural and strategic guidance, such"
+      ]
+    },
+    {
+      "cluster_id": 49,
+      "size": 1,
+      "representative_snippet": "target task. However, both methods underperform simple Learning using memories generated by different models. embedding-based retrieval, as shown in Table 7. This is We hypothesize that if Memory Transfer Learning mainly likely because the required k",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "target task. However, both methods underperform simple Learning using memories generated by different models. embedding-based retrieval, as shown in Table 7. This is We hypothesize that if Memory Transfer Learning mainly likely because the required k"
+      ]
+    },
+    {
+      "cluster_id": 50,
+      "size": 1,
+      "representative_snippet": "readth, these benchmarks exhibit common limitations: they either evaluate agents on isolated sub-tasks within constrained environments or restrict the scope to traditional ML paradigms, thereby failing to capture the unique challenges of modern LLM training, such as instruction formatting, domain-specific evaluation, and the orchestration of the full training lifecycle. FT-Bench addresses both limi",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "readth, these benchmarks exhibit common limitations: they either evaluate agents on isolated sub-tasks within constrained environments or restrict the scope to traditional ML paradigms, thereby failing to capture the unique challenges of modern LLM training, such as instruction formatting, domain-specific evaluation, and the orchestration of the full training lifecycle. FT-Bench addresses both lim"
+      ]
+    },
+    {
+      "cluster_id": 51,
+      "size": 1,
+      "representative_snippet": "chronisation [Izhikevich, 2006]. Notice however that at inference time, the network does not receive ground-truth contexts, but it receives the context it generated itself at the previous step such that the spike train may be corrupted by previous errors. 2.5 Training Figure 2: Network architecture and a sample target pattern. Left: Unrolled view of the recurrent HD- SNN over time (one c",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "chronisation [Izhikevich, 2006]. Notice however that at inference time, the network does not receive ground-truth contexts, but it receives the context it generated itself at the previous step such that the spike train may be corrupted by previous errors. 2.5 Training Figure 2: Network architecture and a sample target pattern. Left: Unrolled view of the recurrent HD- SNN over time (one c"
+      ]
+    },
+    {
+      "cluster_id": 52,
+      "size": 1,
+      "representative_snippet": "The most immediate application of this framework is to neurophysiological data. Future work will ex- plore whether self-supervised objectives can extract Spiking Motifs directly from raw multi-electrode array recordings without labelled targets. Such approaches could bridge the gap between biologically plausible learning and practical deployment on edge devices. The supervised memorisation task studied here requires a known target, but in practice one would like to discover the latent Spiking Motifs present in recorded multi-unit activity — the problem originally addressed by Ikegaya et al. [2004] and Villette et al. [2015]. A natural extension is therefore to replace the supervised F1 loss with a self-supervised or contrastive objective that trains the network to predict upcoming spikes from the recent spike history, without access to ground-truth labels. This is analogous to the contrastive predictive coding paradigm applied to continuous neural time series, here instantiated in a fully spike-based setting [Grimaldi et al., 2023]. Such a model would provide a principled, energy-efficient method for identifying the temporal structure of neural population codes, with direct relevan",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "The most immediate application of this framework is to neurophysiological data. Future work will ex- plore whether self-supervised objectives can extract Spiking Motifs directly from raw multi-electrode array recordings without labelled targets. Such approaches could bridge the gap between biologically plausible learning and practical deployment on edge devices. The supervised memorisation task st"
+      ]
+    },
+    {
+      "cluster_id": 53,
+      "size": 1,
+      "representative_snippet": "emories into the system prompteven with failed steps. Also the agent can implicitly estimate of the coding agent at the beginning of the inference. Inthe expected execution results of certain actions by referring detail, we generate the embedding feature of current",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "emories into the system prompteven with failed steps. Also the agent can implicitly estimate of the coding agent at the beginning of the inference. Inthe expected execution results of certain actions by referring detail, we generate the embedding feature of current"
+      ]
+    },
+    {
+      "cluster_id": 54,
+      "size": 1,
+      "representative_snippet": "primary failure modes that hinder effective transfer. First, As shown in Table 1, Memory Transfer Learning can de- the misapplication of technical patterns occurs when an grade performance in certain benchmarks. To understand agent incorrectly projects language-specific logic (e.g., R- this, we analyzed instances where zero-shot setting suc- language fil",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "primary failure modes that hinder effective transfer. First, As shown in Table 1, Memory Transfer Learning can de- the misapplication of technical patterns occurs when an grade performance in certain benchmarks. To understand agent incorrectly projects language-specific logic (e.g., R- this, we analyzed instances where zero-shot setting suc- language fil"
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "size": 1,
+      "representative_snippet": "and does not utilize cross-domain knowledge. In contrast, AgentKB leverages a large number of out-of-domain memo- 4.1. Overall Performance of MTL ries (from general reasoning tasks), but still underperforms 4.1.1. MAIN RESULTS",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "and does not utilize cross-domain knowledge. In contrast, AgentKB leverages a large number of out-of-domain memo- 4.1. Overall Performance of MTL ries (from general reasoning tasks), but still underperforms 4.1.1. MAIN RESULTS"
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "size": 1,
+      "representative_snippet": "e. Through qualitative in Figure 1 (B). However, in real-world scenarios, coding analysis, we find that cross-task benefits stem not from task- agents must handle a wide spectrum of programming prob- specific code content but from operational know-how, such lems,",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "e. Through qualitative in Figure 1 (B). However, in real-world scenarios, coding analysis, we find that cross-task benefits stem not from task- agents must handle a wide spectrum of programming prob- specific code content but from operational know-how, such lems,"
+      ]
+    },
+    {
+      "cluster_id": 57,
+      "size": 1,
+      "representative_snippet": "as a cautionary guardrail against known failure modes or brittle approaches. - Context: Used when the agent explicitly avoided actions that caused failures in retrieved memories (e.g., ”avoid blind text patching,” ”do not guess outputs”). 6. Input Validation and Robustness - Definition: Ensuring the solution correctly handles edge cases, data normalization, and defensive parsing. - Context: Us",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "as a cautionary guardrail against known failure modes or brittle approaches. - Context: Used when the agent explicitly avoided actions that caused failures in retrieved memories (e.g., ”avoid blind text patching,” ”do not guess outputs”). 6. Input Validation and Robustness - Definition: Ensuring the solution correctly handles edge cases, data normalization, and defensive parsing. - Context: Us"
+      ]
+    },
+    {
+      "cluster_id": 58,
+      "size": 1,
+      "representative_snippet": "ethod meta-evolution in memory agents. However, existing memory-based self-evolving agents are primarily evaluated To investigate the impact of memory on the agent, we de- within the same benchmark or task domain, overlooking sign a simple memory-based coding agent with a two-stage the potential value of memories generated from other task memory utilization process: memory generation an",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "ethod meta-evolution in memory agents. However, existing memory-based self-evolving agents are primarily evaluated To investigate the impact of memory on the agent, we de- within the same benchmark or task domain, overlooking sign a simple memory-based coding agent with a two-stage the potential value of memories generated from other task memory utilization process: memory generation an"
+      ]
+    },
+    {
+      "cluster_id": 59,
+      "size": 1,
+      "representative_snippet": "of 1.0. We observed two characteristic failure modes during early training: episodes of complete silence, in which the network emits no spikes, and over-activation, in which nearly all neurons fire at every time step. Both are well-known pathological attractors of recurrent SNNs [Izhikevich, 2006]. The F1 score is the harmonic mean of precision and recall, and maximising it therefore penalises",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14096v1"
+      ],
+      "snippet_previews": [
+        "of 1.0. We observed two characteristic failure modes during early training: episodes of complete silence, in which the network emits no spikes, and over-activation, in which nearly all neurons fire at every time step. Both are well-known pathological attractors of recurrent SNNs [Izhikevich, 2006]. The F1 score is the harmonic mean of precision and recall, and maximising it therefore penalises"
+      ]
+    },
+    {
+      "cluster_id": 60,
+      "size": 1,
+      "representative_snippet": "trix into their SRAM operating at 0.8 V does not provide sufficient sensing corresponding positions in the upper diagonal of Layer B margin to reliably distinguish 16 levels. To address this, an (Matrix B), as illustrated in Fig. 3(a). In the next step, an auxiliary buffer circuit, shown in Fig. 2(c), is activated to internal swap is performed within both Layers simultaneously: generate a",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.13969v1"
+      ],
+      "snippet_previews": [
+        "trix into their SRAM operating at 0.8 V does not provide sufficient sensing corresponding positions in the upper diagonal of Layer B margin to reliably distinguish 16 levels. To address this, an (Matrix B), as illustrated in Fig. 3(a). In the next step, an auxiliary buffer circuit, shown in Fig. 2(c), is activated to internal swap is performed within both Layers simultaneously: generate a"
+      ]
+    },
+    {
+      "cluster_id": 61,
+      "size": 1,
+      "representative_snippet": "ss models because it is model-agnostic. However, cross-model transfer consistently underperforms 9 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents 5. Conclusion Zhao, H. Remember me, refine me: A dynamic pro-",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "ss models because it is model-agnostic. However, cross-model transfer consistently underperforms 9 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents 5. Conclusion Zhao, H. Remember me, refine me: A dynamic pro-"
+      ]
+    },
+    {
+      "cluster_id": 62,
+      "size": 1,
+      "representative_snippet": "lated procedural and strategic guidance, such as small-step prove the performance of coding agents. Although ex- modification heuristics and verification routines. isting self-evolving methods often overlook out-of-domain memories, our results suggest that effective memory uti- While memory-augmented coding agents have shown lization should incorporate all past experiences, including promise (Ouyang et al., 2025), existing approaches mostly those from different domains, to enhance agent performance, restrict memory generation and retrieval to the same do- as shown in Figure 1 (D). Second, the primary transfer- main, typically within the same benchmark as illustrated able value lies in meta-knowledge. Through qualitative in Figure 1 (B). However, in real-world scenarios, coding analysis, we find that cross-task benefits stem not from task- agents must handle a wide spectrum of programming prob- specific code content but from operational know-how, such lems, ranging from repository-level software engineering as preventing execution failures under environment con- tasks (Jimenez et al., 2024) and machine learning model de- straints and task-solving routines that prioritize structural ",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "lated procedural and strategic guidance, such as small-step prove the performance of coding agents. Although ex- modification heuristics and verification routines. isting self-evolving methods often overlook out-of-domain memories, our results suggest that effective memory uti- While memory-augmented coding agents have shown lization should incorporate all past experiences, including promise (Ouya"
+      ]
+    },
+    {
+      "cluster_id": 63,
+      "size": 1,
+      "representative_snippet": "For each experiment, the agent examines failure cases within the validation set and conducts an attribution analysis. Furthermore, the agent performs a comparative analysis of benchmark metrics and bad-case attributions across the current and historical experiments to identify the determinants of performance shifts. These insights are synthesized into an evaluation report and stored in the cont",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "For each experiment, the agent examines failure cases within the validation set and conducts an attribution analysis. Furthermore, the agent performs a comparative analysis of benchmark metrics and bad-case attributions across the current and historical experiments to identify the determinants of performance shifts. These insights are synthesized into an evaluation report and stored in the cont"
+      ]
+    },
+    {
+      "cluster_id": 64,
+      "size": 1,
+      "representative_snippet": "pool across multiple task domains. However, it does not 2.2. Memory-based Self-Evolving Agents provide a deeper analysis of the underlying mechanisms of memory transfer, including which forms of knowledge Self-evolving agents (Cai et al., 2025) leverage past expe-",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "pool across multiple task domains. However, it does not 2.2. Memory-based Self-Evolving Agents provide a deeper analysis of the underlying mechanisms of memory transfer, including which forms of knowledge Self-evolving agents (Cai et al., 2025) leverage past expe-"
+      ]
+    },
+    {
+      "cluster_id": 65,
+      "size": 1,
+      "representative_snippet": "and generation. Furthermore, it does not overlap with the evaluation set (TOMG-Bench test set), as the training set is sourced from OpenMolIns, while the test set is independently sampled. • Samples: 10K, 25K, 50K (each training run does not exceed 50,000 samples). [Core Training Strategy] • Base model: Qwen/Qwen3-1.7B • finetuning_type: lora • cutoff_l",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "and generation. Furthermore, it does not overlap with the evaluation set (TOMG-Bench test set), as the training set is sourced from OpenMolIns, while the test set is independently sampled. • Samples: 10K, 25K, 50K (each training run does not exceed 50,000 samples). [Core Training Strategy] • Base model: Qwen/Qwen3-1.7B • finetuning_type: lora • cutoff_l"
+      ]
+    },
+    {
+      "cluster_id": 66,
+      "size": 1,
+      "representative_snippet": "promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural foundations, SWE ML/AI from a single domain only",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural foundations, SWE ML/AI from a single domain only"
+      ]
+    },
+    {
+      "cluster_id": 67,
+      "size": 1,
+      "representative_snippet": "LM-based automated scientific research; however, their primary contribution lies in verifying the feasibility of end-to-end AI-driven research, without incorporating clear task orientation or conducting a quantitative evaluation of the research system’s performance. Evolutionary Search Agent. A series of studies [6, 16, 21, 26, 32, 45] have incorporated methodologies such as evolutionary algor",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "LM-based automated scientific research; however, their primary contribution lies in verifying the feasibility of end-to-end AI-driven research, without incorporating clear task orientation or conducting a quantitative evaluation of the research system’s performance. Evolutionary Search Agent. A series of studies [6, 16, 21, 26, 32, 45] have incorporated methodologies such as evolutionary algor"
+      ]
+    },
+    {
+      "cluster_id": 68,
+      "size": 1,
+      "representative_snippet": "Abstract (A) Without Memory Fail Fail Fail Cannot reflect on previous2026 Memory-based self-evolution has emerged as a successes and failures promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural foundations, SWE ML/AI from a single domain only Memory Memory such as runtime environments and programming Experience does not transfer15 across tasks languages, that exist across diverse real-world coding problems. To address this limitation, we (C) Memory Transfer Learning Can memory be transferred investigate Memory Transfer Learning (MTL) Testing Memories from across different domains? heterogenous domains SWE Task by harnessing a unified memory pool from het- ML/AI Scientific Why does memory transfer erogeneous domains. We evaluate performance Memory Paper Code yield cross-domains benefits?[cs.AI] across 6 coding benchmarks using four memory DevOps Competitive How should memory be representations, ranging from concrete traces to Memory Coding designed for effective transfer? abstract insig",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "Abstract (A) Without Memory Fail Fail Fail Cannot reflect on previous2026 Memory-based self-evolution has emerged as a successes and failures promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural founda"
+      ]
+    },
+    {
+      "cluster_id": 69,
+      "size": 1,
+      "representative_snippet": "Table 2 presents a comparison between FT-Bench and relevant existing benchmarks. Current lines of work on research agent evaluation encompass a broad spectrum of tasks, including ML model optimization [13], Kaggle-style engineering challenges [2], AI R&D [31, 46], and scientific code implementation [4]. Despite their breadth, these benchmarks exhibit common limitations: they either evaluate agents on isolated sub-tasks within constrained environments or restrict the scope to traditional ML paradigms, thereby failing to capture the unique challenges of modern LLM training, such as instruction formatting, domain-specific evaluation, and the orchestration of the full training lifecycle. FT-Bench addresses both limitations by providing the first benchmark dedicated entirely to end-to-end LLM fine-tuning and requiring agents to autonomously navigate the complete fine-tuning pipeline in an open environment.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2604.14116v1"
+      ],
+      "snippet_previews": [
+        "Table 2 presents a comparison between FT-Bench and relevant existing benchmarks. Current lines of work on research agent evaluation encompass a broad spectrum of tasks, including ML model optimization [13], Kaggle-style engineering challenges [2], AI R&D [31, 46], and scientific code implementation [4]. Despite their breadth, these benchmarks exhibit common limitations: they either evaluate agents"
+      ]
+    },
+    {
+      "cluster_id": 70,
+      "size": 1,
+      "representative_snippet": "y-level coding tasks, we em- inference, however, raw code commands and observations ploy SWE-Bench Verified (Jimenez et al., 2024) and Ter- do not provide explicit information about analysis why the minal Bench2 (Merrill et al., 2026). We also evaluate the agent succeeds or fails and the findings from the history. performance on domain-specific code generation bench- Thus, for Summary m",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2604.14004v1"
+      ],
+      "snippet_previews": [
+        "y-level coding tasks, we em- inference, however, raw code commands and observations ploy SWE-Bench Verified (Jimenez et al., 2024) and Ter- do not provide explicit information about analysis why the minal Bench2 (Merrill et al., 2026). We also evaluate the agent succeeds or fails and the findings from the history. performance on domain-specific code generation bench- Thus, for Summary m"
+      ]
+    }
+  ],
+  "snippets": [
+    {
+      "text": "Table 2 presents a comparison between FT-Bench and relevant existing benchmarks. Current lines of work on research agent evaluation encompass a broad spectrum of tasks, including ML model optimization [13], Kaggle-style engineering challenges [2], AI R&D [31, 46], and scientific code implementation [4]. Despite their breadth, these benchmarks exhibit common limitations: they either evaluate agents on isolated sub-tasks within constrained environments or restrict the scope to traditional ML paradigms, thereby failing to capture the unique challenges of modern LLM training, such as instruction formatting, domain-specific evaluation, and the orchestration of the full training lifecycle. FT-Bench addresses both limitations by providing the first benchmark dedicated entirely to end-to-end LLM fine-tuning and requiring agents to autonomously navigate the complete fine-tuning pipeline in an open environment.",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "and compute kernel design [21, 32]. However, the training of LLMs themselves—one of the most foundational tasks in the current AI landscape— continues to pose significant challenges for current automated approaches. On the one hand, existing research agents typically focus on well-defined optimization targets that can be represented as finite-length text sequences, such as structured parame",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "LM-based automated scientific research; however, their primary contribution lies in verifying the feasibility of end-to-end AI-driven research, without incorporating clear task orientation or conducting a quantitative evaluation of the research system’s performance. Evolutionary Search Agent. A series of studies [6, 16, 21, 26, 32, 45] have incorporated methodologies such as evolutionary algor",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "oducible and scalable data engineering. However, these approaches typically employ LLMs as discrete tools within predetermined protocols. In contrast, we propose a holistic and fully automatic paradigm that integrates data preparation into an autonomous loop. 3. TREX 3.1. Overview Figure 2 illustrates the multi-agent design and the entire workflow of the proposed TREX framework. For an LLM",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "For each experiment, the agent examines failure cases within the validation set and conducts an attribution analysis. Furthermore, the agent performs a comparative analysis of benchmark metrics and bad-case attributions across the current and historical experiments to identify the determinants of performance shifts. These insights are synthesized into an evaluation report and stored in the cont",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "readth, these benchmarks exhibit common limitations: they either evaluate agents on isolated sub-tasks within constrained environments or restrict the scope to traditional ML paradigms, thereby failing to capture the unique challenges of modern LLM training, such as instruction formatting, domain-specific evaluation, and the orchestration of the full training lifecycle. FT-Bench addresses both limi",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "and generation. Furthermore, it does not overlap with the evaluation set (TOMG-Bench test set), as the training set is sourced from OpenMolIns, while the test set is independently sampled. • Samples: 10K, 25K, 50K (each training run does not exceed 50,000 samples). [Core Training Strategy] • Base model: Qwen/Qwen3-1.7B • finetuning_type: lora • cutoff_l",
+      "arxiv_id": "2604.14116v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Abstract (A) Without Memory Fail Fail Fail Cannot reflect on previous2026 Memory-based self-evolution has emerged as a successes and failures promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural foundations, SWE ML/AI from a single domain only Memory Memory such as runtime environments and programming Experience does not transfer15 across tasks languages, that exist across diverse real-world coding problems. To address this limitation, we (C) Memory Transfer Learning Can memory be transferred investigate Memory Transfer Learning (MTL) Testing Memories from across different domains? heterogenous domains SWE Task by harnessing a unified memory pool from het- ML/AI Scientific Why does memory transfer erogeneous domains. We evaluate performance Memory Paper Code yield cross-domains benefits?[cs.AI] across 6 coding benchmarks using four memory DevOps Competitive How should memory be representations, ranging from concrete traces to Memory Coding designed for effective transfer? abstract insights. Our experiments demonstrate (D) Average Performance across Coding Benchmarks that cross-domain memory improves average per- formance by 3.7%, primarily by transferring meta- knowledge, such as validation routines, rather than task-specific code. Importantly, we find that abstraction dictates transferability; high-level in- sights generalize well, whereas low-level traces often induce…",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "lated procedural and strategic guidance, such as small-step prove the performance of coding agents. Although ex- modification heuristics and verification routines. isting self-evolving methods often overlook out-of-domain memories, our results suggest that effective memory uti- While memory-augmented coding agents have shown lization should incorporate all past experiences, including promise (Ouyang et al., 2025), existing approaches mostly those from different domains, to enhance agent performance, restrict memory generation and retrieval to the same do- as shown in Figure 1 (D). Second, the primary transfer- main, typically within the same benchmark as illustrated able value lies in meta-knowledge. Through qualitative in Figure 1 (B). However, in real-world scenarios, coding analysis, we find that cross-task benefits stem not from task- agents must handle a wide spectrum of programming prob- specific code content but from operational know-how, such lems, ranging from repository-level software engineering as preventing execution failures under environment con- tasks (Jimenez et al., 2024) and machine learning model de- straints and task-solving routines that prioritize structural velopment (Nathani et al., 2025; Seo et al., 2025) to function- and interface inspection followed by strict validation pro- level competitive coding (Jain et al., 2024). Despite this cedures. Third, abstraction dictates transferability. By diversity, these tasks share a common underlying infrastruc- quantifying the abstraction level of each memory format, we ture, including runtime environments…",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "promising paradigm for coding agents. However, existing approaches typically restrict memory uti- (B) Self-Evolving AgentApr lization to homogeneous task domains, failing to SWE Task MLE Task Leverage limited memory leverage the shared infrastructural foundations, SWE ML/AI from a single domain only",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Experience does not transfer15 across tasks languages, that exist across diverse real-world coding problems. To address this limitation, we (C) Memory Transfer Learning",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "erhead, while also avoiding unnecessary failure actions † Equal advising. Correspondence to: kksan07@kaist.ac.kr in long-horizon code editing through adherence to accumu- 1 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents lated procedural and strategic guidance, such",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e. Through qualitative in Figure 1 (B). However, in real-world scenarios, coding analysis, we find that cross-task benefits stem not from task- agents must handle a wide spectrum of programming prob- specific code content but from operational know-how, such lems,",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "pool across multiple task domains. However, it does not 2.2. Memory-based Self-Evolving Agents provide a deeper analysis of the underlying mechanisms of memory transfer, including which forms of knowledge Self-evolving agents (Cai et al., 2025) leverage past expe-",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ethod meta-evolution in memory agents. However, existing memory-based self-evolving agents are primarily evaluated To investigate the impact of memory on the agent, we de- within the same benchmark or task domain, overlooking sign a simple memory-based coding agent with a two-stage the potential value of memories generated from other task memory utilization process: memory generation an",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "arn- inference attempt is successful or failed, and use different ing. We gather memories from all benchmarks except the memory generation prompts for each case, following previ- testing benchmark for each memory format. In formal no- ous work (Ouyang et al., 2025;",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "emories into the system prompteven with failed steps. Also the agent can implicitly estimate of the coding agent at the beginning of the inference. Inthe expected execution results of certain actions by referring detail, we generate the embedding feature of current",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "y-level coding tasks, we em- inference, however, raw code commands and observations ploy SWE-Bench Verified (Jimenez et al., 2024) and Ter- do not provide explicit information about analysis why the minal Bench2 (Merrill et al., 2026). We also evaluate the agent succeeds or fails and the findings from the history. performance on domain-specific code generation bench- Thus, for Summary m",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "and does not utilize cross-domain knowledge. In contrast, AgentKB leverages a large number of out-of-domain memo- 4.1. Overall Performance of MTL ries (from general reasoning tasks), but still underperforms 4.1.1. MAIN RESULTS",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "14.5% reduces failure cases caused by infrastructure-level errors. Environmental 8.1% Adaptation On the other hand, Algorithmic Strategy Transfer accounts 8.5% for only 5.5% of the total gains in Figure 3, suggesting that Interaction 14",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "the test. However, with memory transfer learning, retrieved To investigate the operational mechanisms of memory trans- Insight memory generated from LiveCodeBench provides fer learning, we inspect the inference outcomes using LLM behavior knowledge",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "caused by wrong memory retrieval and failed adaptation of supplies abstract procedural principles that guide the agent’s the retrieved memory to the new task. These demonstrate reasoning without constraining its adaptation process. As that we can avoid performance degradation by designing ad- reflected in the reasoning trace, the agent internalizes these vanced memory retrieval me",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "primary failure modes that hinder effective transfer. First, As shown in Table 1, Memory Transfer Learning can de- the misapplication of technical patterns occurs when an grade performance in certain benchmarks. To understand agent incorrectly projects language-specific logic (e.g., R- this, we analyzed instances where zero-shot setting suc- language fil",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "vi- ceeded but Memory Transfer Learning failed. We catego- ronment like C++, leading to structural failures. Second, rized these negative transfer cases as follows: semantic distortion occurs when a strategic insight intended for rigorous validation is misinterpreted as a justification for • Domain-mismatched a",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "target task. However, both methods underperform simple Learning using memories generated by different models. embedding-based retrieval, as shown in Table 7. This is We hypothesize that if Memory Transfer Learning mainly likely because the required k",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ss models because it is model-agnostic. However, cross-model transfer consistently underperforms 9 Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents 5. Conclusion Zhao, H. Remember me, refine me: A dynamic pro-",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "before running expensive experiments, however, the agent dis- files without checking its original structure or namespaces. torted this into a justification for quick completion over quality. C. Formal Modeling of Abstraction To formally ground these empirical findings, we introduce a mathematical framework modeling the abstraction-transfer tradeoff. We decompose a m",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "as a cautionary guardrail against known failure modes or brittle approaches. - Context: Used when the agent explicitly avoided actions that caused failures in retrieved memories (e.g., ”avoid blind text patching,” ”do not guess outputs”). 6. Input Validation and Robustness - Definition: Ensuring the solution correctly handles edge cases, data normalization, and defensive parsing. - Context: Us",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "gents Workflow Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of Bash commands that did not reach the intended goal. Your goal is to extract a **single reusable base workflow** that captures a **bad or misleading strategy** that led to failure, so it can be avoided in similar future tasks. The w",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "bstract the **anti-pattern** behind the failure, such as skipping inspection, editing the wrong files, or making unchecked changes. ## What You Need to Produce You must identify: * The **goal** of the workflow Describe what kind of mistake or failure pattern this workflow represents and when it tends to occur. * The **sequence of Bash commands** Include the key command steps that illustrate",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "lowing: * It must come from the **given failed trajectory** * It must be a **reusable negative example**, not just a random error * It should reflect **why the trajectory failed**, such as skipping checks, editing blindly, or validating the wrong thing * Long commands may be **shortened** as long as the core action remains ## Output Format Your output must follow this exact JSON format: ```js",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ure 8. Workflow Generation Prompt for a Failed Trajectory Summary Generation Prompt for a Success Trajectory ## Task Description You are given a **successful command trajectory** for a code-editing task - a sequence of actions and Bash commands that correctly achieved its goal. Your goal is to produce a **structured summary** that captures both what was done and why it worked, so this traject",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "nts Summary Generation Prompt for a Failed Trajectory ## Task Description You are given a **failed command trajectory** for a code-editing task — a sequence of actions and Bash commands that did not achieve the intended goal or produced incorrect results. Your goal is to produce a **structured summary** that captures what was attempted, what went wrong, and why this trajectory is a useful",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "s, the overall approach, and the final (failed) outcome. It should also explain why this trajectory failed, highlighting incorrect assumptions, missing checks, or flawed strategies so that others can avoid repeating them. ## Summary Requirements The summaries must satisfy all of the following: * They must be based only on the **given failed trajectory** * They must be written so they are **",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "d why went wrong, and how to avoid same failure in the future tasks.\" } ``` Figure 10. Summary Generation Prompt for a Failed Trajectory Insight Generation Prompt for a Success Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent successfully accomplished the",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ts Insight Generation Prompt for a Failed Trajectory You are an expert in repository-level code editing. You will be given a user query, the corresponding trajectory that represents how an agent attempted to resolve the task but failed. ## Guidelines You need to extract and summarize useful insights in the format of memory items based on the agent's failed trajectory. The goal of summari",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "st reflect and think why the trajectory failed, and then summarize what lessons you have learned or strategies to prevent the failure in the future. - You can extract only one memory item from the trajectory. - Do not mention specific files or details, but rather focus on the generalizable insights. ## Output Format Your output must strictly follow the json format shown below: ```json { \"tit",
+      "arxiv_id": "2604.14004v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Working memory — the ability to store and recall precise temporal patterns ofApr neural activity — remains an open challenge for spiking neural networks (SNNs). 15 WewithproposeD = 41a delays,recurrentmodelledSNN ofasN aneuronsweight tensorin whichW each∈RN×N×Dsynapse isandequippedtrained end-to-end with surrogate-gradient backpropagation through time. The network stores M arbitrary target spike patterns by representing each as a sequential chain of overlapping Spiking Motifs: contiguous windows of length D that uniquely predict spikes at the next time step. On a synthetic benchmark of M = 16 patterns (N = 512 neurons, T = 1000 steps), training achieves a mean F1 score of 1.0, with recall emerging first near the clamped initialisation window and propagating forward in time. This result demonstrates that heterogeneous delays provide an efficient substrate for working memory in SNNs, enabling energy-efficient[q-bio.NC] neuromorphic edge deployment.",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS), achieving sparse solutions in which only ∼20% of delay channels remain active. Applied to event-based vision, heterogeneous learned delays in a single spiking layer suffice for fast motion detection [Grimaldi and Perrinet, 2023], scalable to always-on object recognition [Grimaldi et al., 2024]. Multiple learned delays per synapse give rise to Spiking Motifs (SMs) [Perrinet, 2023]: precisely timed spike patterns that generalise PNGs",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address.",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "The most immediate application of this framework is to neurophysiological data. Future work will ex- plore whether self-supervised objectives can extract Spiking Motifs directly from raw multi-electrode array recordings without labelled targets. Such approaches could bridge the gap between biologically plausible learning and practical deployment on edge devices. The supervised memorisation task studied here requires a known target, but in practice one would like to discover the latent Spiking Motifs present in recorded multi-unit activity — the problem originally addressed by Ikegaya et al. [2004] and Villette et al. [2015]. A natural extension is therefore to replace the supervised F1 loss with a self-supervised or contrastive objective that trains the network to predict upcoming spikes from the recent spike history, without access to ground-truth labels. This is analogous to the contrastive predictive coding paradigm applied to continuous neural time series, here instantiated in a fully spike-based setting [Grimaldi et al., 2023]. Such a model would provide a principled, energy-efficient method for identifying the temporal structure of neural population codes, with direct relevance to the debate on rate coding versus temporal coding [Softky and Koch, 1993, Bohte, 2004] and to understanding the neural mechanisms of working memory more broadly. Deployed on neuromorphic hardware [Göltz et al., 2021, Eshraghian et al., 2023], it could operate in real time on streaming electrophysiological data, opening a new avenue for closed-loop brain-machine interface applications.",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "ctivation and sustain a working memory. However, storing spike patterns of arbitrary length is inherently difficult: the sequential structure of the task means each context window is not an independent query but is itself the output of the network at the previous step, so small errors at early time steps propagate and amplify towards the end of the sequence — a compounding difficulty absent fro",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "m static associative memory. The limitation of the original model is that delays are fixed rather than learned. Recent work addresses this: Göltz et al. [2021] demonstrated fast, energy-efficient inference on neuromorphic hardware using first-spike-time coding, while Hammouamri et al. [2023] introduced gradient-based delay learning via dilated convolutions with learnable spacings (DCLS),",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "chronisation [Izhikevich, 2006]. Notice however that at inference time, the network does not receive ground-truth contexts, but it receives the context it generated itself at the previous step such that the spike train may be corrupted by previous errors. 2.5 Training Figure 2: Network architecture and a sample target pattern. Left: Unrolled view of the recurrent HD- SNN over time (one c",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ke timing to adjust synaptic strengths. However, while STDP implements local pairwise updates based on individual spike timings, our approach performs global optimisation that effectively learns the collective interaction of multiple delayed spike trains across the entire network. The analytical initialisation (see Equation 2) reveals this connection most clearly: it implements a Hebbian-like r",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "of 1.0. We observed two characteristic failure modes during early training: episodes of complete silence, in which the network emits no spikes, and over-activation, in which nearly all neurons fire at every time step. Both are well-known pathological attractors of recurrent SNNs [Izhikevich, 2006]. The F1 score is the harmonic mean of precision and recall, and maximising it therefore penalises",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "both failure modes symmetrically: low precision corresponds to an over-active network and low recall to a silent one. In addition, the cosine learning-rate schedule [Hammouamri et al., 2023] helped guide the network away from these extremes towards a balanced, sparse-firing regime. Figure 3: Pattern retrieval from the recurrent HD-SNN. The raster plot sho",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "recurrent working-memory setting. 4.2 Limitations and directions for improvement The present model is deliberately minimal, and several design choices impose limits on capacity and robustness that future work should address. Capacity and robustness. A systematic evaluation of memory capacity — how many patterns of what duration can be reliably stored and retrieved — remains to be carried out. T",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "in ways that the F1 training objective does not fully penalise. Richer neuron models and dynamics. We used the simplest LIF model with a learned membrane decay β. Introducing adaptive threshold dynamics or more complex single-neuron models, as studied in Szatmáry and Izhikevich [2010], should increase the diversity of intrinsic timescales available to the network and improve both capacity and",
+      "arxiv_id": "2604.14096v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Abstract—With the rapid growth of deep neural networks CIM has been explored using various memory technolo- (DNNs), compute-in-memory (CIM) has emerged as a promis- gies, with designs primarily dominated by SRAM, DRAM,2026 ing energy-efficient paradigm for accelerating multiply-and- and non-volatile memories (NVMs). Prior NVM-based CIM accumulate (MAC) operations. Yet, current CIM architectures implementations have demonstrated very high compute density are largely limited to dot-product computations and struggle to and throughput [6]; however, they often face limitations suchApr efficiently support general-purpose matrix operations, such as transpose, element-wise addition, and multiplication. This work as low signal-to-noise ratio (SNR), reduced ON/OFF conduc- presents a 3D-integrated, memory-on-memory SRAM-eDRAM tance ratio, high write energy, and fabrication challenges for15 hybrid CIM architecture, implemented in GlobalFoundries 22 nm large-scale integration [7]. SRAM- [8] and DRAM- [9] based FDSOI technology, capable of performing general matrix opera- analog CIM architectures are generally classified into two tions directly within the memory crossbar with 4-bit precision. By leveraging a specialized transpose-based architecture, in-memory categories: charge-domain and current-domain CIM. Charge- arithmetic operations, peripheral-aware design, and 3D SRAM– domain CIM offers better linearity and higher compute density eDRAM integration, the proposed architecture balances latency, and energy efficiency but suffers from variations and reduced energy efficiency, and…",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "limited to dot-product computations and struggle to and throughput [6]; however, they often face limitations suchApr efficiently support general-purpose matrix operations, such as transpose, element-wise addition, and multiplication. This work as low signal-to-noise ratio (SNR), reduced ON/OFF conduc- presents a",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "[21]; however, these implementations are typically optimized only for backpropagation, where the dot-product readout en- GEM3D CIM 2",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "e of the clock is a different bit-cell. However, in T-eDRAM, both the read and used to read the data value QD from the 3T eDRAM, while write operations are performed through QB, requiring a buffer the negative phase is used to write the corresponding value for correct data write. During write operations, when WWL into the subsequent eDRAM bit-cell. is asserted, the data at node W is trans",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "trix into their SRAM operating at 0.8 V does not provide sufficient sensing corresponding positions in the upper diagonal of Layer B margin to reliably distinguish 16 levels. To address this, an (Matrix B), as illustrated in Fig. 3(a). In the next step, an auxiliary buffer circuit, shown in Fig. 2(c), is activated to internal swap is performed within both Layers simultaneously: generate a",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "elements). In the final step, the PDK. However, they can be scaled down by employing ultra lower-diagonal elements stored in Layer B are copied back GEM3D CIM 4 Fig. 3. (a) Illustration of a 3 × 3 matrix transpose operation, demonstrating the reordering",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "However, this approach has not been implemented becauseaddition, with their output characteristics shown in Fig. 11. it significantly increases circuit complexity and substantiallyThe signal margins of the analog multiplication and addition",
+      "arxiv_id": "2604.13969v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "5 Conclusion This paper explores the exploration-exploitation trade-off between in RL training. We analyze the two ETTO dilemmas faced by the extreme hard and easy groups, and proposed the Disentangled Perplexity Policy Optimization. First, we develop a novel Perplexity Space Disentangling method to identify which hard samples require encouragement for exploration and which easy samples need promotion for exploitation. Then, we design a Bidirectional Reward Reallocation mechanism that incorporates PPL-based exploration and exploitation signals while minimizing disruptions to the original verification reward distribution. Finally, extensive experiments on mathematical reasoning and function calling tasks demonstrate the comprehensive superiority of the proposed method. 9",
+      "arxiv_id": "2604.13902v1",
+      "source": "section:conclusion"
+    },
+    {
+      "text": "Recent works on reward shaping for LLM-RL have advanced across key directions. CrossDomain- RLVR Su et al. [2025] expanded verifiable reward RL to diverse unstructured domains via generative scoring. PKPO Walder and Karkhanis [2025] and Pass@k Training Chen et al. [2025b] optimized pass@k performance to enhance sample diversity and collective utility, addressing exploration limitations. rl-without-gt Xin et al. [2025] introduced format-length surrogate signals to bypass ground truth dependence. RuscaRL Zhou et al. [2025] leveraged rubric scaffolding to break exploration bottlenecks, while DACE Li et al. [2025], CDE Dai et al. [2025] proposed difficulty-aware certainty and curiosity-driven signals for adaptive exploration. DRER He et al. [2025] focused on reasoning quality with fine-grained CoT rewards, and OBE Song et al. [2025] mitigated diversity collapse via outcome-based exploration bonuses.",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "els (LLMs). However, effectively managing the exploration and exploitation trade-off remains15 a critical challenge. In this paper, we fully analyze the exploration and exploitation dilemma of extremely hard and easy samples during the training and propose a new fine-grained t",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "exploit based on intra-group accuracy. However, this coarse-grained partitioning would hinder policy optimization during early training stages when †Equan Contribution ‡Corresponding Author Preprint.",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "on rewards at appropriate times, yet it does not explicitly address exploitation and introduces more hyper-parameters. Moreover, both CDE and DACE directly use perplexity as a reward bias, which may introduce additional uncertainty. In this paper, we propose a novel method Disentangled Perplexity Policy Optimization (DiPO) to solve the two dilemmas and achieve a fine-grained EETO. To enable fin",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "the impact to verification rewards, BRR does not directly employ PPL as the basis for reward shaping, but introduces the maximum-PPL reward reallocation strategy. BRR thus aims to drive updates toward the exploratory (high-entropy) direction for the hard groups in EiS, and toward the exploitative (low-entropy) direction for the easy groups in ErS.. Theorem 1 (Entropy Increase with Maximum-PPL Re",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "= ˆri for all i ̸= ˆm. Noted that if τ∗does not exist, or mean({ˆpi}) > τ∗, reallocated reward remains unchanged, i.e., {ˆrir} = {ˆri} = {0}. Theorem 2 (Entropy decrease with Maximum-PPL penalty). Let πt be the policy at step t. Given a query q and a group of outputs {oi} ∼πt(· | q), if the output with the maximum PPL among {oi} is assigned a penalty, then the average entropy of the updated pol",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "= ¯ri for all i ̸= ¯m. Noted that if τ∗does not exist, or mean({¯pi}) < τ∗, reallocated reward remains unchanged, i.e., {¯rir} = {¯ri} = {1}. Finally, we abstracted the peocess of BRR into a formalized reward function Rr, defined as follows: {ˆrir} if {ri} = {0}, Rr({ri}) = {¯rir} if {ri} = {1}, (10)",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "olRL+DAPO) for comparison. Since ToolRL does not utilize a binary verification reward, certain modifications were made when implementing TooRL+DiPO. 6 Table 2: Comparison of function calling in acc on BFCLv3 benchmark. The best and second-best results are respectively marked in bold and underlined. Multi Tur",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "thods; in the later stages of training, however, the performance curve of DAPO exhibited a significant slowdown in growth, whereas DiPO maintained a sustained capacity for exploratory improvement. Combined with the PPL distribution characteristics in Figure 4, this phenomenon can be further explained: DiPO enables hard samples to conduct more sufficient exploration, while the training paradigm",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "lective utility, addressing exploration limitations. rl-without-gt Xin et al. [2025] introduced format-length surrogate signals to bypass ground truth dependence. RuscaRL Zhou et al. [2025] leveraged rubric scaffolding to break exploration bottlenecks, while DACE Li et al. [2025], CDE Dai et al. [2025] proposed difficulty-aware certainty and curiosity-driven signals for adaptive exploration. DRER H",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "c opinion related to [The Company] that does not involve regulatory department. Figure 6: Prompt of risk prediction. E.5 Visualization of PPL Distribution To further analyze the exploration and exploitation trends during the RL training process, we con- ducted a visualization analysis of the PPL distribution during the training of DAPO and DiPO. As shown in Fi",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "ber of chips (white and black) does not exceed 25 each, and that the placement is maximal (no additional chip can be placed).\\n\\nWait, perhaps it's better to parameterize.\\n\\nLet’s denote:\\n\\n- \\(w_r\\) = number of rows assigned White\\n- \\(b_r\\) = number of rows assigned Black\\n- \\(e_r\\) = number of rows assigned Empty\\n\\",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "pty, and similarly for columns. However, theEmpty reduces the total number of chips.\\n\\nThe total number of ways is \\(2^5 \\times 2^5 = 1024\\), but considering the constraints, it's actually \\(2^9 = 512\\).\\n\\nThus, the final answer is:\\n\\n\\[\\boxed{512}\\]<|endoftext|> Figure 9: Error case of DAPO.",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "r empty. Similarly for columns. However, the interactions must respect the chip limits.\\n\\nAfter accounting for all constraints and ensuring the maximality, the total number of valid configurations is \\( \\boxed{252} \\).\\n\\nWait, that doesn't seem right. Let's think again.\\n\\nUpon re-evaluating, the correct number of w",
+      "arxiv_id": "2604.13902v1",
+      "source": "fulltext:negation_window"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+:root {
+  --bg: #0f1419;
+  --panel: #1a2332;
+  --text: #e7ecf3;
+  --muted: #8b98a5;
+  --accent: #3d8bfd;
+  --border: #2d3a4d;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  line-height: 1.5;
+  padding: 1.5rem clamp(1rem, 4vw, 2rem) 3rem;
+}
+header h1 { margin: 0 0 0.25rem; font-weight: 700; letter-spacing: -0.02em; }
+.sub { color: var(--muted); margin: 0 0 1.5rem; max-width: 52rem; }
+main { display: grid; gap: 1.25rem; max-width: 56rem; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+.panel.full { grid-column: 1 / -1; }
+h2 { margin: 0 0 0.75rem; font-size: 1.1rem; }
+label { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+.req { color: #f85149; }
+textarea, input[type="text"], input[type="number"], input[type="url"], select {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #0d1117;
+  color: var(--text);
+}
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.checks label { margin-top: 0.5rem; }
+button[type="submit"], #refresh-runs {
+  margin-top: 1rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+#refresh-runs { background: #30363d; margin-top: 0; }
+.status { color: var(--muted); min-height: 1.5rem; }
+pre#result-view {
+  background: #0d1117;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow: auto;
+  max-height: 480px;
+  font-size: 0.8rem;
+}
+ul#runs-list { padding-left: 1.2rem; color: var(--muted); }
+ul#runs-list code { color: #79c0ff; }
+footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
+.hint { color: var(--muted); font-size: 0.9rem; max-width: 48rem; }
+.run-actions a { margin-right: 0.6rem; color: #58a6ff; }
+.run-actions button { margin-left: 0.35rem; font-size: 0.8rem; padding: 0.2rem 0.5rem; cursor: pointer; background: #21262d; border: 1px solid var(--border); color: var(--text); border-radius: 4px; }
+code { background: #21262d; padding: 0.1rem 0.35rem; border-radius: 4px; }

@@ -1,0 +1,269 @@
+{
+  "run_dir": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\runs\\c74b7a65-eda9-4a19-9500-7472a0659cf3",
+  "query": "(tokenization AND (time series OR 'time-series'))",
+  "hypothesis_backend": "openai:gpt-4o-mini",
+  "hypotheses_ranked": [
+    {
+      "hypothesis": "Incorporating transformation techniques into the payload of watermarking systems can significantly enhance their robustness against unauthorized use.",
+      "rationale": "The co-occurrence of 'payload' and 'transformation' suggests a novel approach to watermarking that could improve security measures.",
+      "concepts": [
+        "payload",
+        "transformation"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9975,
+        "feasibility": 1.0,
+        "impact": 0.0124,
+        "combined": 0.8013,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:watermarking",
+        "concept:watermark",
+        "concept:payload",
+        "concept:transformation"
+      ],
+      "rank": 1
+    },
+    {
+      "hypothesis": "Utilizing Gaussian transformations in image processing enhances the performance of image tokenizers in generating coherent representations.",
+      "rationale": "The low co-occurrence of 'gaussian', 'representation', and 'tokenizers' indicates potential unexplored relationships that could yield improvements in image generation tasks.",
+      "concepts": [
+        "gaussian",
+        "representation",
+        "tokenizers"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9957,
+        "feasibility": 1.0,
+        "impact": 0.012,
+        "combined": 0.8003,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:image",
+        "concept:tokenizers",
+        "concept:representation",
+        "concept:transformation",
+        "concept:gaussian"
+      ],
+      "rank": 2
+    },
+    {
+      "hypothesis": "The application of Gaussian blurring techniques in image processing can be effectively modeled using state-space representations to enhance image quality.",
+      "rationale": "The connection between 'Gaussian' and 'ssm' indicates potential for improved modeling techniques that could lead to advancements in image processing.",
+      "concepts": [
+        "gaussian",
+        "ssm"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9958,
+        "feasibility": 1.0,
+        "impact": 0.012,
+        "combined": 0.8003,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:image",
+        "concept:space",
+        "concept:representation",
+        "concept:gaussian"
+      ],
+      "rank": 3
+    },
+    {
+      "hypothesis": "The introduction of time watermarking significantly improves the evidentiary value of digital content in judicial disputes compared to traditional watermarking methods.",
+      "rationale": "The low co-occurrence between 'time_watermarking' and 'evidentiary' suggests a gap in understanding how time-based methods can enhance evidentiary standards in legal contexts.",
+      "concepts": [
+        "time_watermarking",
+        "evidentiary",
+        "judicial"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9956,
+        "feasibility": 1.0,
+        "impact": 0.0122,
+        "combined": 0.8002,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:watermarking",
+        "concept:watermark",
+        "concept:disputes",
+        "concept:judicial",
+        "concept:evidentiary",
+        "concept:time_watermarking"
+      ],
+      "rank": 4
+    },
+    {
+      "hypothesis": "The application of structured state-space models (SSMs) to image transformations leads to a measurable increase in the compactness of generated image representations.",
+      "rationale": "The mention of SSMs in conjunction with transformation techniques suggests that further exploration could yield novel insights into image representation efficiency.",
+      "concepts": [
+        "ssm",
+        "transformation",
+        "representation"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9956,
+        "feasibility": 1.0,
+        "impact": 0.0122,
+        "combined": 0.8002,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:ssms",
+        "concept:image",
+        "concept:compact",
+        "concept:ssm",
+        "concept:space",
+        "concept:representation",
+        "concept:transformation"
+      ],
+      "rank": 5
+    },
+    {
+      "hypothesis": "The relationship between payload size and time watermarking effectiveness can be characterized by a threshold beyond which watermarking fails to provide additional security.",
+      "rationale": "The co-occurrence of 'payload' and 'time_watermarking' suggests an unexplored boundary that could inform best practices in watermarking applications.",
+      "concepts": [
+        "payload",
+        "time_watermarking"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9954,
+        "feasibility": 1.0,
+        "impact": 0.0124,
+        "combined": 0.8002,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:watermarking",
+        "concept:watermark",
+        "concept:payload",
+        "concept:time_watermarking"
+      ],
+      "rank": 6
+    },
+    {
+      "hypothesis": "Learning algorithms that incorporate CoT (Chain-of-Thought) supervision will outperform traditional methods in tasks requiring complex reasoning.",
+      "rationale": "The mention of CoT supervision in the context of learning suggests that its effects on performance metrics are yet to be fully explored.",
+      "concepts": [
+        "CoT",
+        "learning"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9958,
+        "feasibility": 1.0,
+        "impact": 0.0118,
+        "combined": 0.8002,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:thought",
+        "concept:supervision"
+      ],
+      "rank": 7
+    },
+    {
+      "hypothesis": "The integration of evidentiary frameworks with time-based watermarking reduces the incidence of copyright disputes in digital media.",
+      "rationale": "The connection between 'evidentiary', 'time_watermarking', and 'copyright' is underexplored, and this hypothesis addresses potential legal implications of watermarking technologies.",
+      "concepts": [
+        "evidentiary",
+        "time_watermarking",
+        "copyright"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.9952,
+        "feasibility": 1.0,
+        "impact": 0.0127,
+        "combined": 0.8001,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:watermarking",
+        "concept:watermark",
+        "concept:copyright",
+        "concept:disputes",
+        "concept:evidentiary"
+      ],
+      "rank": 8
+    },
+    {
+      "hypothesis": "Judicial outcomes are significantly influenced by the presence of time-based markers in digital evidence, compared to static markers.",
+      "rationale": "The low co-occurrence of 'judicial' and 'timemark' indicates a lack of empirical evidence exploring the impact of time markers on legal judgments.",
+      "concepts": [
+        "judicial",
+        "timemark"
+      ],
+      "gap_cluster_ids": [],
+      "related_arxiv_ids": [],
+      "scores": {
+        "novelty": 0.62,
+        "feasibility": 1.0,
+        "impact": 0.0118,
+        "combined": 0.6124,
+        "weights": {
+          "alpha": 0.5,
+          "beta": 0.3,
+          "gamma": 0.2
+        }
+      },
+      "matched_concept_nodes": [
+        "concept:judicial"
+      ],
+      "rank": 9
+    }
+  ],
+  "gap_summary": {
+    "snippet_count": 75,
+    "cluster_count": 75
+  }
+}

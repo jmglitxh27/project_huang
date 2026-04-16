@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RNDA — Novelty discovery</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>RNDA</h1>
+    <p class="sub">Research Novelty Discovery Agent — configure arXiv ingest, pipeline, and novelty hypotheses.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Run pipeline</h2>
+      <form id="run-form">
+        <label>Topic / keywords</label>
+        <textarea name="topic" rows="3" placeholder="e.g. diffusion AND score-based (leave blank if you only use natural language + refine)"></textarea>
+
+        <label>Natural-language intent (optional)</label>
+        <textarea name="natural_language_intent" rows="3" placeholder="Describe the research slice you care about; use the button below to draft an arXiv keyword query."></textarea>
+        <p class="hint">
+          <button type="button" id="btn-refine">Suggest query from topic + intent</button>
+          Uses OpenAI when <code>OPENAI_API_KEY</code> is set; otherwise a light heuristic.
+        </p>
+
+        <div class="row checks">
+          <label><input type="checkbox" name="refine_search_with_llm" /> Refine topic/keywords with LLM when starting run (requires API key)</label>
+          <label><input type="checkbox" name="relevance_filter" checked /> Stage 1: score abstracts and keep the best matches</label>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Relevance pool size (optional)</label>
+            <input type="number" name="relevance_pool_size" min="10" max="300" placeholder="auto" />
+          </div>
+          <div>
+            <label>Min relevance score (0–1, 0 = top‑K only)</label>
+            <input type="number" name="relevance_min_score" step="0.05" min="0" max="1" value="0" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Max papers</label>
+            <input type="number" name="max_papers" min="1" max="300" value="5" />
+          </div>
+          <div>
+            <label>arXiv sort</label>
+            <select name="sort">
+              <option value="submitted" selected>Submitted date</option>
+              <option value="relevance">Relevance</option>
+              <option value="last_updated">Last updated</option>
+            </select>
+          </div>
+        </div>
+
+        <label>Categories (optional)</label>
+        <input type="text" name="categories" placeholder="cs.LG, cs.AI" />
+
+        <div class="row">
+          <div>
+            <label>Submitted from (YYYYMMDDHHMMSS)</label>
+            <input type="text" name="submitted_from" placeholder="optional" />
+          </div>
+          <div>
+            <label>Submitted to (YYYYMMDDHHMMSS)</label>
+            <input type="text" name="submitted_to" placeholder="optional" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>GROBID URL (optional)</label>
+            <input type="url" name="grobid_url" placeholder="http://127.0.0.1:8070 — leave empty to skip" />
+          </div>
+          <div>
+            <label>GROBID read timeout (seconds)</label>
+            <input type="number" name="grobid_timeout" min="15" max="900" value="120" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Top-K terms (KG)</label>
+            <input type="number" name="top_k_terms" min="5" max="80" value="18" />
+          </div>
+          <div>
+            <label>Gap cluster threshold</label>
+            <input type="number" name="gap_distance_threshold" step="0.01" min="0.05" max="1" value="0.28" />
+          </div>
+        </div>
+
+        <div class="row checks">
+          <label><input type="checkbox" name="gap_tfidf_only" /> Gap mining: TF-IDF only (no sentence embeddings)</label>
+          <label><input type="checkbox" name="use_llm" checked /> Stage 4: use LLM (requires <code>OPENAI_API_KEY</code>)</label>
+        </div>
+
+        <label>OpenAI model (Stage 4)</label>
+        <input type="text" name="llm_model" value="gpt-4o-mini" />
+
+        <label>Max hypotheses</label>
+        <input type="number" name="max_hypotheses" min="1" max="50" value="10" />
+
+        <label>Resume from run id (skip arXiv — reuse corpus)</label>
+        <input type="text" name="resume_from_run" placeholder="paste uuid from Previous runs" />
+
+        <button type="submit" id="submit-btn">Start run</button>
+      </form>
+      <p id="job-status" class="status"></p>
+    </section>
+
+    <section class="panel">
+      <h2>Previous runs</h2>
+      <p class="hint">Open the <strong>interactive graph</strong>, download a <strong>ZIP</strong> of all artifacts, or generate an <strong>LLM literature report</strong> (Markdown + PDF — needs <code>OPENAI_API_KEY</code>).</p>
+      <button type="button" id="refresh-runs">Refresh</button>
+      <ul id="runs-list"></ul>
+    </section>
+
+    <section class="panel full">
+      <h2>Latest result</h2>
+      <pre id="result-view">Submit a run to see novelty hypotheses and scores.</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Set <code>OPENAI_API_KEY</code> for LLM hypotheses. Leave GROBID blank unless the server is running — otherwise each PDF can wait for the full timeout.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById("run-form");
+    const statusEl = document.getElementById("job-status");
+    const resultView = document.getElementById("result-view");
+    const runsList = document.getElementById("runs-list");
+
+    async function pollJob(jobId) {
+      const r = await fetch("/api/jobs/" + jobId);
+      const j = await r.json();
+      let line = j.status + ": " + (j.message || j.step || "");
+      if (j.ingest_progress && j.ingest_progress.arxiv_id) {
+        line +=
+          " [" +
+          (j.ingest_progress.stage || "") +
+          " " +
+          j.ingest_progress.index +
+          "/" +
+          j.ingest_progress.total +
+          " " +
+          j.ingest_progress.arxiv_id +
+          "]";
+      }
+      statusEl.textContent = line;
+      if (j.status === "done" && j.result) {
+        const nov = j.result.novelty || {};
+        const ranked = nov.hypotheses_ranked || [];
+        resultView.textContent = JSON.stringify(ranked, null, 2);
+        return true;
+      }
+      if (j.status === "error") {
+        resultView.textContent = "Error: " + (j.error || j.message || "unknown");
+        return true;
+      }
+      return false;
+    }
+
+    document.getElementById("btn-refine").addEventListener("click", async () => {
+      const fd = new FormData(form);
+      statusEl.textContent = "Refining query…";
+      const res = await fetch("/api/refine-search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          topic: (fd.get("topic") || "").trim(),
+          natural_language: (fd.get("natural_language_intent") || "").trim(),
+          model: (fd.get("llm_model") || "").trim() || "gpt-4o-mini",
+        }),
+      });
+      if (!res.ok) {
+        statusEl.textContent = await res.text();
+        return;
+      }
+      const j = await res.json();
+      form.querySelector('[name="topic"]').value = j.arxiv_topic || "";
+      statusEl.textContent = j.rationale || "Suggested topic applied.";
+      resultView.textContent = JSON.stringify(j, null, 2);
+    });
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const rps = (fd.get("relevance_pool_size") || "").trim();
+      const body = {
+        topic: fd.get("topic").trim(),
+        natural_language_intent: (fd.get("natural_language_intent") || "").trim(),
+        refine_search_with_llm: fd.get("refine_search_with_llm") === "on",
+        relevance_filter: fd.get("relevance_filter") === "on",
+        relevance_pool_size: rps ? parseInt(rps, 10) : null,
+        relevance_min_score: parseFloat(fd.get("relevance_min_score")) || 0,
+        max_papers: parseInt(fd.get("max_papers"), 10),
+        categories: fd.get("categories") || "",
+        submitted_from: fd.get("submitted_from") || null,
+        submitted_to: fd.get("submitted_to") || null,
+        sort: fd.get("sort"),
+        grobid_url: fd.get("grobid_url") || null,
+        grobid_timeout: parseInt(fd.get("grobid_timeout"), 10) || 120,
+        top_k_terms: parseInt(fd.get("top_k_terms"), 10),
+        gap_tfidf_only: fd.get("gap_tfidf_only") === "on",
+        gap_distance_threshold: parseFloat(fd.get("gap_distance_threshold")),
+        max_hypotheses: parseInt(fd.get("max_hypotheses"), 10),
+        llm_model: fd.get("llm_model") || "gpt-4o-mini",
+        use_llm: fd.get("use_llm") === "on",
+        resume_from_run: (fd.get("resume_from_run") || "").trim() || null,
+      };
+      statusEl.textContent = "Starting…";
+      const res = await fetch("/api/runs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) {
+        statusEl.textContent = await res.text();
+        return;
+      }
+      const { job_id } = await res.json();
+      const t = setInterval(async () => {
+        const done = await pollJob(job_id);
+        if (done) clearInterval(t);
+      }, 1200);
+    });
+
+    async function loadRuns() {
+      const r = await fetch("/api/runs");
+      const list = await r.json();
+      runsList.innerHTML = list
+        .map((x) => {
+          const enc = encodeURIComponent(x.id);
+          return `<li>
+            <code>${x.id}</code> — ${x.mtime} ${x.has_report ? "✓ novelty JSON" : ""}
+            <span class="run-actions">
+              <a href="/viz/${enc}" target="_blank" rel="noopener">Graph</a>
+              <a href="/api/runs/${enc}/bundle.zip">Download ZIP</a>
+              <a href="#" data-id="${x.id}" class="load-report">Novelty JSON</a>
+              <button type="button" class="gen-llm-report" data-id="${x.id}">LLM report (MD+PDF)</button>
+            </span>
+          </li>`;
+        })
+        .join("");
+      runsList.querySelectorAll(".load-report").forEach((a) => {
+        a.addEventListener("click", async (ev) => {
+          ev.preventDefault();
+          const id = ev.target.getAttribute("data-id");
+          const rr = await fetch("/api/runs/" + encodeURIComponent(id) + "/report");
+          if (!rr.ok) {
+            resultView.textContent = await rr.text();
+            return;
+          }
+          resultView.textContent = JSON.stringify(await rr.json(), null, 2);
+        });
+      });
+      runsList.querySelectorAll(".gen-llm-report").forEach((btn) => {
+        btn.addEventListener("click", async () => {
+          const id = btn.getAttribute("data-id");
+          btn.disabled = true;
+          statusEl.textContent = "Generating literature report…";
+          const rr = await fetch("/api/runs/" + encodeURIComponent(id) + "/literature-report", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ model: "gpt-4o-mini", prefer_llm: true }),
+          });
+          btn.disabled = false;
+          if (!rr.ok) {
+            statusEl.textContent = await rr.text();
+            return;
+          }
+          const out = await rr.json();
+          statusEl.textContent = "Report written: " + out.backend + " — see literature_report.md / .pdf in run folder, paths in response.";
+          resultView.textContent = JSON.stringify(out, null, 2);
+        });
+      });
+    }
+
+    document.getElementById("refresh-runs").addEventListener("click", loadRuns);
+    loadRuns();
+  </script>
+</body>
+</html>

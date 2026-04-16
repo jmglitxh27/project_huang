@@ -1,0 +1,5757 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "paper",
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "arxiv_id": "2604.14116v1",
+      "published": "2026-04-15T17:38:06+00:00",
+      "id": "paper:2604.14116v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.AI",
+      "id": "category:cs.AI"
+    },
+    {
+      "kind": "paper",
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "arxiv_id": "2604.14004v1",
+      "published": "2026-04-15T15:50:29+00:00",
+      "id": "paper:2604.14004v1"
+    },
+    {
+      "kind": "paper",
+      "title": "Working Memory in a Recurrent Spiking Neural Networks With Heterogeneous Synaptic Delays",
+      "arxiv_id": "2604.14096v1",
+      "published": "2026-04-15T17:12:55+00:00",
+      "id": "paper:2604.14096v1"
+    },
+    {
+      "kind": "category",
+      "name": "q-bio.NC",
+      "id": "category:q-bio.NC"
+    },
+    {
+      "kind": "paper",
+      "title": "GEM3D CIM General Purpose Matrix Computation Using 3D Integrated SRAM eDRAM Hybrid Compute In Memory on Memory Architecture",
+      "arxiv_id": "2604.13969v1",
+      "published": "2026-04-15T15:18:33+00:00",
+      "id": "paper:2604.13969v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.AR",
+      "id": "category:cs.AR"
+    },
+    {
+      "kind": "paper",
+      "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+      "arxiv_id": "2604.13902v1",
+      "published": "2026-04-15T14:12:10+00:00",
+      "id": "paper:2604.13902v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.LG",
+      "id": "category:cs.LG"
+    },
+    {
+      "kind": "concept",
+      "label": "trex",
+      "id": "concept:trex"
+    },
+    {
+      "kind": "concept",
+      "label": "tuning",
+      "id": "concept:tuning"
+    },
+    {
+      "kind": "concept",
+      "label": "fine tuning",
+      "id": "concept:fine_tuning"
+    },
+    {
+      "kind": "concept",
+      "label": "researcher",
+      "id": "concept:researcher"
+    },
+    {
+      "kind": "concept",
+      "label": "llm fine",
+      "id": "concept:llm_fine"
+    },
+    {
+      "kind": "concept",
+      "label": "agent",
+      "id": "concept:agent"
+    },
+    {
+      "kind": "concept",
+      "label": "automating",
+      "id": "concept:automating"
+    },
+    {
+      "kind": "concept",
+      "label": "driven",
+      "id": "concept:driven"
+    },
+    {
+      "kind": "concept",
+      "label": "automated",
+      "id": "concept:automated"
+    },
+    {
+      "kind": "concept",
+      "label": "llm training",
+      "id": "concept:llm_training"
+    },
+    {
+      "kind": "concept",
+      "label": "research",
+      "id": "concept:research"
+    },
+    {
+      "kind": "concept",
+      "label": "executor",
+      "id": "concept:executor"
+    },
+    {
+      "kind": "concept",
+      "label": "search",
+      "id": "concept:search"
+    },
+    {
+      "kind": "concept",
+      "label": "bench",
+      "id": "concept:bench"
+    },
+    {
+      "kind": "concept",
+      "label": "literature",
+      "id": "concept:literature"
+    },
+    {
+      "kind": "concept",
+      "label": "iterative",
+      "id": "concept:iterative"
+    },
+    {
+      "kind": "concept",
+      "label": "model training",
+      "id": "concept:model_training"
+    },
+    {
+      "kind": "concept",
+      "label": "evaluation",
+      "id": "concept:evaluation"
+    },
+    {
+      "kind": "concept",
+      "label": "memory transfer",
+      "id": "concept:memory_transfer"
+    },
+    {
+      "kind": "concept",
+      "label": "transfer learning",
+      "id": "concept:transfer_learning"
+    },
+    {
+      "kind": "concept",
+      "label": "transfer",
+      "id": "concept:transfer"
+    },
+    {
+      "kind": "concept",
+      "label": "coding agents",
+      "id": "concept:coding_agents"
+    },
+    {
+      "kind": "concept",
+      "label": "agents",
+      "id": "concept:agents"
+    },
+    {
+      "kind": "concept",
+      "label": "pool",
+      "id": "concept:pool"
+    },
+    {
+      "kind": "concept",
+      "label": "evolving",
+      "id": "concept:evolving"
+    },
+    {
+      "kind": "concept",
+      "label": "code",
+      "id": "concept:code"
+    },
+    {
+      "kind": "concept",
+      "label": "memory pool",
+      "id": "concept:memory_pool"
+    },
+    {
+      "kind": "concept",
+      "label": "self evolving",
+      "id": "concept:self_evolving"
+    },
+    {
+      "kind": "concept",
+      "label": "memories",
+      "id": "concept:memories"
+    },
+    {
+      "kind": "concept",
+      "label": "et al",
+      "id": "concept:et_al"
+    },
+    {
+      "kind": "concept",
+      "label": "domains",
+      "id": "concept:domains"
+    },
+    {
+      "kind": "concept",
+      "label": "memory",
+      "id": "concept:memory"
+    },
+    {
+      "kind": "concept",
+      "label": "memory generation",
+      "id": "concept:memory_generation"
+    },
+    {
+      "kind": "concept",
+      "label": "coding",
+      "id": "concept:coding"
+    },
+    {
+      "kind": "concept",
+      "label": "generation",
+      "id": "concept:generation"
+    },
+    {
+      "kind": "concept",
+      "label": "spike",
+      "id": "concept:spike"
+    },
+    {
+      "kind": "concept",
+      "label": "neurons",
+      "id": "concept:neurons"
+    },
+    {
+      "kind": "concept",
+      "label": "delays",
+      "id": "concept:delays"
+    },
+    {
+      "kind": "concept",
+      "label": "spiking",
+      "id": "concept:spiking"
+    },
+    {
+      "kind": "concept",
+      "label": "delay",
+      "id": "concept:delay"
+    },
+    {
+      "kind": "concept",
+      "label": "spikes",
+      "id": "concept:spikes"
+    },
+    {
+      "kind": "concept",
+      "label": "working",
+      "id": "concept:working"
+    },
+    {
+      "kind": "concept",
+      "label": "working memory",
+      "id": "concept:working_memory"
+    },
+    {
+      "kind": "concept",
+      "label": "activity",
+      "id": "concept:activity"
+    },
+    {
+      "kind": "concept",
+      "label": "pattern",
+      "id": "concept:pattern"
+    },
+    {
+      "kind": "concept",
+      "label": "snn",
+      "id": "concept:snn"
+    },
+    {
+      "kind": "concept",
+      "label": "synaptic",
+      "id": "concept:synaptic"
+    },
+    {
+      "kind": "concept",
+      "label": "neuron",
+      "id": "concept:neuron"
+    },
+    {
+      "kind": "concept",
+      "label": "time steps",
+      "id": "concept:time_steps"
+    },
+    {
+      "kind": "concept",
+      "label": "loss",
+      "id": "concept:loss"
+    },
+    {
+      "kind": "concept",
+      "label": "recall",
+      "id": "concept:recall"
+    },
+    {
+      "kind": "concept",
+      "label": "sram",
+      "id": "concept:sram"
+    },
+    {
+      "kind": "concept",
+      "label": "cim",
+      "id": "concept:cim"
+    },
+    {
+      "kind": "concept",
+      "label": "bit",
+      "id": "concept:bit"
+    },
+    {
+      "kind": "concept",
+      "label": "transpose",
+      "id": "concept:transpose"
+    },
+    {
+      "kind": "concept",
+      "label": "edram",
+      "id": "concept:edram"
+    },
+    {
+      "kind": "concept",
+      "label": "cell",
+      "id": "concept:cell"
+    },
+    {
+      "kind": "concept",
+      "label": "operation",
+      "id": "concept:operation"
+    },
+    {
+      "kind": "concept",
+      "label": "bit cell",
+      "id": "concept:bit_cell"
+    },
+    {
+      "kind": "concept",
+      "label": "matrix",
+      "id": "concept:matrix"
+    },
+    {
+      "kind": "concept",
+      "label": "layer",
+      "id": "concept:layer"
+    },
+    {
+      "kind": "concept",
+      "label": "operations",
+      "id": "concept:operations"
+    },
+    {
+      "kind": "concept",
+      "label": "dot",
+      "id": "concept:dot"
+    },
+    {
+      "kind": "concept",
+      "label": "conventional",
+      "id": "concept:conventional"
+    },
+    {
+      "kind": "concept",
+      "label": "elements",
+      "id": "concept:elements"
+    },
+    {
+      "kind": "concept",
+      "label": "multiplication",
+      "id": "concept:multiplication"
+    },
+    {
+      "kind": "concept",
+      "label": "fig",
+      "id": "concept:fig"
+    },
+    {
+      "kind": "concept",
+      "label": "word",
+      "id": "concept:word"
+    },
+    {
+      "kind": "concept",
+      "label": "ppl",
+      "id": "concept:ppl"
+    },
+    {
+      "kind": "concept",
+      "label": "perplexity",
+      "id": "concept:perplexity"
+    },
+    {
+      "kind": "concept",
+      "label": "hard",
+      "id": "concept:hard"
+    },
+    {
+      "kind": "concept",
+      "label": "easy",
+      "id": "concept:easy"
+    },
+    {
+      "kind": "concept",
+      "label": "group",
+      "id": "concept:group"
+    },
+    {
+      "kind": "concept",
+      "label": "reward",
+      "id": "concept:reward"
+    },
+    {
+      "kind": "concept",
+      "label": "rewards",
+      "id": "concept:rewards"
+    },
+    {
+      "kind": "concept",
+      "label": "ers",
+      "id": "concept:ers"
+    },
+    {
+      "kind": "concept",
+      "label": "eis",
+      "id": "concept:eis"
+    },
+    {
+      "kind": "concept",
+      "label": "exploration exploitation",
+      "id": "concept:exploration_exploitation"
+    },
+    {
+      "kind": "concept",
+      "label": "reallocation",
+      "id": "concept:reallocation"
+    },
+    {
+      "kind": "concept",
+      "label": "reward reallocation",
+      "id": "concept:reward_reallocation"
+    },
+    {
+      "kind": "concept",
+      "label": "samples",
+      "id": "concept:samples"
+    },
+    {
+      "kind": "concept",
+      "label": "exploitation",
+      "id": "concept:exploitation"
+    },
+    {
+      "kind": "concept",
+      "label": "trade",
+      "id": "concept:trade"
+    },
+    {
+      "kind": "concept",
+      "label": "brr",
+      "id": "concept:brr"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.14116v1",
+      "target": "category:cs.AI",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07528276997485985,
+      "source": "paper:2604.14116v1",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07232926854135278,
+      "source": "paper:2604.14116v1",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07232926854135278,
+      "source": "paper:2604.14116v1",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06973733209121526,
+      "source": "paper:2604.14116v1",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06669903475652365,
+      "source": "paper:2604.14116v1",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06577032344929186,
+      "source": "paper:2604.14116v1",
+      "target": "concept:agent",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06433821155169196,
+      "source": "paper:2604.14116v1",
+      "target": "concept:automating",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06433821155169196,
+      "source": "paper:2604.14116v1",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06433821155169196,
+      "source": "paper:2604.14116v1",
+      "target": "concept:automated",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06433821155169196,
+      "source": "paper:2604.14116v1",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06324657652423296,
+      "source": "paper:2604.14116v1",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0630279891621488,
+      "source": "paper:2604.14116v1",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06161284117380571,
+      "source": "paper:2604.14116v1",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06161284117380571,
+      "source": "paper:2604.14116v1",
+      "target": "concept:bench",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.056526647591087754,
+      "source": "paper:2604.14116v1",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.056526647591087754,
+      "source": "paper:2604.14116v1",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.056526647591087754,
+      "source": "paper:2604.14116v1",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05626364042924323,
+      "source": "paper:2604.14116v1",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.14004v1",
+      "target": "category:cs.AI",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0852642548441946,
+      "source": "paper:2604.14004v1",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08238268924405563,
+      "source": "paper:2604.14004v1",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07669895979203542,
+      "source": "paper:2604.14004v1",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07502888296876427,
+      "source": "paper:2604.14004v1",
+      "target": "concept:coding_agents",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07428397228920994,
+      "source": "paper:2604.14004v1",
+      "target": "concept:agents",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.071850655128771,
+      "source": "paper:2604.14004v1",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.071850655128771,
+      "source": "paper:2604.14004v1",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07083005625945406,
+      "source": "paper:2604.14004v1",
+      "target": "concept:code",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07005668327568228,
+      "source": "paper:2604.14004v1",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07005668327568228,
+      "source": "paper:2604.14004v1",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06805124415188227,
+      "source": "paper:2604.14004v1",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06782469228934639,
+      "source": "paper:2604.14004v1",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06727742061472469,
+      "source": "paper:2604.14004v1",
+      "target": "concept:domains",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06545095870620367,
+      "source": "paper:2604.14004v1",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06349090935159162,
+      "source": "paper:2604.14004v1",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.062499505689097797,
+      "source": "paper:2604.14004v1",
+      "target": "concept:coding",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0616804720164906,
+      "source": "paper:2604.14004v1",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.14096v1",
+      "target": "category:q-bio.NC",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07964134933592483,
+      "source": "paper:2604.14096v1",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07788578196736212,
+      "source": "paper:2604.14096v1",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0737518623349457,
+      "source": "paper:2604.14096v1",
+      "target": "concept:delays",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07212948355449648,
+      "source": "paper:2604.14096v1",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07034460825976911,
+      "source": "paper:2604.14096v1",
+      "target": "concept:delay",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06727985328024065,
+      "source": "paper:2604.14096v1",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06612888174510825,
+      "source": "paper:2604.14096v1",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06612888174510825,
+      "source": "paper:2604.14096v1",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06489847190910876,
+      "source": "paper:2604.14096v1",
+      "target": "concept:activity",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06489847190910876,
+      "source": "paper:2604.14096v1",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06357684003760214,
+      "source": "paper:2604.14096v1",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06214936886994422,
+      "source": "paper:2604.14096v1",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06214936886994422,
+      "source": "paper:2604.14096v1",
+      "target": "concept:neuron",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06214936886994422,
+      "source": "paper:2604.14096v1",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06059761936619804,
+      "source": "paper:2604.14096v1",
+      "target": "concept:loss",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.05889787009972055,
+      "source": "paper:2604.14096v1",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13969v1",
+      "target": "category:cs.AR",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08963633497572884,
+      "source": "paper:2604.13969v1",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0887132289233071,
+      "source": "paper:2604.13969v1",
+      "target": "concept:cim",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08823421799595728,
+      "source": "paper:2604.13969v1",
+      "target": "concept:bit",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08563838361367622,
+      "source": "paper:2604.13969v1",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08449137055731121,
+      "source": "paper:2604.13969v1",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07652204506737816,
+      "source": "paper:2604.13969v1",
+      "target": "concept:cell",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07652204506737816,
+      "source": "paper:2604.13969v1",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07559893901495641,
+      "source": "paper:2604.13969v1",
+      "target": "concept:bit_cell",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07403494781967326,
+      "source": "paper:2604.13969v1",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06953498815456864,
+      "source": "paper:2604.13969v1",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06909250867640279,
+      "source": "paper:2604.13969v1",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06885067724740711,
+      "source": "paper:2604.13969v1",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06744856026763554,
+      "source": "paper:2604.13969v1",
+      "target": "concept:conventional",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06744856026763554,
+      "source": "paper:2604.13969v1",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06593415856058087,
+      "source": "paper:2604.13969v1",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06593415856058087,
+      "source": "paper:2604.13969v1",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06593415856058087,
+      "source": "paper:2604.13969v1",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2604.13902v1",
+      "target": "category:cs.LG",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.09678290668277122,
+      "source": "paper:2604.13902v1",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.08041596340259312,
+      "source": "paper:2604.13902v1",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0779793323777181,
+      "source": "paper:2604.13902v1",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07709261467611321,
+      "source": "paper:2604.13902v1",
+      "target": "concept:easy",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07709261467611321,
+      "source": "paper:2604.13902v1",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07522782772190705,
+      "source": "paper:2604.13902v1",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07415434961640124,
+      "source": "paper:2604.13902v1",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07415434961640124,
+      "source": "paper:2604.13902v1",
+      "target": "concept:ers",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07415434961640124,
+      "source": "paper:2604.13902v1",
+      "target": "concept:eis",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07415434961640124,
+      "source": "paper:2604.13902v1",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0719092879748712,
+      "source": "paper:2604.13902v1",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.0719092879748712,
+      "source": "paper:2604.13902v1",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.07090802957464047,
+      "source": "paper:2604.13902v1",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06716153870895845,
+      "source": "paper:2604.13902v1",
+      "target": "concept:exploitation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06642578194857396,
+      "source": "paper:2604.13902v1",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.06642578194857396,
+      "source": "paper:2604.13902v1",
+      "target": "concept:brr",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005445147686048528,
+      "source": "concept:trex",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005445147686048528,
+      "source": "concept:fine_tuning",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005231523087727125,
+      "source": "concept:fine_tuning",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005044050220183008,
+      "source": "concept:fine_tuning",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004824292396353623,
+      "source": "concept:fine_tuning",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:fine_tuning",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004574578617742465,
+      "source": "concept:fine_tuning",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004456411734855911,
+      "source": "concept:fine_tuning",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:fine_tuning",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:fine_tuning",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:fine_tuning",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00525001953048337,
+      "source": "concept:researcher",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005044050220183008,
+      "source": "concept:researcher",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004296715166020989,
+      "source": "concept:researcher",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050212880911205526,
+      "source": "concept:llm_fine",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004824292396353623,
+      "source": "concept:llm_fine",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004651412736979199,
+      "source": "concept:llm_fine",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042912966084588736,
+      "source": "concept:llm_fine",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004218485605820947,
+      "source": "concept:llm_fine",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109517034899838,
+      "source": "concept:llm_fine",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003770272832347726,
+      "source": "concept:llm_fine",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00495137213140517,
+      "source": "concept:agent",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004757119386815463,
+      "source": "concept:agent",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004757119386815463,
+      "source": "concept:agent",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004586646888129909,
+      "source": "concept:agent",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00438681708969212,
+      "source": "concept:agent",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004231544983903746,
+      "source": "concept:agent",
+      "target": "concept:automating",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004231544983903746,
+      "source": "concept:agent",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004231544983903746,
+      "source": "concept:agent",
+      "target": "concept:automated",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004231544983903746,
+      "source": "concept:agent",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004159747795059191,
+      "source": "concept:agent",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004145371233552989,
+      "source": "concept:agent",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004052296492631048,
+      "source": "concept:agent",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004052296492631048,
+      "source": "concept:agent",
+      "target": "concept:bench",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037177758955699762,
+      "source": "concept:agent",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037177758955699762,
+      "source": "concept:agent",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037177758955699762,
+      "source": "concept:agent",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037004778294659813,
+      "source": "concept:agent",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004843558780839897,
+      "source": "concept:automating",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:automating",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:automating",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004486775225135204,
+      "source": "concept:automating",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042912966084588736,
+      "source": "concept:automating",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:automating",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:automating",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069171620336375,
+      "source": "concept:automating",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040551081003920774,
+      "source": "concept:automating",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:automating",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:automating",
+      "target": "concept:bench",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automating",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automating",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automating",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036199020006049795,
+      "source": "concept:automating",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004843558780839897,
+      "source": "concept:driven",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:driven",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:driven",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004486775225135204,
+      "source": "concept:driven",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042912966084588736,
+      "source": "concept:driven",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:driven",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069171620336375,
+      "source": "concept:driven",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040551081003920774,
+      "source": "concept:driven",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:driven",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:driven",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:driven",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:driven",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036199020006049795,
+      "source": "concept:driven",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004843558780839897,
+      "source": "concept:automated",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:automated",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:automated",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004486775225135204,
+      "source": "concept:automated",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042912966084588736,
+      "source": "concept:automated",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:automated",
+      "target": "concept:automating",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:automated",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004139405465670269,
+      "source": "concept:automated",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069171620336375,
+      "source": "concept:automated",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040551081003920774,
+      "source": "concept:automated",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:automated",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:automated",
+      "target": "concept:bench",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automated",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automated",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:automated",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036199020006049795,
+      "source": "concept:automated",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004843558780839897,
+      "source": "concept:llm_training",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004653535780792694,
+      "source": "concept:llm_training",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004486775225135204,
+      "source": "concept:llm_training",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069171620336375,
+      "source": "concept:llm_training",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:llm_training",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:llm_training",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047613774721712,
+      "source": "concept:research",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004574578617742465,
+      "source": "concept:research",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044106475107028925,
+      "source": "concept:research",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003896801274174514,
+      "source": "concept:research",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004744921610072008,
+      "source": "concept:executor",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004558768353730533,
+      "source": "concept:executor",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004558768353730533,
+      "source": "concept:executor",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004395403811242287,
+      "source": "concept:executor",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004203906039759959,
+      "source": "concept:executor",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0040551081003920774,
+      "source": "concept:executor",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00398630453971237,
+      "source": "concept:executor",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038833334857518217,
+      "source": "concept:executor",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035627609317436834,
+      "source": "concept:executor",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035627609317436834,
+      "source": "concept:executor",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035627609317436834,
+      "source": "concept:executor",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638385349585189,
+      "source": "concept:search",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004456411734855911,
+      "source": "concept:search",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004638385349585189,
+      "source": "concept:bench",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004456411734855911,
+      "source": "concept:bench",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004456411734855911,
+      "source": "concept:bench",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004296715166020989,
+      "source": "concept:bench",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109517034899838,
+      "source": "concept:bench",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:bench",
+      "target": "concept:driven",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003964060009741108,
+      "source": "concept:bench",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003896801274174514,
+      "source": "concept:bench",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038833334857518217,
+      "source": "concept:bench",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037961421975086077,
+      "source": "concept:bench",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:bench",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:bench",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:bench",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034665627416270764,
+      "source": "concept:bench",
+      "target": "concept:evaluation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004255482608049825,
+      "source": "concept:literature",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:literature",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003942017595062779,
+      "source": "concept:literature",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003770272832347726,
+      "source": "concept:literature",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:literature",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035751169425280805,
+      "source": "concept:literature",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:literature",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003195261887887027,
+      "source": "concept:literature",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004255482608049825,
+      "source": "concept:iterative",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:iterative",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003942017595062779,
+      "source": "concept:iterative",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003770272832347726,
+      "source": "concept:iterative",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003636823411023343,
+      "source": "concept:iterative",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035751169425280805,
+      "source": "concept:iterative",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:iterative",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003195261887887027,
+      "source": "concept:iterative",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003195261887887027,
+      "source": "concept:iterative",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004255482608049825,
+      "source": "concept:model_training",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004088531073358198,
+      "source": "concept:model_training",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003942017595062779,
+      "source": "concept:model_training",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035751169425280805,
+      "source": "concept:model_training",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003482767360117377,
+      "source": "concept:model_training",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004235682700382943,
+      "source": "concept:evaluation",
+      "target": "concept:trex",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069507957720847,
+      "source": "concept:evaluation",
+      "target": "concept:tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004069507957720847,
+      "source": "concept:evaluation",
+      "target": "concept:fine_tuning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00392367617727486,
+      "source": "concept:evaluation",
+      "target": "concept:researcher",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037527305085186436,
+      "source": "concept:evaluation",
+      "target": "concept:llm_fine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036199020006049795,
+      "source": "concept:evaluation",
+      "target": "concept:llm_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035584826399400592,
+      "source": "concept:evaluation",
+      "target": "concept:research",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035461841191973794,
+      "source": "concept:evaluation",
+      "target": "concept:executor",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0034665627416270764,
+      "source": "concept:evaluation",
+      "target": "concept:search",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031803949747355093,
+      "source": "concept:evaluation",
+      "target": "concept:literature",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031803949747355093,
+      "source": "concept:evaluation",
+      "target": "concept:iterative",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0031803949747355093,
+      "source": "concept:evaluation",
+      "target": "concept:model_training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007024298610455249,
+      "source": "concept:memory_transfer",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006539679653992743,
+      "source": "concept:memory_transfer",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006126292569621868,
+      "source": "concept:memory_transfer",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005973330896356799,
+      "source": "concept:memory_transfer",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006318666569889572,
+      "source": "concept:transfer",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006397281798123968,
+      "source": "concept:coding_agents",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006181081149944325,
+      "source": "concept:coding_agents",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005754637278062582,
+      "source": "concept:coding_agents",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005390874394885601,
+      "source": "concept:coding_agents",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005390874394885601,
+      "source": "concept:coding_agents",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00525627469067095,
+      "source": "concept:coding_agents",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00525627469067095,
+      "source": "concept:coding_agents",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005105808833350378,
+      "source": "concept:coding_agents",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005088810900169818,
+      "source": "concept:coding_agents",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005047749717742508,
+      "source": "concept:coding_agents",
+      "target": "concept:domains",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004910712320961178,
+      "source": "concept:coding_agents",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004763652007320988,
+      "source": "concept:coding_agents",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004627816916383413,
+      "source": "concept:coding_agents",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006333767544106286,
+      "source": "concept:agents",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006119713404916022,
+      "source": "concept:agents",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005697503403802786,
+      "source": "concept:agents",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00557344346334206,
+      "source": "concept:agents",
+      "target": "concept:coding_agents",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005337352074547204,
+      "source": "concept:agents",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005337352074547204,
+      "source": "concept:agents",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0052615379364204665,
+      "source": "concept:agents",
+      "target": "concept:code",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00520408871912474,
+      "source": "concept:agents",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00520408871912474,
+      "source": "concept:agents",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005055116734824682,
+      "source": "concept:agents",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005038287562545997,
+      "source": "concept:agents",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004997634048633731,
+      "source": "concept:agents",
+      "target": "concept:domains",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004861957202833857,
+      "source": "concept:agents",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004716356950890371,
+      "source": "concept:agents",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046427115486982595,
+      "source": "concept:agents",
+      "target": "concept:coding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004581870474058377,
+      "source": "concept:agents",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059192501934553525,
+      "source": "concept:pool",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00551087050875301,
+      "source": "concept:pool",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033618589506586,
+      "source": "concept:pool",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006126292569621868,
+      "source": "concept:evolving",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059192501934553525,
+      "source": "concept:evolving",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00551087050875301,
+      "source": "concept:evolving",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005162516642433585,
+      "source": "concept:evolving",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033618589506586,
+      "source": "concept:evolving",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033618589506586,
+      "source": "concept:evolving",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004889526474640687,
+      "source": "concept:evolving",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004702694261846871,
+      "source": "concept:evolving",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00456186343163327,
+      "source": "concept:evolving",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004431782323036676,
+      "source": "concept:evolving",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006039271967534732,
+      "source": "concept:code",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005835170513961581,
+      "source": "concept:code",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0054325916371114735,
+      "source": "concept:code",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053143000017615676,
+      "source": "concept:code",
+      "target": "concept:coding_agents",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005089185945049481,
+      "source": "concept:code",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005089185945049481,
+      "source": "concept:code",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00496211881776733,
+      "source": "concept:code",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00496211881776733,
+      "source": "concept:code",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004820073451803665,
+      "source": "concept:code",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004804026770634564,
+      "source": "concept:code",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004765263487131904,
+      "source": "concept:code",
+      "target": "concept:domains",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00463589508739561,
+      "source": "concept:code",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004497064681337132,
+      "source": "concept:code",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044268435041468655,
+      "source": "concept:code",
+      "target": "concept:coding",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004368831303037711,
+      "source": "concept:code",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005973330896356799,
+      "source": "concept:memory_pool",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005771457967769763,
+      "source": "concept:memory_pool",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005373274733724915,
+      "source": "concept:memory_pool",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005033618589506586,
+      "source": "concept:memory_pool",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049079388715892605,
+      "source": "concept:memory_pool",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005771457967769763,
+      "source": "concept:self_evolving",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005373274733724915,
+      "source": "concept:self_evolving",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005802338623830597,
+      "source": "concept:memories",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005606244499635875,
+      "source": "concept:memories",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005219459639003204,
+      "source": "concept:memories",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004889526474640687,
+      "source": "concept:memories",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004767444458064542,
+      "source": "concept:memories",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004767444458064542,
+      "source": "concept:memories",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00445401917089063,
+      "source": "concept:memories",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004320635373710186,
+      "source": "concept:memories",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005783021848087911,
+      "source": "concept:et_al",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00558758054794692,
+      "source": "concept:et_al",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005202083346807753,
+      "source": "concept:et_al",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00487324857489684,
+      "source": "concept:et_al",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00487324857489684,
+      "source": "concept:et_al",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00475157298598535,
+      "source": "concept:et_al",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00475157298598535,
+      "source": "concept:et_al",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004615554694508597,
+      "source": "concept:et_al",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044391911342909806,
+      "source": "concept:et_al",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004306251389942486,
+      "source": "concept:et_al",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004183459034780116,
+      "source": "concept:et_al",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005736359136553957,
+      "source": "concept:domains",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005542494835644486,
+      "source": "concept:domains",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005160108178640624,
+      "source": "concept:domains",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004833926746541852,
+      "source": "concept:domains",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004833926746541852,
+      "source": "concept:domains",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004713232947610626,
+      "source": "concept:domains",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004713232947610626,
+      "source": "concept:domains",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045783121761615074,
+      "source": "concept:domains",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004563070351214632,
+      "source": "concept:domains",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004403371678514241,
+      "source": "concept:domains",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004271504613658387,
+      "source": "concept:domains",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004149703059568194,
+      "source": "concept:domains",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005580627222922607,
+      "source": "concept:memory",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005392025991818694,
+      "source": "concept:memory",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005020020450157286,
+      "source": "concept:memory",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004702694261846871,
+      "source": "concept:memory",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00458527708417027,
+      "source": "concept:memory",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00458527708417027,
+      "source": "concept:memory",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004155540886190343,
+      "source": "concept:memory",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005413505075243766,
+      "source": "concept:memory_generation",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005230551854934678,
+      "source": "concept:memory_generation",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004869686703517491,
+      "source": "concept:memory_generation",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00456186343163327,
+      "source": "concept:memory_generation",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447962527329508,
+      "source": "concept:memory_generation",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447962527329508,
+      "source": "concept:memory_generation",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005328973780711425,
+      "source": "concept:coding",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005148877355092031,
+      "source": "concept:coding",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004793647073870201,
+      "source": "concept:coding",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004689268097952935,
+      "source": "concept:coding",
+      "target": "concept:coding_agents",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004490630428986026,
+      "source": "concept:coding",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004490630428986026,
+      "source": "concept:coding",
+      "target": "concept:evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004378508074947827,
+      "source": "concept:coding",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004378508074947827,
+      "source": "concept:coding",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004253169121020749,
+      "source": "concept:coding",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004239009741599312,
+      "source": "concept:coding",
+      "target": "concept:et_al",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004204805532457811,
+      "source": "concept:coding",
+      "target": "concept:domains",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004090652566015281,
+      "source": "concept:coding",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0039681504502257926,
+      "source": "concept:coding",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038549990117008916,
+      "source": "concept:coding",
+      "target": "concept:generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005259139484924269,
+      "source": "concept:generation",
+      "target": "concept:memory_transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050814031585612145,
+      "source": "concept:generation",
+      "target": "concept:transfer_learning",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004730828043146579,
+      "source": "concept:generation",
+      "target": "concept:transfer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004431782323036676,
+      "source": "concept:generation",
+      "target": "concept:pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004321129292353866,
+      "source": "concept:generation",
+      "target": "concept:memory_pool",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004321129292353866,
+      "source": "concept:generation",
+      "target": "concept:self_evolving",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004197432860597544,
+      "source": "concept:generation",
+      "target": "concept:memories",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004037046026930477,
+      "source": "concept:generation",
+      "target": "concept:memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003916149257562388,
+      "source": "concept:generation",
+      "target": "concept:memory_generation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057444893971835,
+      "source": "concept:spike",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005358258298361414,
+      "source": "concept:spike",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005266593372256228,
+      "source": "concept:spike",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005266593372256228,
+      "source": "concept:spike",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004949659597178479,
+      "source": "concept:spike",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004949659597178479,
+      "source": "concept:spike",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006202928769964361,
+      "source": "concept:neurons",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005617861229543945,
+      "source": "concept:neurons",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005240143983380937,
+      "source": "concept:neurons",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005150499665344975,
+      "source": "concept:neurons",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005150499665344975,
+      "source": "concept:neurons",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00505466823312782,
+      "source": "concept:neurons",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004951731901342539,
+      "source": "concept:neurons",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840552193213638,
+      "source": "concept:neurons",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840552193213638,
+      "source": "concept:neurons",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004587306668928852,
+      "source": "concept:neurons",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005873697832392447,
+      "source": "concept:delays",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005744221469506487,
+      "source": "concept:delays",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005319683741401954,
+      "source": "concept:delays",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004962014477039653,
+      "source": "concept:delays",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004877128182829127,
+      "source": "concept:delays",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004877128182829127,
+      "source": "concept:delays",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00478638316598893,
+      "source": "concept:delays",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004688910354144097,
+      "source": "concept:delays",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004583631697099886,
+      "source": "concept:delays",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004583631697099886,
+      "source": "concept:delays",
+      "target": "concept:neuron",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004583631697099886,
+      "source": "concept:delays",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004469187281321277,
+      "source": "concept:delays",
+      "target": "concept:loss",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004343827607416104,
+      "source": "concept:delays",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047698420883110285,
+      "source": "concept:spiking",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047698420883110285,
+      "source": "concept:spiking",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044828018798269776,
+      "source": "concept:spiking",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044828018798269776,
+      "source": "concept:spiking",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005602339520315055,
+      "source": "concept:delay",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005478844821499878,
+      "source": "concept:delay",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005188045864380176,
+      "source": "concept:delay",
+      "target": "concept:delays",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005073920264620514,
+      "source": "concept:delay",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0047327749227732705,
+      "source": "concept:delay",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046518102810162365,
+      "source": "concept:delay",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0046518102810162365,
+      "source": "concept:delay",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004565257583103886,
+      "source": "concept:delay",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004472287906839127,
+      "source": "concept:delay",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004371873006748115,
+      "source": "concept:delay",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004371873006748115,
+      "source": "concept:delay",
+      "target": "concept:neuron",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004371873006748115,
+      "source": "concept:delay",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0042627157957898,
+      "source": "concept:delay",
+      "target": "concept:loss",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00414314759949961,
+      "source": "concept:delay",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004852861070726054,
+      "source": "concept:spikes",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004449141461397268,
+      "source": "concept:spikes",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004449141461397268,
+      "source": "concept:spikes",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004181400419029402,
+      "source": "concept:spikes",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004181400419029402,
+      "source": "concept:spikes",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004373029000858512,
+      "source": "concept:working",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005168601872681035,
+      "source": "concept:activity",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00505466823312782,
+      "source": "concept:activity",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00478638316598893,
+      "source": "concept:activity",
+      "target": "concept:delays",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004681093262280013,
+      "source": "concept:activity",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004565257583103886,
+      "source": "concept:activity",
+      "target": "concept:delay",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004366359668156657,
+      "source": "concept:activity",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004291663374315683,
+      "source": "concept:activity",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004291663374315683,
+      "source": "concept:activity",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004211811656137379,
+      "source": "concept:activity",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004126039767250223,
+      "source": "concept:activity",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:activity",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:activity",
+      "target": "concept:neuron",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:activity",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0039326928981960685,
+      "source": "concept:activity",
+      "target": "concept:loss",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003822381768173051,
+      "source": "concept:activity",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005168601872681035,
+      "source": "concept:pattern",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004681093262280013,
+      "source": "concept:pattern",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004366359668156657,
+      "source": "concept:pattern",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004291663374315683,
+      "source": "concept:pattern",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004291663374315683,
+      "source": "concept:pattern",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004126039767250223,
+      "source": "concept:pattern",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:pattern",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:pattern",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003822381768173051,
+      "source": "concept:pattern",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005063345327108885,
+      "source": "concept:snn",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004585764637939077,
+      "source": "concept:snn",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004277440469751201,
+      "source": "concept:snn",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004204265336574256,
+      "source": "concept:snn",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004204265336574256,
+      "source": "concept:snn",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003951260483082373,
+      "source": "concept:snn",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003951260483082373,
+      "source": "concept:snn",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:synaptic",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:synaptic",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038625440509323914,
+      "source": "concept:synaptic",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004949659597178479,
+      "source": "concept:neuron",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004840552193213638,
+      "source": "concept:neuron",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0044828018798269776,
+      "source": "concept:neuron",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004181400419029402,
+      "source": "concept:neuron",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:neuron",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:neuron",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004033399069774913,
+      "source": "concept:neuron",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003951260483082373,
+      "source": "concept:neuron",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038625440509323914,
+      "source": "concept:neuron",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038625440509323914,
+      "source": "concept:neuron",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036604654544815907,
+      "source": "concept:neuron",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:time_steps",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004109868264533654,
+      "source": "concept:time_steps",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004826076172868782,
+      "source": "concept:loss",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004719692969696901,
+      "source": "concept:loss",
+      "target": "concept:neurons",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004370874989515819,
+      "source": "concept:loss",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004076998940089674,
+      "source": "concept:loss",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004007252805102392,
+      "source": "concept:loss",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004007252805102392,
+      "source": "concept:loss",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0039326928981960685,
+      "source": "concept:loss",
+      "target": "concept:pattern",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038526051531042743,
+      "source": "concept:loss",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037661037986303175,
+      "source": "concept:loss",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037661037986303175,
+      "source": "concept:loss",
+      "target": "concept:neuron",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037661037986303175,
+      "source": "concept:loss",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0035690707137826425,
+      "source": "concept:loss",
+      "target": "concept:recall",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004690705847753766,
+      "source": "concept:recall",
+      "target": "concept:spike",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004248272952752663,
+      "source": "concept:recall",
+      "target": "concept:spiking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.003962640058827871,
+      "source": "concept:recall",
+      "target": "concept:spikes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038948502868631674,
+      "source": "concept:recall",
+      "target": "concept:working",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0038948502868631674,
+      "source": "concept:recall",
+      "target": "concept:working_memory",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0037445404658854034,
+      "source": "concept:recall",
+      "target": "concept:snn",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036604654544815907,
+      "source": "concept:recall",
+      "target": "concept:synaptic",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0036604654544815907,
+      "source": "concept:recall",
+      "target": "concept:time_steps",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007676310840375449,
+      "source": "concept:sram",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005910096323079046,
+      "source": "concept:sram",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007951928704548071,
+      "source": "concept:cim",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0075972575301420505,
+      "source": "concept:cim",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007495502298294719,
+      "source": "concept:cim",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0067885177017419415,
+      "source": "concept:cim",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00656787927425177,
+      "source": "concept:cim",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006168673322335696,
+      "source": "concept:cim",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006129419539095303,
+      "source": "concept:cim",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006107965892173959,
+      "source": "concept:cim",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005983579567570228,
+      "source": "concept:cim",
+      "target": "concept:conventional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005983579567570228,
+      "source": "concept:cim",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005849232102250439,
+      "source": "concept:cim",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005849232102250439,
+      "source": "concept:cim",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005849232102250439,
+      "source": "concept:cim",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007908991920607109,
+      "source": "concept:bit",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007827542379944341,
+      "source": "concept:bit",
+      "target": "concept:cim",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007556235808590523,
+      "source": "concept:bit",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007455030008531004,
+      "source": "concept:bit",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006751862805971512,
+      "source": "concept:bit",
+      "target": "concept:cell",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006751862805971512,
+      "source": "concept:bit",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006670413265308744,
+      "source": "concept:bit",
+      "target": "concept:bit_cell",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006532415725240373,
+      "source": "concept:bit",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006135365303176516,
+      "source": "concept:bit",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006096323472441293,
+      "source": "concept:bit",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006074985665417015,
+      "source": "concept:bit",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005951270970168017,
+      "source": "concept:bit",
+      "target": "concept:conventional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005951270970168017,
+      "source": "concept:bit",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058176489198143045,
+      "source": "concept:bit",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058176489198143045,
+      "source": "concept:bit",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058176489198143045,
+      "source": "concept:bit",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005646494764055978,
+      "source": "concept:transpose",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00757349679383358,
+      "source": "concept:edram",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007235704403832285,
+      "source": "concept:edram",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006465452465591116,
+      "source": "concept:edram",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006255314210423213,
+      "source": "concept:edram",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005875106450865904,
+      "source": "concept:edram",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005837720753312188,
+      "source": "concept:edram",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005698821299129932,
+      "source": "concept:edram",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005570867423326551,
+      "source": "concept:edram",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005570867423326551,
+      "source": "concept:edram",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005570867423326551,
+      "source": "concept:edram",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006859155664687327,
+      "source": "concept:cell",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0067885177017419415,
+      "source": "concept:cell",
+      "target": "concept:cim",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006553224250383151,
+      "source": "concept:cell",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006465452465591116,
+      "source": "concept:cell",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005855623381293853,
+      "source": "concept:cell",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005665305613618028,
+      "source": "concept:cell",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005320959497323508,
+      "source": "concept:cell",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005287100062753911,
+      "source": "concept:cell",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005268594627245595,
+      "source": "concept:cell",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005161301768529779,
+      "source": "concept:cell",
+      "target": "concept:conventional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005161301768529779,
+      "source": "concept:cell",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:cell",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:cell",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:cell",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006859155664687327,
+      "source": "concept:operation",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006553224250383151,
+      "source": "concept:operation",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005287100062753911,
+      "source": "concept:operation",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:operation",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00677641182135433,
+      "source": "concept:bit_cell",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006706625983192961,
+      "source": "concept:bit_cell",
+      "target": "concept:cim",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006474170940149751,
+      "source": "concept:bit_cell",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006387457970052254,
+      "source": "concept:bit_cell",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005784985418348467,
+      "source": "concept:bit_cell",
+      "target": "concept:cell",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005784985418348467,
+      "source": "concept:bit_cell",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00559696350519496,
+      "source": "concept:bit_cell",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005256771328902951,
+      "source": "concept:bit_cell",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005223320349817722,
+      "source": "concept:bit_cell",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005205038150365177,
+      "source": "concept:bit_cell",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050990395943195915,
+      "source": "concept:bit_cell",
+      "target": "concept:conventional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050990395943195915,
+      "source": "concept:bit_cell",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004984552432023819,
+      "source": "concept:bit_cell",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004984552432023819,
+      "source": "concept:bit_cell",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004984552432023819,
+      "source": "concept:bit_cell",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006636221382674838,
+      "source": "concept:matrix",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006340233262199681,
+      "source": "concept:matrix",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005665305613618028,
+      "source": "concept:matrix",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005115260274587803,
+      "source": "concept:matrix",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004881431988566667,
+      "source": "concept:matrix",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004881431988566667,
+      "source": "concept:matrix",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006232861490756252,
+      "source": "concept:layer",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059548639901533815,
+      "source": "concept:layer",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005320959497323508,
+      "source": "concept:layer",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0051480192196650875,
+      "source": "concept:layer",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0048043467723830995,
+      "source": "concept:layer",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004584730934491441,
+      "source": "concept:layer",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004584730934491441,
+      "source": "concept:layer",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006193199252031492,
+      "source": "concept:operations",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0059169707628610345,
+      "source": "concept:operations",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004555556422418251,
+      "source": "concept:operations",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006171522369054376,
+      "source": "concept:dot",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0058962607101748585,
+      "source": "concept:dot",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00581728808443251,
+      "source": "concept:dot",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005268594627245595,
+      "source": "concept:dot",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00509735629736095,
+      "source": "concept:dot",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004787531026832482,
+      "source": "concept:dot",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004757066015092684,
+      "source": "concept:dot",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004643879053789261,
+      "source": "concept:dot",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004539611470633918,
+      "source": "concept:dot",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004539611470633918,
+      "source": "concept:dot",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004539611470633918,
+      "source": "concept:dot",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006045841741780415,
+      "source": "concept:conventional",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005776185678389932,
+      "source": "concept:conventional",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005698821299129932,
+      "source": "concept:conventional",
+      "target": "concept:edram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005161301768529779,
+      "source": "concept:conventional",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049935506399264844,
+      "source": "concept:conventional",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004690034839252746,
+      "source": "concept:conventional",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004660190235502485,
+      "source": "concept:conventional",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004643879053789261,
+      "source": "concept:conventional",
+      "target": "concept:dot",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0045493082821768645,
+      "source": "concept:conventional",
+      "target": "concept:elements",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:conventional",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:conventional",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:conventional",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006045841741780415,
+      "source": "concept:elements",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005776185678389932,
+      "source": "concept:elements",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005161301768529779,
+      "source": "concept:elements",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0049935506399264844,
+      "source": "concept:elements",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004690034839252746,
+      "source": "concept:elements",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004660190235502485,
+      "source": "concept:elements",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:elements",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:elements",
+      "target": "concept:fig",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004447164067369176,
+      "source": "concept:elements",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005910096323079046,
+      "source": "concept:multiplication",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005646494764055978,
+      "source": "concept:multiplication",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:multiplication",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004555556422418251,
+      "source": "concept:multiplication",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004347313265091819,
+      "source": "concept:multiplication",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005910096323079046,
+      "source": "concept:fig",
+      "target": "concept:sram",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005646494764055978,
+      "source": "concept:fig",
+      "target": "concept:transpose",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005045416652852426,
+      "source": "concept:fig",
+      "target": "concept:operation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004881431988566667,
+      "source": "concept:fig",
+      "target": "concept:matrix",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004584730934491441,
+      "source": "concept:fig",
+      "target": "concept:layer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004555556422418251,
+      "source": "concept:fig",
+      "target": "concept:operations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004347313265091819,
+      "source": "concept:fig",
+      "target": "concept:multiplication",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004347313265091819,
+      "source": "concept:fig",
+      "target": "concept:word",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007280767830356919,
+      "source": "concept:ppl",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007176873499045753,
+      "source": "concept:ppl",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006959589907696482,
+      "source": "concept:ppl",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006959589907696482,
+      "source": "concept:ppl",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0068626852093816105,
+      "source": "concept:ppl",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0064288802556589425,
+      "source": "concept:ppl",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0077828906817983155,
+      "source": "concept:perplexity",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006049518240941457,
+      "source": "concept:perplexity",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005963193464895617,
+      "source": "concept:perplexity",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005782654670093772,
+      "source": "concept:perplexity",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005782654670093772,
+      "source": "concept:perplexity",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057021375112242785,
+      "source": "concept:perplexity",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005341693250165154,
+      "source": "concept:perplexity",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007547066448697491,
+      "source": "concept:hard",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006270783138645224,
+      "source": "concept:hard",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005866215781980305,
+      "source": "concept:hard",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057825066759908655,
+      "source": "concept:hard",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005607438268037529,
+      "source": "concept:hard",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005607438268037529,
+      "source": "concept:hard",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005529360806449955,
+      "source": "concept:hard",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005179838129017676,
+      "source": "concept:hard",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007461247332129104,
+      "source": "concept:easy",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006199476880404533,
+      "source": "concept:easy",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006011630623695981,
+      "source": "concept:easy",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005943271237599666,
+      "source": "concept:easy",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005799509935486008,
+      "source": "concept:easy",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:easy",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:easy",
+      "target": "concept:ers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:easy",
+      "target": "concept:eis",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:easy",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055436750294804065,
+      "source": "concept:easy",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055436750294804065,
+      "source": "concept:easy",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005466485401440198,
+      "source": "concept:easy",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005177658624744596,
+      "source": "concept:easy",
+      "target": "concept:exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005120937212320929,
+      "source": "concept:easy",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007461247332129104,
+      "source": "concept:group",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006199476880404533,
+      "source": "concept:group",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006011630623695981,
+      "source": "concept:group",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005799509935486008,
+      "source": "concept:group",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:group",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055436750294804065,
+      "source": "concept:group",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0055436750294804065,
+      "source": "concept:group",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005466485401440198,
+      "source": "concept:group",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005120937212320929,
+      "source": "concept:group",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005578470637772697,
+      "source": "concept:reward",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005409579527378612,
+      "source": "concept:reward",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005334257032940943,
+      "source": "concept:reward",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004997067280720285,
+      "source": "concept:reward",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005258138815688008,
+      "source": "concept:rewards",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:rewards",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007176873499045753,
+      "source": "concept:ers",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005963193464895617,
+      "source": "concept:ers",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057825066759908655,
+      "source": "concept:ers",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:ers",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005578470637772697,
+      "source": "concept:ers",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:ers",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:ers",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:ers",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:ers",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005258138815688008,
+      "source": "concept:ers",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00498032022219957,
+      "source": "concept:ers",
+      "target": "concept:exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:ers",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007176873499045753,
+      "source": "concept:eis",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005963193464895617,
+      "source": "concept:eis",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057825066759908655,
+      "source": "concept:eis",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:eis",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005578470637772697,
+      "source": "concept:eis",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:eis",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:eis",
+      "target": "concept:ers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:eis",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:eis",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:eis",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005258138815688008,
+      "source": "concept:eis",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00498032022219957,
+      "source": "concept:eis",
+      "target": "concept:exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:eis",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.007176873499045753,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005963193464895617,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0057825066759908655,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005716752701535005,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005578470637772697,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005498867567031467,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005258138815688008,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:exploration_exploitation",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005409579527378612,
+      "source": "concept:reallocation",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:reallocation",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005170945697052956,
+      "source": "concept:reallocation",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050989459184135055,
+      "source": "concept:reallocation",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004776630683096006,
+      "source": "concept:reallocation",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0053323864811550764,
+      "source": "concept:reward_reallocation",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0050989459184135055,
+      "source": "concept:reward_reallocation",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004776630683096006,
+      "source": "concept:reward_reallocation",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004710121310928101,
+      "source": "concept:samples",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.006500088933540453,
+      "source": "concept:exploitation",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005400859838881444,
+      "source": "concept:exploitation",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0052372119499848515,
+      "source": "concept:exploitation",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005177658624744596,
+      "source": "concept:exploitation",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005052416663535718,
+      "source": "concept:exploitation",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00498032022219957,
+      "source": "concept:exploitation",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.00498032022219957,
+      "source": "concept:exploitation",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004829538427857953,
+      "source": "concept:exploitation",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004829538427857953,
+      "source": "concept:exploitation",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004762292373053187,
+      "source": "concept:exploitation",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004461257725611983,
+      "source": "concept:exploitation",
+      "target": "concept:trade",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.0064288802556589425,
+      "source": "concept:brr",
+      "target": "concept:ppl",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005341693250165154,
+      "source": "concept:brr",
+      "target": "concept:perplexity",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005179838129017676,
+      "source": "concept:brr",
+      "target": "concept:hard",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005120937212320929,
+      "source": "concept:brr",
+      "target": "concept:easy",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.005120937212320929,
+      "source": "concept:brr",
+      "target": "concept:group",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004997067280720285,
+      "source": "concept:brr",
+      "target": "concept:reward",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:brr",
+      "target": "concept:rewards",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:brr",
+      "target": "concept:ers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:brr",
+      "target": "concept:eis",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004925760658157388,
+      "source": "concept:brr",
+      "target": "concept:exploration_exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004776630683096006,
+      "source": "concept:brr",
+      "target": "concept:reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004776630683096006,
+      "source": "concept:brr",
+      "target": "concept:reward_reallocation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004710121310928101,
+      "source": "concept:brr",
+      "target": "concept:samples",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004461257725611983,
+      "source": "concept:brr",
+      "target": "concept:exploitation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.004412384507479494,
+      "source": "concept:brr",
+      "target": "concept:trade",
+      "key": 0
+    }
+  ]
+}

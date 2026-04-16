@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "arxiv_id": "2222.2222v1",
+    "title": "BERT and masking",
+    "authors": ["B Test"],
+    "abstract": "Bidirectional encoder representations from transformers.",
+    "primary_category": "cs.CL",
+    "categories": ["cs.CL"],
+    "published": "2020-06-01T00:00:00+00:00",
+    "updated": "2020-06-01T00:00:00+00:00",
+    "pdf_url": "https://arxiv.org/pdf/2222.2222v1",
+    "entry_url": "https://arxiv.org/abs/2222.2222v1",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null
+  },
+  "pdf_path": null,
+  "full_text": "Language model pre-training with masked tokens. Future work: investigate larger masking spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+  "sections": {
+    "introduction": "Masked language modeling objective.",
+    "conclusion_0": "Conclusion\n\nWe leave multi-lingual extensions to future work. Important limitations remain around compute costs."
+  },
+  "page_count": 1,
+  "extraction_notes": []
+}

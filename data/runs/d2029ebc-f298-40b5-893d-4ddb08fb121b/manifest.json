@@ -1,0 +1,36 @@
+{
+  "query": "(tokenization)",
+  "count": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.14030v1",
+      "title": "Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model",
+      "pdf": "pdfs\\2604.14030v1.pdf",
+      "parsed_json": "parsed\\2604.14030v1.json"
+    },
+    {
+      "arxiv_id": "2604.13977v1",
+      "title": "How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data",
+      "pdf": "pdfs\\2604.13977v1.pdf",
+      "parsed_json": "parsed\\2604.13977v1.json"
+    },
+    {
+      "arxiv_id": "2604.13938v1",
+      "title": "ASTRA: Enhancing Multi-Subject Generation with Retrieval-Augmented Pose Guidance and Disentangled Position Embedding",
+      "pdf": "pdfs\\2604.13938v1.pdf",
+      "parsed_json": "parsed\\2604.13938v1.json"
+    },
+    {
+      "arxiv_id": "2604.13856v1",
+      "title": "Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image",
+      "pdf": "pdfs\\2604.13856v1.pdf",
+      "parsed_json": "parsed\\2604.13856v1.json"
+    },
+    {
+      "arxiv_id": "2604.13813v1",
+      "title": "A Universal Textual Merge Strategy Based on Tokens for Version Control Systems",
+      "pdf": "pdfs\\2604.13813v1.pdf",
+      "parsed_json": "parsed\\2604.13813v1.json"
+    }
+  ]
+}

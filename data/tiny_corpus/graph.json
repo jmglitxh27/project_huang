@@ -1,0 +1,2619 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "paper",
+      "title": "Neural attention models",
+      "arxiv_id": "1111.1111v1",
+      "published": "2020-01-01T00:00:00+00:00",
+      "id": "paper:1111.1111v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.LG",
+      "id": "category:cs.LG"
+    },
+    {
+      "kind": "paper",
+      "title": "BERT and masking",
+      "arxiv_id": "2222.2222v1",
+      "published": "2020-06-01T00:00:00+00:00",
+      "id": "paper:2222.2222v1"
+    },
+    {
+      "kind": "category",
+      "name": "cs.CL",
+      "id": "category:cs.CL"
+    },
+    {
+      "kind": "concept",
+      "label": "attention",
+      "id": "concept:attention"
+    },
+    {
+      "kind": "concept",
+      "label": "study",
+      "id": "concept:study"
+    },
+    {
+      "kind": "concept",
+      "label": "translation",
+      "id": "concept:translation"
+    },
+    {
+      "kind": "concept",
+      "label": "neural",
+      "id": "concept:neural"
+    },
+    {
+      "kind": "concept",
+      "label": "models",
+      "id": "concept:models"
+    },
+    {
+      "kind": "concept",
+      "label": "transformer",
+      "id": "concept:transformer"
+    },
+    {
+      "kind": "concept",
+      "label": "machine",
+      "id": "concept:machine"
+    },
+    {
+      "kind": "concept",
+      "label": "mechanism",
+      "id": "concept:mechanism"
+    },
+    {
+      "kind": "concept",
+      "label": "improves",
+      "id": "concept:improves"
+    },
+    {
+      "kind": "concept",
+      "label": "quality",
+      "id": "concept:quality"
+    },
+    {
+      "kind": "concept",
+      "label": "limitations",
+      "id": "concept:limitations"
+    },
+    {
+      "kind": "concept",
+      "label": "restricted",
+      "id": "concept:restricted"
+    },
+    {
+      "kind": "concept",
+      "label": "data",
+      "id": "concept:data"
+    },
+    {
+      "kind": "concept",
+      "label": "regimes",
+      "id": "concept:regimes"
+    },
+    {
+      "kind": "concept",
+      "label": "includes",
+      "id": "concept:includes"
+    },
+    {
+      "kind": "concept",
+      "label": "scaling",
+      "id": "concept:scaling"
+    },
+    {
+      "kind": "concept",
+      "label": "corpora",
+      "id": "concept:corpora"
+    },
+    {
+      "kind": "concept",
+      "label": "exploring",
+      "id": "concept:exploring"
+    },
+    {
+      "kind": "concept",
+      "label": "masking",
+      "id": "concept:masking"
+    },
+    {
+      "kind": "concept",
+      "label": "bert",
+      "id": "concept:bert"
+    },
+    {
+      "kind": "concept",
+      "label": "bidirectional",
+      "id": "concept:bidirectional"
+    },
+    {
+      "kind": "concept",
+      "label": "encoder",
+      "id": "concept:encoder"
+    },
+    {
+      "kind": "concept",
+      "label": "representations",
+      "id": "concept:representations"
+    },
+    {
+      "kind": "concept",
+      "label": "transformers",
+      "id": "concept:transformers"
+    },
+    {
+      "kind": "concept",
+      "label": "language",
+      "id": "concept:language"
+    },
+    {
+      "kind": "concept",
+      "label": "model",
+      "id": "concept:model"
+    },
+    {
+      "kind": "concept",
+      "label": "pre",
+      "id": "concept:pre"
+    },
+    {
+      "kind": "concept",
+      "label": "training",
+      "id": "concept:training"
+    },
+    {
+      "kind": "concept",
+      "label": "masked",
+      "id": "concept:masked"
+    },
+    {
+      "kind": "concept",
+      "label": "tokens",
+      "id": "concept:tokens"
+    },
+    {
+      "kind": "concept",
+      "label": "investigate",
+      "id": "concept:investigate"
+    },
+    {
+      "kind": "concept",
+      "label": "spans",
+      "id": "concept:spans"
+    },
+    {
+      "kind": "concept",
+      "label": "document",
+      "id": "concept:document"
+    },
+    {
+      "kind": "concept",
+      "label": "level",
+      "id": "concept:level"
+    },
+    {
+      "kind": "concept",
+      "label": "objectives",
+      "id": "concept:objectives"
+    },
+    {
+      "kind": "concept",
+      "label": "unfortunately",
+      "id": "concept:unfortunately"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:1111.1111v1",
+      "target": "category:cs.LG",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.32052345844828684,
+      "source": "paper:1111.1111v1",
+      "target": "concept:attention",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.22742097488775564,
+      "source": "paper:1111.1111v1",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.22742097488775564,
+      "source": "paper:1111.1111v1",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:improves",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:data",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:corpora",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.1343184913272245,
+      "source": "paper:1111.1111v1",
+      "target": "concept:exploring",
+      "key": 0
+    },
+    {
+      "relation": "HAS_PRIMARY_CATEGORY",
+      "source": "paper:2222.2222v1",
+      "target": "category:cs.CL",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.2373983672924569,
+      "source": "paper:2222.2222v1",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:bert",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:bidirectional",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:encoder",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:investigate",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:document",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "weight": 0.14021130000874835,
+      "source": "paper:2222.2222v1",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.07289375739470443,
+      "source": "concept:attention",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.07289375739470443,
+      "source": "concept:attention",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:improves",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:corpora",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.043052227373758224,
+      "source": "concept:attention",
+      "target": "concept:exploring",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.051720299818897184,
+      "source": "concept:study",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:study",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:neural",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:neural",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:neural",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:neural",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:neural",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:neural",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:neural",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:models",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:models",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:models",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:transformer",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:machine",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:machine",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:machine",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:mechanism",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:mechanism",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:mechanism",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:improves",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:improves",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:improves",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:quality",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:quality",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:quality",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:quality",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:quality",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:quality",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:limitations",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:limitations",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:limitations",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:restricted",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:restricted",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:restricted",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:restricted",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:data",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:data",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:improves",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:data",
+      "target": "concept:exploring",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:regimes",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:regimes",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:regimes",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:regimes",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:regimes",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:includes",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:includes",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:includes",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:scaling",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:scaling",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:scaling",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:corpora",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:corpora",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:improves",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:data",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:corpora",
+      "target": "concept:exploring",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:exploring",
+      "target": "concept:study",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03054684224308995,
+      "source": "concept:exploring",
+      "target": "concept:translation",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:neural",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:models",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:transformer",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:machine",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:mechanism",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:improves",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:quality",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:limitations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:restricted",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:regimes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:includes",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.018041457112421687,
+      "source": "concept:exploring",
+      "target": "concept:scaling",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masking",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:bert",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:bidirectional",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:encoder",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:investigate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:document",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bert",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:bidirectional",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:encoder",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:investigate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:document",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:bidirectional",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:encoder",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:investigate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:encoder",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:representations",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:representations",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:representations",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:representations",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:representations",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:transformers",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:language",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:language",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:model",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:pre",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:training",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:training",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:masked",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:masked",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:tokens",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:tokens",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:tokens",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:investigate",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:investigate",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:spans",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:spans",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:spans",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:spans",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:document",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:encoder",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:language",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:investigate",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:level",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:document",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.03328593369802971,
+      "source": "concept:level",
+      "target": "concept:masking",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:model",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:masked",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:objectives",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:level",
+      "target": "concept:unfortunately",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:representations",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:transformers",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:pre",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:training",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:tokens",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:spans",
+      "key": 0
+    },
+    {
+      "relation": "CO_OCCURS",
+      "weight": 0.019659208650143235,
+      "source": "concept:objectives",
+      "target": "concept:unfortunately",
+      "key": 0
+    }
+  ]
+}

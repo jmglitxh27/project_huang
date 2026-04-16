@@ -1,0 +1,114 @@
+{
+  "manifest": "C:\\Users\\Alejandro\\Desktop\\AI Project\\data\\tiny_corpus\\manifest.json",
+  "embedding_backend": "semantic",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "distance_threshold": 0.28,
+  "snippet_count": 6,
+  "cluster_count": 6,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 1,
+      "representative_snippet": "ng spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "2222.2222v1"
+      ],
+      "snippet_previews": [
+        "ng spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 1,
+      "representative_snippet": "Conclusion We leave multi-lingual extensions to future work. Important limitations remain around compute costs.",
+      "representative_source": "section:conclusion_0",
+      "arxiv_ids": [
+        "2222.2222v1"
+      ],
+      "snippet_previews": [
+        "Conclusion We leave multi-lingual extensions to future work. Important limitations remain around compute costs."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 1,
+      "representative_snippet": "Language model pre-training with masked tokens. Future work: investigate larger masking spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "2222.2222v1"
+      ],
+      "snippet_previews": [
+        "Language model pre-training with masked tokens. Future work: investigate larger masking spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks."
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 1,
+      "representative_snippet": "echanism improves translation quality. Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+      "representative_source": "fulltext:negation_window",
+      "arxiv_ids": [
+        "1111.1111v1"
+      ],
+      "snippet_previews": [
+        "echanism improves translation quality. Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads."
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 1,
+      "representative_snippet": "Limitations Our study is restricted to small-data regimes. We did not evaluate on low-resource languages.",
+      "representative_source": "section:limitations_0",
+      "arxiv_ids": [
+        "1111.1111v1"
+      ],
+      "snippet_previews": [
+        "Limitations Our study is restricted to small-data regimes. We did not evaluate on low-resource languages."
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 1,
+      "representative_snippet": "Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+      "representative_source": "fulltext:paragraph_trigger",
+      "arxiv_ids": [
+        "1111.1111v1"
+      ],
+      "snippet_previews": [
+        "Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads."
+      ]
+    }
+  ],
+  "snippets": [
+    {
+      "text": "Limitations Our study is restricted to small-data regimes. We did not evaluate on low-resource languages.",
+      "arxiv_id": "1111.1111v1",
+      "source": "section:limitations_0"
+    },
+    {
+      "text": "Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+      "arxiv_id": "1111.1111v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "echanism improves translation quality. Limitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+      "arxiv_id": "1111.1111v1",
+      "source": "fulltext:negation_window"
+    },
+    {
+      "text": "Conclusion We leave multi-lingual extensions to future work. Important limitations remain around compute costs.",
+      "arxiv_id": "2222.2222v1",
+      "source": "section:conclusion_0"
+    },
+    {
+      "text": "Language model pre-training with masked tokens. Future work: investigate larger masking spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+      "arxiv_id": "2222.2222v1",
+      "source": "fulltext:paragraph_trigger"
+    },
+    {
+      "text": "ng spans and document-level objectives. Unfortunately, we failed to beat the strongest baselines on small tasks.",
+      "arxiv_id": "2222.2222v1",
+      "source": "fulltext:negation_window"
+    }
+  ]
+}

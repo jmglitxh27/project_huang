@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RNDA — Knowledge graph</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #0f1419; color: #e7ecf3; }
+    header { padding: 0.75rem 1rem; border-bottom: 1px solid #2d3a4d; }
+    #graph { width: 100%; height: calc(100vh - 52px); background: #1a2332; }
+    .legend { font-size: 0.85rem; color: #8b98a5; }
+    .legend span { margin-right: 1rem; }
+    .g1 { color: #79c0ff; }
+    .g2 { color: #d2a8ff; }
+    .g3 { color: #7ee787; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>KG visualization</strong>
+    <span class="legend">Run: <code>{{ run_id }}</code></span>
+    <span class="legend g1">■ paper</span>
+    <span class="legend g2">■ category</span>
+    <span class="legend g3">■ concept</span>
+    <a href="/" style="color:#58a6ff;margin-left:1rem">← Dashboard</a>
+  </header>
+  <div id="graph"></div>
+  <script>
+    const runId = "{{ run_id }}";
+    fetch("/api/runs/" + encodeURIComponent(runId) + "/viz-data")
+      .then((r) => {
+        if (!r.ok) throw new Error(r.statusText);
+        return r.json();
+      })
+      .then((data) => {
+        const nodes = new vis.DataSet(data.nodes || []);
+        const edges = new vis.DataSet(
+          (data.edges || []).map((e, i) => ({
+            id: i,
+            from: e.from,
+            to: e.to,
+            arrows: "to",
+            title: e.title || "",
+            value: Math.min(5, 0.5 + (e.value || 0.2) * 3),
+          }))
+        );
+        const container = document.getElementById("graph");
+        const options = {
+          nodes: {
+            shape: "dot",
+            scaling: { min: 8, max: 28 },
+            font: { size: 12, color: "#e7ecf3" },
+          },
+          edges: {
+            smooth: { type: "continuous" },
+            color: { color: "#4a5a72", highlight: "#58a6ff" },
+          },
+          physics: {
+            stabilization: { iterations: 120 },
+            barnesHut: { gravitationalConstant: -2500, springLength: 140 },
+          },
+          interaction: { hover: true, tooltipDelay: 80 },
+        };
+        new vis.Network(container, { nodes, edges }, options);
+      })
+      .catch((err) => {
+        document.getElementById("graph").textContent = "Failed to load graph: " + err;
+      });
+  </script>
+</body>
+</html>

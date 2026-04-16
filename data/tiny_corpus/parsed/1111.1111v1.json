@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "arxiv_id": "1111.1111v1",
+    "title": "Neural attention models",
+    "authors": ["A Test"],
+    "abstract": "We study transformer attention for machine translation.",
+    "primary_category": "cs.LG",
+    "categories": ["cs.LG"],
+    "published": "2020-01-01T00:00:00+00:00",
+    "updated": "2020-01-01T00:00:00+00:00",
+    "pdf_url": "https://arxiv.org/pdf/1111.1111v1",
+    "entry_url": "https://arxiv.org/abs/1111.1111v1",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null
+  },
+  "pdf_path": null,
+  "full_text": "Attention mechanism improves translation quality.\n\nLimitations. Our study is restricted to small-data regimes. Future work includes scaling to larger corpora and exploring alternative attention heads.",
+  "sections": {
+    "introduction": "Attention improves BLEU scores.",
+    "limitations_0": "Limitations\n\nOur study is restricted to small-data regimes. We did not evaluate on low-resource languages."
+  },
+  "page_count": 1,
+  "extraction_notes": []
+}

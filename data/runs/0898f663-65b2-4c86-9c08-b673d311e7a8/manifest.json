@@ -1,0 +1,36 @@
+{
+  "query": "((LLM OR 'large language model') AND (memory OR 'memory optimization'))",
+  "count": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.14116v1",
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "pdf": "pdfs\\2604.14116v1.pdf",
+      "parsed_json": "parsed\\2604.14116v1.json"
+    },
+    {
+      "arxiv_id": "2604.14004v1",
+      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+      "pdf": "pdfs\\2604.14004v1.pdf",
+      "parsed_json": "parsed\\2604.14004v1.json"
+    },
+    {
+      "arxiv_id": "2604.14096v1",
+      "title": "Working Memory in a Recurrent Spiking Neural Networks With Heterogeneous Synaptic Delays",
+      "pdf": "pdfs\\2604.14096v1.pdf",
+      "parsed_json": "parsed\\2604.14096v1.json"
+    },
+    {
+      "arxiv_id": "2604.13969v1",
+      "title": "GEM3D CIM General Purpose Matrix Computation Using 3D Integrated SRAM eDRAM Hybrid Compute In Memory on Memory Architecture",
+      "pdf": "pdfs\\2604.13969v1.pdf",
+      "parsed_json": "parsed\\2604.13969v1.json"
+    },
+    {
+      "arxiv_id": "2604.13902v1",
+      "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
+      "pdf": "pdfs\\2604.13902v1.pdf",
+      "parsed_json": "parsed\\2604.13902v1.json"
+    }
+  ]
+}
