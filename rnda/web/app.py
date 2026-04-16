@@ -12,6 +12,7 @@ from typing import Any
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pydantic import BaseModel, Field
 from starlette.templating import Jinja2Templates
 
@@ -22,7 +23,16 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
 RUNS_ROOT = DATA_DIR / "runs"
 
-templates = Jinja2Templates(directory=str(PROJECT_ROOT / "rnda" / "web" / "templates"))
+_templates_dir = PROJECT_ROOT / "rnda" / "web" / "templates"
+# Disable Jinja2's internal template cache: on some environments (notably very new
+# Python versions), Jinja's cache-key hashing can fail if non-hashable values are
+# present in the environment globals.
+_jinja_env = Environment(
+    loader=FileSystemLoader(str(_templates_dir)),
+    autoescape=select_autoescape(["html", "xml"]),
+    cache_size=0,
+)
+templates = Jinja2Templates(directory=str(_templates_dir), env=_jinja_env)
 
 app = FastAPI(title="RNDA", description="Research Novelty Discovery Agent — dashboard")
 _static_dir = PROJECT_ROOT / "rnda" / "web" / "static"

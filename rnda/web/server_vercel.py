@@ -19,6 +19,7 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pydantic import BaseModel, Field
 from starlette.templating import Jinja2Templates
 
@@ -36,7 +37,12 @@ RUNS_ROOT = DATA_DIR / "runs"
 _templates_dir = _WEB_DIR / "templates"
 _static_dir = _WEB_DIR / "static"
 
-templates = Jinja2Templates(directory=str(_templates_dir))
+_jinja_env = Environment(
+    loader=FileSystemLoader(str(_templates_dir)),
+    autoescape=select_autoescape(["html", "xml"]),
+    cache_size=0,
+)
+templates = Jinja2Templates(directory=str(_templates_dir), env=_jinja_env)
 
 app = FastAPI(
     title="RNDA (serverless UI)",
