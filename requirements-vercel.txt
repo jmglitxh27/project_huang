@@ -1,0 +1,8 @@
+# Minimal deps for Vercel / AWS Lambda (≈500MB limit). Full stack needs pyproject.toml + local/GPU host.
+# Install: pip install -r requirements-vercel.txt && pip install -e . --no-deps
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+jinja2>=3.1.0
+python-multipart>=0.0.9
+openai>=1.40.0
+reportlab>=4.0.0

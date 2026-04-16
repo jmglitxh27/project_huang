@@ -1,5 +1,5 @@
-"""Vercel FastAPI entrypoint — re-exports the RNDA ASGI app."""
+"""Vercel FastAPI entrypoint — slim ASGI app (no PyTorch / full pipeline)."""
 
-from rnda.web.app import app
+from rnda.web.server_vercel import app
 
 __all__ = ["app"]

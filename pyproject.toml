@@ -23,8 +23,8 @@ rnda-ingest = "rnda.ingest.cli:main"
 rnda-kg = "rnda.kg.cli:main"
 rnda-gap = "rnda.gap.cli:main"
 rnda-web = "rnda.web.__main__:main"
-# Vercel FastAPI: resolves the ASGI app (see https://vercel.com/docs/frameworks/backend/fastapi)
-app = "rnda.web.app:app"
+# Vercel FastAPI: slim app without torch/sentence-transformers (see requirements-vercel.txt)
+app = "rnda.web.server_vercel:app"
 
 [build-system]
 requires = ["setuptools>=61"]
