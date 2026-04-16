@@ -30,7 +30,7 @@ from rnda.web.graph_simplify import vis_network_payload_from_run
 _WEB_DIR = Path(__file__).resolve().parent
 # Project root (parent of ``rnda`` package); used for local ``data/`` runs.
 _PROJECT_ROOT = _WEB_DIR.parent.parent
-DATA_DIR = Path(os.environ.get("RNDA_DATA_DIR", str(_PROJECT_ROOT / "data")))
+DATA_DIR = Path(os.environ.get("RNDA_DATA_DIR", str(Path("/tmp") / "rnda_data")))
 RUNS_ROOT = DATA_DIR / "runs"
 
 _templates_dir = _WEB_DIR / "templates"
@@ -54,7 +54,6 @@ _PIPELINE_UNAVAILABLE = (
     "Run the app locally (`rnda-web` or `uvicorn rnda.web.app:app`), or deploy to Railway, Fly.io, "
     "Render, a VM, or Modal."
 )
-
 
 def resolve_run_dir(run_id: str) -> Path:
     """``run_id`` is a folder name under ``data/runs/``, or an absolute path to a run directory."""
@@ -140,12 +139,35 @@ async def refine_search_api(body: RefineSearchBody) -> JSONResponse:
 @app.get("/api/health")
 async def health() -> JSONResponse:
     """Cheap probe for serverless cold starts (no optional deps)."""
-    return JSONResponse({"status": "ok", "app": "server_vercel"})
+    return JSONResponse(
+        {
+            "status": "ok",
+            "app": "server_vercel",
+            "templates_dir_exists": _templates_dir.is_dir(),
+            "static_dir_exists": _static_dir.is_dir(),
+            "data_dir": str(DATA_DIR),
+            "runs_root": str(RUNS_ROOT),
+            "debug": _DEBUG,
+        }
+    )
 
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request) -> Any:
-    return templates.TemplateResponse("index.html", {"request": request})
+    try:
+        return templates.TemplateResponse("index.html", {"request": request})
+    except Exception:
+        # Fall back to a minimal HTML page if templates weren't packaged/deployed.
+        body = (
+            "<!doctype html><html><head><meta charset='utf-8'/>"
+            "<meta name='viewport' content='width=device-width, initial-scale=1'/>"
+            "<title>RNDA (serverless)</title></head><body>"
+            "<h1>RNDA (serverless)</h1>"
+            "<p>The UI templates were not found in this deployment.</p>"
+            "<p>Try <code>/api/health</code> to verify the function is alive.</p>"
+            "</body></html>"
+        )
+        return HTMLResponse(body, status_code=200)
 
 
 @app.get("/viz/{run_id}", response_class=HTMLResponse)
@@ -156,7 +178,11 @@ async def graph_viz(request: Request, run_id: str) -> Any:
 
 @app.get("/api/runs")
 async def list_runs() -> JSONResponse:
-    RUNS_ROOT.mkdir(parents=True, exist_ok=True)
+    try:
+        RUNS_ROOT.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        # Serverless filesystems may be read-only outside /tmp.
+        return JSONResponse([])
     out: list[dict[str, Any]] = []
     if not RUNS_ROOT.is_dir():
         return JSONResponse(out)
